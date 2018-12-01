@@ -36,7 +36,7 @@ import BLogo from '@/components/Logo'
 export default {
   name: 'HomePage',
   components: {
-    BLogo
+    Logo
   },
 
   data() {
