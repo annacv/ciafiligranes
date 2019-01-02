@@ -3,19 +3,18 @@ const pkg = require('./package')
 module.exports = {
   mode: 'spa',
 
+  srcDir: './src',
+
   /*
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Companyia Filigranes',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   /*
@@ -26,14 +25,12 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+  css: [],
 
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: [],
 
   /*
   ** Nuxt.js modules
@@ -42,7 +39,20 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy'
+    'nuxt-buefy',
+    [
+      'nuxt-i18n',
+      {
+        defaultLocale: 'es',
+        langDir: 'languages/',
+        lazy: true,
+        locales: [
+          { code: 'es', iso: 'es-ES', file: 'es/index.js' },
+          { code: 'ca', iso: 'ca-CA', file: 'ca/index.js' },
+          { code: 'en', iso: 'en-US', file: 'en/index.js' }
+        ]
+      }
+    ]
   ],
   /*
   ** Axios module configuration
