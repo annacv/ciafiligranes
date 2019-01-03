@@ -6,3 +6,22 @@
     <h3 class="subtitle is-6 has-text-grey">Author: <a href="https://github.com/anteriovieira">Antério Vieira</a></h3>
   </section>
 </template>
+<script>
+import BLogo from '@/components/Logo'
+
+export default {
+  name: 'Inspire',
+
+  head() {
+    return this.$t('meta.index')
+  },
+
+  nuxtI18n: {
+    paths: {
+      es: '/inspire',
+      ca: '/inspira',
+      en: '/inspire'
+    }
+  }
+}
+</script>
