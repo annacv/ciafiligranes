@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import BLogo from '@/components/Logo'
+import Logo from '@/components/Logo'
 
 export default {
   name: 'HomePage',
