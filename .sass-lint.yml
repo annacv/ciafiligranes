@@ -1,0 +1,146 @@
+files:
+  include: '**/*.s+(a|c)ss'
+options:
+  formatter: stylish
+  cache-config: true
+  merge-default-rules: false
+rules:
+  attribute-quotes:
+    - 2
+    - include: true
+  bem-depth:
+    - 2
+    - max-depth: 1
+  border-zero:
+    - 2
+    - convention: 0
+  brace-style:
+    - 2
+    - allow-single-line: false
+  class-name-format:
+    - 2
+    - convention: hyphenatedbem
+  clean-import-paths:
+    - 2
+    - leading-underscore: false
+    - filename-extension: false
+  declarations-before-nesting: 2
+  empty-args:
+    - 2
+    - include: true
+  empty-line-between-blocks:
+    - 2
+    - include: true
+    - allow-single-line-rulesets: false
+  extends-before-declarations: 2
+  extends-before-mixins: 2
+  final-newline:
+    - 2
+    - include: true
+  force-attribute-nesting: 2
+  force-element-nesting: 2
+  force-pseudo-nesting: 2
+  function-name-format:
+    - 2
+    - allow-leading-underscore: false
+    - convention: hyphenatedlowercase
+  indentation:
+    - 2
+    - size: 2
+  leading-zero:
+    - 2
+    - include: false
+  max-line-length:
+    - 2
+    - length: 80
+  mixin-name-format:
+    - 2
+    - allow-leading-underscore: false
+    - convention: hyphenatedlowercase
+  mixins-before-declarations:
+    - 2
+    - exclude:
+      - 'mq'
+  nesting-depth:
+    - 2
+    - max-depth: 2
+  no-attribute-selectors: 0
+  no-color-hex: 2
+  no-color-keywords: 2
+  no-color-literals:
+    - 2
+    - allow-map-identifiers: true
+    - allow-rgba: true
+    - allow-variable-identifiers: true
+  no-debug: 2
+  no-duplicate-properties: 2
+  no-empty-rulesets: 2
+  no-extends: 0
+  no-ids: 2
+  no-important: 2
+  no-mergeable-selectors: 2
+  no-misspelled-properties: 2
+  no-qualifying-elements:
+    - 2
+    - allow-element-with-attribute: false
+    - allow-element-with-class: false
+    - allow-element-with-id: false
+  no-trailing-whitespace: 2
+  no-trailing-zero: 2
+  no-transition-all: 2
+  no-url-domains: 2
+  no-warn: 2
+  one-declaration-per-line: 2
+  placeholder-name-format:
+    - 2
+    - allow-leading-underscore: false
+    - convention: hyphenatedlowercase
+  property-sort-order:
+    - 2
+    - order: concentric
+  property-units:
+    - 2
+    - global:
+      - 'rem'
+      - 's'
+  pseudo-element: 2
+  quotes:
+    - 2
+    - style: double
+  shorthand-values: 2
+  single-line-per-selector: 2
+  space-after-bang:
+    - 2
+    - include: false
+  space-after-colon:
+    - 2
+    - include: true
+  space-after-comma:
+    - 2
+    - include: true
+  space-around-operator:
+    - 2
+    - include: true
+  space-before-bang:
+    - 2
+    - include: true
+  space-before-brace:
+    - 2
+    - include: true
+  space-before-colon:
+    - 2
+    - include: false
+  space-between-parens:
+    - 2
+    - include: false
+  trailing-semicolon:
+    - 2
+    - include: true
+  url-quotes: 2
+  variable-name-format:
+    - 2
+    - allow-leading-underscore: false
+    - convention: hyphenatedlowercase
+  zero-unit:
+    - 2
+    - include: false
