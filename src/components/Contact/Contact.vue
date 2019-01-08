@@ -2,12 +2,21 @@
 
 <template>
   <div class="container__contact">
-    hallos
+    <h3
+      class="contact__title"
+      v-text="title"
+    />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Contact'
+  name: 'Contact',
+  props: {
+    title: {
+      type: String,
+      default: ''
+    }
+  }
 }
 </script>

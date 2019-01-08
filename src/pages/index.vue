@@ -3,7 +3,7 @@
     <Cover/>
     <InScene/>
     <Highlights/>
-    <Contact/>
+    <Contact :title="$t('contact.title')"/>
   </div>
 </template>
 
@@ -12,7 +12,7 @@ import Contact from '@/components/Contact/Contact'
 import Cover from '@/components/Cover/Cover'
 import Highlights from '@/components/Highlights/Highlights'
 import InScene from '@/components/InScene/InScene'
-import BLogo from '@/components/Logo'
+import Logo from '@/components/Logo'
 
 export default {
   name: 'HomePage',
@@ -22,7 +22,7 @@ export default {
   },
 
   components: {
-    BLogo,
+    Logo,
     Contact,
     Cover,
     Highlights,
