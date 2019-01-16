@@ -3,7 +3,8 @@ export default {
   items: [
     {
       text: 'Escriu-nos un email a',
-      arialabel: 'aria',
+      arialabel:
+        "Fent clic s'obre una finestra nova per escriure un correu electrònic.",
       href: 'mailto:ciafiligranes@gmail.com',
       link: 'ciafiligranes@gmail.com'
     },

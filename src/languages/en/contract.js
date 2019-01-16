@@ -3,7 +3,7 @@ export default {
   items: [
     {
       text: 'Write us an email to',
-      arialabel: 'aria',
+      arialabel: 'By clicking you will open a new window to write an email.',
       href: 'mailto:ciafiligranes@gmail.com',
       link: 'ciafiligranes@gmail.com'
     },
