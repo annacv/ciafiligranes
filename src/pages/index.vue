@@ -5,7 +5,7 @@
       <Synopsis
         :title="$t('synopsis.title')"
         :paragraphs="$t('synopsis.paragraphs')"
-        :src="$t('synopsis.src')"
+        :image="$t('synopsis.image')"
       />
       <InScene/>
     </section>

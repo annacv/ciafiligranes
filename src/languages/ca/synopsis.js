@@ -10,5 +10,8 @@ export default {
         'Amb una cadira, un embut o una galleda ens faran, amb el seu toc personal, gags clàssics combinats amb malabars i música en directe.'
     }
   ],
-  src: 'https://picsum.photos/852/478/?random'
+  image: {
+    src: 'https://picsum.photos/852/478/?random',
+    alt: "Imatge de l'espectacle Plis-plas"
+  }
 }

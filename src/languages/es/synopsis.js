@@ -10,5 +10,8 @@ export default {
         'Con una silla, un embudo o un cubo nos harán, con su toque personal, gags clásicos combinados con malabares y música en directo.'
     }
   ],
-  src: 'https://picsum.photos/852/478/?random'
+  image: {
+    src: 'https://picsum.photos/852/478/?random',
+    alt: 'Imagen del espectáculo Plis-plas'
+  }
 }

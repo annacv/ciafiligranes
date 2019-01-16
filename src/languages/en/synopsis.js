@@ -10,5 +10,8 @@ export default {
         'With a chair, a funnel or a bucket will make us, with its personal touch, classic gags combined with juggling and live music.'
     }
   ],
-  src: 'https://picsum.photos/852/478/?random'
+  image: {
+    src: 'https://picsum.photos/852/478/?random',
+    alt: 'Plis-plas show image'
+  }
 }

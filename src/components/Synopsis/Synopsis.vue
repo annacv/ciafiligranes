@@ -18,7 +18,8 @@
         class="synopsis__image-container"
       >
         <img
-          :src="src"
+          :src="image.src"
+          :alt="image.alt"
         >
       </div>
     </div>
@@ -40,9 +41,9 @@ export default {
       required: true
     },
 
-    src: {
-      type: String,
-      default: ''
+    image: {
+      type: Object,
+      default: () => {}
     }
   }
 }
