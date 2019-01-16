@@ -1,7 +1,9 @@
-import meta from './meta'
 import contact from './contact'
+import contract from './contract'
+import meta from './meta'
 
 export default {
-  meta,
-  contact
+  contact,
+  contract,
+  meta
 }

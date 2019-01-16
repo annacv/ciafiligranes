@@ -3,7 +3,10 @@
     <Cover/>
     <InScene/>
     <Highlights/>
-    <Contact :title="$t('contact.title')"/>
+    <Contract
+      :title="$t('contract.title')"
+      :items="$t('contract.items')"
+    />
   </div>
 </template>
 
@@ -13,6 +16,7 @@ import Cover from '@/components/Cover/Cover'
 import Highlights from '@/components/Highlights/Highlights'
 import InScene from '@/components/InScene/InScene'
 import Logo from '@/components/Logo'
+import Contract from '@/components/Contract/Contract'
 
 export default {
   name: 'HomePage',
@@ -22,11 +26,12 @@ export default {
   },
 
   components: {
-    Logo,
     Contact,
+    Contract,
     Cover,
     Highlights,
-    InScene
+    InScene,
+    Logo
   },
 
   nuxtI18n: {
