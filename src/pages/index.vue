@@ -1,6 +1,8 @@
 <template>
   <div class="content">
-    <Cover/>
+    <Cover
+      :content="$t('cover.home.content')"
+    />
     <InScene/>
     <Highlights/>
     <Contact :title="$t('contact.title')"/>
