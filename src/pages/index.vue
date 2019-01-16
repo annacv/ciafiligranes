@@ -1,7 +1,10 @@
 <template>
   <div class="content">
     <Cover/>
-    <InScene/>
+    <Summary
+      :abstract="$t('summary.abstract')"
+      :items="$t('summary.items')"
+    />
     <Highlights/>
     <Contact :title="$t('contact.title')"/>
   </div>
@@ -11,7 +14,7 @@
 import Contact from '@/components/Contact/Contact'
 import Cover from '@/components/Cover/Cover'
 import Highlights from '@/components/Highlights/Highlights'
-import InScene from '@/components/InScene/InScene'
+import Summary from '@/components/Summary/Summary'
 import Logo from '@/components/Logo'
 
 export default {
@@ -26,7 +29,7 @@ export default {
     Contact,
     Cover,
     Highlights,
-    InScene
+    Summary
   },
 
   nuxtI18n: {
