@@ -1,7 +1,9 @@
-import meta from './meta'
 import contact from './contact'
+import highlights from './highlights'
+import meta from './meta'
 
 export default {
-  meta,
-  contact
+  contact,
+  highlights,
+  meta
 }

@@ -1,70 +1,68 @@
 <!--style lang="scss" src="./Highlights.scss" scoped></style-->
 
 <template>
-  <div class="container__highlights">
-    <section class="section">
-      <div class="columns is-mobile">
-        <div
-          v-for="(feature, i) of features"
-          :key="i"
-          class="column">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title has-text-grey">
-                {{ feature.title }}
-              </p>
-            </header>
-            <div class="card-content">
-              <div class="content has-text-centered">
-                <b-icon
-                  :icon="feature.icon"
-                  size="is-large"
-                  type="is-primary"/>
+  <section class="container__highlights">
+    <div class="highlights__content">
+      <hgroup>
+        <h3
+          class="highlights__section-title"
+          v-text="content.title"
+        />
+        <p
+          class="highlights__section-description"
+          v-text="content.description"
+        />
+      </hgroup>
+      <div class= "highlights_items">
+        <div class="columns is-mobile">
+          <div
+            v-for="feature in features"
+            :key="feature.title"
+            class="column">
+            <div class="card">
+              <div class="card-content">
+                <p
+                  class="card-header-title has-text-grey"
+                  v-text="feature.title"
+                />
+                <p
+                  class="card-offer__name"
+                  v-text="feature.name"
+                />
+                <div class="content has-text-centered">
+                  <b-icon
+                    :icon="feature.icon"
+                    size="is-large"
+                    type="is-primary"/>
+                </div>
               </div>
+              <footer class="card-footer">
+                <div
+                  class="card-footer-item"
+                  v-html="feature.content"/>
+              </footer>
             </div>
-            <footer class="card-footer">
-              <div
-                class="card-footer-item"
-                v-html="feature.content"/>
-            </footer>
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
   name: 'Highlights',
 
-  data() {
-    return {
-      features: [
-        {
-          icon: 'github-circle',
-          title: 'Free',
-          content: `<span>Open source on <a href="https://github.com/buefy/buefy"> GitHub</a></span>`
-        },
+  props: {
+    content: {
+      type: Object,
+      required: true,
+      default: () => {}
+    },
 
-        {
-          icon: 'cellphone-link',
-          title: 'Responsive',
-          content: `<span><b class="has-text-grey">Every</b> component is responsive</span>`
-        },
-
-        {
-          icon: 'alert-decagram',
-          title: 'Modern',
-          content: `<span>Built with <a href="https://vuejs.org/">Vue.js</a> and <a href="http://bulma.io/">Bulma</a></span>`
-        },
-
-        {
-          icon: 'arrange-bring-to-front',
-          title: 'Lightweight',
-          content: `<span>No other internal dependency</span>`
-        }
-      ]
+    features: {
+      type: Array,
+      default: () => {}
     }
   }
 }
