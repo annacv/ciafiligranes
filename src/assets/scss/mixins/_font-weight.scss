@@ -1,0 +1,17 @@
+@mixin font-weight($w: regular) {
+  $weights: (
+    light: 200,
+    regular: 400,
+    medium: 500,
+    semibold: 700,
+    bold: 900
+  );
+
+  $weight: if(
+    map-has-key($weights, $w),
+    map-get($weights, $w),
+    map-get($weights, "regular")
+  );
+
+  font-weight: $weight;
+}
