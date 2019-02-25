@@ -9,7 +9,7 @@
   <div>
     <TheHeader/>
     <section class="main-content">
-      <div class="container column is-10">
+      <div class="container is-12">
         <nuxt />
       </div>
     </section>
