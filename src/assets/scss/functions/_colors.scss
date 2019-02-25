@@ -1,0 +1,7 @@
+@function get-color($color: "") {
+  @return map-get($colors, $color);
+}
+
+@function get-alpha-color($color: "", $amount: 0) {
+  @return transparentize(get-color($color), $amount);
+}
