@@ -1,7 +1,10 @@
-<!--style lang="scss" src="./TheCover.scss" scoped></style-->
+<style
+  lang="scss"
+  src="./cover.scss">
+</style>
 
 <template>
-  <div class="container__cover">
+  <div class="cover__container">
     <div class="cover__content">
       <p
         class="cover__claim"
