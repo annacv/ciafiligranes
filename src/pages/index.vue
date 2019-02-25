@@ -12,7 +12,11 @@
         :image="$t('synopsis.image')"
       />
     </section>
-    <Highlights/>
+    <Highlights
+      :content="$t('highlights.home')"
+      :features="$t('highlights.home.features')"
+    />
+    <Contact :title="$t('contact.title')"/>
     <Contract
       :title="$t('contract.title')"
       :items="$t('contract.items')"
