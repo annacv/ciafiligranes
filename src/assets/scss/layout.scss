@@ -1,0 +1,48 @@
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  margin: 0;
+  min-width: 20rem;
+  font-family: "Akkurat", sans-serif;
+}
+
+*:focus {
+  outline: rem(2px) auto #f6b1bd;
+}
+
+a [href^="tel:"] {
+  white-space: nowrap;
+}
+
+// remove buefy's margins //
+.content p:not(:last-child),
+.content dl:not(:last-child),
+.content ol:not(:last-child),
+.content ul:not(:last-child),
+.content blockquote:not(:last-child),
+.content pre:not(:last-child),
+.content table:not(:last-child) {
+  margin-bottom: 0em; }
+
+.content h1,
+.content h2 {
+  margin-bottom: 0em;
+}
+
+  .content h1:not(:first-child),
+  .content h2:not(:first-child) {
+    margin-top: 0em;
+  }

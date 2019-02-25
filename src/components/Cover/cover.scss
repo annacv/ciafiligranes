@@ -1,0 +1,23 @@
+.cover {
+  max-width: rem(960px);
+  &__container {
+    //here background-image
+  }
+
+  &__content {
+    padding: 5rem 0;
+
+    h2 {
+      line-height: 1.125;
+      font-family: "AkkuratBold", "Arial", sans-serif;
+      font-size: 3.75rem;
+    }
+  }
+
+  &__claim {
+    margin-bottom: .5rem;
+    line-height: 1.125;
+    font-family: "AkkuratLight", "Arial", sans-serif;
+    font-size: 2.5rem;
+  }
+}

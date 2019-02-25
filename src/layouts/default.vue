@@ -1,8 +1,15 @@
+<style
+  lang="scss"
+  src="../assets/scss/layout.scss"
+  scoped
+>
+</style>
+
 <template>
   <div>
     <TheHeader/>
     <section class="main-content">
-      <div class="container column is-10">
+      <div class="container is-12">
         <nuxt />
       </div>
     </section>
@@ -23,20 +30,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-body {
-  position: relative;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-*:focus {
-  outline: 2px auto #f6b1bd;
-}
-</style>
