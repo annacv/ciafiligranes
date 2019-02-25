@@ -1,7 +1,14 @@
 <template>
   <div class="content">
     <Cover/>
-    <InScene/>
+    <section class="main-content">
+      <Synopsis
+        :title="$t('synopsis.title')"
+        :paragraphs="$t('synopsis.paragraphs')"
+        :image="$t('synopsis.image')"
+      />
+      <InScene/>
+    </section>
     <Highlights/>
     <Contract
       :title="$t('contract.title')"
@@ -17,6 +24,7 @@ import Highlights from '@/components/Highlights/Highlights'
 import InScene from '@/components/InScene/InScene'
 import Logo from '@/components/Logo'
 import Contract from '@/components/Contract/Contract'
+import Synopsis from '@/components/Synopsis/Synopsis'
 
 export default {
   name: 'HomePage',
@@ -31,7 +39,8 @@ export default {
     Cover,
     Highlights,
     InScene,
-    Logo
+    Logo,
+    Synopsis
   },
 
   nuxtI18n: {
