@@ -1,6 +1,8 @@
 <template>
   <div class="content">
-    <Cover/>
+    <Cover
+      :content="$t('cover.home')"
+    />
     <Summary
       :abstract="$t('summary.abstract')"
       :items="$t('summary.items')"
@@ -16,7 +18,6 @@
       :content="$t('highlights.home')"
       :features="$t('highlights.home.features')"
     />
-    <Contact :title="$t('contact.title')"/>
     <Contract
       :title="$t('contract.title')"
       :items="$t('contract.items')"
@@ -25,12 +26,11 @@
 </template>
 
 <script>
-import Contact from '@/components/Contact/Contact'
 import Cover from '@/components/Cover/Cover'
-import Highlights from '@/components/Highlights/Highlights'
-import Summary from '@/components/Summary/Summary'
-import Logo from '@/components/Logo'
 import Contract from '@/components/Contract/Contract'
+import Highlights from '@/components/Highlights/Highlights'
+import Logo from '@/components/Logo'
+import Summary from '@/components/Summary/Summary'
 import Synopsis from '@/components/Synopsis/Synopsis'
 
 export default {
@@ -41,12 +41,11 @@ export default {
   },
 
   components: {
-    Contact,
     Contract,
     Cover,
     Highlights,
-    Summary,
     Logo,
+    Summary,
     Synopsis
   },
 
