@@ -11,11 +11,11 @@
           class="navbar-item"
           href="/">
           <img
-            src="~assets/buefy.png"
-            alt="Buefy"
-            height="28">
+            src="~assets/icons/ciafiligranes.svg"
+            alt="ciafiligranes"
+            height="64">
         </a>
-        <div class="column is-12">
+        <div class="grid-col-12">
           <ul class="menu-list">
             <li
               v-for="(item, key) of items"
@@ -24,7 +24,7 @@
               <nuxt-link
                 :to="item.to"
                 exact-active-class="is-active">
-                <b-icon :icon="item.icon"/> {{ item.title }}
+                {{ item.title }}
               </nuxt-link>
             </li>
           </ul>
@@ -51,8 +51,10 @@ export default {
   data() {
     return {
       items: [
-        { title: 'Home', icon: 'home', to: { name: 'index' } },
-        { title: 'Inspire', icon: 'lightbulb', to: { name: 'inspire' } }
+        {
+          title: 'Contactar',
+          to: { name: 'contactar' }
+        }
       ]
     }
   }
