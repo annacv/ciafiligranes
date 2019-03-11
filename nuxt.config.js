@@ -14,7 +14,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
-    link: [ {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'} ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   /*
@@ -25,7 +25,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [ '@assets/scss/app.scss' ],
+  css: ['@assets/scss/app.scss'],
 
   /*
   ** Plugins to load before mounting the App
@@ -38,8 +38,8 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
-    // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy',
+    'bootstrap-vue/nuxt',
+
     [
       'nuxt-i18n',
       {
@@ -54,6 +54,13 @@ module.exports = {
       }
     ]
   ],
+  /*
+  ** Disable automatic inclusion of Bootstrap and BootstrapVue pre-compiled CSS
+  */
+  bootstrapVue: {
+    bootstrapCSS: false, // or `css`
+    bootstrapVueCSS: false // or `bvCSS`
+  },
   /*
   ** Axios module configuration
   */

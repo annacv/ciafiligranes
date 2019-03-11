@@ -23,3 +23,7 @@ $grid-gutters: (
   lg: 48px,
   xl: 72px
 ) !default;
+
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
