@@ -14,7 +14,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [ {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'} ]
   },
 
   /*
@@ -25,7 +25,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['@assets/scss/app.scss'],
+  css: [ '@assets/scss/app.scss' ],
 
   /*
   ** Plugins to load before mounting the App
