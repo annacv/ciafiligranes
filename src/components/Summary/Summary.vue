@@ -1,27 +1,38 @@
-<!--style lang="scss" src="./InScene.scss" scoped></style-->
+<style
+  lang="scss"
+  src="./summary.scss" scoped>
+</style>
 
 <template>
-  <div class="container__summary">
-    <p
-      class="summary__abstract"
-      v-text="abstract"
-    />
-    <ul
-      v-for="item in items"
-      :key="item.title"
-    >
-      <li class="summary__list-item">
+  <b-container class="summary">
+    <b-row>
+      <b-col cols="md-7">
         <p
-          class="summary__item--bold"
-          v-text="item.title"
+          class="summary__abstract"
+          v-text="abstract"
         />
-        <p
-          class="summary__item--light"
-          v-text="item.description"
-        />
-      </li>
-    </ul>
-  </div>
+      </b-col>
+      <b-col cols="md-5">
+        <ul
+          v-for="item in items"
+          :key="item.title"
+          class="summary__list"
+        >
+          <li class="summary__list-item">
+            <p
+              class="summary__item--bold"
+              v-text="item.title"
+            />
+            <p
+              class="summary__item--light"
+              v-text="item.description"
+            />
+          </li>
+        </ul>
+        <!--b-button block>Dossier</b-button-->
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

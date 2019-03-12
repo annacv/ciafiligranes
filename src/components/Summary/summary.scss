@@ -1,0 +1,29 @@
+.summary {
+  background-color: get-color("white");
+  margin-bottom: 5.25rem;
+
+  &__abstract {
+    line-height: 1.89;
+  }
+
+  &__list {
+    &:first-child {
+      margin: .35rem 0 1.375rem;
+    }
+  }
+
+  &__list-item {
+    font-size: .875rem;
+    line-height: 1.25rem;
+  }
+
+  &__item {
+    &--bold {
+      font-family: "AkkuratBold", "Arial", sans-serif;
+    }
+
+    &--light {
+      font-family: "AkkuratLight", "Arial", sans-serif;
+    }
+  }
+}
