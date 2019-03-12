@@ -1,16 +1,23 @@
 .cover {
-  max-width: rem(960px);
-    &__container {
-     background-color: black; // will be replaced by full img-width
-    }
+  background-image: url("~@/assets/images/img_cover_placeholder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  max-height: calc(121rem * (9/16));
 
   &__content {
-    padding: 5rem 0;
+    padding: 10.525rem 0;
+    display: flex;
+    justify-content: flex-start;
+    color: white; // will be replaced with get-color mixin
 
     h2 {
       line-height: 1.125;
       font-family: "AkkuratBold", "Arial", sans-serif;
       font-size: 3.75rem;
+      text-shadow: 0 .125rem .1875rem #000000; // will be replaced by color mixin
     }
   }
 
@@ -19,5 +26,6 @@
     line-height: 1.125;
     font-family: "AkkuratLight", "Arial", sans-serif;
     font-size: 2.5rem;
+    text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.5); // will be replaced by shadow mixin
   }
 }

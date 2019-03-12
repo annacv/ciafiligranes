@@ -5,16 +5,16 @@
 
 <template>
   <b-container fluid class="summary">
-    <b-row class="justify-content-center">
-      <div class="col-12 col-sm-10 col-lg-10 col-xl-9 col-xxl-7 col-xxxl-6">
-        <b-row class="justify-content-center">
-          <b-col md="8" lg="8" xl="7">
+    <b-row no-gutters>
+      <div class="col-12 col-sm-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-6 offset-1 offset-xxl-2">
+        <b-row no-gutters>
+          <div class="col-md-8 col-lg-8 col-xl-7 col-xxl-7 col-xxxl-7">
             <p
               class="summary__abstract"
               v-text="abstract"
             />
-          </b-col>
-          <b-col md="4" lg="4" xl="5">
+          </div>
+          <div class="col-md-4 col-lg-4 col-xl-5 col-xxl-5 col-xxxl-5">
             <ul
               v-for="item in items"
               :key="item.title"
@@ -32,7 +32,7 @@
               </li>
             </ul>
             <!--b-button block>Dossier</b-button-->
-          </b-col>
+          </div>
         </b-row>
       </div>
     </b-row>

@@ -1,4 +1,8 @@
-<!--style lang="scss" src="./TheHeader.scss" scoped></style-->
+<style
+  lang="scss"
+  src="./theHeader.scss"
+  scoped>
+</style>
 
 <template>
   <header>
