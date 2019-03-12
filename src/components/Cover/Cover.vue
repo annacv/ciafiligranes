@@ -4,16 +4,18 @@
 </style>
 
 <template>
-  <b-container fluid class="cover__container">
-    <b-row no-gutters class="cover__content">
-      <p
-        class="cover__claim"
-        v-text="content.claim"
-      />
-      <h2
-        class="cover__title"
-        v-text="content.title"
-      />
+  <b-container fluid class="cover">
+    <b-row class="cover__content">
+      <div class="col-12 col-sm-10 col-lg-10 col-xl-6 col-xxl-4 col-xxxl-4 offset-1 offset-xxl-2">
+        <p
+          class="cover__claim"
+          v-text="content.claim"
+        />
+        <h2
+          class="cover__title"
+          v-text="content.title"
+        />
+      </div>
     </b-row>
   </b-container>
 </template>
