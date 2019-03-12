@@ -4,8 +4,8 @@
 </style>
 
 <template>
-  <div class="cover__container">
-    <div class="cover__content">
+  <b-container fluid class="cover__container">
+    <b-row no-gutters class="cover__content">
       <p
         class="cover__claim"
         v-text="content.claim"
@@ -14,8 +14,8 @@
         class="cover__title"
         v-text="content.title"
       />
-    </div>
-  </div>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

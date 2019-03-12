@@ -1,8 +1,8 @@
 .cover {
   max-width: rem(960px);
-  //&__container {
-    //here background-image
-  //}
+    &__container {
+     background-color: black; // will be replaced by full img-width
+    }
 
   &__content {
     padding: 5rem 0;
