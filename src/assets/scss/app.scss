@@ -1,12 +1,11 @@
 @import "variables/colors";
 @import "variables/fonts";
-@import "variables/grid";
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-vue/src/index.scss";
 
 @import "functions/colors";
-@import "functions/rem";
 
-@import "mixins/breakpoints";
-@import "mixins/grid";
 @import "mixins/font-mixin";
 @import "mixins/font-weight";
 @import "mixins/sass-mq";
