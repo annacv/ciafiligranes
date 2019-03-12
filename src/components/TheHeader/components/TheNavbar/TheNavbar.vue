@@ -65,6 +65,12 @@ export default {
 .navbar-brand {
   align-items: center;
 }
+
+img {
+  position: absolute;
+  z-index: 1;
+}
+
 .menu-list {
   display: flex;
 
