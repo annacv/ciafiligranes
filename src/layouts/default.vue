@@ -9,9 +9,7 @@
   <div>
     <TheHeader/>
     <section class="main-content">
-      <div class="container is-12">
-        <nuxt />
-      </div>
+      <nuxt/>
     </section>
     <TheFooter/>
   </div>
