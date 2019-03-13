@@ -9,9 +9,9 @@ export default {
     },
     {
       text: 'or call us at',
-      arialabel: '666. 66. 66. 66.',
-      href: 'phone:666666666',
-      link: '666 66 66 66'
+      arialabel: '615. 41. 16. 52.',
+      href: 'tel:615411652',
+      link: '615 411 652'
     }
   ]
 }

@@ -1,0 +1,29 @@
+.contract {
+  padding: 1rem 0;
+  border-bottom: .125rem solid #fd2b5e;
+
+  >.row {
+    justify-content: center;
+  }
+
+  &__title {
+    color: #fd2b5e;
+    font-family: "AkkuratBold", "Arial", sans-serif;
+    margin-right: .5rem;
+  }
+
+  &__ways {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+  }
+
+  &__label {
+    margin: 0 .5rem;
+  }
+
+  &__link {
+    color: #fd2b5e;
+    font-family: "AkkuratBold", "Arial", sans-serif;
+  }
+}
