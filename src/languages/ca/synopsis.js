@@ -11,7 +11,6 @@ export default {
     }
   ],
   image: {
-    src: 'https://picsum.photos/852/478/?random',
     alt: "Imatge de l'espectacle Plis-plas"
   }
 }
