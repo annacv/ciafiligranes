@@ -64,11 +64,11 @@ export default {
 <style lang="scss">
 .navbar-brand {
   align-items: center;
-}
 
-img {
-  position: absolute;
-  z-index: 1;
+  img {
+    position: absolute;
+    z-index: 1;
+  }
 }
 
 .menu-list {

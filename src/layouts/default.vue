@@ -8,9 +8,7 @@
 <template>
   <div>
     <TheHeader/>
-    <section class="main-content">
       <nuxt/>
-    </section>
     <TheFooter/>
   </div>
 </template>
