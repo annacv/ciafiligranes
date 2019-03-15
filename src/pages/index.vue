@@ -7,14 +7,14 @@
       :abstract="$t('summary.abstract')"
       :items="$t('summary.items')"
     />
-    <Synopsis
+    <!--Synopsis
       :title="$t('synopsis.title')"
       :paragraphs="$t('synopsis.paragraphs')"
       :image="$t('synopsis.image')"
-    />
+    /-->
     <Highlights
       :content="$t('highlights.home')"
-      :features="$t('highlights.home.features')"
+      :highlighted="$t('highlights.home.highlighted')"
     />
     <Contract
       :title="$t('contract.title')"
