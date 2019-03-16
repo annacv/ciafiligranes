@@ -1,8 +1,8 @@
-<!--style
+<style
   lang="scss"
-  src="./card.scss"
+  src="../highlights.scss"
   scoped>
-</style-->
+</style>
 
 <template>
   <div class="card">
