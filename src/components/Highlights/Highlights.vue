@@ -1,57 +1,50 @@
-<!--style lang="scss" src="./Highlights.scss" scoped></style-->
+<style
+  lang="scss"
+  src="./Highlights.scss"
+  scoped>
+</style>
 
 <template>
-  <section class="container__highlights">
-    <div class="highlights__content">
-      <hgroup>
+  <b-container fluid class="highlights">
+    <b-row no-gutters>
+      <div class="col-12 col-sm-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-6 offset-1 offset-xxl-2">
         <h3
-          class="highlights__section-title"
+          class="highlights__title"
           v-text="content.title"
         />
         <p
-          class="highlights__section-description"
+          class="highlights__description"
           v-text="content.description"
         />
-      </hgroup>
-      <div class= "highlights_items">
-        <div class="columns is-mobile">
+
+        <b-row class="highlights__items">
           <div
-            v-for="feature in features"
-            :key="feature.title"
-            class="column">
-            <div class="card">
-              <div class="card-content">
-                <p
-                  class="card-header-title has-text-grey"
-                  v-text="feature.title"
-                />
-                <p
-                  class="card-offer__name"
-                  v-text="feature.name"
-                />
-                <div class="content has-text-centered">
-                  <b-icon
-                    :icon="feature.icon"
-                    size="is-large"
-                    type="is-primary"/>
-                </div>
-              </div>
-              <footer class="card-footer">
-                <div
-                  class="card-footer-item"
-                  v-html="feature.content"/>
-              </footer>
-            </div>
+            v-for="item in highlighted"
+            :key="item.name"
+            class="col-6">
+              <Card
+                :image="item.image"
+                :alt="item.alt"
+                :link="item.link"
+                :title="item.title"
+                :text="item.name"
+              />
           </div>
-        </div>
+        </b-row>
       </div>
-    </div>
-  </section>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
+import Card from './Card/Card'
+
 export default {
   name: 'Highlights',
+
+  components: {
+    Card
+  },
 
   props: {
     content: {
@@ -60,7 +53,7 @@ export default {
       default: () => {}
     },
 
-    features: {
+    highlighted: {
       type: Array,
       default: () => {}
     }

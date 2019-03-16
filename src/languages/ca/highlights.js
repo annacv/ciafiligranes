@@ -1,34 +1,38 @@
 export default {
   home: {
-    title: 'Más Filigranes',
+    title: 'Més Filigranes',
     description: 'Troba espectacles, tallers i animacions fetes a mida',
-    features: [
+    highlighted: [
       {
-        icon: 'github-circle',
         title: 'Espectacles',
         name: 'Desencaixats',
-        content: `<span>Open source on <a href="https://github.com/buefy/buefy"> GitHub</a></span>`
+        link: 'artefacte.org',
+        image: '/images/img_thumbnail_desencaixats.jpg',
+        alt: "Imatge de l'espectacle Desencaixats"
       },
 
       {
-        icon: 'cellphone-link',
         title: 'Tallers',
         name: 'Pallassos',
-        content: `<span><b class="has-text-grey">Every</b> component is responsive</span>`
+        link: 'artefacte.org',
+        image: '/images/img_thumbnail_pallassos.jpg',
+        alt: 'Imatge del Taller de Pallssos'
       },
 
       {
-        icon: 'alert-decagram',
         title: 'Animacions',
         name: 'Germans Freak-Frac',
-        content: `<span>Built with <a href="https://vuejs.org/">Vue.js</a> and <a href="http://bulma.io/">Bulma</a></span>`
+        link: 'artefacte.org',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle itinerant Cercavila dels Germans Feak-Frac"
       },
 
       {
-        icon: 'arrange-bring-to-front',
         title: 'Espectacles',
         name: 'El Circ Filixic',
-        content: `<span>No other internal dependency</span>`
+        link: 'github.com',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: "Imatge de l'espectacle El Circ Filixic"
       }
     ]
   }
