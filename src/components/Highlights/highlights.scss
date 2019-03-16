@@ -14,11 +14,7 @@
   .col-6 {
     &:first-child,
     &:nth-child(3) {
-      padding: 0 1.875rem 1.875rem .9375rem;
-    }
-    &:nth-child(2),
-    &:nth-child(4) {
-      padding: 0 .9375rem 1.875rem 1.875rem;
+      padding-bottom: 2rem;
     }
   }
 }
