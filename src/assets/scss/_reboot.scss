@@ -137,9 +137,6 @@ ul ol {
   margin-bottom: 0;
 }
 
-dt {
-  font-weight: $dt-font-weight;
-}
 
 dd {
   margin-bottom: .5rem;
@@ -190,14 +187,7 @@ sup {
 
 a {
   background-color: transparent; // Remove the gray background on active links in IE 10.
-  text-decoration: $link-decoration;
-  color: $link-color;
   -webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
-
-  @include hover {
-    text-decoration: $link-hover-decoration;
-    color: $link-hover-color;
-  }
 }
 
 // And undo these styles for placeholder links/named anchors (without href)
@@ -209,11 +199,6 @@ a {
 a:not([href]):not([tabindex]) {
   text-decoration: none;
   color: inherit;
-
-  @include hover-focus {
-    text-decoration: none;
-    color: inherit;
-  }
 
   &:focus {
     outline: 0;
@@ -302,11 +287,8 @@ table {
 }
 
 caption {
-  padding-top: $table-cell-padding;
-  padding-bottom: $table-cell-padding;
   caption-side: bottom;
   text-align: left;
-  color: $text-muted;
 }
 
 th {
