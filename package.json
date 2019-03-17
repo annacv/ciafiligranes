@@ -19,7 +19,8 @@
     "bootstrap-xxl": "^4.1.0",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
-    "nuxt-i18n": "^5.4.4"
+    "nuxt-i18n": "^5.4.4",
+    "vue": "^2.6.9"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
