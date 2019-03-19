@@ -23,7 +23,6 @@ body {
   margin: 0;
   min-width: 20rem;
   min-height: 100vh;
-  font-family: "Akkurat", sans-serif;
 }
 
 *:focus {
@@ -45,5 +44,15 @@ h3,
 h4,
 p {
   margin-bottom: 0;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-family: "AkkuratLight", "Arial", sans-serif;
+}
+
+h4 {
+  font-size: 1.75rem;
+  font-family: "AkkuratBold", "Arial", sans-serif;
 }
 
