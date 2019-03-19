@@ -21,13 +21,14 @@
           <div
             v-for="item in highlighted"
             :key="item.name"
-            class="col-6">
+            class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-xxxl-6">
               <Card
                 :image="item.image"
                 :alt="item.alt"
                 :link="item.link"
                 :title="item.title"
-                :text="item.name"
+                :text="item.text"
+                :name="item.name"
               />
           </div>
         </b-row>

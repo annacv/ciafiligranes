@@ -20,7 +20,7 @@
           class="card__title"
           v-text="title"
         />
-        <p
+        <h4
           class="card__name"
           v-text="name"
         />
@@ -34,23 +34,27 @@ export default {
   name: 'Card',
 
   props: {
-    image: {
-      type: String,
-      default: ''
-    },
     alt: {
       type: String,
       default: ''
     },
+
+    image: {
+      type: String,
+      default: ''
+    },
+
+    name: {
+      type: String,
+      default: ''
+    },
+
     link: {
       type: String,
       default: ''
     },
+
     title: {
-      type: String,
-      default: ''
-    },
-    name: {
       type: String,
       default: ''
     }

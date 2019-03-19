@@ -16,7 +16,7 @@ export default {
         name: 'Pallassos',
         link: 'artefacte.org',
         image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'Imatge del Taller de Pallssos'
+        alt: 'Imatge del Taller de Pallassos'
       },
 
       {
