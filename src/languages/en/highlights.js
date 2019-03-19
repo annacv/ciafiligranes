@@ -1,14 +1,14 @@
 export default {
   home: {
-    title: 'Más Filigranes',
-    description: 'Troba espectacles, tallers i animacions fetes a mida',
+    title: 'More Filigranes',
+    description: 'Find shows, workshops and customized performances for you',
     highlighted: [
       {
-        title: 'Espectacles',
+        title: 'Shows',
         name: 'Desencaixats',
         link: 'artefacte.org',
         image: '/images/img_thumbnail_desencaixats.jpg',
-        alt: "Imatge de l'espectacle Desencaixats"
+        alt: 'An image of Desencaixats show'
       },
 
       {
@@ -16,7 +16,7 @@ export default {
         name: 'Pallassos',
         link: 'artefacte.org',
         image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'Imatge del Taller de Pallassos'
+        alt: 'An image of the Clowns Workshop'
       },
 
       {
@@ -24,7 +24,7 @@ export default {
         name: 'Germans Freak-Frac',
         link: 'artefacte.org',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: "Imatge de l'espectacle itinerant Cercavila dels Germans Feak-Frac"
+        alt: 'An image of The Feak-Frac Brothers Parade show'
       },
 
       {
@@ -32,7 +32,7 @@ export default {
         name: 'El Circ Filixic',
         link: 'github.com',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: "Imatge de l'espectacle El Circ Filixic"
+        alt: 'An image of The Circ Filixic show'
       }
     ]
   }
