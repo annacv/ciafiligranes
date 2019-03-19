@@ -7,18 +7,19 @@
       :abstract="$t('summary.abstract')"
       :items="$t('summary.items')"
     />
-    <!--Synopsis
+    <Synopsis
       :title="$t('synopsis.title')"
       :paragraphs="$t('synopsis.paragraphs')"
       :image="$t('synopsis.image')"
-    /-->
-    <Highlights
-      :content="$t('highlights.home')"
-      :highlighted="$t('highlights.home.highlighted')"
+      class="home"
     />
     <Contract
       :title="$t('contract.title')"
       :items="$t('contract.items')"
+    />
+    <Highlights
+      :content="$t('highlights.home')"
+      :highlighted="$t('highlights.home.highlighted')"
     />
   </div>
 </template>

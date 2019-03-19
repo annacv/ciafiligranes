@@ -1,29 +1,40 @@
-<!--style lang="scss" src="./InScene.scss" scoped></style-->
+<style
+  lang="scss"
+  src="./synopsis.scss"
+  scoped
+  >
+</style>
 
 <template>
-  <div class="container__synopsis">
-    <h3
-      class="section__title"
-      v-text="title"
-    />
-    <div class="synopsis__text-container">
-      <div class="synopsis__paragraphs">
-        <p
-          v-for="item in paragraphs"
-          :key="item.paragraph"
-          v-text="item.paragraph"
-        />
-      </div>
-      <div
-        class="synopsis__image-container"
-      >
-        <img
-          :src="image.src"
-          :alt="image.alt"
-        >
-      </div>
-    </div>
-  </div>
+  <section class="main-content">
+    <b-container fluid class="synopsis__heading">
+      <b-row no-gutters>
+        <div class="col-12 col-sm-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-6 offset-1 offset-xxl-2">
+          <h3
+            class="synopsis__title"
+            v-text="title"
+          />
+        </div>
+      </b-row>
+    </b-container>
+    <b-container fluid class="synopsis__content">
+      <b-row no-gutters align-h="between" align-v="end">
+        <div class="col-12 col-md-10 col-lg-3 col-xl-3 col-xxl-2 offset-0 offset-md-1 offset-xxl-2">
+          <p
+            v-for="item in paragraphs"
+            :key="item.paragraph"
+            class="synopsis__paragraph"
+            v-text="item.paragraph"
+          />
+        </div>
+        <div class= "col-2 offset-5">
+          <div class="synopsis__btn">
+            <b-button variant="outline-primary">Galeria</b-button>
+          </div>
+        </div>
+      </b-row>
+    </b-container>
+  </section>
 </template>
 
 <script>
@@ -39,11 +50,6 @@ export default {
     paragraphs: {
       type: Array,
       required: true
-    },
-
-    image: {
-      type: Object,
-      default: () => {}
     }
   }
 }
