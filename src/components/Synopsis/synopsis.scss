@@ -1,0 +1,44 @@
+.synopsis {
+  &__title {
+    line-height: .5;
+  }
+
+  &__paragraph {
+    color: #fff;
+    line-height: 1.89;
+
+    &:first-child {
+      padding: 4.76rem 0 1rem;
+    }
+    &:last-child {
+      padding: 1rem 0 4.76rem;
+    }
+  }
+
+  &__btn {
+    display: none; //waiting to have the page created
+    margin-bottom: 2rem;
+
+    .btn-outline-primary {
+      background-color: #fff;
+      color: #fd2b5e;
+      border: solid .0625rem #fd2b5e;
+      border-radius: 1.125rem;
+      line-height: normal;
+      font-family: "AkkuratBold", "Arial", sans-serif;
+    }
+  }
+}
+
+.home {
+  .synopsis {
+    &__content {
+      background-color: #fd2b5e;
+      background-image: url("~@/assets/images/img_sinopsi_plisplas_placeholder.jpg");
+      background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: 100% 50%;
+      overflow: hidden;
+    }
+  }
+}
