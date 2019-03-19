@@ -1,6 +1,6 @@
 export default {
   home: {
     claim: 'In a while...',
-    title: 'friendship, rivalitat and amuzing games'
+    title: 'friendship, rivalry and amuzing games'
   }
 }
