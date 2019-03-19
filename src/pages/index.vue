@@ -11,6 +11,7 @@
       :title="$t('synopsis.title')"
       :paragraphs="$t('synopsis.paragraphs')"
       :image="$t('synopsis.image')"
+      class="home"
     />
     <Contract
       :title="$t('contract.title')"
