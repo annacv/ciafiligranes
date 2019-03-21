@@ -15,10 +15,14 @@
     </label>
     <select
       id="select-lang"
+      v-model="selected"
       class="language-selector__field"
       @change="changeLocale()"
     >
-      <option selected>
+      <option
+        :value="selected"
+        selected
+      >
         {{ $i18n.locale }}
       </option>
       <option
@@ -35,6 +39,12 @@
 <script>
 export default {
   name: 'LanguageSelector',
+
+  data() {
+    return {
+      selected: ''
+    }
+  },
 
   computed: {
     availableLocales() {
