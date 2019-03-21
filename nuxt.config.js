@@ -47,9 +47,9 @@ module.exports = {
         langDir: 'languages/',
         lazy: true,
         locales: [
-          { code: 'ca', iso: 'ca-CA', file: 'ca/index.js' },
-          { code: 'es', iso: 'es-ES', file: 'es/index.js' },
-          { code: 'en', iso: 'en-US', file: 'en/index.js' }
+          { code: 'ca', iso: 'ca-CA', name: 'ca', file: 'ca/index.js' },
+          { code: 'es', iso: 'es-ES', name: 'es', file: 'es/index.js' },
+          { code: 'en', iso: 'en-US', name: 'en', file: 'en/index.js' }
         ]
       }
     ]

@@ -1,3 +1,66 @@
-header {
+.header {
   position: absolute;
+  width: 100%;
+
+  > .row {
+    align-items: center;
+  }
+
+  &__brand,
+  &__navbar {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding: 1.125rem 0;
+    width: 100%;
+  }
+
+  nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .navbar {
+    &__menu-item > a {
+      display: none; //we'll make it visible & pass binded text when we'll have the page or modal component created :P
+      color: #fff;
+      font-size: 1.125rem;
+      font-family: 'AkkuratLight';
+      margin: 0 4rem;
+
+      &:hover {
+        text-decoration: none;
+        border-bottom: .05rem solid #fff;
+      }
+    }
+  }
+
+  .language-selector {
+    &__label {
+      display: none;
+    }
+
+    &__field {
+      background-color: transparent;
+      background-image: url("~@/assets/icons/select_down.svg");
+      background-repeat: no-repeat;
+      background-position: calc(100% - .625rem) 50%;
+      appearance: none;
+      -webkit-appearance: none;
+      width: 3.375rem;
+      height: 1.75rem;
+      color: #fff;
+      font-family: 'AkkuratLight';
+      font-size: .875rem;
+      border: 1px solid #bc1b36;
+      border-radius: .875rem;
+      padding: 0 .5rem;
+
+      &:hover {
+        background-color: #fd2b5e;
+      }
+    }
+  }
 }

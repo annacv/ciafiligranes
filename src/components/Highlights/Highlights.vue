@@ -1,6 +1,6 @@
 <style
   lang="scss"
-  src="./Highlights.scss"
+  src="./highlights.scss"
   scoped>
 </style>
 
@@ -27,7 +27,6 @@
                 :alt="item.alt"
                 :link="item.link"
                 :title="item.title"
-                :text="item.text"
                 :name="item.name"
               />
           </div>
