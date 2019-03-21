@@ -7,7 +7,9 @@
 
 <template>
   <div>
-    <TheHeader/>
+    <TheHeader
+      :logo="$t('header.logo')"
+    />
       <nuxt/>
     <TheFooter/>
   </div>

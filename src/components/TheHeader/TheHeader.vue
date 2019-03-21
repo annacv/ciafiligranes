@@ -5,21 +5,53 @@
 </style>
 
 <template>
-  <header>
-    <div class="header__actions">
-      <TheNavbar/>
-    </div>
+  <header class="header" role="banner">
+    <b-container fluid class="header">
+      <b-row no-gutters>
+        <div class="col-4">
+          <!--TheBurger/-->
+          <div class="header__brand">
+            <h1>
+              <nuxt-link
+                :to="localePath('index')"
+                :aria-label="logo.label"
+                class="header__logo"
+              >
+                <img
+                  :alt="logo.alt"
+                  src="~assets/icons/ciafiligranes.svg"
+                  class="header__image"
+                >
+              </nuxt-link>
+            </h1>
+          </div>
+        </div>
+        <div class="col-8">
+          <TheNavbar/>
+        </div>
+      </b-row>
+    </b-container>
   </header>
 </template>
 
 <script>
-import TheNavbar from './components/TheNavbar/TheNavbar'
+//import TheBurger from './components/TheBurger/TheBurger'
+import TheNavbar from './components/TheNavbar'
 
 export default {
   name: 'TheHeader',
 
   components: {
+    //TheBurger,
     TheNavbar
+  },
+
+  props: {
+    logo: {
+      type: Object,
+      required: true,
+      default: () => {}
+    }
   }
 }
 </script>
