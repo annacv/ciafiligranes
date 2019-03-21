@@ -24,6 +24,7 @@
 
   .navbar {
     &__menu-item > a {
+      display: none; //we'll make it visible & pass binded text when we'll have the page or modal component created :P
       color: #fff;
       font-size: 1.125rem;
       font-family: 'AkkuratLight';
@@ -59,10 +60,6 @@
 
       &:hover {
         background-color: #fd2b5e;
-      }
-
-      option {
-        display: inline;
       }
     }
   }
