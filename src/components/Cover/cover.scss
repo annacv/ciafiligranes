@@ -8,16 +8,24 @@
   max-height: calc(121rem * (9/16));
 
   &__content {
-    padding: 10.525rem 0;
+    padding: 6rem 0;
     display: flex;
     justify-content: flex-start;
-    color: white; // will be replaced with get-color mixin
+    color: #fff;
 
     h2 {
       line-height: 1.125;
       font-family: "AkkuratBold", "Arial", sans-serif;
-      font-size: 3.75rem;
-      text-shadow: 0 .125rem .1875rem #000000; // will be replaced by color mixin
+      font-size: 2.5rem;
+      text-shadow: 0 .125rem .1875rem #000;
+    }
+
+    @media only screen and (min-width: 768px) {
+      padding: 10.525rem 0;
+
+      h2 {
+        font-size: 3.75rem;
+      }
     }
   }
 
@@ -25,7 +33,13 @@
     margin-bottom: .5rem;
     line-height: 1.125;
     font-family: "AkkuratLight", "Arial", sans-serif;
-    font-size: 2.5rem;
-    text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.5); // will be replaced by shadow mixin
+    font-size: 1.75rem;
+    text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.5);
+
+    @media only screen and (min-width: 768px) {
+      font-size: 2.5rem;
+    }
   }
 }
+
+
