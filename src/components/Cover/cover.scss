@@ -2,13 +2,18 @@
   background-image: url("~@/assets/images/img_cover_placeholder.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 55% 50%;
   position: relative;
   top: 0;
   left: 0;
   max-height: calc(121rem * (9/16));
 
+  @media only screen and (min-width: 768px) {
+    background-position: 50% 20%;
+  }
+
   &__content {
-    padding: 6rem 0;
+    padding: 8rem 0 4rem;
     display: flex;
     justify-content: flex-start;
     color: #fff;
