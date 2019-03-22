@@ -8,22 +8,40 @@
 
   &__title {
     color: #fd2b5e;
-    margin-right: .5rem;
+    margin: 0 .5rem .5rem 0;
   }
 
   &__ways {
     display: flex;
-    flex-flow: row nowrap;
-    align-self: flex-end;
-    font-size: 1.125rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 1rem;
   }
 
   &__label {
-    margin: 0 .5rem;
+    margin: 0 .25rem;
   }
 
   &__link {
     color: #fd2b5e;
     font-family: "AkkuratBold", "Arial", sans-serif;
+  }
+
+  @media only screen and (min-width: 768px) {
+    &__title {
+      color: #fd2b5e;
+      margin: 0 .5rem 0 0;
+      text-align: center;
+    }
+
+    &__ways {
+      flex-flow: row nowrap;
+      align-self: flex-end;
+      font-size: 1.125rem;
+    }
+
+    &__label {
+      margin: 0 .5rem;
+    }
   }
 }
