@@ -8,7 +8,7 @@
   <header class="header" role="banner">
     <b-container fluid class="header">
       <b-row no-gutters>
-        <div class="col-4">
+        <div class="col-8 col-md-4">
           <!--TheBurger/-->
           <div class="header__brand">
             <h1>
@@ -26,7 +26,7 @@
             </h1>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-4 col-md-8">
           <TheNavbar/>
         </div>
       </b-row>
