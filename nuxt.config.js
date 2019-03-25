@@ -1,9 +1,11 @@
-const pkg = require('./package')
-
 module.exports = {
   mode: 'spa',
 
   srcDir: './src',
+
+  generate: {
+    dir: 'build'
+  },
 
   /*
   ** Headers of the page
@@ -20,7 +22,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#bc1b36' },
 
   /*
   ** Global CSS
