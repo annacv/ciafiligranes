@@ -27,9 +27,9 @@
       </option>
       <option
         v-for="locale in availableLocales"
-        :key="locale.code" >{{ locale.code }}
+        :key="locale.code" >{{ locale.name }}
         <nuxt-link
-          :to="switchLocalePath(locale.code)">{{ locale.name }}
+          :to="switchLocalePath(locale.code)">
         </nuxt-link>
       </option>
     </select>
