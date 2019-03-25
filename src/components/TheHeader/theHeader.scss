@@ -61,10 +61,12 @@
       background-position: calc(100% - .625rem) 50%;
       appearance: none;
       -webkit-appearance: none;
+      -moz-appearance: none;
       width: 3.375rem;
       height: 1.75rem;
       color: #fff;
       font-family: 'AkkuratLight';
+      line-height: 1.2;
       font-size: .875rem;
       border: 1px solid #bc1b36;
       border-radius: .875rem;
