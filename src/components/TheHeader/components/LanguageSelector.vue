@@ -21,7 +21,6 @@
     >
       <option
         :value="selected"
-        selected
       >
         {{ $i18n.locale }}
       </option>
