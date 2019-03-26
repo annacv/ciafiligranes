@@ -5,7 +5,7 @@
 </style>
 
 <template>
-  <header class="header" role="banner">
+  <header role="banner">
     <b-container fluid class="header">
       <b-row no-gutters>
         <div class="col-8 col-md-4">
@@ -14,11 +14,11 @@
             <h1>
               <nuxt-link
                 :to="localePath('index')"
-                :aria-label="logo.label"
+                aria-label="Cia.Filigranes logo"
                 class="header__logo"
               >
                 <img
-                  :alt="logo.alt"
+                  alt="Cia.Filigranes logo"
                   src="~assets/icons/ciafiligranes.svg"
                   class="header__image"
                 >
@@ -44,14 +44,6 @@ export default {
   components: {
     //TheBurger,
     TheNavbar
-  },
-
-  props: {
-    logo: {
-      type: Object,
-      required: true,
-      default: () => {}
-    }
   }
 }
 </script>

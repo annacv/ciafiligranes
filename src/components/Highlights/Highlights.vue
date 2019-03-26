@@ -55,7 +55,7 @@ export default {
 
     highlighted: {
       type: Array,
-      default: () => {}
+      default: () => []
     }
   }
 }
