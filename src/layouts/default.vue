@@ -9,7 +9,7 @@
   <div>
     <TheHeader/>
       <nuxt/>
-    <TheFooter/>
+    <TheFooter :credits="$t('footer.credits')"/>
   </div>
 </template>
 
