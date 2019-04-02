@@ -25,7 +25,10 @@
             </li>
           </ul>
         </div>
-        <LanguageSelector/>
+        <LanguageSelector
+          :selectlang="$t('header.selectlang')"
+          :selectname="$t('header.selectname')"
+        />
     </nav>
   </div>
 </template>

@@ -14,11 +14,11 @@
             <h1>
               <nuxt-link
                 :to="localePath('index')"
-                aria-label="Cia.Filigranes logo"
+                :aria-label="logo.label"
                 class="header__logo"
               >
                 <img
-                  alt="Cia.Filigranes logo"
+                  :alt="logo.alt"
                   src="~assets/icons/ciafiligranes.svg"
                   class="header__image"
                 >
@@ -44,6 +44,13 @@ export default {
   components: {
     //TheBurger,
     TheNavbar
+  },
+
+  props: {
+    logo: {
+      type: Object,
+      default: () => {}
+    }
   }
 }
 </script>
