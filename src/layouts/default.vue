@@ -1,7 +1,6 @@
 <style
   lang="scss"
   src="../assets/scss/layout.scss"
-  scoped
 >
 </style>
 
