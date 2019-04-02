@@ -10,7 +10,14 @@
     :logo="$t('header.logo')"
     />
       <nuxt/>
-    <TheFooter :credits="$t('footer.credits')"/>
+    <TheFooter
+      :socialicons="$t('footer.socialicons')"
+      :email="$t('footer.email')"
+      :adress="$t('footer.adress')"
+      :logo="$t('footer.logo')"
+      :cia="$t('footer.cia')"
+      :credits="$t('footer.credits')"
+    />
   </div>
 </template>
 
