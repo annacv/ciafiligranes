@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+
+  &__corp {
+    padding: 4.5rem .9375rem;
+    background: #000;
+    color: #fff;
+  }
+
+  &__brand {
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+
+  &__image {
+    height: 2.75rem;
+    width: auto;
+  }
+
+  &__contact,
+  &__credits {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__contact {
+    font-size: .875rem;
+
+    .contact {
+      &__email {
+        color: #fff;
+        margin-right: .75rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      &__adress {
+        &::before {
+          content: '·';
+          margin-right: .75rem;
+        }
+      }
+    }
+  }
+
+  &__credits {
+    background: #fbdd0b;
+    height: 2rem;
+    font-size: .75rem;
+
+    .credits {
+      &__cia,
+      &__partners {
+        margin-right: .5rem;
+      }
+
+      &__content {
+        display: flex;
+        align-self: center;
+      }
+
+      &__partners {
+        display: flex;
+
+        &::before {
+          content: '·';
+          margin-right: .5rem;
+        }
+
+        &:last-child {
+          &::before {
+            content: none;
+          }
+        }
+      }
+
+      &__link {
+        color: #000;
+        margin-left: .5rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
