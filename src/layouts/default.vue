@@ -6,7 +6,9 @@
 
 <template>
   <div>
-    <TheHeader/>
+    <TheHeader
+    :logo="$t('header.logo')"
+    />
       <nuxt/>
     <TheFooter :credits="$t('footer.credits')"/>
   </div>
