@@ -8,13 +8,15 @@
 <template>
   <div class="language-selector">
     <label
-      aria-label="Select language"
+      :aria-label="selectlang"
       class="language-selector__label"
       for="select-lang"
     >
     </label>
     <select
       id="select-lang"
+      :aria-label="selectlang"
+      :name="selectname"
       v-model="selected"
       class="language-selector__field"
       @change="changeLocale()"
@@ -42,6 +44,18 @@ export default {
   data() {
     return {
       selected: ''
+    }
+  },
+
+  props: {
+    selectlang: {
+      type: String,
+      default: ''
+    },
+
+    selectname: {
+      type: String,
+      default: ''
     }
   },
 
