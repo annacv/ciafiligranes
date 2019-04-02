@@ -20,7 +20,9 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^5.4.4",
-    "vue": "^2.6.9"
+    "vue": "^2.6.10",
+    "vue-server-renderer": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
