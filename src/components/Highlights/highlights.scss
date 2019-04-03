@@ -29,8 +29,12 @@
 }
 
 .card {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border: 0;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 2rem;
+  }
 
   &__image {
     width: 100%;

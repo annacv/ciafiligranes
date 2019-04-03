@@ -6,8 +6,8 @@
 
 <template>
   <b-container fluid class="highlights">
-    <b-row no-gutters>
-      <div class="col-12 col-sm-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-6 offset-0 offset-md-1 offset-xxl-2">
+    <b-row no-gutters align-h="center">
+      <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-6 offset-0 offset-xxl-2">
         <h3
           class="highlights__title"
           v-text="content.title"
@@ -21,7 +21,7 @@
           <div
             v-for="item in highlighted"
             :key="item.name"
-            class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-xxxl-6">
+            class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-xxxl-6">
               <Card
                 :image="item.image"
                 :alt="item.alt"

@@ -12,6 +12,8 @@
   }
 
   @media only screen and (min-width: 768px) {
+    padding: 1rem 0;
+
     &__image {
       width: 100%;
       height: 100%;
@@ -36,7 +38,7 @@
 
   .navbar {
     &__menu-item > a {
-      display: none; //we'll make it visible & pass binded text when we'll have the page or modal component created :P
+      display: none; //we'll make it visible & pass binded text when we'll have the page or modal component created
       color: #fff;
       font-size: 1.125rem;
       font-family: 'AkkuratLight';

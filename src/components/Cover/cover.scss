@@ -6,10 +6,9 @@
   position: relative;
   top: 0;
   left: 0;
-  max-height: calc(121rem * (9/16));
 
   @media only screen and (min-width: 768px) {
-    background-position: 50% 20%;
+    background-position: 50% 30%;
   }
 
   &__content {
@@ -26,23 +25,31 @@
     }
 
     @media only screen and (min-width: 768px) {
-      padding: 10.525rem 0;
+      padding: 12.5rem 0 10.5rem;
 
       h2 {
         font-size: 3.75rem;
       }
+    }
+
+    @media only screen and (min-width: 1900px) {
+      padding: 15.5rem 0 13.5rem;
     }
   }
 
   &__claim {
     margin-bottom: .5rem;
     line-height: 1.125;
-    font-family: "AkkuratLight", "Arial", sans-serif;
+    font-family: "AkkuratBold", "Arial", sans-serif;
     font-size: 1.75rem;
-    text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.5);
+    text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.8);
 
     @media only screen and (min-width: 768px) {
       font-size: 2.5rem;
+      font-family: "AkkuratLight",
+      "Arial",
+      sans-serif;
+      text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.5);
     }
   }
 }

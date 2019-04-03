@@ -2,10 +2,6 @@
   padding: 1rem 0;
   border-bottom: .125rem solid #fd2b5e;
 
-  >.row {
-    justify-content: center;
-  }
-
   &__title {
     color: #fd2b5e;
     margin: 0 0 .5rem 0;
@@ -29,19 +25,22 @@
 
   @media only screen and (min-width: 768px) {
     &__title {
-      color: #fd2b5e;
-      margin: 0 .5rem 0 0;
       text-align: center;
+      margin: 0 .5rem 0 0;
     }
 
     &__ways {
-      flex-flow: row nowrap;
       align-self: flex-end;
-      font-size: 1.125rem;
     }
 
     &__label {
       margin: 0 .5rem;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &__title {
+      margin: 0 1.5rem 0 0;
     }
   }
 }
