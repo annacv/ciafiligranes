@@ -1,5 +1,6 @@
 export default {
   title: 'Synopsis',
+
   paragraphs: [
     {
       paragraph:
@@ -9,5 +10,9 @@ export default {
       paragraph:
         'With a chair, a funnel or a bucket will make us, with its personal touch, classic gags combined with juggling and live music.'
     }
-  ]
+  ],
+
+  image: '/images/img_sinopsi_plisplas_placeholder.jpg',
+
+  alt: 'Plis-plas show image'
 }
