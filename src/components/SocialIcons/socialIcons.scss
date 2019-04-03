@@ -7,6 +7,12 @@
     padding: 0;
   }
 
+  @media only screen and (min-width: 768px) {
+    &__list {
+      justify-content: flex-start;
+    }
+  }
+
   &__list-item {
     margin-right: 2rem;
 
@@ -26,9 +32,17 @@
     height: 2rem;
   }
 
-  @media only screen and (min-width: 768px) {
-    &__list {
-      justify-content: flex-start;
+  @media only screen and (min-width: 1900px) {
+    &__image {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 3000px) {
+    &__image {
+      width: 3rem;
+      height: 3rem;
     }
   }
 }

@@ -20,6 +20,22 @@
     }
   }
 
+  @media only screen and (min-width: 1900px) {
+    &__image {
+      width: auto;
+      height: 5rem;
+    }
+  }
+
+  @media only screen and (min-width: 3000px) {
+    padding: 2rem 0;
+
+    &__image {
+      width: auto;
+      height: 6rem;
+    }
+  }
+
   &__brand,
   &__navbar {
     display: inline-flex;
@@ -76,6 +92,26 @@
 
       &:hover {
         background-color: #fd2b5e;
+      }
+
+      @media only screen and (min-width: 1900px) {
+        background-size: .75rem;
+        background-position: calc(100% - .75rem) 55%;
+        width: 4.2rem;
+        height: 2.25rem;
+        font-size: 1rem;
+        border-radius: 1.125rem;
+        padding: 0 .75rem;
+      }
+
+      @media only screen and (min-width: 3000px) {
+        background-size: 1rem;
+        background-position: calc(100% - .875rem) 55%;
+        width: 5rem;
+        height: 2.5rem;
+        font-size: 1.125rem;
+        border-radius: 1.25rem;
+        padding: 0 .875rem;
       }
     }
   }
