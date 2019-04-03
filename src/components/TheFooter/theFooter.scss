@@ -20,7 +20,7 @@
   }
 
   &__contact {
-    font-size: .75rem;
+    font-size: .875rem;
     text-align: center;
     padding: 2rem 0;
     order: 2;
@@ -38,7 +38,6 @@
 
   @media only screen and (min-width: 1024px) {
     &__contact {
-      font-size: .875rem;
       padding: 0;
 
       .contact {

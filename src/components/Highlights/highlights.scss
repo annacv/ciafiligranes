@@ -1,5 +1,5 @@
 .highlights {
-  margin: 3.5rem 0;
+  margin: 3.5rem 0 2.5rem 0;
 
   @media only screen and (min-width: 768px) {
     margin: 4.625rem 0 7rem;
@@ -8,12 +8,10 @@
   &__description {
     color: #008287;
     line-height: 1.4;
-    font-size: .875rem;
     margin: .25rem 0 1.5rem 0;
 
     @media only screen and (min-width: 768px) {
       line-height: 1.88;
-      font-size: 1rem;
       margin: 0 0 2.75rem 0;
     }
   }
