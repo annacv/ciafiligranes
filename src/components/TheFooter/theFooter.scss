@@ -2,19 +2,15 @@
   width: 100%;
 
   &__corp {
-    padding: 4.5rem .9375rem;
+    padding: 2rem .9375rem;
     background: #000;
     color: #fff;
   }
 
-  &__brand {
-    display: inline-flex;
-    justify-content: flex-end;
-  }
-
-  &__image {
-    height: 2.75rem;
-    width: auto;
+  @media only screen and (min-width: 1024px) {
+    &__corp {
+      padding: 4.5rem .9375rem;
+    }
   }
 
   &__contact,
@@ -24,30 +20,72 @@
   }
 
   &__contact {
-    font-size: .875rem;
+    font-size: .75rem;
+    text-align: center;
+    padding: 2rem 0;
+    order: 2;
 
     .contact {
       &__email {
         color: #fff;
-        margin-right: .75rem;
 
         &:hover {
           text-decoration: underline;
         }
       }
+    }
+  }
 
-      &__adress {
-        &::before {
-          content: '·';
+  @media only screen and (min-width: 1024px) {
+    &__contact {
+      font-size: .875rem;
+      padding: 0;
+
+      .contact {
+        &__email {
           margin-right: .75rem;
         }
+
+        &__adress {
+          &::before {
+            content: '·';
+            margin-right: .75rem;
+          }
+        }
       }
+
     }
+  }
+
+  &__rrss {
+    order: 3;
+  }
+
+  &__brand {
+    display: inline-flex;
+    justify-content: center;
+    order: 1;
+  }
+
+  @media only screen and (min-width: 768px) {
+    &__rrss {
+      order: 1;
+    }
+
+    &__brand {
+      justify-content: flex-end;
+      order: 3;
+    }
+  }
+
+  &__image {
+    height: 2.75rem;
+    width: auto;
   }
 
   &__credits {
     background: #fbdd0b;
-    height: 2rem;
+    padding: .5rem .9375rem;
     font-size: .75rem;
 
     .credits {
@@ -58,20 +96,28 @@
 
       &__content {
         display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
         align-self: center;
       }
 
       &__partners {
         display: flex;
+      }
 
-        &::before {
-          content: '·';
-          margin-right: .5rem;
-        }
-
-        &:last-child {
+      @media only screen and (min-width: 441px) {
+        &__partners {
           &::before {
-            content: none;
+            content: '·';
+            margin-right: .5rem;
+          }
+
+          &:last-child {
+            margin-right: 0rem;
+
+            &::before {
+              content: none;
+            }
           }
         }
       }

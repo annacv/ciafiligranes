@@ -8,20 +8,12 @@
   <footer role="contentinfo">
     <b-container fluid class="footer__corp">
       <b-row no-gutters align-v="center">
-        <div class="col-12 col-md-3 col-lg-2">
-          <ul class="social-icons__list">
-            <li
-              v-for="item in socialicons"
-              :key= "item.alt"
-              class="social-icons__list-item"
-            >
-              <SocialIcons
-                :alt="item.alt"
-                :image="item.image"
-                :link="item.link"
-              />
-            </li>
-          </ul>
+        <div class="col-12 col-md-3 col-lg-2 footer__brand">
+          <img
+            :alt="logo"
+            src="~assets/icons/ciafiligranes.svg"
+            class="footer__image"
+          >
         </div>
         <div class="col-12 col-md-6 col-lg-8 footer__contact">
           <b-row no-gutters align-v="center" align-h="center">
@@ -37,12 +29,20 @@
             />
           </b-row>
         </div>
-        <div class="col-12 col-md-3 col-lg-2 footer__brand">
-          <img
-            :alt="logo"
-            src="~assets/icons/ciafiligranes.svg"
-            class="footer__image"
-          >
+        <div class="col-12 col-md-3 col-lg-2 footer__rrss">
+          <ul class="social-icons__list">
+            <li
+              v-for="item in socialicons"
+              :key= "item.alt"
+              class="social-icons__list-item"
+            >
+              <SocialIcons
+                :alt="item.alt"
+                :image="item.image"
+                :link="item.link"
+              />
+            </li>
+          </ul>
         </div>
       </b-row>
     </b-container>
@@ -55,7 +55,7 @@
           />
           <div
             v-for="item in credits"
-            :key="item.label"
+            :key="item.text"
             class="credits__partners"
             >
               <p
