@@ -64,6 +64,13 @@
     }
   }
 
+  @media only screen and (min-width: 3000px) {
+    &__paragraph {
+      font-size: 2rem;
+      line-height: 4rem;
+    }
+  }
+
   &__image-container {
     display: flex;
     justify-content: center;
@@ -125,7 +132,7 @@
 
   @media only screen and (min-width: 3000px) {
     &__image {
-      height: 54rem;
+      height: 64rem;
     }
   }
 
