@@ -67,7 +67,21 @@ h4 {
 }
 
 @media only screen and (min-width: 1900px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+
   h4 {
     font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2rem;
   }
 }

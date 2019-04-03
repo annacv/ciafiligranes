@@ -52,7 +52,18 @@
           }
         }
       }
+    }
+  }
 
+  @media only screen and (min-width: 1500px) {
+    &__contact {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (min-width: 3000px) {
+    &__contact {
+      font-size: 1.25rem;
     }
   }
 
@@ -82,10 +93,30 @@
     width: auto;
   }
 
+  @media only screen and (min-width: 1900px) {
+    &__image {
+      height: 3rem;
+    }
+  }
+
+  @media only screen and (min-width: 3000px) {
+    &__image {
+      height: 3.5rem;
+    }
+  }
+
   &__credits {
     background: #fbdd0b;
     padding: .5rem .9375rem;
     font-size: .75rem;
+
+    @media only screen and (min-width: 1500px) {
+      font-size: .875rem;
+    }
+
+    @media only screen and (min-width: 3000px) {
+      font-size: 1rem;
+    }
 
     .credits {
       &__cia,

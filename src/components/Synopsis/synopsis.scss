@@ -60,6 +60,14 @@
   @media only screen and (min-width: 1500px) {
     &__paragraph {
       font-size: 1.25rem;
+      line-height: 2.6rem;
+    }
+  }
+
+  @media only screen and (min-width: 3000px) {
+    &__paragraph {
+      font-size: 2rem;
+      line-height: 4rem;
     }
   }
 
@@ -121,6 +129,13 @@
       height: 38rem;
     }
   }
+
+  @media only screen and (min-width: 3000px) {
+    &__image {
+      height: 64rem;
+    }
+  }
+
 
   &__btn {
     position: absolute;

@@ -27,7 +27,7 @@
             v-text="item.paragraph"
           />
         </div>
-        <div class="col-12 col-md-12 col-lg-6 col-xl-7 col-xxl-5 offset-0 offset-lg-1 offset-xxl-2">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-7 col-xxl-5 col-xxxl-6 offset-0 offset-lg-1 offset-xxl-2 offset-xxxl-1">
           <b-row>
             <div class="synopsis__image-container">
               <img

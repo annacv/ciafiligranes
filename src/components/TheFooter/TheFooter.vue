@@ -8,14 +8,14 @@
   <footer role="contentinfo">
     <b-container fluid class="footer__corp">
       <b-row no-gutters align-v="center">
-        <div class="col-12 col-md-3 col-lg-2 footer__brand">
+        <div class="col-12 col-md-3 col-lg-2 col-xxxl-1 footer__brand">
           <img
             :alt="logo"
             src="~assets/icons/ciafiligranes.svg"
             class="footer__image"
           >
         </div>
-        <div class="col-12 col-md-4 col-lg-6 col-xxl-4 col-xxxl-5 footer__contact">
+        <div class="col-12 col-md-4 col-lg-6 col-xxl-4 col-xxxl-6 footer__contact">
           <b-row no-gutters align-v="center" align-h="center">
             <a
               :aria-label="email.arialabel"
@@ -29,7 +29,7 @@
             />
           </b-row>
         </div>
-        <div class="col-12 col-md-3 col-lg-2 offset-0 offset-md-1 offset-xxl-2 offset-xxxl-2 footer__rrss">
+        <div class="col-12 col-md-3 col-lg-2 col-xxxl-1 offset-0 offset-md-1 offset-xxl-2 offset-xxxl-2 footer__rrss">
           <ul class="social-icons__list">
             <li
               v-for="item in socialicons"

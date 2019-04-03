@@ -23,6 +23,8 @@
   }
 
   @media only screen and (min-width: 1900px) {
+    padding: 1.5rem 0;
+
     &__title {
       line-height: 1.3;
     }
@@ -44,6 +46,18 @@
   @media only screen and (min-width: 1200px) {
     &__ways {
       font-size: 1.125rem;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    &__ways {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media only screen and (min-width: 3000px) {
+    &__ways {
+      font-size: 1.5rem;
     }
   }
 

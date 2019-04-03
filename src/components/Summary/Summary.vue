@@ -6,15 +6,15 @@
 <template>
   <b-container fluid class="summary">
     <b-row no-gutters>
-      <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-6 offset-0 offset-md-1 offset-xxl-2">
+      <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-8 offset-0 offset-md-1 offset-xxl-2">
         <b-row no-gutters>
-          <div class="col-12 col-md-8 col-lg-8 col-xl-7 col-xxl-7 col-xxxl-7">
+          <div class="col-12 col-md-7 col-lg-8 col-xl-7 col-xxl-7 col-xxxl-7">
             <p
               class="summary__abstract"
               v-text="abstract"
             />
           </div>
-          <div class="col-12 col-md-4 col-lg-4 col-xl-5 col-xxl-5 col-xxxl-5">
+          <div class="col-12 col-md-5 col-lg-3 col-xl-4 col-xxl-4 col-xxxl-4 offset-lg-1">
             <ul
               v-for="item in items"
               :key="item.title"
@@ -48,6 +48,7 @@ export default {
       type: String,
       default: ''
     },
+
     items: {
       type: Array,
       required: true
