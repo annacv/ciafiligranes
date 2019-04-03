@@ -3,19 +3,129 @@
     line-height: .5;
   }
 
+  &__content {
+    background-color: #fd2b5e;
+  }
+
   &__paragraph {
     color: #fff;
     line-height: 1.89;
 
     &:first-child {
-      padding: 2rem 0 1rem;
+      padding: 2.5rem 0 1rem;
     }
     &:last-child {
-      padding: 0rem 0 2rem;
+      padding: 0rem 0 2.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    &__paragraph {
+      &:first-child {
+        padding: 3.5rem 0 1rem;
+      }
+
+      &:last-child {
+        padding: 1rem 0 3.5rem;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    &__paragraph {
+      &:first-child {
+        padding: 4rem 0 1rem;
+      }
+
+      &:last-child {
+        padding: 1rem 0 4rem;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &__paragraph {
+      font-size: 1.125rem;
+
+      &:first-child {
+        padding: 4.76rem 0 1rem;
+      }
+
+      &:last-child {
+        padding: 1rem 0 4.76rem;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    &__paragraph {
+      font-size: 1.25rem;
+    }
+  }
+
+  &__image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: auto;
+    height: 20rem;
+  }
+
+  @media only screen and (min-width: 768px) {
+    &__image {
+      width: auto;
+      height: 28rem;
+    }
+  }
+
+  @media only screen and (min-width: 798px) {
+    &__image {
+      width: auto;
+      height: 35rem;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    &__image {
+      width: auto;
+      height: 26rem;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    &__image {
+      width: auto;
+      height: 25rem;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &__image-container {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+
+    &__image {
+      height: 32rem;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    &__image {
+      height: 38rem;
     }
   }
 
   &__btn {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 7.5rem;
     display: none; //waiting to have the page & its slot created
     margin-bottom: 2rem;
 
@@ -26,45 +136,6 @@
       border-radius: 1.125rem;
       line-height: normal;
       font-family: "AkkuratBold", "Arial", sans-serif;
-    }
-  }
-}
-
-.home {
-  .synopsis {
-    &__content {
-      background-color: #fd2b5e;
-      background-image: none;
-    }
-
-    @media only screen and (min-width: 768px) {
-      &__paragraph {
-        &:first-child {
-          padding: 3.5rem 0 1rem;
-        }
-        &:last-child {
-          padding: 1rem 0 3.5rem;
-        }
-      }
-    }
-
-    @media only screen and (min-width: 1024px) {
-      &__content {
-      background-image: url("~@/assets/images/img_sinopsi_plisplas_placeholder.jpg");
-      background-repeat: no-repeat;
-        background-size: 60%;
-        background-position: 100% 50%;
-        overflow: hidden;
-      }
-
-      &__paragraph {
-        &:first-child {
-          padding: 4.76rem 0 1rem;
-        }
-        &:last-child {
-          padding: 1rem 0 4.76rem;
-        }
-      }
     }
   }
 }
