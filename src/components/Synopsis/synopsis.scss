@@ -135,22 +135,4 @@
       height: 64rem;
     }
   }
-
-
-  &__btn {
-    position: absolute;
-    bottom: 1.5rem;
-    right: 7.5rem;
-    display: none; //waiting to have the page & its slot created
-    margin-bottom: 2rem;
-
-    .btn-outline-primary {
-      background-color: #fff;
-      color: #fd2b5e;
-      border: solid .0625rem #fd2b5e;
-      border-radius: 1.125rem;
-      line-height: normal;
-      font-family: "AkkuratBold", "Arial", sans-serif;
-    }
-  }
 }
