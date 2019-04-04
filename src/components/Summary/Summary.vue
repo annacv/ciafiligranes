@@ -1,6 +1,8 @@
 <style
   lang="scss"
-  src="./summary.scss" scoped>
+  src="./summary.scss"
+  scoped
+>
 </style>
 
 <template>
@@ -31,7 +33,11 @@
                 />
               </li>
             </ul>
-            <!--b-button block>Dossier</b-button-->
+            <div class="summary__btn">
+              <Button
+                :button="$t('summary.button')"
+              />
+            </div>
           </div>
         </b-row>
       </div>
@@ -40,8 +46,14 @@
 </template>
 
 <script>
+import Button from '../Button/Button'
+
 export default {
   name: 'Summary',
+
+  components: {
+    Button
+  },
 
   props: {
     abstract: {

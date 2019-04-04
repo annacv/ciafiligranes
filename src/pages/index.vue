@@ -6,6 +6,7 @@
     <Summary
       :abstract="$t('summary.abstract')"
       :items="$t('summary.items')"
+      :button="$t('summary.button')"
     />
     <Synopsis
       :title="$t('synopsis.title')"

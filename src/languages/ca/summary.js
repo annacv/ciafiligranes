@@ -11,5 +11,16 @@ export default {
       title: 'Durada de l’espectacle',
       description: '50 minuts'
     }
-  ]
+  ],
+
+  button: {
+    class: 'button-outline-secondary',
+    type: 'application',
+    href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+    text: 'Dossier',
+    slot: {
+      alt: 'arrow down',
+      class: 'arrow_down--black'
+    }
+  }
 }

@@ -113,4 +113,10 @@
       font-family: "AkkuratLight", "Arial", sans-serif;
     }
   }
+
+  &__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
