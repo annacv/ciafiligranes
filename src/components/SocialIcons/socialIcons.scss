@@ -7,17 +7,29 @@
     padding: 0;
   }
 
-  @media only screen and (min-width: 768px) {
-    &__list {
-      justify-content: flex-start;
-    }
-  }
-
   &__list-item {
     margin-right: 2rem;
 
     &:last-child {
       margin-right: 0;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &__list {
+      justify-content: flex-start;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    &__list-item {
+      margin-right: 1.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 1900px) {
+    &__list-item {
+      margin-right: 2rem;
     }
   }
 
@@ -28,8 +40,8 @@
   }
 
   &__image {
-    width: 2rem;
-    height: 2rem;
+    width: 1.875rem;
+    height: 1.875rem;
   }
 
   @media only screen and (min-width: 1900px) {

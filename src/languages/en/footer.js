@@ -14,6 +14,16 @@ export default {
       alt: "Companyia Filigranes's Youtube channel. Opens in a new window.",
       image: '/icons/youtube.svg',
       link: 'https://www.youtube.com/channel/UCaH3Bb7VIiuzwy51TyyKzpg'
+    },
+    {
+      alt: "Companyia Filigranes's Twitter. Opens in a new window.",
+      image: '/icons/twitter.svg',
+      link: 'https://twitter.com/ciafiligranes?lang=en'
+    },
+    {
+      alt: "Companyia Filigranes's Linkedin. Opens in a new window.",
+      image: '/icons/linkedin.svg',
+      link: 'https://www.linkedin.com/in/ciafiligranes'
     }
   ],
 
