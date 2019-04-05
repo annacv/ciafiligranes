@@ -9,17 +9,19 @@
 
   @media only screen and (min-width: 1024px) {
     &__corp {
+      padding: 3.5rem .9375rem;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &__corp {
       padding: 4.5rem .9375rem;
     }
   }
 
-  &__contact,
-  &__credits {
+  &__contact {
     display: flex;
     justify-content: center;
-  }
-
-  &__contact {
     font-size: .875rem;
     text-align: center;
     padding: 2rem 0;
@@ -36,9 +38,10 @@
     }
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 768px) {
     &__contact {
-      padding: 0;
+      padding: 3rem 0 0;
+      justify-content: flex-start;
 
       .contact {
         &__email {
@@ -52,6 +55,18 @@
           }
         }
       }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    &__contact {
+      padding: 4rem 0 0;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &__contact {
+      padding: 0;
     }
   }
 
@@ -84,6 +99,7 @@
 
     &__brand {
       justify-content: flex-end;
+      align-self: flex-end;
       order: 3;
     }
   }
@@ -106,6 +122,8 @@
   }
 
   &__credits {
+    display: flex;
+    justify-content: center;
     background: #fbdd0b;
     padding: .5rem .9375rem;
     font-size: .75rem;

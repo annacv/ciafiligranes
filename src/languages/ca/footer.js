@@ -15,6 +15,16 @@ export default {
         'Canal Youtube de la Companyia Filigranes. Obre en una nova pestanya',
       image: '/icons/youtube.svg',
       link: 'https://www.youtube.com/channel/UCaH3Bb7VIiuzwy51TyyKzpg'
+    },
+    {
+      alt: 'Twitter de la Companyia Filigranes. Obre en una nova pestanya',
+      image: '/icons/twitter.svg',
+      link: 'https://twitter.com/ciafiligranes?lang=ca'
+    },
+    {
+      alt: 'Linkedin de la Companyia Filigranes. Obre en una nova pestanya',
+      image: '/icons/linkedin.svg',
+      link: 'https://www.linkedin.com/in/ciafiligranes'
     }
   ],
 

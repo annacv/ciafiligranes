@@ -15,7 +15,7 @@
             class="footer__image"
           >
         </div>
-        <div class="col-12 col-md-4 col-lg-6 col-xxl-4 col-xxxl-6 footer__contact">
+        <div class="col-12 col-md-9 col-lg-8 col-xl-5 col-xxl-4 col-xxxl-6 offset-lg-1 offset-xl-0 footer__contact">
           <b-row no-gutters align-v="center" align-h="center">
             <a
               :aria-label="email.arialabel"
@@ -29,7 +29,7 @@
             />
           </b-row>
         </div>
-        <div class="col-12 col-md-3 col-lg-2 col-xxxl-1 offset-0 offset-md-1 offset-xxl-2 offset-xxxl-2 footer__rrss">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-3 col-xxxl-2 offset-0 offset-xl-1 offset-xxl-2 offset-xxxl-2 footer__rrss">
           <ul class="social-icons__list">
             <li
               v-for="item in socialicons"
