@@ -46,6 +46,10 @@ a {
     &.black {
       background-image: url("~@/assets/icons/arrow_down--black.svg");
     }
+
+    &.teal {
+      background-image: url("~@/assets/icons/arrow_down--teal.svg");
+    }
   }
 
   &:hover {
