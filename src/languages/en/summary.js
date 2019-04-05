@@ -11,5 +11,16 @@ export default {
       title: 'Duration',
       description: '50 minutes'
     }
-  ]
+  ],
+
+  button: {
+    class: 'button-outline-secondary',
+    type: 'application',
+    href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+    text: 'Dossier',
+    slot: {
+      alt: 'Arrow down. By clicking a file will be downloaded',
+      class: 'arrow_down black'
+    }
+  }
 }

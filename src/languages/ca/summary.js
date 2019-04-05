@@ -19,8 +19,8 @@ export default {
     href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
     text: 'Dossier',
     slot: {
-      alt: 'arrow down',
-      class: 'arrow_down--black'
+      alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+      class: 'arrow_down black'
     }
   }
 }
