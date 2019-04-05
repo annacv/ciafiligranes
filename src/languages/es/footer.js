@@ -49,7 +49,7 @@ export default {
     {
       text: 'Fotografia:',
       arialabel: 'Haciendo clic se abre una ventana nueva',
-      href: 'https://es.linkedin.com/in/gerard-bañó-4283162a',
+      href: 'http://linkedin.com/in/gerard-bañó-4283162a',
       link: 'Gerard Bañó'
     },
     {
