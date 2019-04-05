@@ -9,55 +9,82 @@ a {
 }
 
 .button-outline-primary {
-  background-color: #fff;
   color: #fd2b5e;
   border: solid .0625rem #fd2b5e;
-  border-radius: 1.125rem;
-  line-height: normal;
-  font-family: "AkkuratBold", "Arial", sans-serif;
+
+  .arrow_right {
+    background-repeat: no-repeat;
+    width: .6875rem;
+    height: .5rem;
+    margin-left: .25rem;
+
+    &.radicalred {
+      background-image: url("~@/assets/icons/arrow_right--radicalred.svg");
+    }
+  }
 
   &:hover {
-    background-color: #fd2b5e;
     color: #fff;
-    background-image: url("~@/assets/icons/arrow_right--radicalred.svg");
-    background-repeat: no-repeat;
-    background-position: 86% 50%;
-    padding: .5rem 1.5rem .5rem .75rem;
+    background-color: #fd2b5e;
 
-    img {
-      display: none;
+    .arrow_right {
+      background-image: url("~@/assets/icons/arrow_right--white.svg");
     }
   }
 }
 
 .button-outline-secondary {
-  background-color: #fff;
   color: #000;
   border: solid .0625rem #000;
-  border-radius: 1.125rem;
-  line-height: normal;
-  font-family: "AkkuratBold", "Arial", sans-serif;
-  padding: .5rem .8rem .5rem .75rem;
+
+  .arrow_down {
+    background-repeat: no-repeat;
+    width: .5rem;
+    height: .6875rem;
+    margin-left: .25rem;
+
+    &.black {
+      background-image: url("~@/assets/icons/arrow_down--black.svg");
+    }
+  }
 
   &:hover {
-    background-color: #000;
     color: #fff;
-    background-image: url("~@/assets/icons/arrow_down--white.svg");
-    background-repeat: no-repeat;
-    background-position: 86% 50%;
-    padding: .5rem 1.5rem .5rem .75rem;
+    background-color: #000;
 
-    img {
-      display: none;
+    .arrow_down {
+      background-image: url("~@/assets/icons/arrow_down--white.svg");
     }
   }
 }
 
-img {
-  &.arrow_down--black {
-    width: .5rem;
-    height: .6875rem;
-    margin-left: .25rem;
+.button-outline-primary,
+.button-outline-secondary {
+  background-color: #fff;
+  border-radius: 1.125rem;
+  line-height: normal;
+  font-family: "AkkuratBold", "Arial", sans-serif;
+  padding: .5rem .8rem .5rem .7rem;
+
+  &__teal {
+    color: #008287;
+    border: solid .0625rem #20C0C6;
+
+    &:hover {
+      background-color: #008287;
+    }
+  }
+
+  &__eminence {
+    color: #5C2978;
+    border: solid .0625rem #5C2978;
+
+    &:hover {
+      background-color: #5C2978;
+      border: solid .0625rem #350A64;
+    }
   }
 }
+
+
 

@@ -16,12 +16,12 @@
   >
     <slot>
       {{ button.text }}
-      <img
+      <div
         v-if="button.slot.alt"
-        :alt="button.slot.alt"
-        :src="require(`~/assets/icons/${button.slot.class}.svg`)"
+        :aria-label="button.slot.alt"
         :class="button.slot.class"
-      >
+        role="img"
+      />
     </slot>
   </a>
 </template>
