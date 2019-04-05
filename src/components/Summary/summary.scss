@@ -2,44 +2,36 @@
   background-color: white;
   margin: 2rem 0 3.5rem;
 
-  &__abstract {
-    line-height: 1.89;
-    margin-bottom: 1.5rem;
-  }
-
   @media only screen and (min-width: 768px) {
     margin: 4.625rem 0 5.25rem;
-
-    &__abstract {
-      margin-bottom: 0;
-    }
-  }
-
-  @media only screen and (min-width: 1024px) {
-    &__abstract {
-      margin-bottom: 0;
-    }
-  }
-
-  @media only screen and (min-width: 1200px) {
-    &__abstract {
-      font-size: 1.125rem;
-    }
   }
 
   @media only screen and (min-width: 1500px) {
     margin: 6rem 0 8rem;
-
-    &__abstract {
-      font-size: 1.25rem;
-      line-height: 2.6rem;
-    }
   }
 
   @media only screen and (min-width: 3000px) {
     margin: 8rem 0 10rem;
+  }
 
-    &__abstract {
+  &__abstract {
+    line-height: 1.89;
+    margin-bottom: 1.5rem;
+
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 0;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      font-size: 1.125rem;
+    }
+
+    @media only screen and (min-width: 1500px) {
+      font-size: 1.25rem;
+      line-height: 2.6rem;
+    }
+
+    @media only screen and (min-width: 3000px) {
       font-size: 2rem;
       line-height: 4rem;
     }
@@ -51,15 +43,8 @@
     &:first-child {
       margin: 0 0 .75rem;
     }
-  }
 
-  &__list-item {
-    font-size: .875rem;
-    line-height: 1.43rem;
-  }
-
-  @media only screen and (min-width: 768px) {
-    &__list {
+    @media only screen and (min-width: 768px) {
       padding: 0 0 0 2rem;
 
       &:first-child {
@@ -68,16 +53,17 @@
     }
   }
 
-  @media only screen and (min-width: 1200px) {
-    &__list-item {
+  &__list-item {
+    font-size: .875rem;
+    line-height: 1.43rem;
+
+    @media only screen and (min-width: 1200px) {
       &:first-child {
         margin: .35rem 0 .9rem;
       }
     }
-  }
 
-  @media only screen and (min-width: 1500px) {
-    &__list-item {
+    @media only screen and (min-width: 1500px) {
       font-size: 1rem;
       line-height: 1.8rem;
 
@@ -85,10 +71,8 @@
         margin: .35rem 0 .9rem;
       }
     }
-  }
 
-  @media only screen and (min-width: 3000px) {
-    &__list-item {
+    @media only screen and (min-width: 3000px) {
       font-size: 1.5rem;
       line-height: 2.5rem;
 

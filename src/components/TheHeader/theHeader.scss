@@ -2,6 +2,14 @@
   position: absolute;
   width: 100%;
 
+  @media only screen and (min-width: 768px) {
+    padding: 1rem 0;
+  }
+
+  @media only screen and (min-width: 3000px) {
+    padding: 2rem 0;
+  }
+
   > .row {
     align-items: center;
   }
@@ -9,29 +17,18 @@
   &__image {
     width: auto;
     height: 3rem;
-  }
 
-  @media only screen and (min-width: 768px) {
-    padding: 1rem 0;
-
-    &__image {
+    @media only screen and (min-width: 768px) {
       width: 100%;
       height: 100%;
     }
-  }
 
-  @media only screen and (min-width: 1900px) {
-    &__image {
+    @media only screen and (min-width: 1900px) {
       width: auto;
       height: 5rem;
     }
-  }
 
-  @media only screen and (min-width: 3000px) {
-    padding: 2rem 0;
-
-    &__image {
-      width: auto;
+    @media only screen and (min-width: 3000px) {
       height: 6rem;
     }
   }

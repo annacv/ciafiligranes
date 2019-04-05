@@ -11,16 +11,28 @@
     color: #fff;
     line-height: 1.89;
 
+    @media only screen and (min-width: 1200px) {
+      font-size: 1.125rem;
+    }
+
+    @media only screen and (min-width: 1500px) {
+      font-size: 1.25rem;
+      line-height: 2.6rem;
+    }
+
+    @media only screen and (min-width: 3000px) {
+      font-size: 2rem;
+      line-height: 4rem;
+    }
+
     &:first-child {
       padding: 2.5rem 0 1rem;
     }
     &:last-child {
       padding: 0rem 0 2.5rem;
     }
-  }
 
-  @media only screen and (min-width: 768px) {
-    &__paragraph {
+    @media only screen and (min-width: 768px) {
       &:first-child {
         padding: 3.5rem 0 1rem;
       }
@@ -29,10 +41,8 @@
         padding: 1rem 0 3.5rem;
       }
     }
-  }
 
-  @media only screen and (min-width: 1024px) {
-    &__paragraph {
+    @media only screen and (min-width: 1024px) {
       &:first-child {
         padding: 4rem 0 1rem;
       }
@@ -41,12 +51,8 @@
         padding: 1rem 0 4rem;
       }
     }
-  }
 
-  @media only screen and (min-width: 1200px) {
-    &__paragraph {
-      font-size: 1.125rem;
-
+    @media only screen and (min-width: 1200px) {
       &:first-child {
         padding: 4.76rem 0 1rem;
       }
@@ -54,20 +60,6 @@
       &:last-child {
         padding: 1rem 0 4.76rem;
       }
-    }
-  }
-
-  @media only screen and (min-width: 1500px) {
-    &__paragraph {
-      font-size: 1.25rem;
-      line-height: 2.6rem;
-    }
-  }
-
-  @media only screen and (min-width: 3000px) {
-    &__paragraph {
-      font-size: 2rem;
-      line-height: 4rem;
     }
   }
 
@@ -82,56 +74,32 @@
   &__image {
     width: auto;
     height: 20rem;
-  }
 
-  @media only screen and (min-width: 576px) {
-    &__image {
-      width: auto;
+    @media only screen and (min-width: 576px) {
       height: 28rem;
     }
-  }
 
-  @media only screen and (min-width: 798px) {
-    &__image {
-      width: auto;
+    @media only screen and (min-width: 768px) {
       height: 35rem;
     }
-  }
 
-  @media only screen and (min-width: 992px) {
-    &__image {
-      width: auto;
+    @media only screen and (min-width: 992px) {
       height: 26rem;
     }
-  }
 
-  @media only screen and (min-width: 1024px) {
-    &__image {
-      width: auto;
+    @media only screen and (min-width: 1024px) {
       height: 25rem;
     }
-  }
 
-  @media only screen and (min-width: 1200px) {
-    &__image-container {
-      width: 100%;
-      height: auto;
-      overflow: hidden;
-    }
-
-    &__image {
+    @media only screen and (min-width: 1200px) {
       height: 32rem;
     }
-  }
 
-  @media only screen and (min-width: 1500px) {
-    &__image {
+    @media only screen and (min-width: 1500px) {
       height: 38rem;
     }
-  }
 
-  @media only screen and (min-width: 3000px) {
-    &__image {
+    @media only screen and (min-width: 3000px) {
       height: 64rem;
     }
   }
