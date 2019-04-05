@@ -68,12 +68,6 @@
     }
   }
 
-  @media only screen and (min-width: 1024px) {
-    &__list {
-      padding: 0;
-    }
-  }
-
   @media only screen and (min-width: 1200px) {
     &__list-item {
       &:first-child {
@@ -112,5 +106,11 @@
     &--light {
       font-family: "AkkuratLight", "Arial", sans-serif;
     }
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }

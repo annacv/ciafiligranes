@@ -1,0 +1,94 @@
+a {
+  display: flex;
+  align-items: baseline;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.button-outline-primary {
+  color: #fd2b5e;
+  border: solid .0625rem #fd2b5e;
+
+  .arrow_right {
+    background-repeat: no-repeat;
+    width: .6875rem;
+    height: .5rem;
+    margin-left: .25rem;
+
+    &.radicalred {
+      background-image: url("~@/assets/icons/arrow_right--radicalred.svg");
+    }
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #fd2b5e;
+
+    .arrow_right {
+      background-image: url("~@/assets/icons/arrow_right--white.svg");
+    }
+  }
+}
+
+.button-outline-secondary {
+  color: #000;
+  border: solid .0625rem #000;
+
+  .arrow_down {
+    background-repeat: no-repeat;
+    width: .5rem;
+    height: .6875rem;
+    margin-left: .25rem;
+
+    &.black {
+      background-image: url("~@/assets/icons/arrow_down--black.svg");
+    }
+
+    &.teal {
+      background-image: url("~@/assets/icons/arrow_down--teal.svg");
+    }
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+
+    .arrow_down {
+      background-image: url("~@/assets/icons/arrow_down--white.svg");
+    }
+  }
+}
+
+.button-outline-primary,
+.button-outline-secondary {
+  background-color: #fff;
+  border-radius: 1.125rem;
+  line-height: normal;
+  font-family: "AkkuratBold", "Arial", sans-serif;
+  padding: .5rem .8rem .5rem .7rem;
+
+  &__teal {
+    color: #008287;
+    border: solid .0625rem #20C0C6;
+
+    &:hover {
+      background-color: #008287;
+    }
+  }
+
+  &__eminence {
+    color: #5C2978;
+    border: solid .0625rem #5C2978;
+
+    &:hover {
+      background-color: #5C2978;
+      border: solid .0625rem #350A64;
+    }
+  }
+}
+
+
+

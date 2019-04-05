@@ -11,5 +11,16 @@ export default {
       title: 'Duración del espectáculo',
       description: '50 minutos'
     }
-  ]
+  ],
+
+  button: {
+    class: 'button-outline-secondary',
+    type: 'application',
+    href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+    text: 'Dosier',
+    slot: {
+      alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+      class: 'arrow_down black'
+    }
+  }
 }

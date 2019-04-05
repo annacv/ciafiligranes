@@ -36,9 +36,6 @@
                 class="synopsis__image"
               >
             </div>
-            <!--div class="synopsis__btn">
-              <b-button variant="outline-primary">Galeria</b-button>
-          </div-->
           </b-row>
         </div>
       </b-row>

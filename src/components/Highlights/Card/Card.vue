@@ -1,6 +1,6 @@
 <style
   lang="scss"
-  src="../highlights.scss"
+  src="./card.scss"
   scoped>
 </style>
 
@@ -16,22 +16,35 @@
       class="card__link"
     >
       <div class="card__content">
-        <h4
-          class="card__title"
-          v-text="title"
-        />
-        <h4
-          class="card__name"
-          v-text="name"
-        />
+        <div>
+          <h4
+            class="card__title"
+            v-text="title"
+          />
+          <h4
+            class="card__name"
+            v-text="name"
+          />
+        </div>
+        <div class="card__btn">
+          <Button
+            :button="button"
+          />
+        </div>
       </div>
     </a>
   </div>
 </template>
 
 <script>
+import Button from '../../Button/Button'
+
 export default {
   name: 'Card',
+
+  components: {
+    Button
+  },
 
   props: {
     alt: {
@@ -57,6 +70,11 @@ export default {
     title: {
       type: String,
       default: ''
+    },
+
+    button: {
+      type: Object,
+      default: () => {}
     }
   }
 }

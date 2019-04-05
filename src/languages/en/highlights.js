@@ -6,33 +6,73 @@ export default {
       {
         title: 'Shows',
         name: 'Desencaixats',
-        link: 'artefacte.org',
+        link: '',
         image: '/images/img_thumbnail_desencaixats.jpg',
-        alt: 'An image of Desencaixats show'
+        alt: 'An image of Desencaixats show',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
       },
 
       {
-        title: 'Tallers',
-        name: 'Pallassos',
-        link: 'artefacte.org',
+        title: 'Workshops',
+        name: 'Clowns',
+        link: '',
         image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'An image of the Clowns Workshop'
+        alt: 'An image of the Clowns Workshop',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
       },
 
       {
-        title: 'Animacions',
-        name: 'Germans Freak-Frac',
-        link: 'artefacte.org',
+        title: 'Performances',
+        name: 'Freak-Frac Brothers',
+        link: '',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'An image of The Feak-Frac Brothers Parade show'
+        alt: 'An image of The Feak-Frac Brothers Parade show',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
       },
 
       {
-        title: 'Espectacles',
-        name: 'El Circ Filixic',
-        link: 'github.com',
+        title: 'Shows',
+        name: 'The Filixic Circus',
+        link: '',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'An image of The Circ Filixic show'
+        alt: 'An image of The Circ Filixic show',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
       }
     ]
   }
