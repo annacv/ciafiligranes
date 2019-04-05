@@ -58,6 +58,10 @@ module.exports = {
       }
     ]
   ],
+
+  bootstrapVue: {
+    componentPlugins: ['Layout']
+  },
   /*
   ** Disable automatic inclusion of Bootstrap and BootstrapVue pre-compiled CSS
   */
