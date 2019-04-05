@@ -1,0 +1,44 @@
+.card {
+  margin-bottom: 1rem;
+  border: 0;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 2rem;
+  }
+
+  &__image {
+    width: 100%;
+    position: relative;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: linear-gradient(to bottom, rgba(92, 41, 120, 0), #000000);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 12% 4% 4% 4%;
+  }
+
+  &__link {
+    cursor: none; //still not having these links active
+  }
+
+  &__title,
+  &__name {
+    color: #fff;
+  }
+
+  &__title {
+    font-family: "Akkurat";
+  }
+
+  &__name {
+    text-transform: uppercase;
+    font-family: "AkkuratBold";
+  }
+}
