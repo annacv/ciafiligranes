@@ -27,6 +27,10 @@
     background-position: 100% bottom;
   }
 
+  @media only screen and (min-width: 1900px) {
+    background-size: 80%;
+  }
+
   @media only screen and (min-width: 3000px) {
     margin: 13rem 0;
     padding: 0 0 7rem 0;
@@ -63,6 +67,6 @@
   }
 
   &__items {
-    justify-content: center;
+    justify-content: space-between;
   }
 }
