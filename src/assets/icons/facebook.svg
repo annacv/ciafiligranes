@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>facebook</title>
+    <title>facebook outlined</title>
     <desc>Created with Sketch.</desc>
-    <g id="Design-Wider---AAFF" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD---MVP-w---contractar" transform="translate(-122.000000, -2839.000000)" stroke="#000000">
-            <g id="facebook" transform="translate(122.000000, 2839.000000)">
-                <circle id="Oval" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" cx="22" cy="22" r="21.5"></circle>
-                <path d="M24.6574074,13.8359375 L26.8888889,13.8359375 L26.8888889,9.94965278 C26.5046296,9.89713542 25.1805556,9.77777778 23.6388889,9.77777778 C20.4212963,9.77777778 18.2175926,11.8020833 18.2175926,15.5212674 L18.2175926,18.9444444 L14.6666667,18.9444444 L14.6666667,23.2890625 L18.2175926,23.2890625 L18.2175926,34.2222222 L22.5694444,34.2222222 L22.5694444,23.2890625 L25.9768519,23.2890625 L26.5185185,18.9444444 L22.5694444,18.9444444 L22.5694444,15.9509549 C22.5694444,14.6953125 22.9074074,13.8359375 24.6574074,13.8359375 Z" id="Path" stroke-width="0.6" fill="#000000" fill-rule="nonzero"></path>
-            </g>
-        </g>
+    <g id="facebook-outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#FFFFFF" cx="18" cy="18" r="17.5"></circle>
+        <path d="M21.1742424,11.3203125 L23,11.3203125 L23,8.140625 C22.6856061,8.09765625 21.6022727,8 20.3409091,8 C17.7083333,8 15.905303,9.65625 15.905303,12.6992188 L15.905303,15.5 L13,15.5 L13,19.0546875 L15.905303,19.0546875 L15.905303,28 L19.4659091,28 L19.4659091,19.0546875 L22.2537879,19.0546875 L22.6969697,15.5 L19.4659091,15.5 L19.4659091,13.0507812 C19.4659091,12.0234375 19.7424242,11.3203125 21.1742424,11.3203125 Z" id="Path" stroke="#FFFFFF" stroke-width="0.6" fill="#FFFFFF" fill-rule="nonzero"></path>
     </g>
 </svg>
