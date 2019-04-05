@@ -5,6 +5,10 @@
     display: flex;
     justify-content: center;
     padding: 0;
+
+    @media only screen and (min-width: 1200px) {
+      justify-content: flex-start;
+    }
   }
 
   &__list-item {
@@ -12,24 +16,6 @@
 
     &:last-child {
       margin-right: 0;
-    }
-  }
-
-  @media only screen and (min-width: 1200px) {
-    &__list {
-      justify-content: flex-start;
-    }
-  }
-
-  @media only screen and (min-width: 1500px) {
-    &__list-item {
-      margin-right: 1.5rem;
-    }
-  }
-
-  @media only screen and (min-width: 1900px) {
-    &__list-item {
-      margin-right: 2rem;
     }
   }
 
@@ -42,17 +28,13 @@
   &__image {
     width: 1.875rem;
     height: 1.875rem;
-  }
 
-  @media only screen and (min-width: 1900px) {
-    &__image {
+    @media only screen and (min-width: 1900px) {
       width: 2.5rem;
       height: 2.5rem;
     }
-  }
 
-  @media only screen and (min-width: 3000px) {
-    &__image {
+    @media only screen and (min-width: 3000px) {
       width: 3rem;
       height: 3rem;
     }

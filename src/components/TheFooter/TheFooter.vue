@@ -8,14 +8,14 @@
   <footer role="contentinfo">
     <b-container fluid class="footer__corp">
       <b-row no-gutters align-v="center">
-        <div class="col-12 col-md-3 col-lg-2 col-xxxl-1 footer__brand">
+        <div class="col-12 col-md-12 col-lg-2 col-xxxl-1 footer__brand">
           <img
             :alt="logo"
             src="~assets/icons/ciafiligranes.svg"
             class="footer__image"
           >
         </div>
-        <div class="col-12 col-md-9 col-lg-8 col-xl-5 col-xxl-4 col-xxxl-6 offset-lg-1 offset-xl-0 footer__contact">
+        <div class="col-12 col-md-12 col-lg-8 col-xl-5 col-xxl-4 col-xxxl-6 offset-lg-1 offset-xl-0 footer__contact">
           <b-row no-gutters align-v="center" align-h="center">
             <a
               :aria-label="email.arialabel"

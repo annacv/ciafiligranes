@@ -5,16 +5,12 @@
     padding: 2rem .9375rem;
     background: #000;
     color: #fff;
-  }
 
-  @media only screen and (min-width: 1024px) {
-    &__corp {
+    @media only screen and (min-width: 1024px) {
       padding: 3.5rem .9375rem;
     }
-  }
 
-  @media only screen and (min-width: 1200px) {
-    &__corp {
+    @media only screen and (min-width: 1200px) {
       padding: 4.5rem .9375rem;
     }
   }
@@ -27,6 +23,27 @@
     padding: 2rem 0;
     order: 2;
 
+    @media only screen and (min-width: 768px) {
+      padding: 3rem 0;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      justify-content: flex-start;
+      padding: 4rem 0 0;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      padding: 0;
+    }
+
+    @media only screen and (min-width: 1500px) {
+      font-size: 1rem;
+    }
+
+    @media only screen and (min-width: 3000px) {
+      font-size: 1.25rem;
+    }
+
     .contact {
       &__email {
         color: #fff;
@@ -34,20 +51,13 @@
         &:hover {
           text-decoration: underline;
         }
-      }
-    }
-  }
 
-  @media only screen and (min-width: 768px) {
-    &__contact {
-      padding: 3rem 0 0;
-      justify-content: flex-start;
-
-      .contact {
-        &__email {
+        @media only screen and (min-width: 768px) {
           margin-right: .75rem;
         }
+      }
 
+      @media only screen and (min-width: 768px) {
         &__adress {
           &::before {
             content: '·';
@@ -58,48 +68,24 @@
     }
   }
 
-  @media only screen and (min-width: 768px) {
-    &__contact {
-      padding: 4rem 0 0;
-    }
-  }
-
-  @media only screen and (min-width: 1200px) {
-    &__contact {
-      padding: 0;
-    }
-  }
-
-  @media only screen and (min-width: 1500px) {
-    &__contact {
-      font-size: 1rem;
-    }
-  }
-
-  @media only screen and (min-width: 3000px) {
-    &__contact {
-      font-size: 1.25rem;
-    }
-  }
-
   &__rrss {
     order: 3;
+
+    @media only screen and (min-width: 1024px) {
+      order: 1;
+    }
   }
 
   &__brand {
     display: inline-flex;
     justify-content: center;
     order: 1;
-  }
 
-  @media only screen and (min-width: 768px) {
-    &__rrss {
-      order: 1;
+    @media only screen and (min-width: 768px) {
+      align-self: flex-end;
     }
 
-    &__brand {
-      justify-content: flex-end;
-      align-self: flex-end;
+    @media only screen and (min-width: 1024px) {
       order: 3;
     }
   }
@@ -107,16 +93,12 @@
   &__image {
     height: 2.75rem;
     width: auto;
-  }
 
-  @media only screen and (min-width: 1900px) {
-    &__image {
+    @media only screen and (min-width: 1900px) {
       height: 3rem;
     }
-  }
 
-  @media only screen and (min-width: 3000px) {
-    &__image {
+    @media only screen and (min-width: 3000px) {
       height: 3.5rem;
     }
   }
@@ -151,10 +133,8 @@
 
       &__partners {
         display: flex;
-      }
 
-      @media only screen and (min-width: 441px) {
-        &__partners {
+        @media only screen and (min-width: 441px) {
           &::before {
             content: '·';
             margin-right: .5rem;
