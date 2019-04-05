@@ -6,33 +6,74 @@ export default {
       {
         title: 'Espectacles',
         name: 'Desencaixats',
-        link: 'artefacte.org',
+        link: '',
         image: '/images/img_thumbnail_desencaixats.jpg',
-        alt: "Imatge de l'espectacle Desencaixats"
+        alt: "Imatge de l'espectacle Desencaixats",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
       },
 
       {
         title: 'Tallers',
         name: 'Pallassos',
-        link: 'artefacte.org',
+        link: '',
         image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'Imatge del Taller de Pallassos'
+        alt: 'Imatge del Taller de Pallassos',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
       },
 
       {
         title: 'Animacions',
         name: 'Germans Freak-Frac',
-        link: 'artefacte.org',
+        link: '',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: "Imatge de l'espectacle itinerant Cercavila dels Germans Feak-Frac"
+        alt:
+          "Imatge de l'espectacle itinerant Cercavila dels Germans Feak-Frac",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
       },
 
       {
         title: 'Espectacles',
         name: 'El Circ Filixic',
-        link: 'github.com',
+        link: '',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: "Imatge de l'espectacle El Circ Filixic"
+        alt: "Imatge de l'espectacle El Circ Filixic",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
       }
     ]
   }

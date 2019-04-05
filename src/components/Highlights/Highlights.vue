@@ -22,13 +22,14 @@
             v-for="item in highlighted"
             :key="item.name"
             class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-xxxl-6">
-              <Card
-                :image="item.image"
-                :alt="item.alt"
-                :link="item.link"
-                :title="item.title"
-                :name="item.name"
-              />
+            <Card
+              :image="item.image"
+              :alt="item.alt"
+              :link="item.link"
+              :title="item.title"
+              :name="item.name"
+              :button="item.button"
+            />
           </div>
         </b-row>
       </div>
@@ -38,12 +39,14 @@
 
 <script>
 import Card from './Card/Card'
+import Button from '../Button/Button'
 
 export default {
   name: 'Highlights',
 
   components: {
-    Card
+    Card,
+    Button
   },
 
   props: {
