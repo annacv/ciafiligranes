@@ -12,7 +12,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-Desencaixats_ca.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
@@ -30,7 +30,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-TallerPallassos.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
@@ -49,7 +49,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-GermansFreakFrac.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
@@ -67,7 +67,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-ElCircFilixic.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
