@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>facebook outlined</title>
-    <desc>Created with Sketch.</desc>
-    <g id="facebook-outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" stroke="#FFFFFF" cx="18" cy="18" r="17.5"></circle>
-        <path d="M21.1742424,11.3203125 L23,11.3203125 L23,8.140625 C22.6856061,8.09765625 21.6022727,8 20.3409091,8 C17.7083333,8 15.905303,9.65625 15.905303,12.6992188 L15.905303,15.5 L13,15.5 L13,19.0546875 L15.905303,19.0546875 L15.905303,28 L19.4659091,28 L19.4659091,19.0546875 L22.2537879,19.0546875 L22.6969697,15.5 L19.4659091,15.5 L19.4659091,13.0507812 C19.4659091,12.0234375 19.7424242,11.3203125 21.1742424,11.3203125 Z" id="Path" stroke="#FFFFFF" stroke-width="0.6" fill="#FFFFFF" fill-rule="nonzero"></path>
-    </g>
-</svg>
+<svg width="36" height="36" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" fill="none" fill-rule="evenodd"><circle cx="18" cy="18" r="17.5"/><path d="M21.174 11.32H23V8.14A23.66 23.66 0 0 0 20.34 8c-2.632 0-4.435 1.656-4.435 4.7v2.8H13v3.555h2.905V28h3.56v-8.945h2.789l.443-3.555h-3.231v-2.45c0-1.027.276-1.73 1.708-1.73z" stroke-width=".6" fill="#FFF" fill-rule="nonzero"/></g></svg>
