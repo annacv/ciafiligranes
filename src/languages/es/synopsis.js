@@ -12,7 +12,5 @@ export default {
     }
   ],
 
-  image: '/images/img_sinopsi_plisplas_placeholder.jpg',
-
   alt: 'Imagen del espectáculo Plis-plas'
 }
