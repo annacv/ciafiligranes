@@ -10,7 +10,6 @@
     />
     <Synopsis
       :title="$t('synopsis.title')"
-      :image="$t('synopsis.image')"
       :alt="$t('synopsis.alt')"
       :paragraphs="$t('synopsis.paragraphs')"
       class="home"

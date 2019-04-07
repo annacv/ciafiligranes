@@ -12,7 +12,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-Desencaixats_es.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
@@ -23,14 +23,14 @@ export default {
 
       {
         title: 'Talleres',
-        name: 'Pallasos',
+        name: 'Payasos',
         link: '',
         image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'Imagen del Taller de Pallasos',
+        alt: 'Imagen del Taller de Payasos',
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-TallerPayasos.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
@@ -49,7 +49,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
@@ -67,7 +67,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-ElCircoFilixic.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',

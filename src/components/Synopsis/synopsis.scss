@@ -11,8 +11,13 @@
     color: #fff;
     line-height: 1.89;
 
+    @media only screen and (min-width: 1024px) {
+      margin-right: 2rem;
+    }
+
     @media only screen and (min-width: 1200px) {
       font-size: 1.125rem;
+      margin-right: 0;
     }
 
     @media only screen and (min-width: 1500px) {
@@ -54,11 +59,11 @@
 
     @media only screen and (min-width: 1200px) {
       &:first-child {
-        padding: 4.76rem 0 1rem;
+        padding: 4rem 0 1rem;
       }
 
       &:last-child {
-        padding: 1rem 0 4.76rem;
+        padding: 1rem 0 4rem;
       }
     }
   }
@@ -67,40 +72,30 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
+
+    @media only screen and (min-width: 769px) {
+      justify-content: flex-end;
+    }
   }
 
   &__image {
     width: auto;
     height: 20rem;
 
-    @media only screen and (min-width: 576px) {
+    @media only screen and (min-width: 512px) {
       height: 28rem;
     }
 
-    @media only screen and (min-width: 768px) {
-      height: 35rem;
-    }
-
-    @media only screen and (min-width: 992px) {
-      height: 26rem;
-    }
-
-    @media only screen and (min-width: 1024px) {
-      height: 25rem;
-    }
-
-    @media only screen and (min-width: 1200px) {
-      height: 32rem;
+    @media only screen and (min-width: 720px) {
+      height: 100%;
+      width: 100%;
     }
 
     @media only screen and (min-width: 1500px) {
-      height: 38rem;
-    }
-
-    @media only screen and (min-width: 3000px) {
-      height: 64rem;
+      height: 100%;
+      width: 120%;
     }
   }
 }

@@ -12,7 +12,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-Desencaixats_en.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',
@@ -30,7 +30,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-ClownsWorkshop.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',
@@ -48,7 +48,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-FreakFracBrothers.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',
@@ -66,7 +66,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+          href: '/assets/downloads/CiaFiligranes-TheFilixicCircus.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',

@@ -1,18 +1,24 @@
 .cover {
-  background-image: url("~@/assets/images/img_cover_placeholder.jpg");
+  background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 55% 50%;
+  background-position: 50% 0%;
   position: relative;
   top: 0;
   left: 0;
 
   @media only screen and (min-width: 768px) {
+    background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
+    background-position: 50% 0%;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    background-image: url("~@/assets/images/img_cover_plisplas.jpg");
     background-position: 50% 30%;
   }
 
   &__content {
-    padding: 8rem 0 4rem;
+    padding: 8rem 0 6rem;
     display: flex;
     justify-content: flex-start;
     color: #fff;
