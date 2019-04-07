@@ -16,7 +16,7 @@ export default {
   button: {
     class: 'button-outline-secondary',
     type: 'application',
-    href: '/assets/downloads/CiaFiligranes-PlisPlas_dossier-ca.pdf',
+    href: '/assets/downloads/CiaFiligranes-PlisPlas_ca.pdf',
     text: 'Dossier',
     slot: {
       alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
