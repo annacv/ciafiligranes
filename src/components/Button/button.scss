@@ -9,8 +9,8 @@ a {
 }
 
 .button-outline-primary {
-  color: #fd2b5e;
-  border: solid .0625rem #fd2b5e;
+  color: #e1092e;
+  border: solid .0625rem #e1092e;
 
   .arrow_right {
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ a {
 
   &:hover {
     color: #fff;
-    background-color: #fd2b5e;
+    background-color: #e1092e;
 
     .arrow_right {
       background-image: url("~@/assets/icons/arrow_right--white.svg");
