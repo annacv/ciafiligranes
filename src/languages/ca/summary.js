@@ -17,6 +17,7 @@ export default {
     class: 'button-outline-secondary',
     type: 'application',
     href: '/assets/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+    download: 'CiaFiligranes-PlisPlas_ca.pdf',
     text: 'Dossier',
     slot: {
       alt: 'Fletxa descendent. En clicar es descarrega un arxiu',

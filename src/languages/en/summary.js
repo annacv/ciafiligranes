@@ -17,6 +17,7 @@ export default {
     class: 'button-outline-secondary',
     type: 'application',
     href: '/assets/downloads/CiaFiligranes-PlisPlas_en.pdf',
+    download: 'CiaFiligranes-PlisPlas_en.pdf',
     text: 'Dossier',
     slot: {
       alt: 'Arrow down. By clicking a file will be downloaded',

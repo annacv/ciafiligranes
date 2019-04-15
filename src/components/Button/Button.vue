@@ -10,8 +10,8 @@
     :class="button.class"
     :type="button.type"
     :href="button.href"
+    :download="button.download"
     role="button"
-    download="CiaFiligranes-PlisPlas_dossier-ca.pdf"
     target="__blank"
   >
     <slot>

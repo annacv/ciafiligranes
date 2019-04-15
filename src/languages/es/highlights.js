@@ -13,6 +13,7 @@ export default {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
           href: '/assets/downloads/CiaFiligranes-Desencaixats_es.pdf',
+          download: 'CiaFiligranes-Desencaixats_es.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
@@ -31,6 +32,7 @@ export default {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
           href: '/assets/downloads/CiaFiligranes-TallerPayasos.pdf',
+          download: 'CiaFiligranes-TallerPayasos.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
@@ -50,6 +52,7 @@ export default {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
           href: '/assets/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
+          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
@@ -68,6 +71,7 @@ export default {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
           href: '/assets/downloads/CiaFiligranes-ElCircoFilixic.pdf',
+          download: 'CiaFiligranes-ElCircoFilixic.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
