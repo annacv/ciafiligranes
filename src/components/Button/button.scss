@@ -9,8 +9,8 @@ a {
 }
 
 .button-outline-primary {
-  color: #e1092e;
-  border: solid .0625rem #e1092e;
+  color: #fd2b5e;
+  border: solid .0625rem #fd2b5e;
 
   .arrow_right {
     background-repeat: no-repeat;
@@ -19,13 +19,13 @@ a {
     margin-left: .25rem;
 
     &.radicalred {
-      background-image: url("~@/assets/icons/arrow_right--redribbon.svg");
+      background-image: url("~@/assets/icons/arrow_right--radical-red.svg");
     }
   }
 
   &:hover {
     color: #fff;
-    background-color: #e1092e;
+    background-color: #fd2b5e;
 
     .arrow_right {
       background-image: url("~@/assets/icons/arrow_right--white.svg");
