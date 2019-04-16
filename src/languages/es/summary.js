@@ -16,7 +16,7 @@ export default {
   button: {
     class: 'button-outline-secondary',
     type: 'application',
-    href: '/assets/downloads/CiaFiligranes-PlisPlas_es.pdf',
+    href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
     download: 'CiaFiligranes-PlisPlas_es.pdf',
     text: 'Dosier',
     slot: {
