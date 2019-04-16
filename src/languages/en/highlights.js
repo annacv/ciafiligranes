@@ -12,7 +12,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-Desencaixats_en.pdf',
+          href: '/downloads/CiaFiligranes-Desencaixats_en.pdf',
           download: 'CiaFiligranes-Desencaixats_en.pdf',
           text: 'Dossier',
           slot: {
@@ -31,7 +31,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-ClownsWorkshop.pdf',
+          href: '/downloads/CiaFiligranes-ClownsWorkshop.pdf',
           download: 'CiaFiligranes-ClownsWorkshop.pdf',
           text: 'Dossier',
           slot: {
@@ -50,7 +50,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-FreakFracBrothers.pdf',
+          href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
           download: 'CiaFiligranes-FreakFracBrothers.pdf',
           text: 'Dossier',
           slot: {
@@ -69,7 +69,7 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/assets/downloads/CiaFiligranes-TheFilixicCircus.pdf',
+          href: '/downloads/CiaFiligranes-TheFilixicCircus.pdf',
           download: 'CiaFiligranes-TheFilixicCircus.pdf',
           text: 'Dossier',
           slot: {
