@@ -1,14 +1,27 @@
 // Colors
-$black: rgba(0, 0, 0, 1);
-$cardinal: rgba(188, 27, 54, 1);
-$eminence: rgba(92, 41, 120, 1);
-$electric-violet: rgba(134, 63, 238, 1);
-$illusion: rgba(246, 177, 189, 1);
-$java: rgba(32, 192, 198, 1);
-$radical-red: rgba(253, 43, 94, 1);
-$red-ribbon: rgba(225, 9, 46, 1);
-$teal: rgba(0, 130, 135, 1);
-$tundora: rgba(68, 68, 68, 1);
-$white: rgba(255, 255, 255, 1);
+$black: #000 !default;
+$cardinal: #bc1b36 !default;
+$eminence: #5c2978 !default;
+$electric-violet: #863fee !default;
+$illusion: #f6b1bd !default;
+$java: #20c0c6 !default;
+$radical-red: #fd2b5e !default;
+$red-ribbon: #e1092e !default;
+$teal: #008287 !default;
+$tundora: #444 !default;
+$white: #fff !default;
+
+$colors: () !default;
+$colors: map-merge(("black": $black,
+"cardinal": $cardinal,
+"eminence": $eminence,
+"electric-violet": $electric-violet,
+"illusion": $illusion,
+"java": $java,
+"radical-red": $radical-red,
+"red-ribbon": $red-ribbon,
+"teal": $teal,
+"tundora": $tundora,
+"white": $white), $colors);
 
 $color-primary: $radical-red;
