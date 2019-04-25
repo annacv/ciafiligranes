@@ -82,13 +82,11 @@ module.exports = {
     ]
   ],
 
-  bootstrapVue: {
-    componentPlugins: ['Layout']
-  },
   /*
-  ** Disable automatic inclusion of Bootstrap and BootstrapVue pre-compiled CSS
+  ** Disable automatic inclusion of Bootstrap and BootstrapVue pre-compiled CSS and add only layout component
   */
   bootstrapVue: {
+    componentPlugins: ['Layout'],
     bootstrapCSS: false, // or `css`
     bootstrapVueCSS: false // or `bvCSS`
   },
