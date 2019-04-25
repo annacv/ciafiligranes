@@ -50,8 +50,8 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 // 3. Set an explicit initial text-align value so that we can later use the
 //    the `inherit` value on things like `<th>` elements.
 
-// body {
-//   margin: 0; // 1
+body {
+  margin: 0; // 1
 //   font-family: $font-family-base;
 //   font-size: $font-size-base;
 //   font-weight: $font-weight-base;
@@ -59,7 +59,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 //   color: $body-color;
 //   text-align: left; // 3
 //   background-color: $body-bg; // 2
-// }
+}
 
 // Suppress the focus outline on elements that cannot be accessed via keyboard.
 // This prevents an unwanted focus outline from appearing around elements that
@@ -127,7 +127,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  //margin-bottom: 1rem;
 }
 
 ol ol,

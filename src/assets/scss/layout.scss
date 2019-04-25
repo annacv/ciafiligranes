@@ -10,13 +10,6 @@
   }
 }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 html,
 body {
   position: relative;
@@ -29,13 +22,16 @@ body {
   outline: .125rem auto #f6b1bd;
 }
 
+a {
+  text-decoration: none;
+}
+
 a [href^="tel:"] {
   white-space: nowrap;
 }
 
 ul {
   list-style-type: none;
-  margin-bottom: 0;
 }
 
 h1,
@@ -49,6 +45,7 @@ p {
 h3 {
   font-size: 1.75rem;
   font-family: "AkkuratLight", "Arial", sans-serif;
+  font-weight: 200;
 }
 
 h4 {
