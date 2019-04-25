@@ -16,10 +16,52 @@ module.exports = {
     title: 'Companyia Filigranes',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'msapplication-TileColor', content: '#b91d47' },
+      { name: 'theme-color', content: '#ffffff' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: 'favicon/favicon.ico'
+      },
+      {
+        rel: 'shortcut icon',
+        href: 'favicon/favicon.ico?filigranes=WGozkoE8Mx'
+      },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: 'favicon/apple-touch-icon.png?filigranes=WGozkoE8Mx'
+      },
+      {
+        rel: 'icon',
+        sizes: '32x32',
+        type: 'image/png',
+        href: 'favicon//favicon-32x32.png?filigranes=WGozkoE8Mx'
+      },
+      {
+        rel: 'icon',
+        sizes: '192x192',
+        type: 'image/png',
+        href: 'favicon//android-chrome-192x192.png?filigranes=WGozkoE8Mx'
+      },
+      {
+        rel: 'icon',
+        sizes: '16x16',
+        type: 'image/png',
+        href: 'favicon/favicon-16x16.png?filigranes=WGozkoE8Mx'
+      },
+      {
+        rel: 'manifest',
+        href: 'favicon/site.webmanifest?filigranes=WGozkoE8Mx'
+      },
+      {
+        rel: 'mask-icon',
+        href: 'favicon/safari-pinned-tab.svg?filigranes=WGozkoE8Mx',
+        color: '#bc1b36'
+      },
       {
         rel: 'preload',
         as: 'font',
