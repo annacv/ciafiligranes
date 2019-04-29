@@ -12,18 +12,6 @@
       role="navigation"
       aria-label="main navigation">
         <div class="grid-col-12">
-          <ul>
-            <li
-              v-for="(item, key) of items"
-              :key="key"
-              class="navbar__menu-item">
-              <nuxt-link
-                :to="item.to"
-                exact-active-class="is-active">
-                {{ item.title }}
-              </nuxt-link>
-            </li>
-          </ul>
         </div>
         <LanguageSelector
           :selectlang="$t('header.selectlang')"
@@ -41,17 +29,6 @@ export default {
 
   components: {
     LanguageSelector
-  },
-
-  data() {
-    return {
-      items: [
-        {
-          title: 'Contactar',
-          to: { name: 'contactar' }
-        }
-      ]
-    }
   }
 }
 </script>
