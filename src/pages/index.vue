@@ -2,6 +2,7 @@
   <div class="content">
     <Cover
       :content="$t('cover.home')"
+      class="cover__home"
     />
     <Summary
       :abstract="$t('summary.abstract')"

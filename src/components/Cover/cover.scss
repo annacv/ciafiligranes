@@ -1,20 +1,22 @@
 .cover {
-  background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 0%;
-  position: relative;
-  top: 0;
-  left: 0;
-
-  @media only screen and (min-width: 768px) {
-    background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
+  &__home {
+    background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: 50% 0%;
-  }
+    position: relative;
+    top: 0;
+    left: 0;
 
-  @media only screen and (min-width: 1024px) {
-    background-image: url("~@/assets/images/img_cover_plisplas.jpg");
-    background-position: 50% 30%;
+    @media only screen and (min-width: 768px) {
+      background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
+      background-position: 50% 0%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      background-image: url("~@/assets/images/img_cover_plisplas.jpg");
+      background-position: 50% 30%;
+    }
   }
 
   &__content {
@@ -36,6 +38,7 @@
     }
   }
 
+
   &__claim {
     margin-bottom: .5rem;
     line-height: 1.125;
@@ -46,8 +49,8 @@
     @media only screen and (min-width: 768px) {
       font-size: 2.5rem;
       font-family: "AkkuratLight",
-      "Arial",
-      sans-serif;
+        "Arial",
+        sans-serif;
       text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.5);
     }
 
@@ -78,6 +81,29 @@
       font-size: 5rem;
     }
   }
+
+  &__404 {
+    background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    & > .cover__content {
+      justify-content: center;
+      text-align: center;
+      flex-direction: row-reverse;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
+
+
+
 
 
