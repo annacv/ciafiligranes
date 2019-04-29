@@ -6,7 +6,8 @@ module.exports = {
   srcDir: './src',
 
   generate: {
-    dir: 'build'
+    dir: 'build',
+    fallback: true
   },
 
   /*
