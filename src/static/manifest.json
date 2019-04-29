@@ -23,5 +23,5 @@
     "display": "standalone",
     "@type": "WebSite",
     "start_url": "ciafiligranes.net",
-    "scope": "ciafiligranes.net/"
+    "scope": "ciafiligranes.net"
 }

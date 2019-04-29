@@ -51,7 +51,8 @@ export default {
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/downloads/CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
+          href:
+            '/downloads/CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
           download: 'CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
           text: 'Dosier',
           slot: {
