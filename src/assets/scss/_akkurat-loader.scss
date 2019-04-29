@@ -1,5 +1,6 @@
 @font-face {
   font-family: "AkkuratLight";
+  font-display: swap;
   src: url("/fonts/akkurat/akkurat_light_regular-webfont.eot");
   src: url('/fonts/akkurat/akkurat_light_regular-webfont.eot?#iefix') format('embedded-opentype'),
       url('/fonts/akkurat/akkurat_light_regular-webfont.woff2') format('woff2'),
@@ -9,10 +10,11 @@
   font-weight: 200;
   font-style: normal;
   text-rendering: optimizeLegibility;
-};
+}
 
 @font-face {
   font-family: "AkkuratLightItalic";
+  font-display: swap;
   src: url("/fonts/akkurat/akkurat_light_italic-webfont.eot");
   src: url('/fonts/akkurat/akkurat_light_italic-webfont.eot?#iefix') format('embedded-opentype'),
       url('/fonts/akkurat/akkurat_light_italic-webfont.woff2') format('woff2'),
@@ -22,10 +24,11 @@
   font-weight: 200;
   font-style: normal;
   text-rendering: optimizeLegibility;
-};
+}
 
 @font-face {
   font-family: "Akkurat";
+  font-display: swap;
   src: url("/fonts/akkurat/akkurat_regular-webfont.eot");
   src: url('/fonts/akkurat/akkurat_regular-webfont.eot?#iefix') format('embedded-opentype'),
       url('/fonts/akkurat/akkurat_regular-webfont.woff2') format('woff2'),
@@ -35,10 +38,11 @@
   font-weight: 400;
   font-style: normal;
   text-rendering: optimizeLegibility;
-};
+}
 
 @font-face {
   font-family: "AkkuratItalic";
+  font-display: swap;
   src: url("/fonts/akkurat/akkurat_italic-webfont.eot");
   src: url('/fonts/akkurat/akkurat_italic-webfont.eot?#iefix') format('embedded-opentype'),
       url('/fonts/akkurat/akkurat_italic-webfont.woff2') format('woff2'),
@@ -48,10 +52,11 @@
   font-weight: 400;
   font-style: normal;
   text-rendering: optimizeLegibility;
-};
+}
 
 @font-face {
   font-family: "AkkuratBold";
+  font-display: swap;
   src: url("/fonts/akkurat/akkurat_bold-webfont.eot");
   src: url('/fonts/akkurat/akkurat_bold-webfont.eot?#iefix') format('embedded-opentype'),
       url('/fonts/akkurat/akkurat_bold-webfont.woff2') format('woff2'),
@@ -61,10 +66,11 @@
   font-weight: 900;
   font-style: normal;
   text-rendering: optimizeLegibility;
-};
+}
 
 @font-face {
   font-family: "AkkuratBoldItalic";
+  font-display: swap;
   src: url("/fonts/akkurat/akkurat_bold_italic-webfont.eot");
   src: url('/fonts/akkurat/akkurat_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
       url('/fonts/akkurat/akkurat_bold_italic-webfont.woff2') format('woff2'),
@@ -74,10 +80,14 @@
   font-weight: 900;
   font-style: normal;
   text-rendering: optimizeLegibility;
-};
+}
+
+html {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
 
 body {
   font-family: "Akkurat";
-  font-display: optional;
 }
 

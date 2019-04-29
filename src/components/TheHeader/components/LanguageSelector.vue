@@ -10,11 +10,11 @@
     <label
       :aria-label="selectlang"
       class="language-selector__label"
-      for="select-lang"
+      for="selectlang"
     >
     </label>
     <select
-      id="select-lang"
+      id="selectlang"
       :aria-label="selectlang"
       :name="selectname"
       v-model="selected"
@@ -28,9 +28,11 @@
       </option>
       <option
         v-for="locale in availableLocales"
+        :value="locale.code"
         :key="locale.code" >{{ locale.name }}
         <nuxt-link
-          :to="switchLocalePath(locale.code)">
+          :to="switchLocalePath(locale.code)"
+          :aria-label="locale.iso">
         </nuxt-link>
       </option>
     </select>
