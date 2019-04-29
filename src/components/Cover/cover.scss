@@ -92,12 +92,19 @@
     left: 0;
 
     & > .cover__content {
+      padding: 14rem 0 16rem;
       justify-content: center;
-      text-align: center;
-      flex-direction: row-reverse;
 
       &:hover {
         text-decoration: underline;
+      }
+
+      @media only screen and (min-width: 768px) {
+        padding: 22.5rem 0 28.5rem;
+      }
+
+      @media only screen and (min-width: 1024px) {
+        padding: 30.5rem 0 32.5rem;
       }
     }
   }
