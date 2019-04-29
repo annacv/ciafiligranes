@@ -80,15 +80,17 @@
       width: 3.375rem;
       height: 1.75rem;
       color: #fff;
-      font-family: 'AkkuratLight';
+      font-family: 'Akkurat';
       line-height: 1.2;
       font-size: .875rem;
-      border: 1px solid #bc1b36;
+      border: 1px solid #fff;
       border-radius: .875rem;
       padding: 0 .5rem;
 
       &:hover {
-        background-color: #fd2b5e;
+        background-color: #fff;
+        background-image: url("~@/assets/icons/select_down--black.svg");
+        color: #000;
       }
 
       @media only screen and (min-width: 1900px) {
