@@ -4,16 +4,16 @@ export default {
     description: 'Find shows, workshops and customized performances for you',
     highlighted: [
       {
-        title: 'Shows',
-        name: 'Desencaixats',
+        title: 'Show',
+        name: 'The Filixic Circus',
         link: '',
-        image: '/images/img_thumbnail_desencaixats.jpg',
-        alt: 'An image of Desencaixats show',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'An image of The Circ Filixic show',
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/downloads/CiaFiligranes-Desencaixats_en.pdf',
-          download: 'CiaFiligranes-Desencaixats_en.pdf',
+          href: '/downloads/CiaFiligranes-TheFilixicCircus.pdf',
+          download: 'CiaFiligranes-TheFilixicCircus.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',
@@ -24,15 +24,15 @@ export default {
 
       {
         title: 'Workshops',
-        name: 'Clowns',
+        name: 'Circus',
         link: '',
-        image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'An image of the Clowns Workshop',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'An image of the Circus Workshop',
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/downloads/CiaFiligranes-ClownsWorkshop.pdf',
-          download: 'CiaFiligranes-ClownsWorkshop.pdf',
+          href: '/downloads/CiaFiligranes-CircusWorkshop.pdf',
+          download: 'CiaFiligranes-CircusWorkshop.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',
@@ -42,7 +42,26 @@ export default {
       },
 
       {
-        title: 'Performances',
+        title: 'Workshop',
+        name: 'Soap Bubbles',
+        link: '',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'An image of The Soap Bubbles Workshop',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-SoapBubblesWorkshop.pdf',
+          download: 'CiaFiligranes-SoapBubblesWorkshop.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Itinerant Show',
         name: 'Freak-Frac Brothers',
         link: '',
         image: '/images/img_thumbnail_freakfrac.jpg',
@@ -52,25 +71,6 @@ export default {
           type: 'application',
           href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
           download: 'CiaFiligranes-FreakFracBrothers.pdf',
-          text: 'Dossier',
-          slot: {
-            alt: 'Arrow down. By clicking a file will be downloaded',
-            class: 'arrow_down teal'
-          }
-        }
-      },
-
-      {
-        title: 'Shows',
-        name: 'The Filixic Circus',
-        link: '',
-        image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'An image of The Circ Filixic show',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-TheFilixicCircus.pdf',
-          download: 'CiaFiligranes-TheFilixicCircus.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',

@@ -4,16 +4,16 @@ export default {
     description: 'Troba espectacles, tallers i animacions fetes a mida',
     highlighted: [
       {
-        title: 'Espectacles',
-        name: 'Desencaixats',
+        title: 'Espectacle',
+        name: 'El Circ Filixic',
         link: '',
-        image: '/images/img_thumbnail_desencaixats.jpg',
-        alt: "Imatge de l'espectacle Desencaixats",
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: "Imatge de l'espectacle El Circ Filixic",
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/downloads/CiaFiligranes-Desencaixats_ca.pdf',
-          download: 'CiaFiligranes-Desencaixats_ca.pdf',
+          href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
+          download: 'CiaFiligranes-ElCircFilixic.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
@@ -23,16 +23,16 @@ export default {
       },
 
       {
-        title: 'Tallers',
-        name: 'Pallassos',
+        title: 'Taller',
+        name: 'Circ',
         link: '',
-        image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'Imatge del Taller de Pallassos',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'Imatge del Taller de Circ',
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',
-          href: '/downloads/CiaFiligranes-TallerPallassos.pdf',
-          download: 'CiaFiligranes - TallerPallassos.pdf',
+          href: '/downloads/CiaFiligranes-TallerCirc.pdf',
+          download: 'CiaFiligranes - TallerCirc.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
@@ -42,7 +42,26 @@ export default {
       },
 
       {
-        title: 'Animacions',
+        title: 'Taller',
+        name: 'Bombolles de sabó',
+        link: '',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'Imatge del taller de Bombolles de Sabó',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-TallerBombollesSabo.pdf',
+          download: 'CiaFiligranes-TallerBombollesSabo.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Espectacle itinerant',
         name: 'Germans Freak-Frac',
         link: '',
         image: '/images/img_thumbnail_freakfrac.jpg',
@@ -53,25 +72,6 @@ export default {
           type: 'application',
           href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
           download: 'CiaFiligranes-GermansFreakFrac.pdf',
-          text: 'Dossier',
-          slot: {
-            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-            class: 'arrow_down teal'
-          }
-        }
-      },
-
-      {
-        title: 'Espectacles',
-        name: 'El Circ Filixic',
-        link: '',
-        image: '/images/img_thumbnail_filixic.jpg',
-        alt: "Imatge de l'espectacle El Circ Filixic",
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
-          download: 'CiaFiligranes-ElCircFilixic.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
