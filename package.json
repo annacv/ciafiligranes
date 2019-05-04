@@ -22,8 +22,7 @@
     "nuxt-i18n": "^5.10.0",
     "vue": "^2.6.10",
     "vue-server-renderer": "^2.6.10",
-    "vue-template-compiler": "^2.6.10",
-    "tar": ">=4.4.2"
+    "vue-template-compiler": "^2.6.10"
   },
   "devDependencies": {
     "acorn": "^6.1.1",
