@@ -105,7 +105,71 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
-
+    [
+      'nuxt-cookie-control',
+      {
+        colors: {
+          barTextColor: '#fff',
+          barBackground: '#12957b',
+          barButtonColor: '#fff',
+          barButtonBackground: '#206569',
+          barButtonHoverColor: '#fff',
+          barButtonHoverBackground: '#2e495e',
+          modalButtonBackground: '#206569',
+          modalButtonHoverColor: '#fff',
+          modalButtonHoverBackground: '#2e495e',
+          checkboxActiveBackground: '#2e495e',
+          checkboxInactiveBackground: '#12957b',
+          checkboxActiveCircleBackground: '#00c58e',
+          checkboxInactiveCircleBackground: '#00c58e',
+          checkboxDisabledBackground: '#ddd',
+          checkboxDisabledCircleBackground: '#fff'
+        },
+        text: {
+          locale: {
+            ca: {
+              barTitle: 'Cookies',
+              barDescription:
+                'We use third-party cookies so that we can show you this website and better understand how you use it, with a view to improving the services we offer. If you continue browsing, we consider that you have accepted the cookies.',
+              acceptAll: 'Accept all',
+              declineAll: 'Delete all',
+              manageCookies: 'Manage cookies',
+              unsaved: 'You have unsaved settings',
+              close: 'Close',
+              save: 'Save',
+              necessary: 'Necessary cookies',
+              optional: 'Optional cookies'
+            },
+            es: {
+              barTitle: 'Cookies',
+              barDescription:
+                'We use third-party cookies so that we can show you this website and better understand how you use it, with a view to improving the services we offer. If you continue browsing, we consider that you have accepted the cookies.',
+              acceptAll: 'Accept all',
+              declineAll: 'Delete all',
+              manageCookies: 'Manage cookies',
+              unsaved: 'You have unsaved settings',
+              close: 'Close',
+              save: 'Save',
+              necessary: 'Necessary cookies',
+              optional: 'Optional cookies'
+            },
+            en: {
+              barTitle: 'Cookies',
+              barDescription:
+                'We use our own cookies and third-party cookies so that we can show you this website and better understand how you use it, with a view to improving the services we offer. If you continue browsing, we consider that you have accepted the cookies.',
+              acceptAll: 'Accept all',
+              declineAll: 'Delete all',
+              manageCookies: 'Manage cookies',
+              unsaved: 'You have unsaved settings',
+              close: 'Close',
+              save: 'Save',
+              necessary: 'Necessary cookies',
+              optional: 'Optional cookies'
+            }
+          }
+        }
+      }
+    ],
     [
       'nuxt-i18n',
       {
@@ -128,6 +192,40 @@ module.exports = {
     componentPlugins: ['Layout'],
     bootstrapCSS: false, // or `css`
     bootstrapVueCSS: false // or `bvCSS`
+  },
+
+  cookies: {
+    necessary: [
+      {
+        name: 'Default cookies',
+        description: {
+          ca: 'Used for cookie control.',
+          en: 'Used for cookie control.',
+          es: 'Used for cookie control.'
+        },
+        cookies: ['cookie_control_consent', 'cookie_control_enabled_cookies']
+      }
+    ],
+    optional: [
+      {
+        name: 'Google Analitycs',
+        description: {
+          ca:
+            'Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.',
+          en:
+            'Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.',
+          es:
+            'Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.'
+        },
+        src: 'https://www.google-analytics.com/analytics.js',
+        async: true,
+        cookies: ['_ga', '_gid'],
+        accepted: () => {
+          window.dataLayer = window.dataLayer || []
+        },
+        declined: () => {}
+      }
+    ]
   },
   /*
   ** Axios module configuration
