@@ -18,6 +18,9 @@
       :cia="$t('footer.cia')"
       :credits="$t('footer.credits')"
     />
+    <CookieControl
+      :locale="$store.state.lang"
+    />
   </div>
 </template>
 
