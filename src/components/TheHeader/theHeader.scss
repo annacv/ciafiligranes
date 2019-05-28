@@ -54,7 +54,7 @@
       display: none; //we'll make it visible & pass binded text when we'll have the page or modal component created
       color: #fff;
       font-size: 1.125rem;
-      font-family: 'AkkuratLight';
+      font-family: 'AkkuratLight', 'Arial', sans-serif;
       margin: 0 4rem;
 
       &:hover {
@@ -80,7 +80,7 @@
       width: 3.375rem;
       height: 1.75rem;
       color: #fff;
-      font-family: 'Akkurat';
+      font-family: 'Akkurat','Arial', sans-serif;
       line-height: 1.2;
       font-size: .875rem;
       border: 1px solid #fff;
