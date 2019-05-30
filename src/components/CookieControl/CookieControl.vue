@@ -1,147 +1,156 @@
+<style
+  lang="scss"
+  src="./cookieControl.scss"
+  scoped>
+</style>
+
 <template>
-  <div>
-    <h1>Nuxt.js Cookie Control</h1>
-    <p>
-      <a
-        href="https://www.npmjs.com/package/nuxt-cookie-control"
-        target="_blank"
-      >nuxt-cookie-control</a>
-    </p>
-    <section>
-      <div>
-        <button class v-text="'Open cookie control'" @click="$cookies.modal = true"/>
-        <button class v-text="'Delete consent'" @click="deleteConsent()" v-if="$cookies.consent"/>
-        <select v-model="lang">
-          <option v-for="(l, key) in availableLang" :key="l.id" :value="key" v-text="l"/>
-        </select>
+  <section
+    v-if="cookies.text"
+    class="cookie-control"
+  >
+    <transition name="cookie-control__bar">
+    <div
+      v-if="colorsSet && !cookies.consent"
+      class="cookie-control__bar row"
+    >
+      <div class="col-12 col-md-10">
+        <p>
+          <a
+            :href="text.href"
+            class="cookies-link"
+            v-text="text.barDescription"
+          />
+        </p>
       </div>
-    </section>
-    <pre>Enabled cookies: [{{ enabledCookies }}]</pre>
-  </div>
+      <div class="cookie-control__bar-buttons col-12 col-md-2">
+        <button
+          :alt="text.alt"
+          @click="setConsent" v-text="text.acceptAll"
+        />
+      </div>
+    </div>
+    </transition>
+  </section>
 </template>
 
 <script>
 export default {
+  name: 'CookieControl',
+
+  props: {
+    locale: {
+      type: String,
+      default: 'en'
+    },
+
+    text: {
+      type: Object,
+      default: () => {},
+      required: true
+    }
+  },
+
   data() {
     return {
-      lang: this.$store.state.lang,
-      availableLang: {
-        ca: "Català",
-        en: "English",
-        es: "Español"
-      }
-    };
+      saved: true,
+      colorsSet: false,
+      cookies: this.$cookies
+    }
   },
 
   computed: {
-    enabledCookies() {
-      let enabled = this.$cookies.consent
-        ? [
-            ...this.$cookies.necessary.map(c => {
-              return [...c.cookies];
-            }),
-            ...this.$cookies.enabled.map(c => {
-              return [...c.cookies];
-            })
-          ]
-        : [];
-      return enabled.join(", ");
+    expirationDate() {
+      let date = new Date()
+      date.setFullYear(date.getFullYear() + 1)
+      return date.toUTCString()
+    },
+
+    optionalCookies() {
+      return this.cookies.optional
     }
   },
 
   methods: {
-    deleteConsent() {
-      this.$cookies.set({ name: "cookie_control_consent", value: false });
-      window.location.reload();
+    toogleCookie(cookie) {
+      if (this.saved) this.saved = false
+      if (!this.cookies.enabledList.includes(cookie))
+        this.cookies.enabledList.push(cookie)
+      else
+        this.cookies.enabledList.splice(
+          this.cookies.enabledList.indexOf(cookie),
+          1
+        )
+    },
+
+    setConsent({ type, consent = true }) {
+      this.cookies.set({
+        name: 'cookie_control_consent',
+        value: consent,
+        expires: this.expirationDate
+      })
+      let enabledCookies =
+        type === 'partial' && consent
+          ? this.cookies.enabledList
+          : [
+              ...this.optionalCookies.map(c => {
+                return c.name
+              })
+            ]
+      this.cookies.set({
+        name: 'cookie_control_enabled_cookies',
+        value: consent ? enabledCookies.join(',') : '',
+        expires: this.expirationDate
+      })
+      if (process.browser) window.location.reload(true)
+    },
+
+    getDescription(description) {
+      if (typeof description === 'string') return ` - ${description}`
+      else if (description[this.locale]) return ` - ${description[this.locale]}`
+      return ''
+    },
+
+    async setTexts(isChanged = false) {
+      let text = null
+      try {
+        const module = require(`../CookieControl/locale/${this.locale}`)
+        text = module.default
+      } catch (e) {
+        console.error(`There are no texts for your locale: ${this.locale}`)
+      }
+      if (this.cookies.text && Object.keys(this.cookies.text).length > 0) {
+        if (this.cookies.text.locale) {
+          Object.assign(text, this.cookies.text.locale[this.locale])
+          console.log(text)
+        }
+        if (!isChanged) Object.assign(text, this.cookies.text)
+      }
+      this.$set(this.$cookies, 'text', text)
     }
   },
 
+  async mounted() {
+    await this.setTexts()
+    if (process.browser && this.cookies.colors) {
+      let key = null
+      for (key in this.cookies.colors) {
+        let k = key.toLowerCase().includes('unactive')
+          ? key.replace(/Unactive/g, 'Inactive')
+          : key
+        document.documentElement.style.setProperty(
+          `--cookie-control-${k}`,
+          `${this.cookies.colors[key]}`
+        )
+      }
+    }
+    this.colorsSet = true
+  },
+
   watch: {
-    lang() {
-      this.$store.commit("setData", {
-        storage: this.$store.state,
-        key: "lang",
-        data: this.lang
-      });
+    async locale() {
+      await this.setTexts(true)
     }
   }
-};
+}
 </script>
-
-<style>
-* {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-</style>
-
-
-<style scoped lang="scss">
-h1 {
-  color: #206569;
-  margin-bottom: 5px;
-  & + p {
-    margin-top: 0;
-    font-size: 16px;
-    a {
-      color: #206569;
-    }
-  }
-}
-
-section {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-
-p {
-  font-size: 12px;
-  max-width: 500px;
-}
-
-pre {
-  padding: 0;
-  font-size: 16px;
-  margin: 20px 0 0;
-}
-
-img {
-  display: block;
-  max-width: 200px;
-  margin-left: 50px;
-}
-
-select {
-  border: 0;
-  outline: 0;
-  width: 100%;
-  color: #fff;
-  display: block;
-  font-size: 18px;
-  margin-top: 20px;
-  max-width: 300px;
-  padding: 15px 20px;
-  background-color: #206569;
-}
-
-button {
-  border: 0;
-  outline: 0;
-  width: 100%;
-  color: #fff;
-  font-size: 18px;
-  cursor: pointer;
-  max-width: 300px;
-  padding: 15px 20px;
-  background-color: #206569;
-  transition: background-color 200ms;
-  backface-visibility: hidden;
-  &:hover {
-    background-color: #2e495e;
-  }
-
-  & + button {
-    margin-top: 20px;
-  }
-}
-</style>

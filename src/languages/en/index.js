@@ -1,4 +1,5 @@
 import contract from './contract'
+import cookies from './cookies'
 import cover from './cover'
 import footer from './footer'
 import header from './header'
@@ -9,6 +10,7 @@ import synopsis from './synopsis'
 
 export default {
   contract,
+  cookies,
   cover,
   footer,
   header,
