@@ -1,0 +1,75 @@
+{
+  "_from": "nuxt-cookie-control",
+  "_id": "nuxt-cookie-control@1.4.5",
+  "_inBundle": false,
+  "_integrity": "sha512-uFHnURjSE7HcaZxsTVKkZed4096ss6IrgDkUnfhQn/tTIB/D+EAR6OIJ/3YP+GR8g74AWtnqrT5tCUaQtUxRBQ==",
+  "_location": "/nuxt-cookie-control",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nuxt-cookie-control",
+    "name": "nuxt-cookie-control",
+    "escapedName": "nuxt-cookie-control",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nuxt-cookie-control/-/nuxt-cookie-control-1.4.5.tgz",
+  "_shasum": "a77d984ef03a3423f415906c5d5dab683b85ce9f",
+  "_spec": "nuxt-cookie-control",
+  "_where": "/Users/annacondal/Workspace/ciafiligranes",
+  "author": {
+    "name": "Dario Ferderber",
+    "email": "dario.ferderber@broj42.com"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/broj42/nuxt-cookie-control/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Davor Teskera"
+    },
+    {
+      "name": "Mario Jankovic",
+      "email": "hi@mariojankovic.com"
+    }
+  ],
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
+  },
+  "deprecated": false,
+  "description": "Nuxt Cookies Control Module",
+  "eslintIgnore": [
+    "*"
+  ],
+  "files": [
+    "lib",
+    "components",
+    "locale"
+  ],
+  "homepage": "https://gitlab.com/broj42/nuxt-cookie-control#readme",
+  "keywords": [
+    "nuxt cookie control",
+    "nuxt gdpr",
+    "nuxt cookie consent",
+    "nuxt gdpr consent"
+  ],
+  "license": "MIT",
+  "main": "lib/module.js",
+  "name": "nuxt-cookie-control",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/broj42/nuxt-cookie-control.git"
+  },
+  "version": "1.4.5"
+}
