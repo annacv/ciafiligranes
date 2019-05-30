@@ -11,7 +11,7 @@
   >
     <transition name="cookie-control__bar">
     <div
-      v-if="colorsSet && !cookies.consent"
+      v-if="!cookies.consent"
       class="cookie-control__bar row"
     >
       <div class="col-12 col-md-10">
@@ -54,7 +54,6 @@ export default {
   data() {
     return {
       saved: true,
-      colorsSet: false,
       cookies: this.$cookies
     }
   },
@@ -103,12 +102,6 @@ export default {
         expires: this.expirationDate
       })
       if (process.browser) window.location.reload(true)
-    },
-
-    getDescription(description) {
-      if (typeof description === 'string') return ` - ${description}`
-      else if (description[this.locale]) return ` - ${description[this.locale]}`
-      return ''
     },
 
     async setTexts(isChanged = false) {

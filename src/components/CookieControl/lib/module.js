@@ -1,6 +1,6 @@
-const path = require('path');
+const path = require('path')
 
-module.exports = function cookies (_options) {
+module.exports = function cookies(_options) {
   const defaultOptions = {
     ...this.options.cookies,
     component: path.resolve(__dirname, '../components/CookieControl.vue')
