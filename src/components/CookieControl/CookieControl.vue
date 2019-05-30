@@ -14,7 +14,7 @@
       v-if="!cookies.consent"
       class="cookie-control__bar row"
     >
-      <div class="col-12 col-md-10">
+      <div class="col-12 col-md-10 col-xl-11">
         <p>
           <a
             :href="text.href"
@@ -23,7 +23,7 @@
           />
         </p>
       </div>
-      <div class="cookie-control__bar-buttons col-12 col-md-2">
+      <div class="cookie-control__bar-buttons col-12 col-md-2 col-xl-1">
         <button
           :alt="text.alt"
           @click="setConsent" v-text="text.acceptAll"
