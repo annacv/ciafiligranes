@@ -96,7 +96,10 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [{ src: '~plugins/ga.js', ssr: false }],
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~plugins/hotjar.js', ssr: false }
+  ],
 
   /*
   ** Nuxt.js modules
@@ -137,7 +140,7 @@ module.exports = {
     optional: [
       {
         async: true,
-        cookies: ['_ga', '_gid'],
+        cookies: ['_ga', '_gid', '_hjIncludedInSample', '_hjRecordingEnabled'],
         accepted: () => {
           window.dataLayer = window.dataLayer || []
         },
