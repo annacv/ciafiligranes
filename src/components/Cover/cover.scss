@@ -81,33 +81,6 @@
       font-size: 5rem;
     }
   }
-
-  &__404 {
-    background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 0%;
-    position: relative;
-    top: 0;
-    left: 0;
-
-    & > .cover__content {
-      padding: 14rem 0 16rem;
-      justify-content: center;
-
-      &:hover {
-        text-decoration: underline;
-      }
-
-      @media only screen and (min-width: 768px) {
-        padding: 22.5rem 0 28.5rem;
-      }
-
-      @media only screen and (min-width: 1024px) {
-        padding: 30.5rem 0 32.5rem;
-      }
-    }
-  }
 }
 
 
