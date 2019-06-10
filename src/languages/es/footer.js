@@ -58,5 +58,16 @@ export default {
       href: 'http://www.martagc.com/',
       link: 'Marta Garcia'
     }
-  ]
+  ],
+
+  legal: {
+    avis: {
+      text: 'Aviso Legal',
+      aria: 'Enlaza con la página de aviso legal'
+    },
+    cookies: {
+      text: 'Cookies',
+      aria: 'Enlaza a la página de política de cookies'
+    }
+  }
 }

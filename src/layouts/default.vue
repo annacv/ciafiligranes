@@ -17,6 +17,7 @@
       :logo="$t('footer.logo')"
       :cia="$t('footer.cia')"
       :credits="$t('footer.credits')"
+      :legal="$t('footer.legal')"
     />
   </div>
 </template>

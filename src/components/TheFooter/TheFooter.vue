@@ -76,6 +76,30 @@
         </div>
       </b-row>
     </b-container>
+    <b-container fluid class="footer__legal">
+      <b-row no-gutters>
+        <div class="col-12">
+          <ul class="footer__legal-list">
+            <li class="footer__legal-list-item">
+              <nuxt-link
+                :aria-label="legal.avis.aria"
+                :to="localePath('avis-legal', $i18n.locale)"
+                class="footer__legal-links"
+                v-text="legal.avis.text"
+              />
+            </li>
+            <li class="footer__legal-list-item">
+              <nuxt-link
+                :aria-label="legal.cookies.aria"
+                :to="localePath('cookies', $i18n.locale)"
+                class="footer__legal-links"
+                v-text="legal.cookies.text"
+              />
+            </li>
+          </ul>
+        </div>
+      </b-row>
+    </b-container>
   </footer>
 </template>
 
@@ -118,6 +142,11 @@ export default {
     credits: {
       type: Array,
       default: () => []
+    },
+
+    legal: {
+      type: Object,
+      default: () => {}
     }
   }
 }
