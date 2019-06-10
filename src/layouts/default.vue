@@ -19,19 +19,24 @@
       :credits="$t('footer.credits')"
       :legal="$t('footer.legal')"
     />
+    <CookieControl
+      :text="$t('cookies.text')"
+    />
   </div>
 </template>
 
 <script>
 import TheHeader from '../components/TheHeader/TheHeader'
 import TheFooter from '../components/TheFooter/TheFooter'
+import CookieControl from '../components/CookieControl/CookieControl'
 
 export default {
   name: 'Default',
 
   components: {
     TheHeader,
-    TheFooter
+    TheFooter,
+    CookieControl
   }
 }
 </script>

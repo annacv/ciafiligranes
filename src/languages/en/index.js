@@ -1,4 +1,5 @@
 import contract from './contract'
+import cookies from './cookies'
 import cover from './cover'
 import dottedList from './dottedList'
 import footer from './footer'
@@ -12,6 +13,7 @@ import tableList from './tableList'
 
 export default {
   contract,
+  cookies,
   cover,
   dottedList,
   footer,
