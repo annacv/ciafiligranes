@@ -26,10 +26,7 @@
 
     a.cookies-link {
       text-decoration: none;
-
-      &:hover {
-        font-family: 'AkkuratBold', 'Arial', sans-serif;
-      }
+      cursor: none;
     }
 
     & button {

@@ -41,7 +41,7 @@ export default {
   props: {
     locale: {
       type: String,
-      default: 'en'
+      default: 'ca'
     },
 
     text: {
@@ -107,14 +107,16 @@ export default {
     async setTexts(isChanged = false) {
       let text = null
       try {
-        const module = require(`../CookieControl/locale/${this.locale}`)
+        const module = require(`../../languages/${this.locale}/cookies`)
         text = module.default
       } catch (e) {
+        // eslint-disable-next-line
         console.error(`There are no texts for your locale: ${this.locale}`)
       }
       if (this.cookies.text && Object.keys(this.cookies.text).length > 0) {
         if (this.cookies.text.locale) {
           Object.assign(text, this.cookies.text.locale[this.locale])
+          // eslint-disable-next-line
           console.log(text)
         }
         if (!isChanged) Object.assign(text, this.cookies.text)
