@@ -62,8 +62,8 @@ export default {
 
   legal: {
     avis: {
-      text: 'Legal Disclaimer',
-      aria: 'Links to legal disclaimer page'
+      text: 'Legal Notice',
+      aria: 'Links to legal notice page'
     },
     cookies: {
       text: 'Cookies',

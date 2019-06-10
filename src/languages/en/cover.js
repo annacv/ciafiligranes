@@ -4,7 +4,7 @@ export default {
     title: 'friendship, rivalry and amuzing games'
   },
   legalDisclaimer: {
-    title: 'Legal disclaimer'
+    title: 'Legal notice'
   },
   cookies: {
     title: 'Cookies policy'
