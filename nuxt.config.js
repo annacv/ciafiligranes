@@ -109,6 +109,7 @@ module.exports = {
     [
       'nuxt-i18n',
       {
+        strategy: 'prefix_except_default',
         defaultLocale: 'ca',
         langDir: 'languages/',
         lazy: true,
