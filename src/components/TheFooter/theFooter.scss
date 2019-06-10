@@ -103,7 +103,8 @@
     }
   }
 
-  &__credits {
+  &__credits,
+  &__legal {
     display: flex;
     justify-content: center;
     background: #fbdd0b;
@@ -117,7 +118,9 @@
     @media only screen and (min-width: 3000px) {
       font-size: 1rem;
     }
+  }
 
+  &__credits {
     .credits {
       &__cia,
       &__partners {
@@ -158,6 +161,31 @@
           text-decoration: underline;
         }
       }
+    }
+  }
+
+  &__legal {
+    border-top: .0625rem dotted #000;
+  }
+
+  &__legal-list {
+    display: flex;
+  }
+
+  &__legal-list-item {
+    &:first-child {
+      &:after {
+        content: '|'
+      }
+    }
+  }
+
+  &__legal-links {
+    color: #000;
+    margin: 0 1rem;
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 }

@@ -1,43 +1,59 @@
 .cover {
-  &__home {
-    background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  @media only screen and (min-width: 768px) {
     background-position: 50% 0%;
-    position: relative;
-    top: 0;
-    left: 0;
-
-    @media only screen and (min-width: 768px) {
-      background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
-      background-position: 50% 0%;
-    }
-
-    @media only screen and (min-width: 1024px) {
-      background-image: url("~@/assets/images/img_cover_plisplas.jpg");
-      background-position: 50% 30%;
-    }
   }
 
-  &__content {
-    padding: 8rem 0 6rem;
-    display: flex;
-    justify-content: flex-start;
-    color: #fff;
-
-    @media only screen and (min-width: 768px) {
-      padding: 12.5rem 0 10.5rem;
-    }
-
-    @media only screen and (min-width: 1900px) {
-      padding: 15.5rem 0 13.5rem;
-    }
-
-    @media only screen and (min-width: 3000px) {
-      padding: 30rem 0 28rem;
-    }
+  @media only screen and (min-width: 1024px) {
+    background-position: 50% 30%;
   }
 
+  &.cover {
+    .cover {
+      &__content {
+        padding: 8rem 0 0;
+        display: flex;
+        justify-content: flex-start;
+        color: #fff;
+
+        @media only screen and (min-width: 768px) {
+          padding: 12.5rem 0 0;
+        }
+
+        @media only screen and (min-width: 1900px) {
+          padding: 15.5rem 0 0;
+        }
+
+        @media only screen and (min-width: 3000px) {
+          padding: 30rem 0 0;
+        }
+      }
+
+      &__title {
+        line-height: 1.125;
+        font-family: "AkkuratBold", "Arial", sans-serif;
+        font-size: 2.5rem;
+
+        @media only screen and (min-width: 768px) {
+          font-size: 3.75rem;
+        }
+
+        @media only screen and (min-width: 1900px) {
+          font-size: 4rem;
+        }
+
+        @media only screen and (min-width: 3000px) {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
 
   &__claim {
     margin-bottom: .5rem;
@@ -49,8 +65,8 @@
     @media only screen and (min-width: 768px) {
       font-size: 2.5rem;
       font-family: "AkkuratLight",
-        "Arial",
-        sans-serif;
+      "Arial",
+      sans-serif;
       text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.5);
     }
 
@@ -63,26 +79,81 @@
     }
   }
 
-  &__title {
-    line-height: 1.125;
-    font-family: "AkkuratBold", "Arial", sans-serif;
-    font-size: 2.5rem;
-    text-shadow: 0 .125rem .1875rem #000;
+  .row {
+    &__title {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  &__home {
+    background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
 
     @media only screen and (min-width: 768px) {
-      font-size: 3.75rem;
+      background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
     }
 
-    @media only screen and (min-width: 1900px) {
-      font-size: 4rem;
+    @media only screen and (min-width: 1024px) {
+      background-image: url("~@/assets/images/img_cover_plisplas.jpg");
     }
 
-    @media only screen and (min-width: 3000px) {
-      font-size: 5rem;
+    &.cover {
+      .cover {
+        &__content {
+          padding: 8rem 0 6rem;
+
+          @media only screen and (min-width: 768px) {
+            padding: 12.5rem 0 10.5rem;
+          }
+
+          @media only screen and (min-width: 1900px) {
+            padding: 15.5rem 0 13.5rem;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            padding: 30rem 0 28rem;
+          }
+        }
+
+        &__title {
+          text-shadow: 0 .125rem .1875rem #000;
+        }
+      }
+    }
+  }
+
+  &__legal {
+    background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+
+    &.cover {
+      .cover {
+        &__content {
+          padding: 12.15rem 0 0;
+
+          @media only screen and (min-width: 768px) {
+            padding: 15.65rem 0 0;
+          }
+
+          @media only screen and (min-width: 1900px) {
+            padding: 19.65rem 0 0;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            padding: 34.15rem 0 0;
+          }
+        }
+      }
+
+      .row {
+        &__title {
+          color: #000;
+          background-color: #fbdd0b;
+          padding: .15rem 0;
+        }
+      }
     }
   }
 }
-
 
 
 

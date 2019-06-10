@@ -1,0 +1,88 @@
+.table-list {
+  margin: 0 0 3.5rem;
+
+  @media only screen and (min-width: 768px) {
+    margin: 0 0 4.625rem;
+  }
+
+  @media only screen and (min-width: 1500px) {
+    margin: 0 0 8rem;
+  }
+
+  @media only screen and (min-width: 3000px) {
+    margin: 0 0 10rem;
+  }
+
+  .table {
+    &__title {
+      margin: 0rem 0 1rem 0;
+    }
+
+    &__table {
+      margin: 1rem 0 0;
+      font-size: .75rem;
+      display: table;
+      text-indent: 0;
+      border-spacing: 0;
+
+      @media only screen and (min-width: 768px) {
+        margin: 2rem 0 0;
+      }
+
+      @media only screen and (min-width: 1024px) {
+        font-size: 1rem;
+      }
+    }
+
+    &__head {
+      border-bottom: .0625rem solid #444;
+      display: inline-flex;
+      flex-direction: column;
+      width: 100%;
+
+      @media only screen and (min-width: 768px) {
+        display: table-header-group;
+      }
+    }
+
+    &__row {
+      border-bottom: .0625rem solid #c0c0c0;
+      display: inline-flex;
+      flex-direction: column;
+      width: 100%;
+
+      &:last-child {
+        border-bottom: .0625rem solid #444;
+      }
+
+      &:hover {
+        background-color: #f8f8f8;
+      }
+
+      @media only screen and (min-width: 768px) {
+        display: table-row;
+      }
+    }
+
+    &__heading,
+    &__cell {
+      padding: .5rem;
+
+      @media only screen and (min-width: 768px) {
+        padding: 1rem;
+
+        &:nth-child(2) {
+          width: 40%;
+        }
+      }
+    }
+
+    &__heading {
+      line-height: 1.25rem;
+
+      @media only screen and (min-width: 768px) {
+        line-height: 2rem;
+      }
+    }
+  }
+}
