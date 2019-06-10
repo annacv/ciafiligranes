@@ -1,0 +1,47 @@
+.plain-text {
+  &__legal {
+    margin: 0 0 3.5rem;
+  }
+
+  &__cookies {
+    margin: 0;
+  }
+
+  &__title {
+    margin: 2rem 0 1rem 0;
+  }
+
+  &__paragraph {
+    line-height: 1.4;
+  }
+
+  @media only screen and (min-width: 768px) {
+    &__legal {
+      margin: 0 0 4.625rem;
+    }
+
+    &__title {
+      margin: 4.625rem 0 1rem 0;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    &__legal {
+      margin: 0 0 8rem;
+    }
+
+    &__title {
+      margin: 6rem 0 1rem 0;
+    }
+  }
+
+  @media only screen and (min-width: 3000px) {
+    &__legal {
+      margin: 0 0 10rem;
+    }
+
+    &__title {
+      margin: 8rem 0 1rem 0;
+    }
+  }
+}
