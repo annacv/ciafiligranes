@@ -6,6 +6,7 @@ import footer from './footer'
 import header from './header'
 import highlights from './highlights'
 import meta from './meta'
+import productList from './productList'
 import plainText from './plainText'
 import summary from './summary'
 import synopsis from './synopsis'
@@ -21,6 +22,7 @@ export default {
   highlights,
   meta,
   plainText,
+  productList,
   summary,
   synopsis,
   tableList

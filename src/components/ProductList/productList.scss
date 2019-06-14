@@ -1,0 +1,13 @@
+.product-list {
+  &__shows {
+    .product-list {
+      &__item {
+        padding: 2.5rem 0 0 0;
+
+        @media only screen and (min-width: 768px) {
+          padding: 4.625rem 0 0 0;
+        }
+      }
+    }
+  }
+}
