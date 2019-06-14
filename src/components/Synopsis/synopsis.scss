@@ -1,15 +1,17 @@
 .synopsis {
   &__title {
-    line-height: .5;
-  }
+    @media only screen and (min-width: 768px) {
+      margin-bottom: .5rem;
+    }
 
-  &__content {
-    background-color: #fd2b5e;
+    @media only screen and (min-width: 1024px) {
+      margin-bottom: 0;
+    }
   }
 
   &__paragraph {
-    color: #fff;
     line-height: 1.89;
+    padding: 1rem 0 0 0;
 
     @media only screen and (min-width: 1024px) {
       margin-right: 2rem;
@@ -26,45 +28,22 @@
     }
 
     @media only screen and (min-width: 3000px) {
-      font-size: 2rem;
-      line-height: 4rem;
+      font-size: 1.5rem;
+      line-height: 3rem;
     }
+  }
 
-    &:first-child {
-      padding: 2.5rem 0 1rem;
-    }
-    &:last-child {
-      padding: 0rem 0 2.5rem;
-    }
-
-    @media only screen and (min-width: 768px) {
-      &:first-child {
-        padding: 3.5rem 0 1rem;
-      }
-
-      &:last-child {
-        padding: 1rem 0 3.5rem;
-      }
-    }
+  &__btn {
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 1.5rem 1.5rem 2.5rem 0;
 
     @media only screen and (min-width: 1024px) {
-      &:first-child {
-        padding: 4rem 0 1rem;
-      }
-
-      &:last-child {
-        padding: 1rem 0 4rem;
-      }
+      margin: 1.5rem 1.5rem 0 0;
     }
 
-    @media only screen and (min-width: 1200px) {
-      &:first-child {
-        padding: 4rem 0 1rem;
-      }
-
-      &:last-child {
-        padding: 1rem 0 4rem;
-      }
+    @media only screen and (min-width: 1300px) {
+      margin: 2.5rem 1.5rem 2.5rem 0;
     }
   }
 
@@ -93,9 +72,95 @@
       width: 100%;
     }
 
-    @media only screen and (min-width: 1500px) {
-      height: 100%;
-      width: 120%;
+    @media only screen and (min-width: 1800px) {
+      height: 105%;
+      width: auto;
+    }
+
+    @media only screen and (min-width: 1900px) {
+      height: 115%;
+      width: auto;
+    }
+
+    @media only screen and (min-width: 2000px) {
+      height: 120%;
+      width: auto;
+    }
+
+    @media only screen and (min-width: 2500px) {
+      height: 155%;
+      width: auto;
+    }
+
+    @media only screen and (min-width: 3000px) {
+      height: 180%;
+      width: auto;
+    }
+  }
+
+  /* COLOURED BACKGROUND STYLES WITH ALSO DIF PADDINGS & MARGINS */
+  &__home {
+    .synopsis {
+      &__content {
+        background-color: #fd2b5e;
+      }
+
+      &__title {
+        line-height: .5;
+        margin-bottom: 0;
+      }
+
+      &__paragraph {
+        color: #fff;
+
+        &:first-child {
+          padding: 2.5rem 0 1rem;
+        }
+
+        &:last-child {
+          padding: 0 0 2.5rem;
+        }
+
+        @media only screen and (min-width: 768px) {
+          &:first-child {
+            padding: 3.5rem 0 1rem;
+          }
+
+          &:last-child {
+            padding: 1rem 0 3.5rem;
+          }
+        }
+
+        @media only screen and (min-width: 1024px) {
+          &:first-child {
+            padding: 2.5rem 0 .5rem;
+          }
+
+          &:last-child {
+            padding: .5rem 0 2.5rem;
+          }
+        }
+
+        @media only screen and (min-width: 1200px) {
+          &:first-child {
+            padding: 2.5rem 0 .5rem;
+          }
+
+          &:last-child {
+            padding: .5rem 0 2.5rem;
+          }
+        }
+
+        @media only screen and (min-width: 1300px) {
+          &:first-child {
+            padding: 3.5rem 0 .5rem;
+          }
+
+          &:last-child {
+            padding: .5rem 0 3.5rem;
+          }
+        }
+      }
     }
   }
 }
