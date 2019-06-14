@@ -17,6 +17,7 @@ export default {
     class: 'button-outline-secondary',
     type: 'application',
     href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+    target: '__blank',
     download: 'CiaFiligranes-PlisPlas_ca.pdf',
     text: 'Dossier',
     slot: {

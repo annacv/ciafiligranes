@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import Button from '../../Button/Button'
+import Button from '~/components/Button/Button'
 
 export default {
   name: 'Card',
