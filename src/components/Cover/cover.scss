@@ -17,22 +17,9 @@
   &.cover {
     .cover {
       &__content {
-        padding: 8rem 0 0;
         display: flex;
         justify-content: flex-start;
         color: #fff;
-
-        @media only screen and (min-width: 768px) {
-          padding: 12.5rem 0 0;
-        }
-
-        @media only screen and (min-width: 1900px) {
-          padding: 15.5rem 0 0;
-        }
-
-        @media only screen and (min-width: 3000px) {
-          padding: 30rem 0 0;
-        }
       }
 
       &__title {
@@ -86,6 +73,8 @@
     }
   }
 
+  //HOME COVER CUSTOM STYLES
+
   &__home {
     background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
 
@@ -121,6 +110,102 @@
       }
     }
   }
+
+  //PRODUCTS COVER CUSTOM STYLES
+
+  &__products {
+    background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
+
+    @media only screen and (min-width: 768px) {
+      background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
+    }
+
+    @media only screen and (min-width: 1024px) {
+      background-image: url("~@/assets/images/img_cover_plisplas.jpg");
+    }
+
+    &.cover {
+      .cover {
+        &__content {
+          padding: 8rem 0 3rem;
+          margin-bottom: 4.8rem;
+
+          @media only screen and (min-width: 768px) {
+            padding: 12.5rem 0 3rem;
+            margin-bottom: 7.35rem;
+          }
+
+          @media only screen and (min-width: 1900px) {
+            padding: 15.5rem 0 4rem;
+            margin-bottom: 9.35rem;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            padding: 30rem 0 6rem;
+            margin-bottom: 15rem;
+          }
+        }
+
+        &__title {
+          text-shadow: 0 .125rem .1875rem #000;
+          position: absolute;
+          bottom: 1.15rem;
+
+          @media only screen and (min-width: 768px) {
+            bottom: -.85rem;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            bottom: -2.65rem;
+          }
+        }
+
+        &__claim {
+          position: relative;
+        }
+      }
+
+      .row {
+        &__title {
+          padding: 5.15rem 0 1rem;
+          position: absolute;
+          top: 14rem;
+
+          @media only screen and (min-width: 358px) {
+            top: 12rem;
+          }
+
+          @media only screen and (min-width: 768px) {
+            padding: 5.15rem 0 3rem;
+            top: 18rem;
+          }
+
+          @media only screen and (min-width: 1900px) {
+            top: 23rem;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            padding: 5.15rem 0 4rem;
+            top: 39rem;
+          }
+        }
+      }
+    }
+  }
+
+  &__products.products {
+    &__shows {
+      &.cover {
+        .row {
+          &__title {
+            background-color: #fd2b5e;
+          }
+        }
+      }
+    }
+  }
+
+  //LEGAL PAGES COVER CUSTOM STYLES
 
   &__legal {
     background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
