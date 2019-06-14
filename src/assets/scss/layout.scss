@@ -1,15 +1,3 @@
-.main-content {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-
-  .content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-}
-
 html,
 body {
   position: relative;
@@ -41,6 +29,7 @@ h3,
 h4,
 p {
   margin-bottom: 0;
+  font-weight: unset;
 }
 
 h3 {
