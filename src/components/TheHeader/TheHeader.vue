@@ -29,9 +29,20 @@
           </div>
         </div>
         <div class="col-12 col-lg-7 col-xxl-5">
-          <TheNavbar
-            :menu="menu"
-          />
+          <div class= "header__navbar">
+            <nav
+              class="navbar__main"
+              role="navigation"
+              aria-label="main navigation">
+              <TheNavbar
+                :menu="menu"
+              />
+              <LanguageSelector
+                :selectlang="$t('header.selectlang')"
+                :selectname="$t('header.selectname')"
+              />
+            </nav>
+          </div>
         </div>
       </b-row>
     </b-container>
@@ -40,6 +51,7 @@
 
 <script>
 import TheBurger from './components/TheBurger'
+import LanguageSelector from './components/LanguageSelector'
 import TheNavbar from './components/TheNavbar'
 
 export default {
@@ -47,6 +59,7 @@ export default {
 
   components: {
     TheBurger,
+    LanguageSelector,
     TheNavbar
   },
 
