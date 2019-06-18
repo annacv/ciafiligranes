@@ -11,7 +11,25 @@
       class="navbar__main"
       role="navigation"
       aria-label="main navigation">
-        <div class="grid-col-12">
+        <div class="col-12">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+              <nuxt-link
+                :aria-label="menu.shows.aria"
+                :to="localePath('espectacles', $i18n.locale)"
+                class="navbar__menu-links"
+                v-text="menu.shows.text"
+              />
+            </li>
+            <li class="navbar__menu-item">
+              <nuxt-link
+                :aria-label="menu.workshops.aria"
+                :to="localePath('tallers', $i18n.locale)"
+                class="navbar__menu-links"
+                v-text="menu.workshops.text"
+              />
+            </li>
+          </ul>
         </div>
         <LanguageSelector
           :selectlang="$t('header.selectlang')"
@@ -29,6 +47,13 @@ export default {
 
   components: {
     LanguageSelector
+  },
+
+  props: {
+    menu: {
+      type: Object,
+      default: () => {}
+    }
   }
 }
 </script>
