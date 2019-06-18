@@ -9,12 +9,14 @@
 
   &__title {
     margin: 0 0 .5rem 0;
+    padding: 0 .5rem;
     color: #fff;
     text-align: center;
 
     @media only screen and (min-width: 768px) {
       line-height: 1.4;
       margin: 0 .5rem 0 0;
+      padding: 0;
     }
 
     @media only screen and (min-width: 1200px) {
@@ -91,9 +93,9 @@
     }
   }
 
-  &__shows {
+  &__shows,
+  &__workshops {
     padding: 2rem 0;
-    background-color: #fd2b5e;
 
     @media only screen and (min-width: 1024px) {
       margin: 6.5rem 0;
@@ -102,5 +104,13 @@
     @media only screen and (min-width: 1200px) {
       margin: 6.5rem 0 10rem 0;
     }
+  }
+
+  &__shows {
+    background-color: #fd2b5e;
+  }
+
+  &__workshops {
+    background-color: #5c2978;
   }
 }
