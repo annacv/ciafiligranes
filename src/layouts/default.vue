@@ -7,7 +7,14 @@
 <template>
   <div>
     <TheHeader
-    :logo="$t('header.logo')"
+      :logo="$t('header.logo')"
+      :menu="$t('header.menu')"
+      @sidenavToggle="displaySidenav =! displaySidenav"
+    />
+    <TheSidenav
+      :menu="$t('header.menu')"
+      :show="displaySidenav"
+      @close="displaySidenav = false"
     />
       <nuxt/>
     <TheFooter
@@ -26,17 +33,25 @@
 </template>
 
 <script>
+import CookieControl from '../components/CookieControl/CookieControl'
 import TheHeader from '../components/TheHeader/TheHeader'
 import TheFooter from '../components/TheFooter/TheFooter'
-import CookieControl from '../components/CookieControl/CookieControl'
+import TheSidenav from '../components/TheHeader/components/TheSidenav'
 
 export default {
   name: 'Default',
 
   components: {
+    CookieControl,
     TheHeader,
     TheFooter,
-    CookieControl
+    TheSidenav
+  },
+
+  data() {
+    return {
+      displaySidenav: false
+    }
   }
 }
 </script>
