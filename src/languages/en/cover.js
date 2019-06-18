@@ -4,8 +4,8 @@ export default {
     title: 'friendship, rivalry and amuzing games'
   },
   shows: {
-    claim: 'Cia.Filigranes presenta...',
-    title: 'Pallassos i circ per a totes!'
+    claim: 'Cia.Filigranes presents...',
+    title: 'Clowns and Circus for everyone!'
   },
   legalDisclaimer: {
     title: 'Legal notice'

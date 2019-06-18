@@ -5,7 +5,7 @@ export default {
   },
   shows: {
     claim: 'Cia.Filigranes presenta...',
-    title: 'Pallassos i circ per a totes!'
+    title: '¡Payasos y circo para a todas!'
   },
   legalDisclaimer: {
     title: 'Aviso legal'
