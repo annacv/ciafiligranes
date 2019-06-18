@@ -1,17 +1,18 @@
 .contract {
-  padding: 1rem 0;
-  border-bottom: .125rem solid #fd2b5e;
+  @media only screen and (min-width: 768px) {
+    margin: 0 0 5rem 0;
+  }
 
-  @media only screen and (min-width: 1900px) {
-    padding: 1.5rem 0;
+  @media only screen and (min-width: 1200px) {
+    margin: 0 0 10rem 0;
   }
 
   &__title {
-    color: #fd2b5e;
     margin: 0 0 .5rem 0;
+    color: #fff;
+    text-align: center;
 
     @media only screen and (min-width: 768px) {
-      text-align: center;
       line-height: 1.4;
       margin: 0 .5rem 0 0;
     }
@@ -32,6 +33,7 @@
     justify-content: center;
     line-height: 1.5;
     font-size: 1rem;
+    color: #fff;
 
     @media only screen and (min-width: 768px) {
       align-self: flex-end;
@@ -54,12 +56,51 @@
     margin: 0 .25rem;
 
     @media only screen and (min-width: 768px) {
-       margin: 0 .5rem;
+      margin: 0 .5rem;
     }
   }
 
   &__link {
-    color: #fd2b5e;
     font-family: "AkkuratBold", "Arial", sans-serif;
+    color: #fff;
+  }
+
+  // WHITE BACKGROUND WITH BORDER STYLES
+
+  &__home {
+    padding: 1rem 0;
+
+    @media only screen and (min-width: 1900px) {
+      padding: 1.5rem 0;
+    }
+
+    border-bottom: .125rem solid #fd2b5e;
+
+    .contract {
+      &__title {
+        color: #fd2b5e;
+      }
+
+      &__ways {
+        color: #000;
+      }
+
+      &__link {
+        color: #fd2b5e;
+      }
+    }
+  }
+
+  &__shows {
+    padding: 2rem 0;
+    background-color: #fd2b5e;
+
+    @media only screen and (min-width: 1024px) {
+      margin: 6.5rem 0;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      margin: 6.5rem 0 10rem 0;
+    }
   }
 }

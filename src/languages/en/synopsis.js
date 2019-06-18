@@ -1,16 +1,21 @@
 export default {
-  title: 'Synopsis',
+  home: {
+    title: 'Synopsis',
+    paragraphs: [
+      {
+        paragraph:
+          'Plis Plas is a show where Toti and Makutu do not stop making the "knuckle": they are angry by hook or by crook, but friendship always ends up prevailing.'
+      },
+      {
+        paragraph:
+          'With a chair, a funnel or a bucket will make us, with its personal touch, classic gags combined with juggling and live music.'
+      }
+    ],
 
-  paragraphs: [
-    {
-      paragraph:
-        'Plis Plas is a show where Toti and Makutu do not stop making the "knuckle": they are angry by hook or by crook, but friendship always ends up prevailing.'
-    },
-    {
-      paragraph:
-        'With a chair, a funnel or a bucket will make us, with its personal touch, classic gags combined with juggling and live music.'
+    image: {
+      alt: 'Plis-plas show image',
+      src: '/images/img_sinopsi_plisplas.jpg',
+      srcset: '/images/img_sinopsi_plisplas.png'
     }
-  ],
-
-  alt: 'Plis-plas show image'
+  }
 }
