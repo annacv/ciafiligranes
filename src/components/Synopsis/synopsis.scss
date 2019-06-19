@@ -71,31 +71,6 @@
       height: 100%;
       width: 100%;
     }
-
-    @media only screen and (min-width: 1800px) {
-      height: 105%;
-      width: auto;
-    }
-
-    @media only screen and (min-width: 1900px) {
-      height: 115%;
-      width: auto;
-    }
-
-    @media only screen and (min-width: 2000px) {
-      height: 120%;
-      width: auto;
-    }
-
-    @media only screen and (min-width: 2500px) {
-      height: 155%;
-      width: auto;
-    }
-
-    @media only screen and (min-width: 3000px) {
-      height: 180%;
-      width: auto;
-    }
   }
 
   /* COLOURED BACKGROUND STYLES WITH ALSO DIF PADDINGS & MARGINS */
@@ -159,6 +134,33 @@
           &:last-child {
             padding: .5rem 0 3.5rem;
           }
+        }
+      }
+
+      &__image {
+        @media only screen and (min-width: 1800px) {
+          height: 105%;
+          width: auto;
+        }
+
+        @media only screen and (min-width: 1900px) {
+          height: 115%;
+          width: auto;
+        }
+
+        @media only screen and (min-width: 2000px) {
+          height: 120%;
+          width: auto;
+        }
+
+        @media only screen and (min-width: 2500px) {
+          height: 155%;
+          width: auto;
+        }
+
+        @media only screen and (min-width: 3000px) {
+          height: 180%;
+          width: auto;
         }
       }
     }
