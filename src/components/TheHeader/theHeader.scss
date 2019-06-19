@@ -46,7 +46,7 @@
   &__navbar {
     display: none;
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 992px) {
       display: inline-flex;
       align-items: center;
       position: relative;
@@ -160,7 +160,7 @@ nav {
   z-index: 1;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .burger-toggle {
     display: none;
   }
