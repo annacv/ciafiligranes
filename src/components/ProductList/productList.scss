@@ -1,5 +1,6 @@
 .product-list {
-  &__shows {
+  &__shows,
+  &__workshops {
     .product-list {
       &__item {
         padding: 2.5rem 0 0 0;

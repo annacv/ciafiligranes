@@ -8,7 +8,7 @@
   <b-container fluid class="contract">
     <b-row no-gutters align-h="center">
       <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-6">
-        <b-row align-h="center">
+        <b-row no-gutters align-h="center">
           <h4
             class="contract__title"
             v-text="title"

@@ -165,5 +165,91 @@ export default {
         }
       }
     ]
+  },
+
+  workshops: {
+    title: 'More Filigranes',
+    description: 'Find shows and performances à la carte',
+    highlighted: [
+      {
+        title: 'Show',
+        name: 'Plis Plas',
+        link: '',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'An image of the Plis Plas show',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Plis Plas_en.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_en.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Show',
+        name: 'The Filixic Circus',
+        link: '',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'An image of The Filixic Circus',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-TheFilixicCircus.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-TheFilixicCircus.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Performances',
+        name: 'à la carte',
+        link: '',
+        image: '/images/img_thumbnail_animacions.jpg',
+        alt: 'Image of the animation with juggling of fire',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Performances.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-Performances.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Itinerant Show',
+        name: 'The Freak-Frac Brothers',
+        link: '',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'An image of The Freak-Frac Brothers Parade',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-FreakFracBrothers.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      }
+    ]
   }
 }

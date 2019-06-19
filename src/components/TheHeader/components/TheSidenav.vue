@@ -29,10 +29,12 @@
           :selectname="$t('header.selectname')"
         />
       </div>
-      <TheNavbar
-        :menu="menu"
-        @click="$emit('close')"
-      />
+      <div @click="$emit('close')">
+        <TheNavbar
+          :menu="menu"
+          @click="$emit('close')"
+        />
+      </div>
     </div>
   </transition>
 </div>

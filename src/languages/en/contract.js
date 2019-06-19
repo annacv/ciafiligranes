@@ -17,5 +17,9 @@ export default {
 
   shows: {
     title: 'Want to hire any of our shows?'
+  },
+
+  workshops: {
+    title: 'Want to hire any of our workshops?'
   }
 }
