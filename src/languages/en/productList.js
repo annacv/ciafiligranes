@@ -94,15 +94,15 @@ export default {
         }
       },
       {
-        title: 'The Feak-Frac Brothers Parade',
+        title: 'The Freak-Frac Brothers Parade',
         paragraphs: [
           {
             paragraph:
-              'Attention !!! Here they are! I feel the rhythm of the music that makes me move...'
+              'Attention!!! Here they are! I feel the rhythm of the music that makes me move...'
           },
           {
             paragraph:
-              "Oh !! They're so tall! You can see them coming from a distance away! Look the musicians as they follow the Directore! From the instruments, well cleaned, the notes flow through streets and squares..."
+              "Oh!! They're so tall! You can see them coming from far away! Look how the musicians follow the Directore! From the instruments, well cleaned, the notes flow through streets and squares..."
           }
         ],
 
@@ -283,7 +283,7 @@ export default {
         }
       },
       {
-        title: 'Soap Bubbles Workshop',
+        title: 'Soap Bubbles',
         paragraphs: [
           {
             paragraph:
@@ -291,7 +291,7 @@ export default {
           },
           {
             paragraph:
-              "We'll fill all with soap bubbles of different sizes! We 'll make you dance and fly! Come and discover this so peculiar and creative technique."
+              "We'll fill all with soap bubbles of different sizes! We'll make you dance and fly! Come and discover this so peculiar and creative technique."
           }
         ],
 
@@ -337,7 +337,7 @@ export default {
           },
           {
             paragraph:
-              'We will enjoy an itinerary with different seasons, where youngsters and children will go through while practicing their skills in a funny way.'
+              'We will enjoy an itinerary with different stations, where youngsters and children will go through while practicing their skills in a funny way.'
           }
         ],
 

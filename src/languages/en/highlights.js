@@ -65,7 +65,7 @@ export default {
         name: 'Freak-Frac Brothers',
         link: '',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'An image of The Feak-Frac Brothers Parade show',
+        alt: 'An image of The Freak-Frac Brothers Parade show',
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',

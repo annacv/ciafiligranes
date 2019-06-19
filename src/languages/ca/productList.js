@@ -94,7 +94,7 @@ export default {
         }
       },
       {
-        title: 'Cercavila Germans Freak Frac',
+        title: 'Cercavila Germans Freak-Frac',
         paragraphs: [
           {
             paragraph:
@@ -144,7 +144,7 @@ export default {
         paragraphs: [
           {
             paragraph:
-              "El pallasso Trinxeta sempre fa una festa d'aniversari, però aquesta vegada no convida a ningú perquè està trist.  El seu amic Makutu s'auto-convida igualment, intenta animar-lo de les maneres més inversemblants."
+              "El pallasso Trinxeta sempre fa una festa d'aniversari, però aquesta vegada no convida a ningú perquè està trist. El seu amic Makutu s'auto-convida igualment, intenta animar-lo de les maneres més inversemblants."
           },
           {
             paragraph:

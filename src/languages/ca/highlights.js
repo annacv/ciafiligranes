@@ -69,7 +69,7 @@ export default {
         link: '',
         image: '/images/img_thumbnail_freakfrac.jpg',
         alt:
-          "Imatge de l'espectacle itinerant Cercavila dels Germans Feak-Frac",
+          "Imatge de l'espectacle itinerant Cercavila dels Germans Freak-Frac",
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',

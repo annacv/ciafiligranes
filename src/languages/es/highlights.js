@@ -70,7 +70,7 @@ export default {
         link: '',
         image: '/images/img_thumbnail_freakfrac.jpg',
         alt:
-          'Imagen del espectáculo itinerante Cercavila de los Hermanos Feak-Frac',
+          'Imagen del espectáculo itinerante Cercavila de los Hermanos Freak-Frac',
         button: {
           class: 'button-outline-secondary button-outline-secondary__teal',
           type: 'application',

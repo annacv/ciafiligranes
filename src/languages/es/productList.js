@@ -283,15 +283,15 @@ export default {
         }
       },
       {
-        title: 'Taller de Burbujas de Jabón',
+        title: 'Burbujas de Jabón',
         paragraphs: [
           {
             paragraph:
-              'Como es posible?!! Una burbuja de jabón más grande que tu cabeza!! Quieres hacerla con tus propias manos?'
+              '¡¡¿Como es posible?!! ¡¡Una burbuja de jabón más grande que tu cabeza!! ¿Quieres hacerla con tus propias manos?'
           },
           {
             paragraph:
-              'Lo llenaremos todo de burbujas de jabón de diferentes tamaños!Las haremos bailar y volar! Anímate a descubrir esta técnica tan peculiar.'
+              '¡Lo llenaremos todo de burbujas de jabón de diferentes tamaños! ¡Las haremos bailar y volar! Anímate a descubrir esta técnica tan peculiar.'
           }
         ],
 
