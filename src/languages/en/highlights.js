@@ -251,5 +251,91 @@ export default {
         }
       }
     ]
+  },
+
+  performances: {
+    title: 'More Filigranes',
+    description: 'Room or street shows and workshops for all ages',
+    highlighted: [
+      {
+        title: 'Itinerant Show',
+        name: 'The Freak-Frac Brothers',
+        link: '',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'An image of The Freak-Frac Brothers Parade',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-FreakFracBrothers.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Workshop',
+        name: 'Soap Bubbles',
+        link: '',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'An image of The Soap Bubbles Workshop',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-SoapBubblesWorkshop.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-SoapBubblesWorkshop.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Workshops',
+        name: 'Circus',
+        link: '',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'An image of the Circus Workshop',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-CircusWorkshop.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-CircusWorkshop.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Show',
+        name: 'Plis Plas',
+        link: '',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'An image of the Plis Plas show',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Plis Plas_en.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_en.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      }
+    ]
   }
 }

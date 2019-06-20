@@ -256,5 +256,91 @@ export default {
         }
       }
     ]
+  },
+
+  performances: {
+    title: 'Més Filigranes',
+    description: 'Espectacles de sala o carrer i tallers per a totes les edats',
+    highlighted: [
+      {
+        title: 'Espectacle itinerant',
+        name: 'Germans Freak-Frac',
+        link: '',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-GermansFreakFrac.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Taller',
+        name: 'Bombolles de sabó',
+        link: '',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'Imatge del taller de Bombolles de Sabó',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-TallerBombollesSabo.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-TallerBombollesSabo.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Taller',
+        name: 'Circ',
+        link: '',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'Imatge del Taller de Circ',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-TallerCirc.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes - TallerCirc.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Espectacle',
+        name: 'Plis Plas',
+        link: '',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: "Imatge de l'espectacle Plis Plas",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down teal'
+          }
+        }
+      }
+    ]
   }
 }
