@@ -1,0 +1,96 @@
+.data-sheet {
+  background-color: white;
+  margin: 2rem 0 3.5rem;
+
+  @media only screen and (min-width: 768px) {
+    margin: 4.625rem 0 5.25rem;
+  }
+
+  @media only screen and (min-width: 1500px) {
+    margin: 6rem 0 8rem;
+  }
+
+  @media only screen and (min-width: 3000px) {
+    margin: 8rem 0 10rem;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__row {
+    .col {
+      margin-bottom: 2rem;
+
+      @media only screen and (min-width: 768px) {
+        margin-bottom: 0;
+      }
+
+      @media only screen and (min-width: 1024px) {
+        &:first-child {
+          padding-right: 1.25rem;
+        }
+
+        &:last-child {
+          padding-left: 1.25rem;
+        }
+      }
+
+      @media only screen and (min-width: 1900px) {
+        &:first-child {
+          padding-right: 2rem;
+        }
+
+        &:last-child {
+          padding-left: 2rem;
+        }
+      }
+    }
+
+  }
+
+  &__list {
+    border: 1px solid #e84e31;
+
+    &.left-side {
+      padding: 1.5rem 1.5rem 1.05rem 1.5rem;
+      border-bottom: .5rem solid #e84e31;
+    }
+
+    &.right-side {
+      padding: 1.05rem 1.5rem 1.5rem 1.5rem;
+      border-top: .5rem solid #e84e31;
+    }
+  }
+
+    &__list-item {
+    font-size: .875rem;
+    line-height: 1.43rem;
+    margin: 0 0 .9rem;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    @media only screen and (min-width: 1500px) {
+      font-size: 1rem;
+      line-height: 1.8rem;
+    }
+
+    @media only screen and (min-width: 3000px) {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      margin: 0 0 2rem;
+    }
+  }
+
+  &__item {
+    &--bold {
+      font-family: "AkkuratBold", "Arial", sans-serif;
+    }
+
+    &--light {
+      font-family: "AkkuratLight", "Arial", sans-serif;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import contract from './contract'
 import cookies from './cookies'
 import cover from './cover'
+import dataSheet from './dataSheet'
 import dottedList from './dottedList'
 import footer from './footer'
 import gallery from './gallery'
@@ -17,6 +18,7 @@ export default {
   contract,
   cookies,
   cover,
+  dataSheet,
   dottedList,
   footer,
   gallery,
