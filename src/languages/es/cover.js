@@ -14,6 +14,11 @@ export default {
     title: 'talleres para todas las edades'
   },
 
+  performances: {
+    claim: 'Cia.Filigranes presenta...',
+    title: 'Animaciones a la carta'
+  },
+
   legalDisclaimer: {
     title: 'Aviso legal'
   },
