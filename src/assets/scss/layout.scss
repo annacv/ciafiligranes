@@ -72,3 +72,9 @@ h4 {
     font-size: 2rem;
   }
 }
+
+.main-content {
+  &.performances {
+    padding-top: 0.05rem;
+  }
+}
