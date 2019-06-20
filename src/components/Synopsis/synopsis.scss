@@ -74,12 +74,10 @@
   }
 
   /* COLOURED BACKGROUND STYLES WITH ALSO DIF PADDINGS & MARGINS */
-  &__home {
-    .synopsis {
-      &__content {
-        background-color: #fd2b5e;
-      }
 
+  &__home,
+  &__performances {
+    .synopsis {
       &__title {
         line-height: .5;
         margin-bottom: 0;
@@ -162,6 +160,22 @@
           height: 180%;
           width: auto;
         }
+      }
+    }
+  }
+
+  &__home {
+    .synopsis {
+      &__content {
+        background-color: #fd2b5e;
+      }
+    }
+  }
+
+  &__performances {
+    .synopsis {
+      &__content {
+        background-color: #e84e31;
       }
     }
   }
