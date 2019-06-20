@@ -3,6 +3,7 @@ import cookies from './cookies'
 import cover from './cover'
 import dottedList from './dottedList'
 import footer from './footer'
+import gallery from './gallery'
 import header from './header'
 import highlights from './highlights'
 import meta from './meta'
@@ -18,6 +19,7 @@ export default {
   cover,
   dottedList,
   footer,
+  gallery,
   header,
   highlights,
   meta,
