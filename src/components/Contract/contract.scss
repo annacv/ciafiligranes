@@ -1,4 +1,10 @@
 .contract {
+  padding: 1rem 0;
+
+  @media only screen and (min-width: 1900px) {
+    padding: 1.5rem 0;
+  }
+
   @media only screen and (min-width: 768px) {
     margin: 0 0 5rem 0;
   }
@@ -71,12 +77,6 @@
 
   &__home,
   &__performances-w {
-    padding: 1rem 0;
-
-    @media only screen and (min-width: 1900px) {
-      padding: 1.5rem 0;
-    }
-
     .contract {
       &__ways {
         color: #000;
@@ -109,8 +109,6 @@
   &__shows,
   &__workshops,
   &__performances {
-    padding: 2rem 0;
-
     @media only screen and (min-width: 1024px) {
       margin: 6.5rem 0;
     }

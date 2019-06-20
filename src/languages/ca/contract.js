@@ -17,11 +17,11 @@ export default {
   ],
 
   shows: {
-    title: 'Vols contractar algun dels nostres espectacles?'
+    title: 'Vols contractar algun espectacle?'
   },
 
   workshops: {
-    title: 'Vols contractar algun dels nostres tallers?'
+    title: 'Vols contractar algun taller?'
   },
 
   performances: {
