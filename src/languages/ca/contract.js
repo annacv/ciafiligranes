@@ -22,5 +22,9 @@ export default {
 
   workshops: {
     title: 'Vols contractar algun dels nostres tallers?'
+  },
+
+  performances: {
+    title: 'Vols el teu espectacle a mida?'
   }
 }

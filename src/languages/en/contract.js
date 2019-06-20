@@ -21,5 +21,9 @@ export default {
 
   workshops: {
     title: 'Want to hire any of our workshops?'
+  },
+
+  performances: {
+    title: 'Do you want your own customized performance?'
   }
 }

@@ -69,32 +69,46 @@
 
   // WHITE BACKGROUND WITH BORDER STYLES
 
-  &__home {
+  &__home,
+  &__performances-w {
     padding: 1rem 0;
 
     @media only screen and (min-width: 1900px) {
       padding: 1.5rem 0;
     }
 
-    border-bottom: .125rem solid #fd2b5e;
-
     .contract {
-      &__title {
-        color: #fd2b5e;
-      }
-
       &__ways {
         color: #000;
       }
+    }
+  }
 
+  &__home {
+    border-bottom: .125rem solid #fd2b5e;
+
+    .contract {
+      &__title,
       &__link {
         color: #fd2b5e;
       }
     }
   }
 
+  &__performances-w {
+    border-bottom: .125rem solid #e84e31;
+
+    .contract {
+      &__title,
+      &__link {
+        color: #e84e31;
+      }
+    }
+  }
+
   &__shows,
-  &__workshops {
+  &__workshops,
+  &__performances {
     padding: 2rem 0;
 
     @media only screen and (min-width: 1024px) {
@@ -112,5 +126,9 @@
 
   &__workshops {
     background-color: #5c2978;
+  }
+
+  &__performances {
+    background-color: #e84e31;
   }
 }
