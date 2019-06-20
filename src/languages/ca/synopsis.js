@@ -24,11 +24,11 @@ export default {
     paragraphs: [
       {
         paragraph:
-          "Cuiners, forners, cambrers, bombers, jardiners en tàndem, dones de la neteja, circ d’època... I possibilitat també de xanquers, monociclistes, bola d'equilibri o bé malabaristes de foc."
+          "Cuiners, forners, cambrers, bombers, jardiners en tàndem, dones de la neteja, circ d’època... I també xanquers, monociclistes, bola d'equilibri o bé malabaristes de foc."
       },
       {
         paragraph:
-          'Tant presenten activitats organitzades com interactúen amb els i les participants, adequant el vestuari i la caracterització més convenients.'
+          'Tant presenten activitats organitzades com interactúen amb el públic, adequant el vestuari i la caracterització.'
       }
     ],
 

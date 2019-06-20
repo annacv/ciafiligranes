@@ -24,11 +24,11 @@ export default {
     paragraphs: [
       {
         paragraph:
-          'Cookers, bakers, waiters, firefighters, tandem gardeners, cleaning women, classic circus... And also available stilts, monocyclers, ball of balance or fire jugglers.'
+          'Cookers, bakers, waiters, firefighters, tandem gardeners, cleaning women, classic circus... And also stilts, monocyclers, ball of balance or fire jugglers.'
       },
       {
         paragraph:
-          'They can introduce to organized activities or interact with the public, , adapting the clothes and the most convenient characterization.'
+          'They can introduce to organized activities or interact with the public, adapting clothes and characterization.'
       }
     ],
 

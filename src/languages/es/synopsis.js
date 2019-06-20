@@ -24,11 +24,11 @@ export default {
     paragraphs: [
       {
         paragraph:
-          'Cocineros, panaderos, camareros, bomberos, jardineros en tándem, mujeres de la limpieza, circo de época... Y posibilidad también de zancudos, monociclistas, bola de equilibrio o bien malabaristas de fuego.'
+          'Cocineros, panaderos, camareros, bomberos, jardineros en tándem, mujeres de la limpieza, circo de época... Y también zancudos, monociclistas, bola de equilibrio o malabares de fuego.'
       },
       {
         paragraph:
-          'Tanto presentan actividades organizadas como interactúan con los y las participantes, adecuando el vestuario y la caracterización más convenientes.'
+          'Tanto presentan actividades organizadas como interactúan con el público, adecuando la caracterización.'
       }
     ],
 
