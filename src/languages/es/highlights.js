@@ -62,27 +62,6 @@ export default {
             class: 'arrow_down teal'
           }
         }
-      },
-
-      {
-        title: 'Espectáculo itinerante',
-        name: 'Hermanos Freak-Frac',
-        link: '',
-        image: '/images/img_thumbnail_freakfrac.jpg',
-        alt:
-          'Imagen del espectáculo itinerante Cercavila de los Hermanos Freak-Frac',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
       }
     ]
   },
@@ -145,26 +124,6 @@ export default {
           href: '/downloads/CiaFiligranes-Animaciones.pdf',
           target: '__blank',
           download: 'CiaFiligranes-Animaciones.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
-      },
-
-      {
-        title: 'Taller',
-        name: 'Payasos',
-        link: '',
-        image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'Imagen del taller de Payasos',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-TallerPayasos.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-TallerPayasos.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
@@ -237,26 +196,6 @@ export default {
             class: 'arrow_down teal'
           }
         }
-      },
-
-      {
-        title: 'Espectáculo itinerante',
-        name: 'Hermanos Freak-Frac',
-        link: '',
-        image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
       }
     ]
   },
@@ -319,26 +258,6 @@ export default {
           href: '/downloads/CiaFiligranes-TallerCirco.pdf',
           target: '__blank',
           download: 'CiaFiligranes-TallerCirco.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
-      },
-
-      {
-        title: 'Espectáculo',
-        name: 'Plis Plas',
-        link: '',
-        image: '/images/img_thumbnail_plisplas.jpg',
-        alt: 'Imagen del espectáculo Plis Plas',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-PlisPlas_es.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',

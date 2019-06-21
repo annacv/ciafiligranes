@@ -21,7 +21,7 @@
           <div
             v-for="item in highlighted"
             :key="item.name"
-            class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-3 col-xxxl-3">
+            class="col-12 col-sm-6 col-md-6 col-lg-4">
             <Card
               :image="item.image"
               :alt="item.alt"
