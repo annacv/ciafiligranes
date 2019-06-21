@@ -12,9 +12,15 @@ export default {
       text: 'Espectáculos',
       aria: 'Enlaza con la página de Espectáculos'
     },
+
     workshops: {
       text: 'Talleres',
       aria: 'Enlaza con la página de Talleres'
+    },
+
+    performances: {
+      text: 'Animaciones',
+      aria: 'Enlaza con la página de Animaciones'
     }
   }
 }

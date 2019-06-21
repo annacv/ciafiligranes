@@ -12,9 +12,15 @@ export default {
       text: 'Shows',
       aria: 'Links to Shows page'
     },
+
     workshops: {
       text: 'Workshops',
       aria: 'Links to Workshops page'
+    },
+
+    performances: {
+      text: 'Performances',
+      aria: 'Links to Performances page'
     }
   }
 }
