@@ -56,7 +56,7 @@ export default {
       },
       {
         label:
-          '* El número de personatges varia en funció del volum de públic assistent.'
+          '* El número de personatges varia en funció del volum esperat de públic assistent.'
       }
     ]
   }

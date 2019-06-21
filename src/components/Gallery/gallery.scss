@@ -4,8 +4,11 @@
 
   &__content {
     align-items: flex-end;
-    max-height: 22.5rem;
     overflow: hidden;
+
+    @media only screen and (min-width: 768px) {
+      max-height: 22.5rem;
+    }
 
     @media only screen and (min-width: 1900px) {
       max-height: 28.5rem;
@@ -16,5 +19,14 @@
     height: auto;
     width: 100%;
     overflow: hidden;
+
+    &.img--1,
+    &.img--2 {
+      display: none;
+
+      @media only screen and (min-width: 768px) {
+        display: inline-flex;
+      }
+    }
   }
 }

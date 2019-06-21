@@ -35,8 +35,7 @@ export default {
     sheet2: [
       {
         label: 'Actors',
-        description:
-          'Jordi Torrens and Albert Pérez (a broader list available)'
+        description: 'Jordi Torrens and Albert Pérez (a broader list available)'
       },
       {
         label: 'General Direction',

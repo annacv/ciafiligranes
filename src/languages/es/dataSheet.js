@@ -56,7 +56,7 @@ export default {
       },
       {
         label:
-          '* El número de personajes varía en función del volumen de público asistente.'
+          '* El número de personajes varía en función del volumen esperdao de público asistente.'
       }
     ]
   }

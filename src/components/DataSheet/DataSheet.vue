@@ -51,7 +51,6 @@
                   :key="item.label"
                   class="data-sheet__list-item"
                 >
-
                   <p
                     class="data-sheet__item--bold"
                     v-text="item.label"
