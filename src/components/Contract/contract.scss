@@ -1,16 +1,16 @@
 .contract {
   padding: 1rem 0;
 
-  @media only screen and (min-width: 1900px) {
-    padding: 1.5rem 0;
-  }
-
   @media only screen and (min-width: 768px) {
     margin: 0 0 5rem 0;
   }
 
   @media only screen and (min-width: 1200px) {
     margin: 0 0 10rem 0;
+  }
+
+  @media only screen and (min-width: 1900px) {
+    padding: 1.5rem 0;
   }
 
   &__title {
@@ -96,8 +96,13 @@
   }
 
   &__performances-w {
+    display: none;
     border-bottom: .125rem solid #e84e31;
     margin: 0;
+
+    @media only screen and (min-width: 768px) {
+      display: block;
+    }
 
     .contract {
       &__title,
@@ -108,8 +113,7 @@
   }
 
   &__shows,
-  &__workshops,
-  &__performances {
+  &__workshops {
     @media only screen and (min-width: 1024px) {
       margin: 6.5rem 0;
     }
@@ -129,6 +133,13 @@
 
   &__performances {
     background-color: #e84e31;
-    margin: 0;
+
+    @media only screen and (min-width: 1024px) {
+      margin: 0 0 6.5rem 0;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      margin: 0 0 10rem 0;
+    }
   }
 }
