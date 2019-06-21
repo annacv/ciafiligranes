@@ -23,6 +23,14 @@
         v-text="menu.workshops.text"
       />
     </li>
+    <li class="navbar__menu-item">
+      <nuxt-link
+        :aria-label="menu.performances.aria"
+        :to="localePath('animacions', $i18n.locale)"
+        class="navbar__menu-links"
+        v-text="menu.performances.text"
+      />
+    </li>
   </ul>
 </template>
 

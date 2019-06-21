@@ -14,6 +14,11 @@ export default {
     title: 'tallers per a totes les edats'
   },
 
+  performances: {
+    claim: 'Cia.Filigranes presenta...',
+    title: 'Animacions a la carta'
+  },
+
   legalDisclaimer: {
     title: 'Avís legal'
   },

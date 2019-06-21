@@ -1,0 +1,32 @@
+.gallery {
+  display: inline-flex;
+  padding: 0;
+
+  &__content {
+    align-items: flex-end;
+    overflow: hidden;
+
+    @media only screen and (min-width: 768px) {
+      max-height: 22.5rem;
+    }
+
+    @media only screen and (min-width: 1900px) {
+      max-height: 28.5rem;
+    }
+  }
+
+  &__image {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+
+    &.img--1,
+    &.img--2 {
+      display: none;
+
+      @media only screen and (min-width: 768px) {
+        display: inline-flex;
+      }
+    }
+  }
+}

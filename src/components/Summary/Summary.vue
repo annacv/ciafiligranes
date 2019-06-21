@@ -35,7 +35,7 @@
             </ul>
             <div class="summary__btn">
               <Button
-                :button="$t('summary.button')"
+                :button="button"
               />
             </div>
           </div>
@@ -64,6 +64,11 @@ export default {
     items: {
       type: Array,
       required: true
+    },
+
+    button: {
+      type: Object,
+      default: () => {}
     }
   }
 }

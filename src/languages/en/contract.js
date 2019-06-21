@@ -16,10 +16,14 @@ export default {
   ],
 
   shows: {
-    title: 'Want to hire any of our shows?'
+    title: 'Want to hire any show?'
   },
 
   workshops: {
-    title: 'Want to hire any of our workshops?'
+    title: 'Want to hire any workshop?'
+  },
+
+  performances: {
+    title: 'Do you want your own customized performance?'
   }
 }

@@ -14,6 +14,11 @@ export default {
     title: 'amusing workshops for all ages'
   },
 
+  performances: {
+    claim: 'Cia.Filigranes presents...',
+    title: 'Performances à la carte'
+  },
+
   legalDisclaimer: {
     title: 'Legal notice'
   },

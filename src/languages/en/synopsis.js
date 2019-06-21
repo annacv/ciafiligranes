@@ -17,5 +17,25 @@ export default {
       src: '/images/img_sinopsi_plisplas.jpg',
       srcset: '/images/img_sinopsi_plisplas.png'
     }
+  },
+
+  performances: {
+    title: 'Synopsis',
+    paragraphs: [
+      {
+        paragraph:
+          'Cookers, bakers, waiters, firefighters, tandem gardeners, cleaning women, classic circus... And also stilts, monocyclers, ball of balance or fire jugglers.'
+      },
+      {
+        paragraph:
+          'They can introduce to organized activities or interact with the public, adapting clothes and characterization.'
+      }
+    ],
+
+    image: {
+      alt: 'Image of the animation with juggling of fire',
+      src: '/images/img_sinopsi_performances.jpg',
+      srcset: '/images/img_sinopsi_performances.png'
+    }
   }
 }

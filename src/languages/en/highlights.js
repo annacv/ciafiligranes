@@ -58,25 +58,6 @@ export default {
             class: 'arrow_down teal'
           }
         }
-      },
-
-      {
-        title: 'Itinerant Show',
-        name: 'Freak-Frac Brothers',
-        link: '',
-        image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'An image of The Freak-Frac Brothers Parade show',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
-          download: 'CiaFiligranes-FreakFracBrothers.pdf',
-          text: 'Dossier',
-          slot: {
-            alt: 'Arrow down. By clicking a file will be downloaded',
-            class: 'arrow_down teal'
-          }
-        }
       }
     ]
   },
@@ -137,26 +118,6 @@ export default {
           href: '/downloads/CiaFiligranes-Performances.pdf',
           target: '__blank',
           download: 'CiaFiligranes-Performances.pdf',
-          text: 'Dossier',
-          slot: {
-            alt: 'Arrow down. By clicking a file will be downloaded',
-            class: 'arrow_down teal'
-          }
-        }
-      },
-
-      {
-        title: 'Workshop',
-        name: 'Clowns',
-        link: '',
-        image: '/images/img_thumbnail_pallassos.jpg',
-        alt: 'An image of The Clowns Workshop',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ClownsWorkshop.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-ClownsWorkshop.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',
@@ -229,8 +190,14 @@ export default {
             class: 'arrow_down teal'
           }
         }
-      },
+      }
+    ]
+  },
 
+  performances: {
+    title: 'More Filigranes',
+    description: 'Room or street shows and workshops for all ages',
+    highlighted: [
       {
         title: 'Itinerant Show',
         name: 'The Freak-Frac Brothers',
@@ -243,6 +210,46 @@ export default {
           href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
           target: '__blank',
           download: 'CiaFiligranes-FreakFracBrothers.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Workshop',
+        name: 'Soap Bubbles',
+        link: '',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'An image of The Soap Bubbles Workshop',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-SoapBubblesWorkshop.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-SoapBubblesWorkshop.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down teal'
+          }
+        }
+      },
+
+      {
+        title: 'Workshops',
+        name: 'Circus',
+        link: '',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'An image of the Circus Workshop',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__teal',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-CircusWorkshop.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-CircusWorkshop.pdf',
           text: 'Dossier',
           slot: {
             alt: 'Arrow down. By clicking a file will be downloaded',

@@ -1,10 +1,16 @@
 .contract {
+  padding: 1rem 0;
+
   @media only screen and (min-width: 768px) {
     margin: 0 0 5rem 0;
   }
 
   @media only screen and (min-width: 1200px) {
     margin: 0 0 10rem 0;
+  }
+
+  @media only screen and (min-width: 1900px) {
+    padding: 1.5rem 0;
   }
 
   &__title {
@@ -69,34 +75,45 @@
 
   // WHITE BACKGROUND WITH BORDER STYLES
 
-  &__home {
-    padding: 1rem 0;
-
-    @media only screen and (min-width: 1900px) {
-      padding: 1.5rem 0;
-    }
-
-    border-bottom: .125rem solid #fd2b5e;
-
+  &__home,
+  &__performances-w {
     .contract {
-      &__title {
-        color: #fd2b5e;
-      }
-
       &__ways {
         color: #000;
       }
+    }
+  }
 
+  &__home {
+    border-bottom: .125rem solid #fd2b5e;
+
+    .contract {
+      &__title,
       &__link {
         color: #fd2b5e;
       }
     }
   }
 
+  &__performances-w {
+    display: none;
+    border-bottom: .125rem solid #e84e31;
+    margin: 0;
+
+    @media only screen and (min-width: 768px) {
+      display: block;
+    }
+
+    .contract {
+      &__title,
+      &__link {
+        color: #e84e31;
+      }
+    }
+  }
+
   &__shows,
   &__workshops {
-    padding: 2rem 0;
-
     @media only screen and (min-width: 1024px) {
       margin: 6.5rem 0;
     }
@@ -112,5 +129,17 @@
 
   &__workshops {
     background-color: #5c2978;
+  }
+
+  &__performances {
+    background-color: #e84e31;
+
+    @media only screen and (min-width: 1024px) {
+      margin: 0 0 6.5rem 0;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      margin: 0 0 10rem 0;
+    }
   }
 }

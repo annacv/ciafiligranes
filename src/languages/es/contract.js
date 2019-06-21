@@ -17,10 +17,14 @@ export default {
   ],
 
   shows: {
-    title: '¿Quieres contratar alguno de nuestros espectáculos?'
+    title: '¿Quieres contratar algun espectáculo?'
   },
 
   workshops: {
-    title: '¿Quieres contratar alguno de nuestros talleres?'
+    title: '¿Quieres contratar algun taller?'
+  },
+
+  performances: {
+    title: '¿Quieres tu espectáculo a medida?'
   }
 }

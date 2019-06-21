@@ -4,12 +4,12 @@
       :content="$t('cover.home')"
       class="cover__home"
     />
-    <Summary
-      :abstract="$t('summary.abstract')"
-      :items="$t('summary.items')"
-      :button="$t('summary.button')"
-    />
     <section class="main-content">
+      <Summary
+        :abstract="$t('summary.home.abstract')"
+        :items="$t('summary.home.items')"
+        :button="$t('summary.home.button')"
+      />
       <Synopsis
         :title="$t('synopsis.home.title')"
         :image="$t('synopsis.home.image')"
