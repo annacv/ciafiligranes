@@ -34,7 +34,7 @@
               </li>
             </ul>
             <div class="summary__btn">
-              <Button
+              <FiliButton
                 :button="button"
               />
             </div>
@@ -46,13 +46,13 @@
 </template>
 
 <script>
-import Button from '../Button/Button'
+import FiliButton from '../FiliButton/FiliButton'
 
 export default {
   name: 'Summary',
 
   components: {
-    Button
+    FiliButton
   },
 
   props: {

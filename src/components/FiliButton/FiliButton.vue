@@ -1,6 +1,6 @@
 <style
   lang="scss"
-  src="./button.scss"
+  src="./filiButton.scss"
   scoped
 >
 </style>
@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: 'Button',
+  name: 'FiliButton',
 
   props: {
     button: {

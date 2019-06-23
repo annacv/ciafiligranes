@@ -1,7 +1,6 @@
 export default {
   index: {
-    title:
-      "Filigranes Clown's Company. Find shows, workshops and customized performances.",
+    title: 'Filigranes Company',
     meta: [
       {
         name: 'description',

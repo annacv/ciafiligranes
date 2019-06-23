@@ -31,7 +31,7 @@
             :key="button.class"
             class="synopsis__btn"
           >
-            <Button
+            <FiliButton
               v-if="button"
               :button="button"
             />
@@ -64,13 +64,13 @@
 </template>
 
 <script>
-import Button from '~/components/Button/Button'
+import FiliButton from '~/components/FiliButton/FiliButton'
 
 export default {
   name: 'Synopsis',
 
   components: {
-    Button
+    FiliButton
   },
 
   props: {

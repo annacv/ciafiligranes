@@ -78,3 +78,11 @@ h4 {
     padding-top: 0.05rem;
   }
 }
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
