@@ -6,12 +6,12 @@ export default {
 
   shows: {
     claim: 'Cia.Filigranes presenta...',
-    title: '¡Payasos y circo para a todas!'
+    title: '¡Payasos y circo!'
   },
 
   workshops: {
-    claim: 'Cia.Filigranes os ofrece',
-    title: 'talleres para todas las edades'
+    claim: 'Cia.Filigranes os ofrece...',
+    title: 'Talleres para todas'
   },
 
   performances: {

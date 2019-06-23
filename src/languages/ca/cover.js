@@ -10,8 +10,8 @@ export default {
   },
 
   workshops: {
-    claim: 'Cia.Filigranes us ofereix',
-    title: 'tallers per a totes les edats'
+    claim: 'Cia.Filigranes us ofereix...',
+    title: 'Tallers per a totes les edats'
   },
 
   performances: {

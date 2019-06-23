@@ -6,12 +6,12 @@ export default {
 
   shows: {
     claim: 'Cia.Filigranes presents...',
-    title: 'Clowns and Circus for everyone!'
+    title: 'Clowns and Circus for all!'
   },
 
   workshops: {
-    claim: 'Cia.Filigranes offers you',
-    title: 'amusing workshops for all ages'
+    claim: 'Cia.Filigranes offers you...',
+    title: 'Workshops for all ages'
   },
 
   performances: {
