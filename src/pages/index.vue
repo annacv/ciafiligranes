@@ -4,24 +4,28 @@
       :content="$t('cover.home')"
       class="cover__home"
     />
-    <Summary
-      :abstract="$t('summary.abstract')"
-      :items="$t('summary.items')"
-      :button="$t('summary.button')"
-    />
-    <Synopsis
-      :title="$t('synopsis.title')"
-      :alt="$t('synopsis.alt')"
-      :paragraphs="$t('synopsis.paragraphs')"
-      class="home"
-    />
-    <Contract
-      :title="$t('contract.title')"
-      :items="$t('contract.items')"
-    />
+    <section class="main-content">
+      <Summary
+        :abstract="$t('summary.home.abstract')"
+        :items="$t('summary.home.items')"
+        :button="$t('summary.home.button')"
+      />
+      <Synopsis
+        :title="$t('synopsis.home.title')"
+        :image="$t('synopsis.home.image')"
+        :paragraphs="$t('synopsis.home.paragraphs')"
+        class="synopsis__home"
+      />
+      <Contract
+        :title="$t('contract.title')"
+        :items="$t('contract.items')"
+        class="contract__home"
+      />
+    </section>
     <Highlights
       :content="$t('highlights.home')"
       :highlighted="$t('highlights.home.highlighted')"
+      class="highlights__mixed"
     />
   </div>
 </template>

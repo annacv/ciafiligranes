@@ -13,5 +13,17 @@ export default {
       href: 'tel:615411652',
       link: '615 411 652'
     }
-  ]
+  ],
+
+  shows: {
+    title: 'Want to hire any show?'
+  },
+
+  workshops: {
+    title: 'Want to hire any workshop?'
+  },
+
+  performances: {
+    title: 'Do you want your own customized performance?'
+  }
 }

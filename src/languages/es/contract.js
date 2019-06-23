@@ -14,5 +14,17 @@ export default {
       href: 'tel:615411652',
       link: '615 411 652'
     }
-  ]
+  ],
+
+  shows: {
+    title: '¿Quieres contratar algun espectáculo?'
+  },
+
+  workshops: {
+    title: '¿Quieres contratar algun taller?'
+  },
+
+  performances: {
+    title: '¿Quieres tu espectáculo a medida?'
+  }
 }

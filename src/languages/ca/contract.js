@@ -1,5 +1,5 @@
 export default {
-  title: 'Vols contractar l’espectacle?',
+  title: "Vols contractar l'espectacle?",
   items: [
     {
       text: 'Escriu-nos un email a',
@@ -14,5 +14,17 @@ export default {
       href: 'tel:615411652',
       link: '615 411 652'
     }
-  ]
+  ],
+
+  shows: {
+    title: 'Vols contractar algun espectacle?'
+  },
+
+  workshops: {
+    title: 'Vols contractar algun taller?'
+  },
+
+  performances: {
+    title: 'Vols el teu espectacle a mida?'
+  }
 }

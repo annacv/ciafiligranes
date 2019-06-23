@@ -1,7 +1,6 @@
 export default {
   index: {
-    title:
-      'Compañía de payasos Filigranes. Encuentra espectáculos, talleres y animaciones a tu medida.',
+    title: 'Compañía Filigranes',
     meta: [
       {
         name: 'description',

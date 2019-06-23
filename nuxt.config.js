@@ -1,5 +1,3 @@
-//const pkg = require('./package')
-
 module.exports = {
   mode: 'spa',
 
@@ -8,6 +6,11 @@ module.exports = {
   generate: {
     dir: 'build',
     fallback: true
+  },
+
+  pageTransition: {
+    name: 'fade',
+    mode: 'out-in'
   },
 
   /*
@@ -86,7 +89,11 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#bc1b36' },
+  loading: { color: '#bc1b36', height: '.25rem', duration: 5000 },
+  loadingIndicator: {
+    name: 'pulse',
+    color: '#bc1b36'
+  },
 
   /*
   ** Global CSS

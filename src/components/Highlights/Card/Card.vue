@@ -27,7 +27,7 @@
           />
         </div>
         <div class="card__btn">
-          <Button
+          <FiliButton
             :button="button"
           />
         </div>
@@ -37,13 +37,13 @@
 </template>
 
 <script>
-import Button from '../../Button/Button'
+import FiliButton from '~/components/FiliButton/FiliButton'
 
 export default {
   name: 'Card',
 
   components: {
-    Button
+    FiliButton
   },
 
   props: {

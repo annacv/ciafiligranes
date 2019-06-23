@@ -1,7 +1,6 @@
 export default {
   index: {
-    title:
-      'Companyia de pallassos Filigranes. Troba espectacles, tallers i animacions fetes a mida.',
+    title: 'Companyia Filigranes',
     meta: [
       {
         name: 'description',

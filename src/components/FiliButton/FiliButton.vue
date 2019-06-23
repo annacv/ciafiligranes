@@ -1,6 +1,6 @@
 <style
   lang="scss"
-  src="./button.scss"
+  src="./filiButton.scss"
   scoped
 >
 </style>
@@ -10,11 +10,12 @@
     :class="button.class"
     :type="button.type"
     :href="button.href"
-    :download="button.download"
+    :target="button.target"
     role="button"
-    target="__blank"
   >
-    <slot>
+    <slot
+      :download="button.download"
+    >
       {{ button.text }}
       <div
         v-if="button.slot.alt"
@@ -28,7 +29,7 @@
 
 <script>
 export default {
-  name: 'Button',
+  name: 'FiliButton',
 
   props: {
     button: {

@@ -1,14 +1,13 @@
 .highlights {
-  margin: 3.5rem 0 2.5rem 0;
+  margin: 3rem 0 2.5rem 0;
   padding: 0 .9375rem;
 
   @media only screen and (min-width: 768px) {
     margin: 6rem 0;
     padding: 0 0 2.5rem 0;
-    background-image: url("~@/assets/images/java_background.svg");
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: 120% bottom;
+    background-position: 132% bottom;
   }
 
   @media only screen and (min-width: 1024px) {
@@ -43,7 +42,6 @@
   }
 
   &__description {
-    color: #008287;
     line-height: 1.4;
     margin: .25rem 0 1.5rem 0;
 
@@ -69,26 +67,28 @@
   &__items {
     justify-content: space-between;
 
-    @media only screen and (min-width: 1024px) and (max-width: 1900px) {
+    @media only screen and (min-width: 1024px) and (max-width: 1899px) {
       .col-6,
       .col-sm-6,
-      .col-md-6,
-      .col-lg-6,
-      .col-xl-6 {
+      .col-md-6 {
         &:first-child,
         &:nth-child(2) {
           padding-bottom: 1.5rem;
         }
+      }
+    }
+  }
 
-        &:first-child,
-        &:nth-child(3) {
-          padding-right: 1.875rem;
-        }
+  // MIXED HIGHLIGHTS COLOR STYLES
 
-        &:nth-child(2),
-        &:nth-child(4) {
-          padding-left: 1.875rem;
-        }
+  &__mixed {
+    @media only screen and (min-width: 768px) {
+      background-image: url("~@/assets/images/java_background.svg");
+    }
+
+    .highlights {
+      &__description {
+        color: #008287;
       }
     }
   }

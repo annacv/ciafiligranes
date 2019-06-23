@@ -18,8 +18,12 @@ a {
     height: .5rem;
     margin-left: .25rem;
 
-    &.radicalred {
+    &.radical-red {
       background-image: url("~@/assets/icons/arrow_right--radical-red.svg");
+    }
+
+    &.eminence {
+      background-image: url("~@/assets/icons/arrow_right--eminence.svg");
     }
   }
 
