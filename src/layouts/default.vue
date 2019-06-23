@@ -12,6 +12,7 @@
       @sidenavToggle="displaySidenav =! displaySidenav"
     />
     <TheSidenav
+      :logo="$t('header.logo')"
       :menu="$t('header.menu')"
       :show="displaySidenav"
       @close="displaySidenav = false"

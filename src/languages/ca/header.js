@@ -1,7 +1,8 @@
 export default {
   logo: {
     label: 'Logo de la Companyia Filigranes',
-    alt: 'Pallassos, espectacles, tallers i animacions'
+    alt: 'Pallassos, espectacles, tallers i animacions',
+    filicor: 'Inici'
   },
 
   selectlang: 'Selecciona el teu idioma',

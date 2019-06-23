@@ -30,6 +30,23 @@
         />
       </div>
       <div @click="$emit('close')">
+        <h1>
+          <nuxt-link
+            :to="localePath('index')"
+            :aria-label="logo.label"
+            class="navbar__logo navbar__menu-item"
+          >
+            <img
+              :alt="logo.alt"
+              src="~assets/icons/filicor.svg"
+              class="navbar__image"
+              @click="$emit('close')"
+            >
+            <p
+              v-text="logo.filicor"
+            />
+          </nuxt-link>
+        </h1>
         <TheNavbar
           :menu="menu"
           @click="$emit('close')"
@@ -55,6 +72,11 @@ export default {
     },
 
     menu: {
+      type: Object,
+      default: () => {}
+    },
+
+    logo: {
       type: Object,
       default: () => {}
     }

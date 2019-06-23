@@ -1,7 +1,8 @@
 export default {
   logo: {
     label: 'Companyia Filigranes Logo',
-    alt: 'Clowns, shows, workshops and performances'
+    alt: 'Clowns, shows, workshops and performances',
+    filicor: 'Home'
   },
 
   selectlang: 'Select your language',
