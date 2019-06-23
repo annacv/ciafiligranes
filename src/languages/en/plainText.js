@@ -4,7 +4,7 @@ export default {
       {
         title: 'Information of the owner',
         paragraph:
-          'For the effects of Article 10 of Law 34/2002, of 11th July, on Information Society and Electronic Commerce Services (LSSICE), the user is informed that the website owner is Companyia Filigranes (hereinafter Filigranes Company), with registered office at carrer St.Leopold núm. 63, Local 5, 08221, Terrassa (Barcelona), holder of VAT no. XXXXXXXXX and with e-mail address ciafiligranes@gmail.com. It is registered in the Register of the Associació de Professionals de Circ de Catalunya under number XXXXXXXXXXXX.'
+          "For the effects of Article 10 of Law 34/2002, of 11th July, on Information Society and Electronic Commerce Services (LSSICE), the user is informed that the website owner is Companyia Filigranes (hereinafter Filigranes Company), member of the Associació Sociocultural de Circ de Terrassa Tub d'Assaig 7'70, with registered office at carrer St.Leopold núm. 63, Local 5, 08221, Terrassa (Barcelona), holder of VAT no. G-65190431 and with e-mail address ciafiligranes@gmail.com. It's members are registered in the Register of the Associació de Professionals de Circ de Catalunya under numbers 0397 and 0237."
       },
       {
         title: 'Access and use conditions',

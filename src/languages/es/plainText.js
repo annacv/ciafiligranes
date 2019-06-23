@@ -4,7 +4,7 @@ export default {
       {
         title: 'Información del titular',
         paragraph:
-          'A efectos del artículo 10 de la Ley 34/2002, de 11 de julio, de la Ley de Servicios de la Sociedad de la Información y del Comercio Electrónico; se informa al usuario que el titular de la web es la Companyia Filigranes (en adelante Compañía Filigranes), con domicilio en la calle St.Leopold núm. 63, Local 5, 08221, Terrassa (Barcelona), con NIF XXXXXXXXX y correo electrónico ciafiligranes@gmail.com, está inscrita en el Registro de la Asociación de Profesionales del Circo de Catalunya con el número XXXXXXXXXXXX.'
+          "A efectos del artículo 10 de la Ley 34/2002, de 11 de julio, de la Ley de Servicios de la Sociedad de la Información y del Comercio Electrónico; se informa a la persona usuaria que el titular de la web es la Companyia Filigranes (en adelante Compañía Filigranes), miembro de la Associació Sociocultural de Circ de Terrassa Tub d'Assaig 7'70, con domicilio en la calle St.Leopold núm. 63, Local 5, 08221, Terrassa (Barcelona), con NIF G-65190431 y correo electrónico ciafiligranes@gmail.com. Sus miembros están inscritos en el Registro de la Asociación de Profesionales del Circo de Catalunya con los números 0397 y 0237."
       },
       {
         title: 'Condiciones de acceso y uso',
