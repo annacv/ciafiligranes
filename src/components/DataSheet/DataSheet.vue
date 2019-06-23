@@ -71,14 +71,8 @@
 </template>
 
 <script>
-import Button from '../Button/Button'
-
 export default {
   name: 'DataSheet',
-
-  components: {
-    Button
-  },
 
   props: {
     titles: {
