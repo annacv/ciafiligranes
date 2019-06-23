@@ -39,14 +39,14 @@
 
 <script>
 import Card from './Card/Card'
-import Button from '../Button/Button'
+import FiliButton from '../FiliButton/FiliButton'
 
 export default {
   name: 'Highlights',
 
   components: {
     Card,
-    Button
+    FiliButton
   },
 
   props: {
