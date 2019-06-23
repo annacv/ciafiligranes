@@ -3,6 +3,10 @@ module.exports = {
 
   srcDir: './src',
 
+  env: {
+    baseUrl: 'https://ciafiligranes.net'
+  },
+
   generate: {
     dir: 'build',
     fallback: true
