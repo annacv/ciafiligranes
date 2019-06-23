@@ -94,7 +94,7 @@ export default {
         }
       },
       {
-        title: 'Cercavila Germans Freak-Frac',
+        title: 'Germans Freak-Frac',
         paragraphs: [
           {
             paragraph:

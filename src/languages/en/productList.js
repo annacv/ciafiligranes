@@ -94,7 +94,7 @@ export default {
         }
       },
       {
-        title: 'The Freak-Frac Brothers Parade',
+        title: 'The Freak-Frac Brothers',
         paragraphs: [
           {
             paragraph:
