@@ -80,3 +80,6 @@ dist
 
 # IDE
 .idea
+
+#VS Code
+.code-workspace
