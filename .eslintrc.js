@@ -24,10 +24,17 @@ module.exports = {
   rules: {
     'babel/semi': 0,
     'generator-star-spacing': 'off',
-    'lines-between-class-members': [ 'error', 'always' ],
-    'lines-around-directive': [ 'error', 'always' ],
+    'lines-between-class-members': ['error', 'always'],
+    'lines-around-directive': ['error', 'always'],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
-    'vue/order-in-components': 0
+    'vue/order-in-components': 0,
+    'vue/max-attributes-per-line': [2, {
+      'singleline': 2,
+      'multiline': {
+        'max': 2,
+        'allowFirstLine': false
+      }
+    }]
   }
 }

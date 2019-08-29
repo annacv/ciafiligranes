@@ -21,6 +21,7 @@
     "nuxt": "^2.7.1",
     "nuxt-cookie-control": "^1.4.9",
     "nuxt-i18n": "^5.12.3",
+    "sass-lint": "^1.13.1",
     "tar": "^2.2.2",
     "vue": "^2.6.10",
     "vue-server-renderer": "^2.6.10",
