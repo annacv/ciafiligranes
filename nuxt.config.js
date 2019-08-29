@@ -1,5 +1,6 @@
 module.exports = {
   mode: 'spa',
+  modern: 'true',
 
   srcDir: './src',
 
