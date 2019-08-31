@@ -43,15 +43,15 @@
   }
 
   &__list {
-    border: .0625rem solid #e84e31;
+    border: .0625rem solid;
 
     &.left-side {
-      border-bottom: .5rem solid #e84e31;
+      border-bottom: .5rem solid;
       padding: 1.5rem 1.5rem 1.05rem;
     }
 
     &.right-side {
-      border-top: .5rem solid #e84e31;
+      border-top: .5rem solid;
       padding: 1.05rem 1.5rem 1.5rem;
     }
   }
@@ -84,6 +84,45 @@
 
     &--light {
       font-family: "AkkuratLight", "Arial", sans-serif;
+    }
+  }
+
+  &.shows {
+    .data-sheet {
+      &__list {
+        border-color: #fd2b5e;
+
+        &.left-side,
+        &.right-side {
+          border-color: #fd2b5e;
+        }
+      }
+    }
+  }
+
+  &.workshops {
+    .data-sheet {
+      &__list {
+        border-color: #5c2978;
+
+        &.left-side,
+        &.right-side {
+          border-color: #5c2978;
+        }
+      }
+    }
+  }
+
+  &.performances {
+    .data-sheet {
+      &__list {
+        border-color: #e84e31;
+
+        &.left-side,
+        &.right-side {
+          border-color: #e84e31;
+        }
+      }
     }
   }
 }

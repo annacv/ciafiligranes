@@ -11,10 +11,10 @@
         :button="$t('summary.plisplas.button')"
       />
       <DataSheet
-        :titles="$t('dataSheet.performances.titles')"
-        :sheet1="$t('dataSheet.performances.sheet1')"
-        :sheet2="$t('dataSheet.performances.sheet2')"
-        class="performances"
+        :titles="$t('dataSheet.plisplas.titles')"
+        :sheet1="$t('dataSheet.plisplas.sheet1')"
+        :sheet2="$t('dataSheet.plisplas.sheet2')"
+        class="shows"
       />
     </section>
     <Gallery

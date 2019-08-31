@@ -1,4 +1,91 @@
 export default {
+  plisplas: {
+    titles: {
+      title1: 'Fitxa tècnica',
+      title2: 'Fitxa artística'
+    },
+
+    sheet1: [
+      {
+        label: 'Plis Plas',
+        description: 'Espectacle de pallassos per a tots els públics.'
+      },
+      {
+        label: 'Estrenat el',
+        description: '2018'
+      },
+      {
+        label: "Durada de l'espectacle",
+        description: '50 minuts.'
+      },
+      {
+        label: 'Temps de muntatge',
+        description: '1 hora 30 minuts.'
+      },
+      {
+        label: 'Temps de desmuntatge',
+        description: '45 minuts.'
+      },
+      {
+        label: 'Escenografia',
+        description:
+          "Fons d'escenari rodó i pista semicircular, exterior o sala."
+      },
+      {
+        label: 'Espai mínim',
+        description: '6m. (ample) x 8m. (fons). Superfície plana.'
+      },
+      {
+        label: 'Presa llum',
+        description: "250 volts  a peu d'escenari."
+      },
+      {
+        label: 'Equip de so',
+        description:
+          '1000 watts i 3 micros innalàmbrics (propis de la Companyia).'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Pallassos',
+        description: 'Jordi Torrens i Albert Pérez'
+      },
+      {
+        label: 'Direcció General',
+        description: 'Carles Grau'
+      },
+      {
+        label: 'Ajudant de Direcció',
+        description: 'Montserrat Morera'
+      },
+      {
+        label: 'Dramatúrgia',
+        description: 'Carles Grau i Companyia Filigranes'
+      },
+      {
+        label: 'Vestuari',
+        description: 'Marina Díaz'
+      },
+      {
+        label: 'Arrenjaments musicals',
+        description: 'Marc Monzó'
+      },
+      {
+        label: 'Assessorament amb malabars',
+        description: 'Cristhian Uroz'
+      },
+      {
+        label: "Tècnic de so i d'il.luminació",
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Disseny Escenografia',
+        description: 'Tonet Amorós i Cia. Filigranes'
+      }
+    ]
+  },
+
   performances: {
     titles: {
       title1: 'Fitxa tècnica',

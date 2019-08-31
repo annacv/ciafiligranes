@@ -1,4 +1,91 @@
 export default {
+  plisplas: {
+    titles: {
+      title1: 'Technical card',
+      title2: 'Artistic card'
+    },
+
+    sheet1: [
+      {
+        label: 'Plis Plas',
+        description: 'Show of clowns for all audiences.'
+      },
+      {
+        label: 'Released in',
+        description: '2018'
+      },
+      {
+        label: 'Duration of the show',
+        description: '50 minutes.'
+      },
+      {
+        label: 'Assembly',
+        description: '1 hora 30 minutes.'
+      },
+      {
+        label: 'Disassembly',
+        description: '45 minutes.'
+      },
+      {
+        label: 'Scenery',
+        description:
+          'Round stage background and semicircular track, adaptable to exterior.'
+      },
+      {
+        label: 'Minimum space',
+        description: '6m. (width) x 8m. (background). Flat surface.'
+      },
+      {
+        label: 'Lighting jacket',
+        description: '250v on stage.'
+      },
+      {
+        label: 'Sound equipment',
+        description:
+          '1000 watts and 3 wireless microphones (owned by the Company).'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Clowns',
+        description: 'Jordi Torrens and Albert Pérez'
+      },
+      {
+        label: 'General Direction',
+        description: 'Carles Grau'
+      },
+      {
+        label: 'Assistant Director',
+        description: 'Montserrat Morera'
+      },
+      {
+        label: 'Drama',
+        description: 'Carles Grau and Cia. Filigranes'
+      },
+      {
+        label: 'Changing room',
+        description: 'Marina Díaz'
+      },
+      {
+        label: 'Music trainings',
+        description: 'Marc Monzó'
+      },
+      {
+        label: 'Advice with juggling',
+        description: 'Cristhian Uroz'
+      },
+      {
+        label: 'Sound and lighting technician',
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Design Scenery',
+        description: 'Tonet Amorós and Cia. Filigranes'
+      }
+    ]
+  },
+
   performances: {
     titles: {
       title1: 'Technical Card',
