@@ -29,6 +29,8 @@ nav {
     color: #fff;
     font-family: "Akkurat", "Arial", sans-serif;
     font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     &:hover {
       border-bottom: .05rem solid #fff;

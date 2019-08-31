@@ -22,6 +22,8 @@
     padding: 2rem 0;
     text-align: center;
     font-size: .75rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     @media only screen and (min-width: 768px) {
       padding: 3rem 0;

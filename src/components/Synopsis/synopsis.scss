@@ -89,6 +89,8 @@
 
       &__paragraph {
         color: #fff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
 
         &:first-child {
           padding: 2.5rem 0 1rem;
