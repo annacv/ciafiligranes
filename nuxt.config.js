@@ -120,7 +120,6 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
-    'nuxt-cookie-control',
     [
       'nuxt-i18n',
       {
@@ -144,22 +143,6 @@ module.exports = {
     componentPlugins: ['Layout'],
     bootstrapCSS: false, // or `css`
     bootstrapVueCSS: false // or `bvCSS`
-  },
-
-  cookies: {
-    necessary: [
-      { cookies: ['cookie_control_consent', 'cookie_control_enabled_cookies'] }
-    ],
-    optional: [
-      {
-        async: true,
-        cookies: ['_ga', '_gid', '_hjIncludedInSample', '_hjRecordingEnabled'],
-        accepted: () => {
-          window.dataLayer = window.dataLayer || []
-        },
-        declined: () => {}
-      }
-    ]
   },
   /*
   ** Axios module configuration

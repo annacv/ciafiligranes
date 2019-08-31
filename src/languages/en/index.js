@@ -1,5 +1,4 @@
 import contract from './contract'
-import cookies from './cookies'
 import cover from './cover'
 import dataSheet from './dataSheet'
 import dottedList from './dottedList'
@@ -16,7 +15,6 @@ import tableList from './tableList'
 
 export default {
   contract,
-  cookies,
   cover,
   dataSheet,
   dottedList,
