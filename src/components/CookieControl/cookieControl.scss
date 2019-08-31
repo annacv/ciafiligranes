@@ -3,46 +3,46 @@
   z-index: 100000;
 
   &__bar {
+    display: flex;
     position: fixed;
-    left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
-    padding: 20px;
+    left: 0;
     align-items: center;
     justify-content: space-between;
-    background-color: #fbdd0b;
-    font-family: 'Akkurat',
-    Arial,
-    sans-serif;
+    border: .0125rem solid #fff;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 1.25rem;
+    font-family: "Akkurat", Arial, sans-serif;
 
     p,
     a {
-      color: #000;
-      max-width: unset;
-      font-size: 14px;
       margin: 0;
+      max-width: unset;
+      color: #fff;
+      font-size: .875rem;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
 
-    a.cookies-link {
+    .cookies-link {
+      cursor: pointer;
       text-decoration: none;
-      cursor: none;
     }
 
     & button {
-      color: #000;
       border: solid .0625rem #000;
-      background-color: #fff;
       border-radius: 1.125rem;
-      line-height: normal;
-      font-family: "AkkuratBold",
-        "Arial",
-        sans-serif;
+      background-color: #fff;
       padding: .5rem .8rem .5rem .7rem;
+      line-height: normal;
+      color: #000;
+      font-family: "AkkuratBold", "Arial", sans-serif;
+      font-size: .875rem;
 
       &:hover {
-        color: #fff;
         background-color: #000;
+        color: #fff;
       }
     }
   }
@@ -69,7 +69,7 @@
   .cookie-control {
     &__bar-buttons {
       justify-content: flex-start;
-      margin-top: 20px;
+      margin-top: 1.125rem;
     }
   }
 }
