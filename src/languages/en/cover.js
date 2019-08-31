@@ -9,6 +9,11 @@ export default {
     title: 'Clowns and Circus for all!'
   },
 
+  plisplas: {
+    claim: 'Show',
+    title: 'Plis Plas'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes offers you...',
     title: 'Workshops for all ages'

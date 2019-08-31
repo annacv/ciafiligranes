@@ -9,6 +9,11 @@ export default {
     title: 'Pallassos i circ per a totes!'
   },
 
+  plisplas: {
+    claim: 'Espectacle',
+    title: 'Plis Plas'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes us ofereix...',
     title: 'Tallers per a totes les edats'

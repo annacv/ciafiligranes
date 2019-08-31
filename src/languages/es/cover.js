@@ -9,6 +9,11 @@ export default {
     title: '¡Payasos y circo!'
   },
 
+  plisplas: {
+    claim: 'Espectáculo',
+    title: 'Plis Plas'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes os ofrece...',
     title: 'Talleres para todas'
