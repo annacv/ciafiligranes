@@ -1,6 +1,6 @@
 <style
   lang="scss"
-  src="../theHeader.scss"
+  src="./languageSelector.scss"
   scoped
 >
 </style>

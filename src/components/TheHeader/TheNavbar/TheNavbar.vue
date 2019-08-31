@@ -1,7 +1,6 @@
 <style
   lang="scss"
-  src="../theHeader.scss"
-  scoped
+  src="./theNavbar.scss"
 >
 </style>
 

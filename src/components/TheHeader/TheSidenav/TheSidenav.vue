@@ -1,7 +1,6 @@
 <style
   lang="scss"
-  src="../theHeader.scss"
-  scoped
+  src="./theSidenav.scss"
 >
 </style>
 
@@ -58,9 +57,9 @@
 </template>
 
 <script>
-import TheBurger from './TheBurger'
-import LanguageSelector from './LanguageSelector'
-import TheNavbar from './TheNavbar'
+import TheBurger from '../TheBurger/TheBurger'
+import LanguageSelector from '../LanguageSelector/LanguageSelector'
+import TheNavbar from '../TheNavbar/TheNavbar'
 
 export default {
   name: 'TheSidenav',

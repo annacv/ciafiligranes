@@ -1,0 +1,48 @@
+.burger {
+  &__toggle {
+    display: block;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 50%;
+    text-indent: 100%;
+    content: "";
+  }
+
+  @media (min-width: 992px) {
+    &__toggle {
+      display: none;
+    }
+  }
+
+  &__bar {
+    transition: transform .3s, opacity .3s, -webkit-transform .3s;
+    margin-bottom: .25rem;
+    border-radius: .125rem;
+    background-color: white;
+    width: 100%;
+    height: .1875rem;
+  }
+}
+
+.burger-close {
+  width: 3rem;
+
+  .burger {
+    &__bar {
+      &--1 {
+        transform: rotate(-45deg) translateY(4px);
+      }
+
+      &--2 {
+        transform: rotate(45deg) translate(-1px, -5px);
+      }
+
+      &--3 {
+        opacity: 0;
+      }
+    }
+  }
+}
+
