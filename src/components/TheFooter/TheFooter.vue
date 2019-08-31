@@ -10,15 +10,18 @@
       <b-row no-gutters align-v="center">
         <div class="col-12 col-lg-2 col-xxxl-1 footer__brand">
           <img
-:alt="logo" src="~assets/icons/ciafiligranes.svg"
-class="footer__image" />
+            :alt="logo"
+            src="~assets/icons/ciafiligranes.svg"
+            class="footer__image"
+          />
         </div>
         <div
           class="col-12 col-lg-8 col-xl-5 col-xxl-4 col-xxxl-6 offset-lg-1 offset-xl-0 footer__contact"
         >
           <b-row
-no-gutters align-v="center"
-align-h="center">
+            no-gutters align-v="center"
+            align-h="center"
+          >
             <a
               :aria-label="email.arialabel"
               :href="email.href"
@@ -33,11 +36,15 @@ align-h="center">
         >
           <ul class="social-icons__list">
             <li
-v-for="item in socialicons" :key="item.alt"
-class="social-icons__list-item">
+              v-for="item in socialicons"
+              :key="item.alt"
+              class="social-icons__list-item"
+            >
               <SocialIcons
-:alt="item.alt" :image="item.image"
-:link="item.link" />
+                :alt="item.alt"
+                :image="item.image"
+                :link="item.link"
+              />
             </li>
           </ul>
         </div>

@@ -2,7 +2,7 @@
   width: 100%;
 
   &__corp {
-    background: #000;
+    background-color: #000;
     padding: 2rem .9375rem;
     color: #fff;
 
@@ -109,9 +109,9 @@
   &__legal {
     display: flex;
     justify-content: center;
-    background: #fbdd0b;
-    padding: .5rem .9375rem;
     font-size: .75rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     @media only screen and (min-width: 1500px) {
       font-size: .875rem;
@@ -123,10 +123,14 @@
   }
 
   &__credits {
+    background-color: #242629;
+    padding: .5rem .9375rem;
+
     .credits {
       &__cia,
       &__partners {
         margin-right: .5rem;
+        color: #fff;
       }
 
       &__content {
@@ -157,7 +161,7 @@
 
       &__link {
         margin-left: .5rem;
-        color: #000;
+        color: #fff;
 
         &:hover {
           text-decoration: underline;
@@ -167,7 +171,8 @@
   }
 
   &__legal {
-    border-top: .0625rem dotted #000;
+    background-color: #fbdd0b;
+    padding: .35rem .5rem;
   }
 
   &__legal-list {
