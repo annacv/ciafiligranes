@@ -7,21 +7,28 @@ $illusion: #f6b1bd !default;
 $java: #20c0c6 !default;
 $radical-red: #fd2b5e !default;
 $red-ribbon: #e1092e !default;
+$shark: #242629 !default;
 $teal: #008287 !default;
 $tundora: #444 !default;
 $white: #fff !default;
 
 $colors: () !default;
-$colors: map-merge(("black": $black,
-"cardinal": $cardinal,
-"eminence": $eminence,
-"electric-violet": $electric-violet,
-"illusion": $illusion,
-"java": $java,
-"radical-red": $radical-red,
-"red-ribbon": $red-ribbon,
-"teal": $teal,
-"tundora": $tundora,
-"white": $white), $colors);
+$colors: map-merge(
+  (
+    "black": $black,
+    "cardinal": $cardinal,
+    "eminence": $eminence,
+    "electric-violet": $electric-violet,
+    "illusion": $illusion,
+    "java": $java,
+    "radical-red": $radical-red,
+    "red-ribbon": $red-ribbon,
+    "shark": $shark,
+    "teal": $teal,
+    "tundora": $tundora,
+    "white": $white
+  ),
+  $colors
+);
 
 $color-primary: $radical-red;
