@@ -9,14 +9,14 @@ a {
 }
 
 .button-outline-primary {
-  color: #fd2b5e;
   border: solid .0625rem #fd2b5e;
+  color: #fd2b5e;
 
   .arrow_right {
+    margin-left: .25rem;
     background-repeat: no-repeat;
     width: .6875rem;
     height: .5rem;
-    margin-left: .25rem;
 
     &.radical-red {
       background-image: url("~@/assets/icons/arrow_right--radical-red.svg");
@@ -28,8 +28,8 @@ a {
   }
 
   &:hover {
-    color: #fff;
     background-color: #fd2b5e;
+    color: #fff;
 
     .arrow_right {
       background-image: url("~@/assets/icons/arrow_right--white.svg");
@@ -38,14 +38,14 @@ a {
 }
 
 .button-outline-secondary {
-  color: #000;
   border: solid .0625rem #000;
+  color: #000;
 
   .arrow_down {
+    margin-left: .35rem;
     background-repeat: no-repeat;
     width: .5rem;
     height: .6875rem;
-    margin-left: .35rem;
 
     &.black {
       background-image: url("~@/assets/icons/arrow_down--black.svg");
@@ -57,8 +57,8 @@ a {
   }
 
   &:hover {
-    color: #fff;
     background-color: #000;
+    color: #fff;
 
     .arrow_down {
       background-image: url("~@/assets/icons/arrow_down--white.svg");
@@ -68,11 +68,11 @@ a {
 
 .button-outline-primary,
 .button-outline-secondary {
-  background-color: #fff;
   border-radius: 1.125rem;
+  background-color: #fff;
+  padding: .5rem .8rem .5rem .7rem;
   line-height: normal;
   font-family: "AkkuratBold", "Arial", sans-serif;
-  padding: .5rem .8rem .5rem .7rem;
 
   &__teal {
     color: #008287;

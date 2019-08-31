@@ -2,14 +2,14 @@
   margin: 0 0 3.5rem;
 
   &__title {
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0 1rem;
   }
 
   @media only screen and (min-width: 768px) {
     margin: 0 0 4.625rem;
 
     &__title {
-      margin: 4.625rem 0 1rem 0;
+      margin: 4.625rem 0 1rem;
     }
   }
 
@@ -17,7 +17,7 @@
     margin: 0 0 8rem;
 
     &__title {
-      margin: 6rem 0 1rem 0;
+      margin: 6rem 0 1rem;
     }
   }
 
@@ -25,7 +25,7 @@
     margin: 0 0 10rem;
 
     &__title {
-      margin: 8rem 0 1rem 0;
+      margin: 8rem 0 1rem;
     }
   }
 
@@ -41,12 +41,12 @@
   }
 
   &__list-link {
-    margin: 1rem 0 0;
     display: inline-flex;
-    color: #000;
+    margin: 1rem 0 0;
     background-repeat: no-repeat;
     background-position: 0 50%;
     padding: 0 0 0 1rem;
+    color: #000;
 
     &:hover {
       text-decoration: underline;
@@ -57,7 +57,7 @@
     .dotted-list {
       &__subtitle,
       &__list-link {
-        background-image: url('~@/assets/icons/dot--lemon.svg');
+        background-image: url("~@/assets/icons/dot--lemon.svg");
       }
 
       &__list-link {

@@ -15,15 +15,15 @@
 
   .table {
     &__title {
-      margin: 0rem 0 1rem 0;
+      margin: 0 0 1rem;
     }
 
     &__table {
-      margin: 1rem 0 0;
-      font-size: .75rem;
       display: table;
-      text-indent: 0;
+      margin: 1rem 0 0;
       border-spacing: 0;
+      text-indent: 0;
+      font-size: .75rem;
 
       @media only screen and (min-width: 768px) {
         margin: 2rem 0 0;
@@ -35,9 +35,9 @@
     }
 
     &__head {
-      border-bottom: .0625rem solid #444;
       display: inline-flex;
       flex-direction: column;
+      border-bottom: .0625rem solid #444;
       width: 100%;
 
       @media only screen and (min-width: 768px) {
@@ -46,9 +46,9 @@
     }
 
     &__row {
-      border-bottom: .0625rem solid #c0c0c0;
       display: inline-flex;
       flex-direction: column;
+      border-bottom: .0625rem solid #c0c0c0;
       width: 100%;
 
       &:last-child {

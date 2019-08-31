@@ -1,10 +1,10 @@
 .cover {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 0%;
   position: relative;
   top: 0;
   left: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
 
   @media only screen and (min-width: 768px) {
     background-position: 50% 0%;
@@ -44,10 +44,10 @@
 
   &__claim {
     margin-bottom: .5rem;
+    text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, .8);
     line-height: 1.125;
     font-family: "AkkuratBold", "Arial", sans-serif;
     font-size: 1.75rem;
-    text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.8);
 
     @media only screen and (min-width: 768px) {
       font-size: 2.5rem;
@@ -68,12 +68,12 @@
 
   .row {
     &__title {
-      width: 100%;
       margin-left: 0;
+      width: 100%;
     }
   }
 
-  //HOME COVER CUSTOM STYLES
+  // HOME COVER CUSTOM STYLES
 
   &__home {
     background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
@@ -111,35 +111,35 @@
     }
   }
 
-  //PRODUCTS COVER CUSTOM STYLES
+  // PRODUCTS COVER CUSTOM STYLES
 
   &__products {
     &.cover {
       .cover {
         &__content {
-          padding: 8rem 0 3rem;
           margin-bottom: 4.8rem;
+          padding: 8rem 0 3rem;
 
           @media only screen and (min-width: 768px) {
-            padding: 12.5rem 0 3rem;
             margin-bottom: 7.35rem;
+            padding: 12.5rem 0 3rem;
           }
 
           @media only screen and (min-width: 1900px) {
-            padding: 15.5rem 0 4rem;
             margin-bottom: 9.35rem;
+            padding: 15.5rem 0 4rem;
           }
 
           @media only screen and (min-width: 3000px) {
-            padding: 30rem 0 6rem;
             margin-bottom: 15rem;
+            padding: 30rem 0 6rem;
           }
         }
 
         &__title {
-          text-shadow: 0 .125rem .1875rem #000;
           position: absolute;
           bottom: 1.15rem;
+          text-shadow: 0 .125rem .1875rem #000;
 
           @media only screen and (min-width: 768px) {
             bottom: -.85rem;
@@ -157,17 +157,17 @@
 
       .row {
         &__title {
-          padding: 5.15rem 0 1rem;
           position: absolute;
           top: 14rem;
+          padding: 5.15rem 0 1rem;
 
           @media only screen and (min-width: 358px) {
             top: 12rem;
           }
 
           @media only screen and (min-width: 768px) {
-            padding: 5.15rem 0 3rem;
             top: 18rem;
+            padding: 5.15rem 0 3rem;
           }
 
           @media only screen and (min-width: 1900px) {
@@ -175,8 +175,8 @@
           }
 
           @media only screen and (min-width: 3000px) {
-            padding: 5.15rem 0 4rem;
             top: 39rem;
+            padding: 5.15rem 0 4rem;
           }
         }
       }
@@ -278,9 +278,9 @@
 
       .row {
         &__title {
-          color: #000;
           background-color: #fbdd0b;
           padding: .15rem 0;
+          color: #000;
         }
       }
     }
