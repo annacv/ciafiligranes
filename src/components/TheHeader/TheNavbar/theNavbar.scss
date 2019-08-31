@@ -1,0 +1,46 @@
+nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar {
+  &__logo {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &__image {
+    margin: 0 0 .35rem .05rem;
+    width: 1.65rem;
+    height: auto;
+  }
+
+  &__menu-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+
+  &__menu-item > a,
+  &__menu-item > p {
+    margin: 0 .875rem;
+    line-height: 1.7;
+    color: #fff;
+    font-family: "Akkurat", "Arial", sans-serif;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &:hover {
+      border-bottom: .05rem solid #fff;
+      text-decoration: none;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      margin: 0 1.5rem;
+      line-height: 1.4;
+      font-size: 1.125rem;
+    }
+  }
+}

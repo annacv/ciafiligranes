@@ -10,26 +10,26 @@
   }
 
   &__paragraph {
+    padding: 1rem 0 0;
     line-height: 1.89;
-    padding: 1rem 0 0 0;
 
     @media only screen and (min-width: 1024px) {
       margin-right: 2rem;
     }
 
     @media only screen and (min-width: 1200px) {
-      font-size: 1.125rem;
       margin-right: 0;
+      font-size: 1.125rem;
     }
 
     @media only screen and (min-width: 1500px) {
-      font-size: 1.25rem;
       line-height: 2.6rem;
+      font-size: 1.25rem;
     }
 
     @media only screen and (min-width: 3000px) {
-      font-size: 1.5rem;
       line-height: 3rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -83,12 +83,14 @@
   &__performances {
     .synopsis {
       &__title {
-        line-height: .5;
         margin-bottom: 0;
+        line-height: .5;
       }
 
       &__paragraph {
         color: #fff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
 
         &:first-child {
           padding: 2.5rem 0 1rem;
@@ -141,28 +143,28 @@
 
       &__image {
         @media only screen and (min-width: 1800px) {
-          height: 105%;
           width: auto;
+          height: 105%;
         }
 
         @media only screen and (min-width: 1900px) {
-          height: 115%;
           width: auto;
+          height: 115%;
         }
 
         @media only screen and (min-width: 2000px) {
-          height: 120%;
           width: auto;
+          height: 120%;
         }
 
         @media only screen and (min-width: 2500px) {
-          height: 155%;
           width: auto;
+          height: 155%;
         }
 
         @media only screen and (min-width: 3000px) {
-          height: 180%;
           width: auto;
+          height: 180%;
         }
       }
     }

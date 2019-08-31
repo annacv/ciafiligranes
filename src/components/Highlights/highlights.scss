@@ -1,29 +1,29 @@
 .highlights {
-  margin: 3rem 0 2.5rem 0;
+  margin: 3rem 0 2.5rem;
   padding: 0 .9375rem;
 
   @media only screen and (min-width: 768px) {
     margin: 6rem 0;
-    padding: 0 0 2.5rem 0;
     background-repeat: no-repeat;
-    background-size: 50%;
     background-position: 132% bottom;
+    background-size: 50%;
+    padding: 0 0 2.5rem;
   }
 
   @media only screen and (min-width: 1024px) {
     background-position: 116% bottom;
-    padding: 0 0 4rem 0;
+    padding: 0 0 4rem;
   }
 
   @media only screen and (min-width: 1200px) {
-    padding: 0 0 5rem 0;
     background-position: 110% bottom;
+    padding: 0 0 5rem;
   }
 
   @media only screen and (min-width: 1500px) {
     margin: 8rem 0;
-    padding: 0 0 6rem 0;
     background-position: 100% bottom;
+    padding: 0 0 6rem;
   }
 
   @media only screen and (min-width: 1900px) {
@@ -32,7 +32,7 @@
 
   @media only screen and (min-width: 3000px) {
     margin: 13rem 0;
-    padding: 0 0 7rem 0;
+    padding: 0 0 7rem;
   }
 
   &__title {
@@ -42,12 +42,12 @@
   }
 
   &__description {
+    margin: .25rem 0 1.5rem;
     line-height: 1.4;
-    margin: .25rem 0 1.5rem 0;
 
     @media only screen and (min-width: 768px) {
+      margin: 0 0 2.5rem;
       line-height: 4;
-      margin: 0 0 2.5rem 0;
     }
 
     @media only screen and (min-width: 1200px) {
@@ -59,8 +59,8 @@
     }
 
     @media only screen and (min-width: 3000px) {
+      margin: 0 0 4rem;
       font-size: 1.5rem;
-      margin: 0 0 4rem 0;
     }
   }
 

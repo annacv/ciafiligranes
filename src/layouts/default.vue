@@ -37,7 +37,7 @@
 import CookieControl from '../components/CookieControl/CookieControl'
 import TheHeader from '../components/TheHeader/TheHeader'
 import TheFooter from '../components/TheFooter/TheFooter'
-import TheSidenav from '../components/TheHeader/components/TheSidenav'
+import TheSidenav from '../components/TheHeader/TheSidenav/TheSidenav'
 
 export default {
   name: 'Default',

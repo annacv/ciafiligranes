@@ -1,7 +1,7 @@
 <style
   lang="scss"
   src="./theHeader.scss"
-  scoped>
+>
 </style>
 
 <template>
@@ -50,9 +50,9 @@
 </template>
 
 <script>
-import TheBurger from './components/TheBurger'
-import LanguageSelector from './components/LanguageSelector'
-import TheNavbar from './components/TheNavbar'
+import TheBurger from './TheBurger/TheBurger'
+import LanguageSelector from './LanguageSelector/LanguageSelector'
+import TheNavbar from './TheNavbar/TheNavbar'
 
 export default {
   name: 'TheHeader',

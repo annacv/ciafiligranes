@@ -62,8 +62,8 @@ rules:
     - exclude:
       - 'mq'
   nesting-depth:
-    - 2
-    - max-depth: 2
+    - 3
+    - max-depth: 3
   no-attribute-selectors: 0
   no-color-hex: 2
   no-color-keywords: 2

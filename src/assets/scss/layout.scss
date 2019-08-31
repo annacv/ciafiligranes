@@ -33,14 +33,14 @@ p {
 }
 
 h3 {
-  font-size: 1.75rem;
   font-family: "AkkuratLight", "Arial", sans-serif;
+  font-size: 1.75rem;
   font-weight: 200;
 }
 
 h4 {
-  font-size: 1.25rem;
   font-family: "AkkuratBold", "Arial", sans-serif;
+  font-size: 1.25rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -75,14 +75,16 @@ h4 {
 
 .main-content {
   &.performances {
-    padding-top: 0.05rem;
+    padding-top: .05rem;
   }
 }
 
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity .5s;
 }
 
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }

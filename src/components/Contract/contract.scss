@@ -2,11 +2,11 @@
   padding: 1rem 0;
 
   @media only screen and (min-width: 768px) {
-    margin: 0 0 5rem 0;
+    margin: 0 0 5rem;
   }
 
   @media only screen and (min-width: 1200px) {
-    margin: 0 0 10rem 0;
+    margin: 0 0 10rem;
   }
 
   @media only screen and (min-width: 1900px) {
@@ -14,20 +14,20 @@
   }
 
   &__title {
-    margin: 0 0 .5rem 0;
+    margin: 0 0 .5rem;
     padding: 0 .5rem;
-    color: #fff;
     text-align: center;
+    color: #fff;
 
     @media only screen and (min-width: 768px) {
-      line-height: 1.4;
       margin: 0 .5rem 0 0;
       padding: 0;
+      line-height: 1.4;
     }
 
     @media only screen and (min-width: 1200px) {
-      line-height: 1.5;
       margin: 0 .75rem 0 0;
+      line-height: 1.5;
     }
 
     @media only screen and (min-width: 1900px) {
@@ -40,8 +40,8 @@
     flex-flow: row wrap;
     justify-content: center;
     line-height: 1.5;
-    font-size: 1rem;
     color: #fff;
+    font-size: 1rem;
 
     @media only screen and (min-width: 768px) {
       align-self: flex-end;
@@ -69,8 +69,8 @@
   }
 
   &__link {
-    font-family: "AkkuratBold", "Arial", sans-serif;
     color: #fff;
+    font-family: "AkkuratBold", "Arial", sans-serif;
   }
 
   // WHITE BACKGROUND WITH BORDER STYLES
@@ -97,8 +97,8 @@
 
   &__performances-w {
     display: none;
-    border-bottom: .125rem solid #e84e31;
     margin: 0;
+    border-bottom: .125rem solid #e84e31;
 
     @media only screen and (min-width: 768px) {
       display: block;
@@ -119,7 +119,7 @@
     }
 
     @media only screen and (min-width: 1200px) {
-      margin: 6.5rem 0 10rem 0;
+      margin: 6.5rem 0 10rem;
     }
   }
 
@@ -135,11 +135,11 @@
     background-color: #e84e31;
 
     @media only screen and (min-width: 1024px) {
-      margin: 0 0 6.5rem 0;
+      margin: 0 0 6.5rem;
     }
 
     @media only screen and (min-width: 1200px) {
-      margin: 0 0 10rem 0;
+      margin: 0 0 10rem;
     }
   }
 }

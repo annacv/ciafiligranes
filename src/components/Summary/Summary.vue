@@ -8,15 +8,15 @@
 <template>
   <b-container fluid class="summary">
     <b-row no-gutters>
-      <div class="col-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8 col-xxxl-8 offset-0 offset-md-1 offset-xxl-2">
+      <div class="col-12 col-md-10 col-xxl-8 offset-0 offset-md-1 offset-xxl-2">
         <b-row no-gutters>
-          <div class="col-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7 col-xxxl-7">
+          <div class="col-12 col-md-7">
             <p
               class="summary__abstract"
               v-text="abstract"
             />
           </div>
-          <div class="col-12 col-md-5 col-lg-5 col-xl-4 col-xxl-4 col-xxxl-4 offset-xl-1">
+          <div class="col-12 col-md-5 col-xl-4 offset-xl-1">
             <ul
               v-for="item in items"
               :key="item.title"
