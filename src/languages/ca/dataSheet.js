@@ -11,10 +11,6 @@ export default {
         description: 'Espectacle de pallassos per a tots els públics.'
       },
       {
-        label: 'Estrenat el',
-        description: '2018'
-      },
-      {
         label: "Durada de l'espectacle",
         description: '50 minuts.'
       },

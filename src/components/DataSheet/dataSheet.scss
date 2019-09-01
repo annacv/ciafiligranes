@@ -45,6 +45,19 @@
   &__list {
     border: .0625rem solid;
 
+    @media only screen and (min-width: 768px) {
+      height: 37.25rem;
+    }
+
+    @media only screen and (min-width: 1500px) {
+      height: 42rem;
+    }
+
+    @media only screen and (min-width: 3000px) {
+      height: 64rem;
+    }
+
+
     &.left-side {
       border-bottom: .5rem solid;
       padding: 1.5rem 1.5rem 1.05rem;

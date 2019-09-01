@@ -11,10 +11,6 @@ export default {
         description: 'Espectáculo de payasos para todos los públicos.'
       },
       {
-        label: 'Estrenado en',
-        description: '2018'
-      },
-      {
         label: 'Duración del espectáculo',
         description: '50 minutos.'
       },
