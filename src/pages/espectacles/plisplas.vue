@@ -18,17 +18,17 @@
       />
     </section>
     <Gallery
-      :images="$t('gallery.performances.images')"
+      :images="$t('gallery.plisplas.images')"
     />
     <Contract
-      :title="$t('contract.shows.title')"
+      :title="$t('contract.title')"
       :items="$t('contract.items')"
-      class="contract__shows"
+      class="contract__shows-detail"
     />
     <Highlights
-      :content="$t('highlights.shows')"
-      :highlighted="$t('highlights.shows.highlighted')"
-      class="highlights__mixed"
+      :content="$t('highlights.plisplas')"
+      :highlighted="$t('highlights.plisplas.highlighted')"
+      class="highlights__shows"
     />
   </div>
 </template>
