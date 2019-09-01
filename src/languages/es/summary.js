@@ -57,6 +57,35 @@ export default {
     }
   },
 
+  filixic: {
+    abstract:
+      'Estos dos payasos experimentados nos sorprenderán con un espectáculo con varios números recuperados del histórico Filigranes. El monociclo volteador, el Ale-hop Hula-hop, o los fantásticos malabaristas The Tal KualBrothers, con su número reconocido internacionalmente con el nombre de Xiguagua: con passing de mazas y un alucinante final sobre las bolas de equilibrio!',
+
+    items: [
+      {
+        title: 'El Circo Filixic',
+        description: 'Compañía Filigranes, 2018'
+      },
+      {
+        title: 'Dirección',
+        description: 'Compañía Filigranes'
+      }
+    ],
+
+    button: {
+      class: 'button-outline-secondary',
+      type: 'application',
+      href: 'https://www.youtube.com/watch?v=rg3XzGQIPpU',
+      target: '__blank',
+      download: '',
+      text: 'Vídeo',
+      slot: {
+        alt: 'Flecha derecha. Al hacer clic navegarás a otra página',
+        class: 'arrow_right black'
+      }
+    }
+  },
+
   performances: {
     abstract:
       'Una infinidad de personajes caracterizados a medida interrelacionarán con el público.Estos auténticos camaleones de la escena realizan diferentes acciones y trucos con el humor siempre presente: trucos malabares, disfraces, magia, música, acciones sorpressives, rutinas de humor y juegos participativos.Desvelarán su identidad desde el inicio o en un momento determinado.',

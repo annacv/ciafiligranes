@@ -57,6 +57,35 @@ export default {
     }
   },
 
+  filixic: {
+    abstract:
+      'These two experienced clowns will surprise you with a show with several numbers recovered from the historic Filigranes Circus. The «rolling monocicle», the Ale-hop Hula-hop, or the fantastic jugglers The Tal KualBrothers, with its number internationally recognized as Xiguagua: with passing maces and an amazing final on the balancing balls!',
+
+    items: [
+      {
+        title: 'The Filixic Circus',
+        description: 'Companyia Filigranes, 2017'
+      },
+      {
+        title: 'Direction',
+        description: 'Companyia Filigranes'
+      }
+    ],
+
+    button: {
+      class: 'button-outline-secondary',
+      type: 'application',
+      href: 'https://www.youtube.com/watch?v=rg3XzGQIPpU',
+      target: '__blank',
+      download: '',
+      text: 'Video',
+      slot: {
+        alt: 'Arrow right. By clicking you will navigate to another page',
+        class: 'arrow_right black'
+      }
+    }
+  },
+
   performances: {
     abstract:
       'An endless number of customized characters will interact with the public. These authentic chameleons of the scene perform different actions and tricks with the humor always present: juggling, costumes,magic, music, sweeping actions, humor routines and participatory games. They will reveal their identity from the beginning or at a certain time.',

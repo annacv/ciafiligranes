@@ -6,9 +6,9 @@
     />
     <section class="main-content">
       <Summary
-        :abstract="$t('summary.plisplas.abstract')"
-        :items="$t('summary.plisplas.items')"
-        :button="$t('summary.plisplas.button')"
+        :abstract="$t('summary.filixic.abstract')"
+        :items="$t('summary.filixic.items')"
+        :button="$t('summary.filixic.button')"
       />
       <DataSheet
         :titles="$t('dataSheet.plisplas.titles')"

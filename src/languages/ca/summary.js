@@ -58,6 +58,35 @@ export default {
     }
   },
 
+  filixic: {
+    abstract:
+      "Aquests dos pallassos experimentats ens sorprendran amb un espectacle amb diversos números recuperats de l'històric Circ Filigranes. El Monocicle Giravolt; l'Ale-hop Hula-hop; o els fantàstics malabaristes The Tal Kual Brothers, amb el seu número reconegut internacionalment amb el nom de Xiguagua: amb passing de maces i un espatarrant final damunt les boles d'equilibri!",
+
+    items: [
+      {
+        title: 'El Circ Filixic',
+        description: 'Companyia Filigranes, 2017'
+      },
+      {
+        title: 'Direcció',
+        description: 'Companyia Filigranes'
+      }
+    ],
+
+    button: {
+      class: 'button-outline-secondary',
+      type: 'application',
+      href: 'https://www.youtube.com/watch?v=rg3XzGQIPpU',
+      target: '__blank',
+      download: '',
+      text: 'Video',
+      slot: {
+        alt: 'Fletxa direcció dreta. En clicar es navega a una nova pàgina',
+        class: 'arrow_right black'
+      }
+    }
+  },
+
   performances: {
     abstract:
       "Una infinitat de personatges caracteritzats a mida s'interrelacionaran amb el públic. Aquests autèntics camaleons de l'escena realitzen diferents accions i trucs amb l'humor sempre present: trucs malabars, disfresses, màgia, música, accions sorpressives, rutines d'humor i jocs participatius. Desvetllaran la seva identitat des de l'inici o en un moment determinat.",
