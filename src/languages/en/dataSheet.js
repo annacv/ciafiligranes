@@ -9,7 +9,7 @@ export default {
       {
         label: 'Plis Plas',
         description: 'Show of clowns for all audiences.'
-      }
+      },
       {
         label: 'Duration of the show',
         description: '50 minutes.'
