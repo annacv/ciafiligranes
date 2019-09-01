@@ -32,7 +32,7 @@ export default {
         description: '6m. (width) x 8m. (background). Flat surface.'
       },
       {
-        label: 'Lighting jacket',
+        label: 'Light jacket',
         description: '250v on stage.'
       },
       {
@@ -60,7 +60,7 @@ export default {
         description: 'Carles Grau and Cia. Filigranes'
       },
       {
-        label: 'Changing room',
+        label: 'Costumes',
         description: 'Marina Díaz'
       },
       {
@@ -76,8 +76,78 @@ export default {
         description: 'Gerard Mora'
       },
       {
-        label: 'Design Scenery',
+        label: 'Stage Design',
         description: 'Tonet Amorós and Cia. Filigranes'
+      }
+    ]
+  },
+
+  filixic: {
+    titles: {
+      title1: 'Technical card',
+      title2: 'Artistic card'
+    },
+
+    sheet1: [
+      {
+        label: 'The Filixic Circus',
+        description: 'Show of clowns for all audiences.'
+      },
+      {
+        label: 'Duration of the show',
+        description: '60 minutes.'
+      },
+      {
+        label: 'Assembly',
+        description: '1 hora 30 minutes.'
+      },
+      {
+        label: 'Disassembly',
+        description: '45 minutes.'
+      },
+      {
+        label: 'Scenery',
+        description: 'Round stage background and semicircular track.'
+      },
+      {
+        label: 'Minimum space',
+        description: '6m. (width) x 8m. (background). Showroom or street show.'
+      },
+      {
+        label: 'Light jacket',
+        description: '250v on stage.'
+      },
+      {
+        label: 'Sound equipment',
+        description:
+          '1000 watts and 3 wireless microphones (owned by the Company).'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Clowns',
+        description: 'Jordi Torrens and Albert Pérez'
+      },
+      {
+        label: 'General Direction',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: 'Drama',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: 'Costumes',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: 'Sound and lighting technician',
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Stage Design',
+        description: 'Companyia Filigranes'
       }
     ]
   },

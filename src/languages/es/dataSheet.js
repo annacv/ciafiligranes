@@ -82,6 +82,76 @@ export default {
     ]
   },
 
+  filixic: {
+    titles: {
+      title1: 'Ficha técnica',
+      title2: 'Ficha artística'
+    },
+
+    sheet1: [
+      {
+        label: 'El Circo Filixic',
+        description: 'Espectáculo de payasos para todos los públicos.'
+      },
+      {
+        label: 'Duración del espectáculo',
+        description: '60 minutos.'
+      },
+      {
+        label: 'Tiempo de montaje',
+        description: '1 hora 30 minutos.'
+      },
+      {
+        label: 'Tiempo de desmontaje',
+        description: '45 minutos.'
+      },
+      {
+        label: 'Escenografía',
+        description: 'Fondo de escenario redondo y pista semicircular.'
+      },
+      {
+        label: 'Espacio mínimo',
+        description: '6m. (ancho) x 8m. (fondo). Espectáculo de sala o calle.'
+      },
+      {
+        label: 'Toma de luz',
+        description: '250v a pie de escenario.'
+      },
+      {
+        label: 'Equipo de sonido',
+        description:
+          '1000 vatios y 3 micros innalámbricos (propios de la Compañía).'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Payasos',
+        description: 'Jordi Torrens y Albert Pérez'
+      },
+      {
+        label: 'Dirección General',
+        description: 'Compañía Filigranes'
+      },
+      {
+        label: 'Dramatúrgia',
+        description: 'Compañía Filigranes'
+      },
+      {
+        label: 'Vestuario',
+        description: 'Compañía Filigranes'
+      },
+      {
+        label: 'Técnico de sonido e iluminación',
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Diseño Escenografía',
+        description: 'Compañía Filigranes'
+      }
+    ]
+  },
+
   performances: {
     titles: {
       title1: 'Ficha técnica',

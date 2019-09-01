@@ -32,8 +32,8 @@ export default {
         description: '6m. (ample) x 8m. (fons). Superfície plana.'
       },
       {
-        label: 'Presa llum',
-        description: "250 volts  a peu d'escenari."
+        label: 'Presa de llum',
+        description: "250 volts a peu d'escenari."
       },
       {
         label: 'Equip de so',
@@ -72,12 +72,82 @@ export default {
         description: 'Cristhian Uroz'
       },
       {
-        label: "Tècnic de so i d'il.luminació",
+        label: "Tècnic de so i d'il·luminació",
         description: 'Gerard Mora'
       },
       {
         label: 'Disseny Escenografia',
-        description: 'Tonet Amorós i Cia. Filigranes'
+        description: 'Tonet Amorós i Cia.Filigranes'
+      }
+    ]
+  },
+
+  filixic: {
+    titles: {
+      title1: 'Fitxa tècnica',
+      title2: 'Fitxa artística'
+    },
+
+    sheet1: [
+      {
+        label: 'El Circ Filixic',
+        description: 'Espectacle de pallassos per a tots els públics.'
+      },
+      {
+        label: "Durada de l'espectacle",
+        description: '60 minuts.'
+      },
+      {
+        label: 'Temps de muntatge',
+        description: '1 hora 30 minuts.'
+      },
+      {
+        label: 'Temps de desmuntatge',
+        description: '45 minuts.'
+      },
+      {
+        label: 'Escenografia',
+        description: "Fons d'escenari i pista semicircular."
+      },
+      {
+        label: 'Espai mínim',
+        description: '6m. (ample) x 8m. (fons). Espectacle de sala o carrer.'
+      },
+      {
+        label: 'Presa de llum',
+        description: "250 volts a peu d'escenari."
+      },
+      {
+        label: 'Equip de so',
+        description:
+          '1000 watts i 3 micros innalàmbrics (propis de la Companyia).'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Pallassos',
+        description: 'Jordi Torrens i Albert Pérez'
+      },
+      {
+        label: 'Direcció General',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: 'Dramatúrgia',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: 'Vestuari',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: "Tècnic de so i d'il·luminació",
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Escenografia',
+        description: 'Companyia Filigranes'
       }
     ]
   },
