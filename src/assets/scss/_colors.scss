@@ -7,6 +7,7 @@ $illusion: #f6b1bd !default;
 $java: #20c0c6 !default;
 $radical-red: #fd2b5e !default;
 $red-ribbon: #e1092e !default;
+$shark: #25272c !default;
 $teal: #008287 !default;
 $tundora: #444 !default;
 $white: #fff !default;
@@ -20,6 +21,7 @@ $colors: map-merge(("black": $black,
 "java": $java,
 "radical-red": $radical-red,
 "red-ribbon": $red-ribbon,
+"shark": $shark,
 "teal": $teal,
 "tundora": $tundora,
 "white": $white), $colors);
