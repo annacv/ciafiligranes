@@ -112,6 +112,8 @@
     }
   }
 
+  // COLOURED BACKGROUND STYLES
+
   &__shows,
   &__workshops {
     @media only screen and (min-width: 1024px) {
@@ -123,7 +125,19 @@
     }
   }
 
-  &__shows {
+  &__shows-detail,
+  &__performances {
+    @media only screen and (min-width: 1024px) {
+      margin: 0 0 6.5rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      margin: 0 0 10rem;
+    }
+  }
+
+  &__shows,
+  &__shows-detail {
     background-color: #fd2b5e;
   }
 
@@ -133,13 +147,5 @@
 
   &__performances {
     background-color: #e84e31;
-
-    @media only screen and (min-width: 1024px) {
-      margin: 0 0 6.5rem;
-    }
-
-    @media only screen and (min-width: 1200px) {
-      margin: 0 0 10rem;
-    }
   }
 }
