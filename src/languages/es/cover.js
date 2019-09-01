@@ -14,6 +14,11 @@ export default {
     title: 'Plis Plas'
   },
 
+  filixic: {
+    claim: 'Espectáculo',
+    title: 'El Circo Filixic'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes os ofrece...',
     title: 'Talleres para todas'
