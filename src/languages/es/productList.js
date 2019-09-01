@@ -76,7 +76,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/espectaculos/plisplas',
             target: '_top',
             download: '',
             text: 'Más info',

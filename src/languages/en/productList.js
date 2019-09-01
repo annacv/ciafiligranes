@@ -76,7 +76,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/shows/plisplas',
             target: '_top',
             download: '',
             text: 'More info',
