@@ -185,7 +185,8 @@
         background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
+          background-image:
+          url("~@/assets/images/img_cover_medium_plisplas.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
@@ -204,7 +205,8 @@
         background-image: url("~@/assets/images/img_cover_small_workshops.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_cover_medium_workshops.jpg");
+          background-image:
+          url("~@/assets/images/img_cover_medium_workshops.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
@@ -221,10 +223,12 @@
       }
 
       &__performances {
-        background-image: url("~@/assets/images/img_cover_small_performances.jpg");
+        background-image:
+        url("~@/assets/images/img_cover_small_performances.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_cover_medium_performances.jpg");
+          background-image:
+          url("~@/assets/images/img_cover_medium_performances.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
@@ -278,6 +282,47 @@
           background-image: url("~@/assets/images/img_cover-show_filixic.jpg");
         }
       }
+
+      &__freakfrac {
+        background-image: url("~@/assets/images/img_thumbnail_freakfrac.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_shows_freakfrac.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover-show_freakfrac.jpg");
+        }
+      }
+
+      &__desencaixats {
+        background-image:
+        url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image:
+          url("~@/assets/images/img_src_shows_desencaixats.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover-show_desencaixats.jpg");
+        }
+      }
+
+      &__filirates {
+        background-image: url("~@/assets/images/img_thumbnail_filirates.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_shows_filirates.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover-show_filirates.jpg");
+        }
+      }
     }
 
     &.cover {
@@ -307,6 +352,12 @@
         &__title {
           background-color: #fd2b5e;
           padding: .15rem 0;
+        }
+
+        .cover__title {
+          @media only screen and (min-width: 1024px) {
+            width: 150%;
+          }
         }
       }
     }

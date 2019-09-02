@@ -19,6 +19,21 @@ export default {
     title: 'El Circ Filixic'
   },
 
+  freakfrac: {
+    claim: 'Espectacle itinerant',
+    title: 'Cercavila Germans Freak Frac'
+  },
+
+  desencaixats: {
+    claim: 'Espectacle de sala',
+    title: 'Desencaixats'
+  },
+
+  filirates: {
+    claim: 'Espectacle',
+    title: 'El Circ Filirates'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes us ofereix...',
     title: 'Tallers per a totes les edats'

@@ -19,6 +19,21 @@ export default {
     title: 'The Filixic Circus'
   },
 
+  freakfrac: {
+    claim: 'Itinerant show',
+    title: 'Freak Frac Brothers Parades'
+  },
+
+  desencaixats: {
+    claim: 'Room Show',
+    title: 'Desencaixats'
+  },
+
+  filirates: {
+    claim: 'Show',
+    title: 'The Filirates Circus'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes offers you...',
     title: 'Workshops for all ages'
