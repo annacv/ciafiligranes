@@ -24,6 +24,10 @@ export default {
     title: '¿Quieres contratar algun taller?'
   },
 
+  workshops_detail: {
+    title: 'Quieres contratar este taller?'
+  },
+
   performances: {
     title: '¿Quieres tu espectáculo a medida?'
   }
