@@ -94,6 +94,101 @@ export default {
     }
   },
 
+  circus: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_circ--1.jpg',
+        alt: 'Image of the Circus Workshop.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_circ--2.jpg',
+        alt: 'Image of the Circus Workshop.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_circ--3.jpg',
+        alt: 'Image of the Circus Workshop.'
+      }
+    }
+  },
+
+  clowns: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_pallassos--1.jpg',
+        alt: 'Image of the Clowns Workshop.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_pallassos--2.jpg',
+        alt: 'Image of the Clowns Workshop.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_pallassos--3.jpg',
+        alt: 'Image of the Clowns Workshop.'
+      }
+    }
+  },
+
+  bubbles: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_bombolles--1.jpg',
+        alt: 'Image of the Soap Bubbles Workshop.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_bombolles--2.jpg',
+        alt: 'Image of the Soap Bubbles Workshop.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_bombolles--3.jpg',
+        alt: 'Image of the Soap Bubbles Workshop.'
+      }
+    }
+  },
+
+  water: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_enginys--1.jpg',
+        alt: 'Image of the Water Tricks Workshop.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_enginys--2.jpg',
+        alt: 'Image of the Water Tricks Workshop.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_enginys--3.jpg',
+        alt: 'Image of the Water Tricks Workshop.'
+      }
+    }
+  },
+
+  makeup: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_maquillatge--1.jpg',
+        alt: 'Image of the Makeup Workshop.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_maquillatge--2.jpg',
+        alt: 'Image of the Makeup Workshop.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_maquillatge--3.jpg',
+        alt: 'Image of the Makeup Workshop.'
+      }
+    }
+  },
+
   performances: {
     images: {
       image1: {
