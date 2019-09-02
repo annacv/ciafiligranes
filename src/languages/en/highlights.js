@@ -187,6 +187,70 @@ export default {
     ]
   },
 
+  filixic: {
+    title: 'More Filigranes',
+    description: 'Other spectacles of Filigranes Company',
+    highlighted: [
+      {
+        title: 'Show',
+        name: 'Plis Plas',
+        link: '/en/shows/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'An image of the Plis Plas show',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Plis Plas_en.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_en.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Itinerant Show',
+        name: 'The Freak-Frac Brothers',
+        link: '',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'An image of The Freak-Frac Brothers Parade',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-FreakFracBrothers.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Show room',
+        name: 'Desencaixats',
+        link: '',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'An image of Desencaixats show',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Desencaixats_en.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-Desencaixats_en.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Arrow down. By clicking a file will be downloaded',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
   workshops: {
     title: 'More Filigranes',
     description: 'Find shows and performances à la carte',

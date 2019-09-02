@@ -191,6 +191,70 @@ export default {
     ]
   },
 
+  filixic: {
+    title: 'Més filigranes',
+    description: 'Altres espectacles de la Companyia Filigranes',
+    highlighted: [
+      {
+        title: 'Espectacle',
+        name: 'Plis Plas',
+        link: '/espectacles/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: "Imatge de l'espectacle Plis Plas",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle itinerant',
+        name: 'Germans Freak-Frac',
+        link: '',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-GermansFreakFrac.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle de sala',
+        name: 'Desencaixats',
+        link: '',
+        image: '/images/img_thumbnail_desencaixats.jpg',
+        alt: "Imatge de l'espectacle Desencaixats",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Desencaixats_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-Desencaixats_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
   workshops: {
     title: 'Més Filigranes',
     description: 'Troba espectacles i animacions fetes a mida',

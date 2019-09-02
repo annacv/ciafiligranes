@@ -194,6 +194,70 @@ export default {
     ]
   },
 
+  filixic: {
+    title: 'Más Filigranes',
+    description: 'Otros espectáculos de la Compañía Filigranes',
+    highlighted: [
+      {
+        title: 'Espectáculo',
+        name: 'Plis Plas',
+        link: 'es/espectaculos/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'Imagen del espectáculo Plis Plas',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_es.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectáculo itinerante',
+        name: 'Hermanos Freak-Frac',
+        link: '',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectáculo de sala',
+        name: 'Desencaixats',
+        link: '',
+        image: '/images/img_thumbnail_desencaixats.jpg',
+        alt: 'Imagen del espectáculo Desencaixats',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Desencaixats_es.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-Desencaixats_es.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
   workshops: {
     title: 'Más Filigranes',
     description: 'Encuentra espectáculos y animaciones a la carta',
