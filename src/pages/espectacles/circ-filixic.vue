@@ -11,14 +11,14 @@
         :button="$t('summary.filixic.button')"
       />
       <DataSheet
-        :titles="$t('dataSheet.plisplas.titles')"
-        :sheet1="$t('dataSheet.plisplas.sheet1')"
-        :sheet2="$t('dataSheet.plisplas.sheet2')"
+        :titles="$t('dataSheet.filixic.titles')"
+        :sheet1="$t('dataSheet.filixic.sheet1')"
+        :sheet2="$t('dataSheet.filixic.sheet2')"
         class="shows"
       />
     </section>
     <Gallery
-      :images="$t('gallery.plisplas.images')"
+      :images="$t('gallery.filixic.images')"
     />
     <Contract
       :title="$t('contract.title')"
@@ -26,8 +26,8 @@
       class="contract__shows-detail"
     />
     <Highlights
-      :content="$t('highlights.plisplas')"
-      :highlighted="$t('highlights.plisplas.highlighted')"
+      :content="$t('highlights.filixic')"
+      :highlighted="$t('highlights.filixic.highlighted')"
       class="highlights__shows"
     />
   </div>
