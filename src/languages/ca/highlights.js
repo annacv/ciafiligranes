@@ -6,7 +6,7 @@ export default {
       {
         title: 'Espectacle',
         name: 'El Circ Filixic',
-        link: '',
+        link: '/espectacles/circ-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
         alt: "Imatge de l'espectacle El Circ Filixic",
         button: {
@@ -22,7 +22,6 @@ export default {
           }
         }
       },
-
       {
         title: 'Taller',
         name: 'Circ',
@@ -42,7 +41,6 @@ export default {
           }
         }
       },
-
       {
         title: 'Taller',
         name: 'Bombolles de sabó',
@@ -88,7 +86,6 @@ export default {
           }
         }
       },
-
       {
         title: 'Taller',
         name: 'Bombolles de sabó',
@@ -108,11 +105,10 @@ export default {
           }
         }
       },
-
       {
         title: 'Animacions',
         name: 'a la carta',
-        link: '',
+        link: '/animacions',
         image: '/images/img_thumbnail_animacions.jpg',
         alt: "Imatge de l'animació amb malabars de foc",
         button: {
@@ -131,6 +127,326 @@ export default {
     ]
   },
 
+  plisplas: {
+    title: 'Més filigranes',
+    description: 'Altres espectacles de la Companyia Filigranes',
+    highlighted: [
+      {
+        title: 'Espectacle',
+        name: 'El Circ Filixic',
+        link: '/espectacles/circ-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: "Imatge de l'espectacle El Circ Filixic",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircFilixic.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle itinerant',
+        name: 'Germans Freak-Frac',
+        link: '/espectacles/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-GermansFreakFrac.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle de sala',
+        name: 'Desencaixats',
+        link: '/espectacles/desencaixats',
+        image: '/images/img_thumbnail_desencaixats.jpg',
+        alt: "Imatge de l'espectacle Desencaixats",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Desencaixats_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-Desencaixats_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
+  filixic: {
+    title: 'Més filigranes',
+    description: 'Altres espectacles de la Companyia Filigranes',
+    highlighted: [
+      {
+        title: 'Espectacle',
+        name: 'Plis Plas',
+        link: '/espectacles/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: "Imatge de l'espectacle Plis Plas",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle itinerant',
+        name: 'Germans Freak-Frac',
+        link: '/espectacles/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-GermansFreakFrac.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle de sala',
+        name: 'Desencaixats',
+        link: '/espectacles/desencaixats',
+        image: '/images/img_thumbnail_desencaixats.jpg',
+        alt: "Imatge de l'espectacle Desencaixats",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-Desencaixats_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-Desencaixats_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
+  freakfrac: {
+    title: 'Més filigranes',
+    description: 'Altres espectacles de la Companyia Filigranes',
+    highlighted: [
+      {
+        title: 'Espectacle',
+        name: 'Plis Plas',
+        link: '/espectacles/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: "Imatge de l'espectacle Plis Plas",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle',
+        name: 'El Circ Filixic',
+        link: '/espectacles/circ-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: "Imatge de l'espectacle El Circ Filixic",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircFilixic.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle',
+        name: 'El Circ Filirates',
+        link: '/espectacles/circ-filirates',
+        image: '/images/img_thumbnail_filirates.jpg',
+        alt: "Imatge de l'espectacle El Circ Filirates.",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircFilirates.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircFilirates.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
+  desencaixats: {
+    title: 'Més filigranes',
+    description: 'Altres espectacles de la Companyia Filigranes',
+    highlighted: [
+      {
+        title: 'Espectacle',
+        name: 'Plis Plas',
+        link: '/espectacles/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: "Imatge de l'espectacle Plis Plas",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle itinerant',
+        name: 'Germans Freak-Frac',
+        link: '/espectacles/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-GermansFreakFrac.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle',
+        name: 'El Circ Filixic',
+        link: '/espectacles/circ-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: "Imatge de l'espectacle El Circ Filixic",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircFilixic.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
+  filirates: {
+    title: 'Més filigranes',
+    description: 'Altres espectacles de la Companyia Filigranes',
+    highlighted: [
+      {
+        title: 'Espectacle',
+        name: 'Plis Plas',
+        link: '/espectacles/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: "Imatge de l'espectacle Plis Plas",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_ca.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle itinerant',
+        name: 'Germans Freak-Frac',
+        link: '/espectacles/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-GermansFreakFrac.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectacle',
+        name: 'El Circ Filixic',
+        link: '/espectacles/circ-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: "Imatge de l'espectacle El Circ Filixic",
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircFilixic.pdf',
+          text: 'Dossier',
+          slot: {
+            alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
   workshops: {
     title: 'Més Filigranes',
     description: 'Troba espectacles i animacions fetes a mida',
@@ -138,7 +454,7 @@ export default {
       {
         title: 'Espectacle',
         name: 'Plis Plas',
-        link: '',
+        link: '/espectacles/plisplas',
         image: '/images/img_thumbnail_plisplas.jpg',
         alt: "Imatge de l'espectacle Plis Plas",
         button: {
@@ -154,11 +470,10 @@ export default {
           }
         }
       },
-
       {
         title: 'Espectacle',
         name: 'El Circ Filixic',
-        link: '',
+        link: '/espectacles/circ-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
         alt: "Imatge de l'espectacle El Circ Filixic",
         button: {
@@ -174,11 +489,10 @@ export default {
           }
         }
       },
-
       {
         title: 'Animacions',
         name: 'a la carta',
-        link: '',
+        link: '/animacions',
         image: '/images/img_thumbnail_animacions.jpg',
         alt: "Imatge de l'animació amb malabars de foc",
         button: {
@@ -204,7 +518,7 @@ export default {
       {
         title: 'Espectacle itinerant',
         name: 'Germans Freak-Frac',
-        link: '',
+        link: '/espectacles/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
         alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac",
         button: {
@@ -220,7 +534,6 @@ export default {
           }
         }
       },
-
       {
         title: 'Taller',
         name: 'Bombolles de sabó',
@@ -240,7 +553,6 @@ export default {
           }
         }
       },
-
       {
         title: 'Taller',
         name: 'Circ',

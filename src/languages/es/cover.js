@@ -9,6 +9,31 @@ export default {
     title: '¡Payasos y circo!'
   },
 
+  plisplas: {
+    claim: 'Espectáculo',
+    title: 'Plis Plas'
+  },
+
+  filixic: {
+    claim: 'Espectáculo',
+    title: 'El Circo Filixic'
+  },
+
+  freakfrac: {
+    claim: 'Espectáculo itinerante',
+    title: 'Pasacalles Hermanos Freak Frac'
+  },
+
+  desencaixats: {
+    claim: 'Espectáculo de sala',
+    title: 'Desencaixats'
+  },
+
+  filirates: {
+    claim: 'Espectáculo',
+    title: 'El Circo Filirates'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes os ofrece...',
     title: 'Talleres para todas'

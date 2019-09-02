@@ -50,11 +50,9 @@
     font-size: 1.75rem;
 
     @media only screen and (min-width: 768px) {
+      text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, .5);
+      font-family: "AkkuratLight", "Arial", sans-serif;
       font-size: 2.5rem;
-      font-family: "AkkuratLight",
-      "Arial",
-      sans-serif;
-      text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, 0.5);
     }
 
     @media only screen and (min-width: 1900px) {
@@ -181,71 +179,184 @@
         }
       }
     }
-  }
 
-  &__products.products {
-    &__shows {
-      background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
+    &.products {
+      &__shows {
+        background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
 
-      @media only screen and (min-width: 768px) {
-        background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
-      }
+        @media only screen and (min-width: 768px) {
+          background-image:
+          url("~@/assets/images/img_cover_medium_plisplas.jpg");
+        }
 
-      @media only screen and (min-width: 1024px) {
-        background-image: url("~@/assets/images/img_cover_plisplas.jpg");
-        background-position: 50% 0%;
-      }
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover_plisplas.jpg");
+          background-position: 50% 0%;
+        }
 
-      &.cover {
-        .row {
-          &__title {
+        &.cover {
+          .row__title {
             background-color: #fd2b5e;
           }
         }
       }
-    }
 
-    &__workshops {
-      background-image: url("~@/assets/images/img_cover_small_workshops.jpg");
+      &__workshops {
+        background-image: url("~@/assets/images/img_cover_small_workshops.jpg");
 
-      @media only screen and (min-width: 768px) {
-        background-image: url("~@/assets/images/img_cover_medium_workshops.jpg");
+        @media only screen and (min-width: 768px) {
+          background-image:
+          url("~@/assets/images/img_cover_medium_workshops.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover_workshops.jpg");
+        }
+
+        &.cover {
+          .row {
+            &__title {
+              background-color: #5c2978;
+            }
+          }
+        }
       }
 
-      @media only screen and (min-width: 1024px) {
-        background-image: url("~@/assets/images/img_cover_workshops.jpg");
-      }
+      &__performances {
+        background-image:
+        url("~@/assets/images/img_cover_small_performances.jpg");
 
-      &.cover {
-        .row {
-          &__title {
-            background-color: #5c2978;
+        @media only screen and (min-width: 768px) {
+          background-image:
+          url("~@/assets/images/img_cover_medium_performances.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover_performances.jpg");
+        }
+
+        &.cover {
+          .cover {
+            &__title {
+              width: 60%;
+            }
+          }
+
+          .row {
+            &__title {
+              background-color: #e84e31;
+            }
           }
         }
       }
     }
+  }
 
-    &__performances {
-      background-image: url("~@/assets/images/img_cover_small_performances.jpg");
 
-      @media only screen and (min-width: 768px) {
-        background-image: url("~@/assets/images/img_cover_medium_performances.jpg");
+  // PRODUCTS DETAIL CUSTOM STYLES
+
+  &__products-detail {
+    &.shows {
+      &__plisplas {
+        background-image: url("~@/assets/images/img_thumbnail_plisplas.jpg");
+        background-position: 60% 0%;
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_sinopsi_plisplas.jpg");
+          background-position: 50% 0%;
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover-show_plisplas.jpg");
+        }
       }
 
-      @media only screen and (min-width: 1024px) {
-        background-image: url("~@/assets/images/img_cover_performances.jpg");
+      &__filixic {
+        background-image: url("~@/assets/images/img_thumbnail_filixic.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_shows_filixic.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover-show_filixic.jpg");
+        }
       }
 
-      &.cover {
-        .cover {
-          &__title {
-            width: 60%;
+      &__freakfrac {
+        background-image: url("~@/assets/images/img_thumbnail_freakfrac.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_shows_freakfrac.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover-show_freakfrac.jpg");
+        }
+      }
+
+      &__desencaixats {
+        background-image:
+        url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image:
+          url("~@/assets/images/img_src_shows_desencaixats.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover-show_desencaixats.jpg");
+        }
+      }
+
+      &__filirates {
+        background-image: url("~@/assets/images/img_thumbnail_filirates.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_shows_filirates.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover-show_filirates.jpg");
+        }
+      }
+    }
+
+    &.cover {
+      .cover {
+        &__content {
+          padding: 12.15rem 0 0;
+
+          @media only screen and (min-width: 768px) {
+            padding: 15.65rem 0 0;
+          }
+
+          @media only screen and (min-width: 1900px) {
+            padding: 19.65rem 0 0;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            padding: 34.15rem 0 0;
           }
         }
 
-        .row {
-          &__title {
-            background-color: #e84e31;
+        &__claim {
+          margin-top: 15.7rem;
+        }
+      }
+
+      .row {
+        &__title {
+          background-color: #fd2b5e;
+          padding: .15rem 0;
+        }
+
+        .cover__title {
+          @media only screen and (min-width: 1024px) {
+            width: 150%;
           }
         }
       }

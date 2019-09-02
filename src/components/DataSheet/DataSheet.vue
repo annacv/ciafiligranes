@@ -67,12 +67,33 @@
         </b-row>
       </div>
     </b-row>
+    <b-row no-gutters>
+      <div class="col-12 col-md-10 col-xxl-8 offset-0 offset-md-1 offset-xxl-2">
+        <b-row
+          v-for="button in buttons"
+          :key="button.class"
+          no-gutters
+          class="data-sheet__btn"
+        >
+          <FiliButton
+            v-if="button"
+            :button="button"
+          />
+        </b-row>
+      </div>
+    </b-row>
   </b-container>
 </template>
 
 <script>
+import FiliButton from '~/components/FiliButton/FiliButton'
+
 export default {
   name: 'DataSheet',
+
+  components: {
+    FiliButton
+  },
 
   props: {
     titles: {
@@ -91,6 +112,11 @@ export default {
       type: Array,
       default: () => [],
       required: true
+    },
+
+    buttons: {
+      type: Array,
+      default: () => []
     }
   }
 }

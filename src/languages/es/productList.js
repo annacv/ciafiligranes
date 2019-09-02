@@ -30,7 +30,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/espectaculos/circo-filixic',
             target: '_top',
             download: '',
             text: 'Más info',
@@ -76,7 +76,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/espectaculos/plisplas',
             target: '_top',
             download: '',
             text: 'Más info',
@@ -122,7 +122,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/espectaculos/freakfrac',
             target: '_top',
             download: '',
             text: 'Más info',
@@ -168,7 +168,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/espectaculos/desencaixats',
             target: '_top',
             download: '',
             text: 'Más info',
@@ -214,7 +214,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/espectaculos/circo-filiratas',
             target: '_top',
             download: '',
             text: 'Más info',

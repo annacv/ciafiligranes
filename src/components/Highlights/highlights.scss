@@ -92,4 +92,19 @@
       }
     }
   }
+
+  // SHOWS DETAIL HIGHLIGHTS STYLES
+
+  &__shows {
+    @media only screen and (min-width: 768px) {
+      background-image: url("~@/assets/images/radical-red_background.svg");
+    }
+
+    .highlights {
+      &__description {
+        color: #444;
+      }
+    }
+  }
+
 }

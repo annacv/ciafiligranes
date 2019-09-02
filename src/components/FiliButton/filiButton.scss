@@ -56,12 +56,27 @@ a {
     }
   }
 
+  .arrow_right {
+    margin-left: .25rem;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: .65rem;
+
+    &.black {
+      background-image: url("~@/assets/icons/arrow_right--black.svg");
+    }
+  }
+
   &:hover {
     background-color: #000;
     color: #fff;
 
     .arrow_down {
       background-image: url("~@/assets/icons/arrow_down--white.svg");
+    }
+
+    .arrow_right {
+      background-image: url("~@/assets/icons/arrow_right--white.svg");
     }
   }
 }

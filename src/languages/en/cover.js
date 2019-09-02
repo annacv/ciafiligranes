@@ -9,6 +9,31 @@ export default {
     title: 'Clowns and Circus for all!'
   },
 
+  plisplas: {
+    claim: 'Show',
+    title: 'Plis Plas'
+  },
+
+  filixic: {
+    claim: 'Show',
+    title: 'The Filixic Circus'
+  },
+
+  freakfrac: {
+    claim: 'Itinerant show',
+    title: 'Freak Frac Brothers Parades'
+  },
+
+  desencaixats: {
+    claim: 'Show Room',
+    title: 'Desencaixats'
+  },
+
+  filirates: {
+    claim: 'Show',
+    title: 'The Filirates Circus'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes offers you...',
     title: 'Workshops for all ages'
