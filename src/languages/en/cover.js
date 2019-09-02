@@ -25,7 +25,7 @@ export default {
   },
 
   desencaixats: {
-    claim: 'Room Show',
+    claim: 'Show Room',
     title: 'Desencaixats'
   },
 
