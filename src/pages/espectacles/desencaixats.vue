@@ -2,7 +2,7 @@
   <div class="content">
     <Cover
       :content="$t('cover.desencaixats')"
-      class="cover__products-detail shows__desencaixats"
+      class="cover__shows-detail shows__desencaixats"
     />
     <section class="main-content">
       <Summary

@@ -1,25 +1,20 @@
 <template>
   <div class="content">
     <Cover
-      :content="$t('cover.filixic')"
-      class="cover__shows-detail shows__filixic"
+      :content="$t('cover.clowns')"
+      class="cover__workshops-detail workshops__clowns"
     />
     <section class="main-content">
-      <Summary
-        :abstract="$t('summary.filixic.abstract')"
-        :items="$t('summary.filixic.items')"
-        :button="$t('summary.filixic.button')"
-      />
       <DataSheet
-        :titles="$t('dataSheet.filixic.titles')"
-        :sheet1="$t('dataSheet.filixic.sheet1')"
-        :sheet2="$t('dataSheet.filixic.sheet2')"
+        :titles="$t('dataSheet.plisplas.titles')"
+        :sheet1="$t('dataSheet.plisplas.sheet1')"
+        :sheet2="$t('dataSheet.plisplas.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"
         class="shows"
       />
     </section>
     <Gallery
-      :images="$t('gallery.filixic.images')"
+      :images="$t('gallery.plisplas.images')"
     />
     <Contract
       :title="$t('contract.title')"
@@ -27,8 +22,8 @@
       class="contract__shows-detail"
     />
     <Highlights
-      :content="$t('highlights.filixic')"
-      :highlighted="$t('highlights.filixic.highlighted')"
+      :content="$t('highlights.plisplas')"
+      :highlighted="$t('highlights.plisplas.highlighted')"
       class="highlights__shows"
     />
   </div>
@@ -43,22 +38,21 @@ import Highlights from '@/components/Highlights/Highlights'
 import Summary from '@/components/Summary/Summary'
 
 export default {
-  name: 'CircFilixic',
+  name: 'Pallassos',
 
   components: {
     Contract,
     Cover,
     DataSheet,
     Gallery,
-    Highlights,
-    Summary
+    Highlights
   },
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/circo-filixic',
-      ca: '/espectacles/circ-filixic',
-      en: '/shows/filixic-circus'
+      es: '/talleres/payasos',
+      ca: '/tallers/pallassos',
+      en: '/workshops/clowns'
     }
   }
 }

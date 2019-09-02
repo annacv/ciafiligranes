@@ -2,7 +2,7 @@
   <div class="content">
     <Cover
       :content="$t('cover.plisplas')"
-      class="cover__products-detail shows__plisplas"
+      class="cover__shows-detail shows__plisplas"
     />
     <section class="main-content">
       <Summary

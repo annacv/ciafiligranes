@@ -2,7 +2,7 @@
   <div class="content">
     <Cover
       :content="$t('cover.freakfrac')"
-      class="cover__products-detail shows__freakfrac"
+      class="cover__shows-detail shows__freakfrac"
     />
     <section class="main-content">
       <Summary
