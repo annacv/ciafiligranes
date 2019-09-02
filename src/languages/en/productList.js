@@ -30,7 +30,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/shows/filixic-circus',
             target: '_top',
             download: '',
             text: 'More info',
@@ -122,7 +122,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/shows/freakfrac',
             target: '_top',
             download: '',
             text: 'More info',
@@ -168,7 +168,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/shows/desencaixats',
             target: '_top',
             download: '',
             text: 'More info',
@@ -214,7 +214,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/shows/filirates-circus',
             target: '_top',
             download: '',
             text: 'More info',
