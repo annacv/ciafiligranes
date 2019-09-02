@@ -254,8 +254,50 @@
 
 
   // PRODUCTS DETAIL CUSTOM STYLES
+  &__shows-detail,
+  &__workshops-detail {
+    &.cover {
+      .cover {
+        &__content {
+          padding: 12.15rem 0 0;
 
-  &__products-detail {
+          @media only screen and (min-width: 768px) {
+            padding: 15.65rem 0 0;
+          }
+
+          @media only screen and (min-width: 1900px) {
+            padding: 19.65rem 0 0;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            padding: 34.15rem 0 0;
+          }
+        }
+
+        &__claim {
+          margin-top: 8rem;
+
+          @media only screen and (min-width: 768px) {
+            margin-top: 15.7rem;
+          }
+        }
+      }
+
+      .row {
+        &__title {
+          padding: .15rem 0;
+        }
+
+        .cover__title {
+          @media only screen and (min-width: 1024px) {
+            width: 150%;
+          }
+        }
+      }
+    }
+  }
+
+  &__shows-detail {
     &.shows {
       &__plisplas {
         background-image: url("~@/assets/images/img_thumbnail_plisplas.jpg");
@@ -326,38 +368,87 @@
     }
 
     &.cover {
-      .cover {
-        &__content {
-          padding: 12.15rem 0 0;
-
-          @media only screen and (min-width: 768px) {
-            padding: 15.65rem 0 0;
-          }
-
-          @media only screen and (min-width: 1900px) {
-            padding: 19.65rem 0 0;
-          }
-
-          @media only screen and (min-width: 3000px) {
-            padding: 34.15rem 0 0;
-          }
-        }
-
-        &__claim {
-          margin-top: 15.7rem;
-        }
-      }
-
       .row {
         &__title {
           background-color: #fd2b5e;
-          padding: .15rem 0;
+        }
+      }
+    }
+  }
+
+  &__workshops-detail {
+    &.workshops {
+      &__circus {
+        background-image: url("~@/assets/images/img_thumbnail_circ.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_workshops_circ.jpg");
         }
 
-        .cover__title {
-          @media only screen and (min-width: 1024px) {
-            width: 150%;
-          }
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_workshops_circ.jpg");
+        }
+      }
+
+      &__clowns {
+        background-image: url("~@/assets/images/img_thumbnail_pallassos.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_workshops_pallassos.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover_workshops_pallassos.jpg");
+        }
+      }
+
+      &__bubbles {
+        background-image: url("~@/assets/images/img_thumbnail_bombolles.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_workshops_bombolles.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_workshops_bombolles.jpg");
+        }
+      }
+
+      &__water {
+        background-image:
+        url("~@/assets/images/img_thumbnail_enginys.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image:
+          url("~@/assets/images/img_src_workshops_enginys.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_workshops_enginys.jpg");
+        }
+      }
+
+      &__makeup {
+        background-image: url("~@/assets/images/img_thumbnail_maquillatge.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_workshops_maquillatge.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_workshops_maquillatge.jpg");
+        }
+      }
+    }
+
+    &.cover {
+      .row {
+        &__title {
+          background-color: #5c2978;
         }
       }
     }

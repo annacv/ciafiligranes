@@ -39,6 +39,31 @@ export default {
     title: 'Talleres para todas'
   },
 
+  circus: {
+    claim: 'Taller para grandes y pequeñas',
+    title: 'Taller de Circo'
+  },
+
+  clowns: {
+    claim: 'Taller para grandes y pequeñas',
+    title: 'Taller de Payasos'
+  },
+
+  bubbles: {
+    claim: 'Taller de temporada',
+    title: 'Burbujas de Jabón'
+  },
+
+  water: {
+    claim: 'Taller de temporada',
+    title: 'Ingenios de agua'
+  },
+
+  makeup: {
+    claim: 'Taller para pequeñas',
+    title: 'Taller de Maquillatge'
+  },
+
   performances: {
     claim: 'Cia.Filigranes presenta...',
     title: 'Animaciones a la carta'

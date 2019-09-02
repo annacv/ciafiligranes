@@ -39,6 +39,31 @@ export default {
     title: 'Tallers per a totes les edats'
   },
 
+  circus: {
+    claim: 'Taller per a grans i menudes',
+    title: 'Taller de Circ'
+  },
+
+  clowns: {
+    claim: 'Taller per a grans i menudes',
+    title: 'Taller de Pallassos'
+  },
+
+  bubbles: {
+    claim: 'Taller de temporada',
+    title: 'Bombolles de Sabó'
+  },
+
+  water: {
+    claim: 'Taller de temporada',
+    title: "Enginys d'aigua"
+  },
+
+  makeup: {
+    claim: 'Taller per a menudes',
+    title: 'Taller de Maquillatge'
+  },
+
   performances: {
     claim: 'Cia.Filigranes presenta...',
     title: 'Animacions a la carta'
