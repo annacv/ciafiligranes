@@ -6,7 +6,7 @@ export default {
       {
         title: 'Espectáculo',
         name: 'El Circo Filixic',
-        link: '',
+        link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
         alt: 'Imagen del espectáculo El Circo Filixic',
         button: {
@@ -111,7 +111,7 @@ export default {
       {
         title: 'Animaciones',
         name: 'a la carta',
-        link: '',
+        link: '/es/animaciones',
         image: '/images/img_thumbnail_animacions.jpg',
         alt: 'Imagen de la animación con malabares de fuego',
         button: {
@@ -137,7 +137,7 @@ export default {
       {
         title: 'Espectáculo',
         name: 'El Circo Filixic',
-        link: '',
+        link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
         alt: 'Imagen del espectáculo El Circo Filixic',
         button: {
@@ -156,7 +156,7 @@ export default {
       {
         title: 'Espectáculo itinerante',
         name: 'Hermanos Freak-Frac',
-        link: '',
+        link: '/es/espectaculos/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
         alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
         button: {
@@ -175,7 +175,7 @@ export default {
       {
         title: 'Espectáculo de sala',
         name: 'Desencaixats',
-        link: '',
+        link: '/es/espectaculos/desencaixats',
         image: '/images/img_thumbnail_desencaixats.jpg',
         alt: 'Imagen del espectáculo Desencaixats',
         button: {
@@ -201,7 +201,7 @@ export default {
       {
         title: 'Espectáculo',
         name: 'Plis Plas',
-        link: 'es/espectaculos/plisplas',
+        link: '/es/espectaculos/plisplas',
         image: '/images/img_thumbnail_plisplas.jpg',
         alt: 'Imagen del espectáculo Plis Plas',
         button: {
@@ -220,7 +220,7 @@ export default {
       {
         title: 'Espectáculo itinerante',
         name: 'Hermanos Freak-Frac',
-        link: '',
+        link: '/es/espectaculos/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
         alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
         button: {
@@ -239,7 +239,7 @@ export default {
       {
         title: 'Espectáculo de sala',
         name: 'Desencaixats',
-        link: '',
+        link: '/es/espectaculos/desencaixats',
         image: '/images/img_thumbnail_desencaixats.jpg',
         alt: 'Imagen del espectáculo Desencaixats',
         button: {
@@ -248,6 +248,198 @@ export default {
           href: '/downloads/CiaFiligranes-Desencaixats_es.pdf',
           target: '__blank',
           download: 'CiaFiligranes-Desencaixats_es.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
+  freakfrac: {
+    title: 'Más Filigranes',
+    description: 'Otros espectáculos de la Compañía Filigranes',
+    highlighted: [
+      {
+        title: 'Espectáculo',
+        name: 'Plis Plas',
+        link: '/es/espectaculos/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'Imagen del espectáculo Plis Plas',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_es.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectáculo',
+        name: 'El Circo Filixic',
+        link: '/es/espectaculos/circo-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'Imagen del espectáculo El Circo Filixic',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircoFilixic.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectáculo',
+        name: 'El Circo Filiratas',
+        link: '/es/espectaculos/circo-filirates',
+        image: '/images/img_thumbnail_filirates.jpg',
+        alt: 'Imagen del espectáculo el Circo Filiratas',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircoFiliratas.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircoFiliratas.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
+  desencaixats: {
+    title: 'Más Filigranes',
+    description: 'Otros espectáculos de la Compañía Filigranes',
+    highlighted: [
+      {
+        title: 'Espectáculo',
+        name: 'Plis Plas',
+        link: '/es/espectaculos/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'Imagen del espectáculo Plis Plas',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_es.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectáculo itinerante',
+        name: 'Hermanos Freak-Frac',
+        link: '/es/espectaculos/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectáculo',
+        name: 'El Circo Filixic',
+        link: '/es/espectaculos/circo-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'Imagen del espectáculo El Circo Filixic',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircoFilixic.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      }
+    ]
+  },
+
+  filirates: {
+    title: 'Más Filigranes',
+    description: 'Otros espectáculos de la Compañía Filigranes',
+    highlighted: [
+      {
+        title: 'Espectáculo',
+        name: 'Plis Plas',
+        link: '/es/espectaculos/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'Imagen del espectáculo Plis Plas',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-PlisPlas_es.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectáculo itinerante',
+        name: 'Hermanos Freak-Frac',
+        link: '/es/espectaculos/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
+          text: 'Dosier',
+          slot: {
+            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+            class: 'arrow_down black'
+          }
+        }
+      },
+      {
+        title: 'Espectáculo',
+        name: 'El Circo Filixic',
+        link: '/es/espectaculos/circo-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'Imagen del espectáculo El Circo Filixic',
+        button: {
+          class: 'button-outline-secondary button-outline-secondary__black',
+          type: 'application',
+          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
+          target: '__blank',
+          download: 'CiaFiligranes-ElCircoFilixic.pdf',
           text: 'Dosier',
           slot: {
             alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
@@ -284,7 +476,7 @@ export default {
       {
         title: 'Espectáculo',
         name: 'El Circo Filixic',
-        link: '',
+        link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
         alt: 'Imagen del espectáculo el Circo Filixic',
         button: {
@@ -303,7 +495,7 @@ export default {
       {
         title: 'Animaciones',
         name: 'a la carta',
-        link: '',
+        link: '/es/animaciones',
         image: '/images/img_thumbnail_animacions.jpg',
         alt: 'Imagen de la animación con malabares de fuego',
         button: {
@@ -330,7 +522,7 @@ export default {
       {
         title: 'Espectáculo itinerante',
         name: 'Hermanos Freak-Frac',
-        link: '',
+        link: '/es/espectaculos/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
         alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
         button: {
