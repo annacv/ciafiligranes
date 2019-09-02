@@ -14,6 +14,7 @@
         :titles="$t('dataSheet.freakfrac.titles')"
         :sheet1="$t('dataSheet.freakfrac.sheet1')"
         :sheet2="$t('dataSheet.freakfrac.sheet2')"
+        :buttons="$t('dataSheet.plisplas.buttons')"
         class="shows freakfrac"
       />
     </section>

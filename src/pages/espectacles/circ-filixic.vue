@@ -14,6 +14,7 @@
         :titles="$t('dataSheet.filixic.titles')"
         :sheet1="$t('dataSheet.filixic.sheet1')"
         :sheet2="$t('dataSheet.filixic.sheet2')"
+        :buttons="$t('dataSheet.plisplas.buttons')"
         class="shows"
       />
     </section>

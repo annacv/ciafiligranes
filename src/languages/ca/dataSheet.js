@@ -79,6 +79,21 @@ export default {
         label: 'Disseny Escenografia',
         description: 'Tonet Amorós i Cia.Filigranes'
       }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-PlisPlas_ca.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
+      }
     ]
   },
 
@@ -149,6 +164,21 @@ export default {
         label: 'Escenografia',
         description: 'Companyia Filigranes'
       }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-ElCircFilixic.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
+      }
     ]
   },
 
@@ -206,6 +236,21 @@ export default {
       },
       {
         label: 'Possibilitat de variació del nombre d’actors i/o músics.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-GermansFreakFrac.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
       }
     ]
   },
@@ -290,6 +335,21 @@ export default {
         label: 'Escenografia i Vestuari',
         description: 'Companyia Filigranes'
       }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-Desencaixats_ca.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-Desencaixats_ca.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
+      }
     ]
   },
 
@@ -359,6 +419,21 @@ export default {
       {
         label: 'Escenografia',
         description: 'Companyia Filigranes'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-ElCircFilirates.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-ElCircFilirates.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
       }
     ]
   },
