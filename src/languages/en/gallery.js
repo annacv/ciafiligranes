@@ -18,6 +18,25 @@ export default {
     }
   },
 
+  filixic: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_filixic--1.jpg',
+        alt: 'The clown Makutu is searching Trinxeta.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_filixic--2.jpg',
+        alt: 'Trinxeta and the rolling monocicle.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_filixic--3.jpg',
+        alt: 'Re-encounter between Makutu and Trinxeta.'
+      }
+    }
+  },
+
   performances: {
     images: {
       image1: {

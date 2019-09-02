@@ -18,6 +18,25 @@ export default {
     }
   },
 
+  filixic: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_filixic--1.jpg',
+        alt: 'El pallasso Makutu buscant en Trinxeta.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_filixic--2.jpg',
+        alt: 'Trinxeta i el monocicle giravolt.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_filixic--3.jpg',
+        alt: 'Retrobament entre Makutu i Trinxeta.'
+      }
+    }
+  },
+
   performances: {
     images: {
       image1: {
