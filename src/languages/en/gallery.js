@@ -37,6 +37,63 @@ export default {
     }
   },
 
+  freakfrac: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_freakfrac--1.jpg',
+        alt: 'Stilters, Jugglers and Musicians.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_freakfrac--2.jpg',
+        alt: 'The Stilters.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_freakfrac--3.jpg',
+        alt: 'The whole Freak Frac Brothers group.'
+      }
+    }
+  },
+
+  desencaixats: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_desencaixats--1.jpg',
+        alt: 'The incredible juggling with boxes.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_desencaixats--2.jpg',
+        alt: 'Two hiding clowns in a box.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_desencaixats--3.jpg',
+        alt: 'The juggling ball with boxes.'
+      }
+    }
+  },
+
+  filirates: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_filirates--1.jpg',
+        alt: 'Andrea the bearded enters the scene.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_filirates--2.jpg',
+        alt: 'Magic with Mr.Calostro and Andrea the Bearded.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_filirates--3.jpg',
+        alt: 'The director Sr.Makutu presents the next performance.'
+      }
+    }
+  },
+
   performances: {
     images: {
       image1: {

@@ -37,6 +37,63 @@ export default {
     }
   },
 
+  freakfrac: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_freakfrac--1.jpg',
+        alt: 'Xanquers, malabaristes i músics.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_freakfrac--2.jpg',
+        alt: 'Els Xanquers.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_freakfrac--3.jpg',
+        alt: 'Els Germans Freak Frac al complet.'
+      }
+    }
+  },
+
+  desencaixats: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_desencaixats--1.jpg',
+        alt: 'Els increïbles malabars amb caixes.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_desencaixats--2.jpg',
+        alt: "Dos pallassos que s'amaguen en una caixa."
+      },
+
+      image3: {
+        src: '/images/img_gallery_desencaixats--3.jpg',
+        alt: "Una bola malabar que s'amaga entre caixes."
+      }
+    }
+  },
+
+  filirates: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_filirates--1.jpg',
+        alt: 'Andrea la barbuda entra en escena.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_filirates--2.jpg',
+        alt: 'Màgia amb el Sr.Calostro i Andrea la barbuda.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_filirates--3.jpg',
+        alt: 'El director Sr.Makutu presenta el següent número.'
+      }
+    }
+  },
+
   performances: {
     images: {
       image1: {
