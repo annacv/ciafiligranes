@@ -61,7 +61,7 @@ export default {
 
   makeup: {
     claim: 'Taller para pequeñas',
-    title: 'Taller de Maquillatge'
+    title: 'Taller de Maquillaje'
   },
 
   performances: {

@@ -421,7 +421,7 @@ export default {
         }
       },
       {
-        title: 'Taller de Maquillage',
+        title: 'Taller de Maquillaje',
         paragraphs: [
           {
             paragraph:
@@ -461,7 +461,7 @@ export default {
           }
         ],
         image: {
-          alt: 'Imagen del Taller de Maquillage',
+          alt: 'Imagen del Taller de Maquillaje',
           src: '/images/img_src_workshops_maquillatge.jpg',
           srcset: '/images/img_workshops_maquillatge.jpg'
         }
