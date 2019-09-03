@@ -1,8 +1,9 @@
 .contract {
-  padding: 1rem 0;
+  padding: 2rem 0;
 
   @media only screen and (min-width: 768px) {
     margin: 0 0 5rem;
+    padding: 1rem 0;
   }
 
   @media only screen and (min-width: 1200px) {
@@ -134,6 +135,12 @@
     @media only screen and (min-width: 1200px) {
       margin: 0 0 10rem;
     }
+  }
+
+  &__shows-detail,
+  &__workshops-detail,
+  &__performances {
+    margin-top: -.04rem;
   }
 
   &__shows,

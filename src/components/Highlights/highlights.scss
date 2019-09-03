@@ -1,5 +1,5 @@
 .highlights {
-  margin: 3rem 0 2.5rem;
+  margin: 4rem 0 3.5rem;
   padding: 0 .9375rem;
 
   @media only screen and (min-width: 768px) {
@@ -42,7 +42,7 @@
   }
 
   &__description {
-    margin: .25rem 0 1.5rem;
+    margin: .25rem 0 2rem;
     line-height: 1.4;
 
     @media only screen and (min-width: 768px) {
@@ -82,15 +82,22 @@
   // MIXED HIGHLIGHTS COLOR STYLES
 
   &__mixed {
-    @media only screen and (min-width: 768px) {
-      background-image: url("~@/assets/images/java_background.svg");
-    }
-
     .highlights {
       &__description {
-        color: #008287;
+        color: #444;
       }
     }
+
+    @media only screen and (min-width: 768px) {
+      background-image: url("~@/assets/images/java_background.svg");
+
+      .highlights {
+        &__description {
+          color: #008287;
+        }
+      }
+    }
+
   }
 
   // SHOWS DETAIL HIGHLIGHTS STYLES

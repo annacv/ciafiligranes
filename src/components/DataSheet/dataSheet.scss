@@ -1,5 +1,5 @@
 .data-sheet {
-  margin: 3rem 0 3.5rem;
+  margin: 2rem 0;
   background-color: white;
 
   @media only screen and (min-width: 768px) {
@@ -59,13 +59,13 @@
 
 
     &.left-side {
-      border-bottom: .5rem solid;
-      padding: 1.5rem 1.5rem 1.05rem;
+      border-bottom: .25rem solid;
+      padding: 1.5rem 1.5rem 1.25rem;
     }
 
     &.right-side {
-      border-top: .5rem solid;
-      padding: 1.05rem 1.5rem 1.5rem;
+      border-top: .25rem solid;
+      padding: 1.25rem 1.5rem 1.5rem;
     }
   }
 
@@ -101,7 +101,7 @@
   }
 
   &__btn {
-    margin: 3rem 0 0;
+    margin: 2rem 0 0;
   }
 
   &.shows {

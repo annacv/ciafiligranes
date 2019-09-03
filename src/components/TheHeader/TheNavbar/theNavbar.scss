@@ -19,7 +19,7 @@ nav {
   &__menu-list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    align-content: center;
   }
 
   &__menu-item > a,
