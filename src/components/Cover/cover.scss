@@ -126,10 +126,6 @@
             padding: 22rem 0 5rem;
           }
 
-          @media only screen and (min-width: 1024px) {
-            padding: 22rem 0 5rem;
-          }
-
           @media only screen and (min-width: 1900px) {
             margin-bottom: 9.35rem;
             padding: 15.5rem 0 4rem;
@@ -265,10 +261,6 @@
       .cover {
         &__content {
           padding: 22rem 0 0;
-
-          @media only screen and (min-width: 1024px) {
-            padding: 15.65rem 0 0;
-          }
 
           @media only screen and (min-width: 1900px) {
             padding: 19.65rem 0 0;
@@ -470,7 +462,3 @@
     }
   }
 }
-
-
-
-

@@ -37,7 +37,7 @@
             />
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-7 col-xl-6 offset-xl-1 offset-xxl-1">
+        <div class="col-12 col-lg-7 col-xl-6 offset-xl-1 offset-xxl-1">
           <b-row>
             <div class="synopsis__image-container">
               <picture>
