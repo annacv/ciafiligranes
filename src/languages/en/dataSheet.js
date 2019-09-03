@@ -1,10 +1,10 @@
 export default {
-  plisplas: {
-    titles: {
-      title1: 'Technical card',
-      title2: 'Artistic card'
-    },
+  titles: {
+    title1: 'Technical Card',
+    title2: 'Artistic Card'
+  },
 
+  plisplas: {
     sheet1: [
       {
         label: 'Plis Plas',
@@ -98,11 +98,6 @@ export default {
   },
 
   filixic: {
-    titles: {
-      title1: 'Technical card',
-      title2: 'Artistic card'
-    },
-
     sheet1: [
       {
         label: 'The Filixic Circus',
@@ -183,11 +178,6 @@ export default {
   },
 
   freakfrac: {
-    titles: {
-      title1: 'Technical card',
-      title2: 'Artistic card'
-    },
-
     sheet1: [
       {
         label: 'Freak Frac Brothers Parades',
@@ -257,11 +247,6 @@ export default {
   },
 
   desencaixats: {
-    titles: {
-      title1: 'Technical card',
-      title2: 'Artistic card'
-    },
-
     sheet1: [
       {
         label: 'Desencaixats',
@@ -355,11 +340,6 @@ export default {
   },
 
   filirates: {
-    titles: {
-      title1: 'Technical card',
-      title2: 'Artistic card'
-    },
-
     sheet1: [
       {
         label: 'The Filirates Circus',
@@ -439,16 +419,264 @@ export default {
     ]
   },
 
-  performances: {
+  workshops: {
     titles: {
-      title1: 'Technical Card',
-      title2: 'Artistic Card'
-    },
+      title1: 'What will we learn?',
+      title2: 'Technical Card'
+    }
+  },
 
+  circus: {
+    sheet1: [
+      {
+        description:
+          'Learning the various circus disciplines helps to develop psychomotricity, coordination and discoordination, and mental agility.'
+      },
+      {
+        description: 'We will work with:'
+      },
+      {
+        label: 'Juggling:',
+        description:
+          'Practice with clubs, diabolos, sticks and Chinese dishes, balls...'
+      },
+      {
+        label: 'Balances:',
+        description:
+          'Ball of balance, monocicle, rollers, stilts and cable (funambulism)...'
+      },
+      {
+        description:
+          'Following teacher’s guidelines you will be able to experiment and choose the technique which with you’re more encouraged.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Space',
+        description:
+          "It's recommended to carry out this workshop in a large outdoor space, with firm and flat floor. In case of doing it inside, a min. height of 3m is required."
+      },
+      {
+        label: 'Light and sound',
+        description:
+          "A point of light is necessary for the sound equipment (company's own)."
+      },
+      {
+        label: 'Other recommendations',
+        description: 'We recommend to wear comfortable clothes.'
+      },
+      {
+        label:
+          '* The number of shopkeepers will depend on the volume of participants.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-CircusWorkshop.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-CircusWorkshop.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Arrow down. By clicking a file will be downloaded',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  clowns: {
+    sheet1: [
+      {
+        description:
+          'We will give a red nose to everyone and have fun through engadging games and dynamics, where we will discover the clown we bring inside!'
+      },
+      {
+        description:
+          'We will learn theatrical techniques in order to develop body expression, the awareness of space and individual and group communication. And we will put into practice techniques that will help us increase self-esteem and lose the shame and fear of expressing themselves in public.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Materials',
+        description: 'All materials will be provided by the Filigranes Company.'
+      },
+      {
+        label: 'Light and sound',
+        description:
+          "A point of light is necessary for the sound equipment (company's own)."
+      },
+      {
+        label: 'Other recommendations',
+        description: 'We recommend to wear comfortable clothes.'
+      },
+      {
+        label:
+          '* The number of shopkeepers will depend on the volume of participants.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-ClownsWorkshop.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-ClownsWorkshop.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Arrow down. By clicking a file will be downloaded',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  seasonalWorkshops: {
+    sheet2: [
+      {
+        label: 'Space',
+        description: 'Seasonal workshop, it is recommended to do it outside.'
+      },
+      {
+        label: 'Water point',
+        description:
+          'A water point is needed next to it (preferably with a hose).'
+      },
+      {
+        label: 'Light',
+        description: 'A point of light is necessary.'
+      },
+      {
+        label: 'Other recommendations',
+        description: 'Use comfortable clothes and shoes that can get wet.'
+      },
+      {
+        label:
+          '* The number of shopkeepers will depend on the volume of participants.'
+      }
+    ]
+  },
+
+  bubbles: {
+    sheet1: [
+      {
+        description:
+          'We will learn to prepare the right mix and how to use different devices in order to achieve incredible bubbles in constant motion!'
+      },
+      {
+        description:
+          'Teachers will demonstrate and guide us in learning the art of making bubbles through various devices in contact with water and soap.'
+      },
+      {
+        description:
+          'We will enter into a world of forms and colors that we will learn to manipulate according to our desire!'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-SoapBubblesWorkshop.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-SoapBubblesWorkshop.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Arrow down. By clicking a file will be downloaded',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  water: {
+    sheet1: [
+      {
+        description:
+          'This so refreshing workshop will give you the option of turning a mill wheel, creating a waterfall, playing with counterbalances, imagining the work that requires water from a well...'
+      },
+      {
+        description:
+          'Wooden structures combined with recycled elements will create awareness of the importance of recycling and the use of water for small and large.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-WaterTricks.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-WaterTricks.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Arrow down. By clicking a file will be downloaded',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  makeup: {
+    sheet1: [
+      {
+        description:
+          'With this workshop we will offer you a range of fantasy makeup techniques: with brush, sponge, fingers...'
+      },
+      {
+        description:
+          'With the help of our workshop workers, boys and girls will create their own outline. Together, we will choose the colors and we will learn what are the most appropriate techniques for each case.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Materials',
+        description:
+          'All the necessary material will be provided by the Company. We will always use appropriate paints to get in touch with the skin.'
+      },
+      {
+        label: 'Light and sound',
+        description:
+          "A point of light is needed for the sound equipment (company's own)."
+      },
+      {
+        label: 'To keep in mind',
+        description:
+          'The paintings will be applied totally or partially by the shopkeepers, depending on the age of the participants.'
+      },
+      {
+        label:
+          '* The number of shopkeepers will depend on the volume of participants.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-MakeupWorkshop.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-MakeupWorkshop.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Arrow down. By clicking a file will be downloaded',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  performances: {
     sheet1: [
       {
         label: 'Performances à la Carte',
-        description: 'Públic Infantil i/o Familiar.'
+        description: 'Public Child and/or Family.'
       },
       {
         label: 'Space',

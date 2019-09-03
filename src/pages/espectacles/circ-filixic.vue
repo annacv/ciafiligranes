@@ -2,7 +2,7 @@
   <div class="content">
     <Cover
       :content="$t('cover.filixic')"
-      class="cover__products-detail shows__filixic"
+      class="cover__shows-detail shows__filixic"
     />
     <section class="main-content">
       <Summary
@@ -11,7 +11,7 @@
         :button="$t('summary.filixic.button')"
       />
       <DataSheet
-        :titles="$t('dataSheet.filixic.titles')"
+        :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.filixic.sheet1')"
         :sheet2="$t('dataSheet.filixic.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"

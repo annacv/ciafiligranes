@@ -1,10 +1,10 @@
 export default {
-  plisplas: {
-    titles: {
-      title1: 'Ficha técnica',
-      title2: 'Ficha artística'
-    },
+  titles: {
+    title1: 'Ficha técnica',
+    title2: 'Ficha artística'
+  },
 
+  plisplas: {
     sheet1: [
       {
         label: 'Plis Plas',
@@ -98,11 +98,6 @@ export default {
   },
 
   filixic: {
-    titles: {
-      title1: 'Ficha técnica',
-      title2: 'Ficha artística'
-    },
-
     sheet1: [
       {
         label: 'El Circo Filixic',
@@ -183,11 +178,6 @@ export default {
   },
 
   freakfrac: {
-    titles: {
-      title1: 'Ficha técnica',
-      title2: 'Ficha artística'
-    },
-
     sheet1: [
       {
         label: 'Pasacalles Hermanos Freak Frac',
@@ -256,11 +246,6 @@ export default {
   },
 
   desencaixats: {
-    titles: {
-      title1: 'Ficha técnica',
-      title2: 'Ficha artística'
-    },
-
     sheet1: [
       {
         label: 'Desencaixats',
@@ -354,11 +339,6 @@ export default {
   },
 
   filirates: {
-    titles: {
-      title1: 'Ficha técnica',
-      title2: 'Ficha artística'
-    },
-
     sheet1: [
       {
         label: 'El Circo Filiratas',
@@ -438,12 +418,260 @@ export default {
     ]
   },
 
-  performances: {
+  workshops: {
     titles: {
-      title1: 'Ficha técnica',
-      title2: 'Ficha artística'
-    },
+      title1: '¿Qué aprenderemos?',
+      title2: 'Ficha técnica'
+    }
+  },
 
+  circus: {
+    sheet1: [
+      {
+        description:
+          'El aprendizaje de las diversas disciplinas circenses ayuda a desarrollar la psicomotricidad, la coordinación y descoordinación, y la agilidad mental.'
+      },
+      {
+        description: 'Trabajaremos con:'
+      },
+      {
+        label: 'Malabares:',
+        description:
+          'Práctica con mazas, diábolo, palos y platos chinos, boleias, bolas...'
+      },
+      {
+        label: 'Equilibrios:',
+        description:
+          'Bola de equilibrio, monociclo, rulos, zancos y cable (funambulismo) ...'
+      },
+      {
+        description:
+          'Siguiendo las pautas marcadas por los talleristas los participantes podrán experimentar y elegir la técnica que más les motive.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Espacio',
+        description:
+          'Se recomienda realizar este taller en un espacio exterior amplio, con suelo firme y plano. Si se realiza en el interior, se requiere una altura mínima de 3m.'
+      },
+      {
+        label: 'Luz y sonido',
+        description: 'Es necesario un punto de luz para el equipo de sonido'
+      },
+      {
+        label: 'Otras recomendaciones',
+        description: 'Se recomienda llevar ropa cómoda.'
+      },
+      {
+        label:
+          '* El número de talleristas dependerá del volumen de participantes.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-TallerCirco.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-TallerCirco.pdf',
+        text: 'Dosier',
+        slot: {
+          alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  clowns: {
+    sheet1: [
+      {
+        description:
+          'A cada persona se le entregará una nariz roja, que se podrá llevar a casa. Nos divertiremos mediante juegos y dinámicas participativas, ¡donde descubriremos el payaso que llevamos dentro!'
+      },
+      {
+        description:
+          'Aprenderemos técnicas teatrales para desarrollar la expresión corporal, la conciencia del espacio y la comunicación individual y grupal. Y pondremos en práctica técnicas que nos ayudarán a aumentar la autoestima y a perder la vergüenza y el miedo a expresarse en público.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Materials',
+        description:
+          'Todos los materiales serán facilitados por la Compañía Filigranes.'
+      },
+      {
+        label: 'Luz y sonido',
+        description: 'Es necesario un punto de luz para el equipo de sonido.'
+      },
+      {
+        label: 'Otras recomendaciones',
+        description:
+          'Se recomienda llevar ropa cómoda, preferiblemente chándal y zapatillas.'
+      },
+      {
+        label:
+          '* El número de talleristas dependerá del volumen de participantes.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-TallerPayasos.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-TallerPayasos.pdf',
+        text: 'Dosier',
+        slot: {
+          alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  seasonalWorkshops: {
+    sheet2: [
+      {
+        label: 'Espacio',
+        description:
+          'Taller de temporada, se recomienda realizarlo en el exterior'
+      },
+      {
+        label: 'Punto de agua',
+        description:
+          'Es necesario un punto de agua cerca (preferiblemente con manguera).'
+      },
+      {
+        label: 'Luz y sonido',
+        description: 'Es necesario un punto de luz para el equipo de sonido.'
+      },
+      {
+        label: 'Otras recomendaciones',
+        description: 'Utilizar ropa cómoda y calzado que se pueda mojar.'
+      },
+      {
+        label:
+          '* El número de talleristas dependerá del volumen de participantes.'
+      }
+    ]
+  },
+
+  bubbles: {
+    sheet1: [
+      {
+        description:
+          'Aprenderemos a preparar la mezcla idónea y cómo utilizar diferentes aparatos para conseguir increíbles burbujas en constante movimiento!'
+      },
+      {
+        description:
+          'Los/las talleristas harán demostraciones y nos guiarán en el aprendizaje del arte de hacer burbujas mediante diversos aparatos en contacto con agua y jabón.'
+      },
+      {
+        description:
+          'Nos adentraremos en un mundo de formas y colores que aprenderemos a manipular según nuestro deseo!'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-TallerBurbujasJabon.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-TallerBurbujasJabon.pdf',
+        text: 'Dosier',
+        slot: {
+          alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  water: {
+    sheet1: [
+      {
+        description:
+          'Este taller tan refrescante dará la opción de hacer girar una rueda de molino, crear una cascada de agua, jugar con contrapesos, imaginarse el trabajo que requiere sacar agua de un pozo ...'
+      },
+      {
+        description:
+          'Las estructuras de madera combinadas con elementos reciclados, crearán conciencia en grandes y pequeños/as de la importancia del reciclaje y el aprovechamiento del agua.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-IngeniosAgua.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-IngeniosAgua.pdf',
+        text: 'Dosier',
+        slot: {
+          alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  makeup: {
+    sheet1: [
+      {
+        description:
+          'Con este taller pondremos a su disposición toda una serie de técnicas de maquillaje de fantasía: con pincel, esponja, dedos...'
+      },
+      {
+        description:
+          'Con la ayuda de nuestras talleristas, niños y niñas crearán su propio boceto. Todas juntas, escogeremos los colores y aprenderemos cuáles son las técnicas más adecuadas para cada caso.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Materiales',
+        description:
+          'Las pinturas y todo el material necesario serán facilitados por la Compañía. Siempre utilizaremos pinturas adecuadas para poder tener contacto con la piel.'
+      },
+      {
+        label: 'Luz y sonido',
+        description: 'Es necesario un punto de luz para el equipo de sonido'
+      },
+      {
+        label: 'A tener en cuenta',
+        description:
+          'Las pinturas serán aplicadas total o parcialmente por las talleristas, en función de la edad de los y las participantes.'
+      },
+      {
+        label:
+          '* El número de talleristas dependerá del volumen de participantes.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-TallerMaquillaje.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-TallerMaquillaje.pdf',
+        text: 'Dosier',
+        slot: {
+          alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  performances: {
     sheet1: [
       {
         label: 'Animaciones a la Carta',

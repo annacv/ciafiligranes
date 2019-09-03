@@ -39,6 +39,31 @@ export default {
     title: 'Workshops for all ages'
   },
 
+  circus: {
+    claim: 'Workshop for adults and children',
+    title: 'Circus Workshop'
+  },
+
+  clowns: {
+    claim: 'Workshop for adults and children',
+    title: 'Clowns Workshop'
+  },
+
+  bubbles: {
+    claim: 'Seasonal workshop',
+    title: 'Soap Bubbles'
+  },
+
+  water: {
+    claim: 'Seasonal workshop',
+    title: 'Water Tricks'
+  },
+
+  makeup: {
+    claim: 'Workshop for children',
+    title: 'Makeup Workshop'
+  },
+
   performances: {
     claim: 'Cia.Filigranes presents...',
     title: 'Performances à la carte'

@@ -265,7 +265,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/workshops/circus',
             target: '_top',
             download: '',
             text: 'More info',
@@ -311,7 +311,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/workshops/soap-bubbles',
             target: '_top',
             download: '',
             text: 'More info',
@@ -357,7 +357,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/workshops/water-tricks',
             target: '_top',
             download: '',
             text: 'More info',
@@ -403,7 +403,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/workshops/clowns',
             target: '_top',
             download: '',
             text: 'More info',
@@ -449,7 +449,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/en/workshops/makeup',
             target: '_top',
             download: '',
             text: 'More info',

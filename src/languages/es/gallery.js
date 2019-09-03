@@ -94,6 +94,101 @@ export default {
     }
   },
 
+  circus: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_circ--1.jpg',
+        alt: 'Imagen del taller de Circo.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_circ--2.jpg',
+        alt: 'Imagen del taller de Circo.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_circ--3.jpg',
+        alt: 'Imagen del taller de Circo.'
+      }
+    }
+  },
+
+  clowns: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_pallassos--1.jpg',
+        alt: 'Imagen del taller de Payasos.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_pallassos--2.jpg',
+        alt: 'Imagen del taller de Payasos.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_pallassos--3.jpg',
+        alt: 'Imagen del taller de Payasos.'
+      }
+    }
+  },
+
+  bubbles: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_bombolles--1.jpg',
+        alt: 'Imagen del taller de Burnujas de Jabón.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_bombolles--2.jpg',
+        alt: 'Imagen del taller de Burnujas de Jabón.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_bombolles--3.jpg',
+        alt: 'Imagen del taller de Burnujas de Jabón.'
+      }
+    }
+  },
+
+  water: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_enginys--1.jpg',
+        alt: 'Imagen del taller Ingenios de agua.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_enginys--2.jpg',
+        alt: 'Imagen del taller Ingenios de agua.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_enginys--3.jpg',
+        alt: 'Imagen del taller Ingenios de agua.'
+      }
+    }
+  },
+
+  makeup: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_maquillatge--1.jpg',
+        alt: 'Imatge del taller de Maquillatge.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_maquillatge--2.jpg',
+        alt: 'Imatge del taller de Maquillatge.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_maquillatge--3.jpg',
+        alt: 'Imatge del taller de Maquillatge.'
+      }
+    }
+  },
+
   performances: {
     images: {
       image1: {

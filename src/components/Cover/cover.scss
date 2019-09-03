@@ -254,77 +254,8 @@
 
 
   // PRODUCTS DETAIL CUSTOM STYLES
-
-  &__products-detail {
-    &.shows {
-      &__plisplas {
-        background-image: url("~@/assets/images/img_thumbnail_plisplas.jpg");
-        background-position: 60% 0%;
-
-        @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_sinopsi_plisplas.jpg");
-          background-position: 50% 0%;
-        }
-
-        @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover-show_plisplas.jpg");
-        }
-      }
-
-      &__filixic {
-        background-image: url("~@/assets/images/img_thumbnail_filixic.jpg");
-
-        @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_shows_filixic.jpg");
-        }
-
-        @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover-show_filixic.jpg");
-        }
-      }
-
-      &__freakfrac {
-        background-image: url("~@/assets/images/img_thumbnail_freakfrac.jpg");
-
-        @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_shows_freakfrac.jpg");
-        }
-
-        @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover-show_freakfrac.jpg");
-        }
-      }
-
-      &__desencaixats {
-        background-image:
-        url("~@/assets/images/img_thumbnail_desencaixats.jpg");
-
-        @media only screen and (min-width: 768px) {
-          background-image:
-          url("~@/assets/images/img_src_shows_desencaixats.jpg");
-        }
-
-        @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover-show_desencaixats.jpg");
-        }
-      }
-
-      &__filirates {
-        background-image: url("~@/assets/images/img_thumbnail_filirates.jpg");
-
-        @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_shows_filirates.jpg");
-        }
-
-        @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover-show_filirates.jpg");
-        }
-      }
-    }
-
+  &__shows-detail,
+  &__workshops-detail {
     &.cover {
       .cover {
         &__content {
@@ -344,13 +275,16 @@
         }
 
         &__claim {
-          margin-top: 15.7rem;
+          margin-top: 8rem;
+
+          @media only screen and (min-width: 768px) {
+            margin-top: 15.7rem;
+          }
         }
       }
 
       .row {
         &__title {
-          background-color: #fd2b5e;
           padding: .15rem 0;
         }
 
@@ -358,6 +292,163 @@
           @media only screen and (min-width: 1024px) {
             width: 150%;
           }
+        }
+      }
+    }
+  }
+
+  &__shows-detail {
+    &.shows {
+      &__plisplas {
+        background-image: url("~@/assets/images/img_thumbnail_plisplas.jpg");
+        background-position: 60% 0%;
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_sinopsi_plisplas.jpg");
+          background-position: 50% 0%;
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover_shows_plisplas.jpg");
+        }
+      }
+
+      &__filixic {
+        background-image: url("~@/assets/images/img_thumbnail_filixic.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_shows_filixic.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover_shows_filixic.jpg");
+        }
+      }
+
+      &__freakfrac {
+        background-image: url("~@/assets/images/img_thumbnail_freakfrac.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_shows_freakfrac.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_shows_freakfrac.jpg");
+        }
+      }
+
+      &__desencaixats {
+        background-image:
+        url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image:
+          url("~@/assets/images/img_src_shows_desencaixats.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_shows_desencaixats.jpg");
+        }
+      }
+
+      &__filirates {
+        background-image: url("~@/assets/images/img_thumbnail_filirates.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_shows_filirates.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_shows_filirates.jpg");
+        }
+      }
+    }
+
+    &.cover {
+      .row {
+        &__title {
+          background-color: #fd2b5e;
+        }
+      }
+    }
+  }
+
+  &__workshops-detail {
+    &.workshops {
+      &__circus {
+        background-image: url("~@/assets/images/img_thumbnail_circ.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_workshops_circ.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_workshops_circ.jpg");
+        }
+      }
+
+      &__clowns {
+        background-image: url("~@/assets/images/img_thumbnail_pallassos.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_workshops_pallassos.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url("~@/assets/images/img_cover_workshops_pallassos.jpg");
+        }
+      }
+
+      &__bubbles {
+        background-image: url("~@/assets/images/img_thumbnail_bombolles.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_workshops_bombolles.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_workshops_bombolles.jpg");
+        }
+      }
+
+      &__water {
+        background-image:
+        url("~@/assets/images/img_thumbnail_enginys.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image:
+          url("~@/assets/images/img_src_workshops_enginys.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_workshops_enginys.jpg");
+        }
+      }
+
+      &__makeup {
+        background-image: url("~@/assets/images/img_thumbnail_maquillatge.jpg");
+
+        @media only screen and (min-width: 768px) {
+          background-image: url("~@/assets/images/img_src_workshops_maquillatge.jpg");
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image:
+          url("~@/assets/images/img_cover_workshops_maquillatge.jpg");
+        }
+      }
+    }
+
+    &.cover {
+      .row {
+        &__title {
+          background-color: #5c2978;
         }
       }
     }

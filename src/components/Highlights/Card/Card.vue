@@ -26,25 +26,14 @@
             v-text="name"
           />
         </div>
-        <div class="card__btn">
-          <FiliButton
-            :button="button"
-          />
-        </div>
       </div>
     </a>
   </div>
 </template>
 
 <script>
-import FiliButton from '~/components/FiliButton/FiliButton'
-
 export default {
   name: 'Card',
-
-  components: {
-    FiliButton
-  },
 
   props: {
     alt: {
@@ -70,11 +59,6 @@ export default {
     title: {
       type: String,
       default: ''
-    },
-
-    button: {
-      type: Object,
-      default: () => {}
     }
   }
 }
