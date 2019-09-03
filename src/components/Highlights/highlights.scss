@@ -107,4 +107,17 @@
     }
   }
 
+  // WORKSHOPS DETAIL HIGHLIGHTS STYLES
+
+  &__workshops {
+    @media only screen and (min-width: 768px) {
+      background-image: url("~@/assets/images/eminence_background.svg");
+    }
+
+    .highlights {
+      &__description {
+        color: #5c2978;
+      }
+    }
+  }
 }

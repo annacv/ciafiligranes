@@ -8,58 +8,21 @@ export default {
         name: 'El Circo Filixic',
         link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'Imagen del espectáculo El Circo Filixic',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-ElCircoFilixic.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del espectáculo El Circo Filixic'
       },
       {
         title: 'Taller',
         name: 'Circo',
-        link: '',
+        link: '/es/talleres/circo',
         image: '/images/img_thumbnail_circ.jpg',
-        alt: 'Imagen del Taller de Circo',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-TallerCirco.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-TallerCirco.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del Taller de Circo'
       },
       {
-        title: 'Taller',
+        title: 'Taller de Temporada',
         name: 'Burbujas de Jabón',
-        link: '',
+        link: '/es/talleres/burbujas-jabon',
         image: '/images/img_thumbnail_bombolles.jpg',
-        alt: 'Imagen del taller de Burbujas de Jabón',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href:
-            '/downloads/CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del taller de Burbujas de Jabón'
       }
     ]
   },
@@ -72,60 +35,23 @@ export default {
       {
         title: 'Taller',
         name: 'Circo',
-        link: '',
+        link: '/es/talleres/circo',
         image: '/images/img_thumbnail_circ.jpg',
-        alt: 'Imagen del Taller de Circo',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-TallerCirco.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-TallerCirco.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del Taller de Circo'
       },
       {
-        title: 'Taller',
+        title: 'Taller de Temporada',
         name: 'Burbujas de Jabón',
-        link: '',
+        link: '/es/talleres/burbujas-jabon',
         image: '/images/img_thumbnail_bombolles.jpg',
-        alt: 'Imagen del taller de Burbujas de Jabón',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href:
-            '/downloads/CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del taller de Burbujas de Jabón'
       },
       {
         title: 'Animaciones',
         name: 'a la carta',
         link: '/es/animaciones',
         image: '/images/img_thumbnail_animacions.jpg',
-        alt: 'Imagen de la animación con malabares de fuego',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-Animaciones.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-Animaciones.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen de la animación con malabares de fuego'
       }
     ]
   },
@@ -139,57 +65,21 @@ export default {
         name: 'El Circo Filixic',
         link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'Imagen del espectáculo El Circo Filixic',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-ElCircoFilixic.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo El Circo Filixic'
       },
       {
         title: 'Espectáculo itinerante',
         name: 'Hermanos Freak-Frac',
         link: '/es/espectaculos/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac'
       },
       {
         title: 'Espectáculo de sala',
         name: 'Desencaixats',
         link: '/es/espectaculos/desencaixats',
         image: '/images/img_thumbnail_desencaixats.jpg',
-        alt: 'Imagen del espectáculo Desencaixats',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-Desencaixats_es.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-Desencaixats_es.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Desencaixats'
       }
     ]
   },
@@ -203,57 +93,21 @@ export default {
         name: 'Plis Plas',
         link: '/es/espectaculos/plisplas',
         image: '/images/img_thumbnail_plisplas.jpg',
-        alt: 'Imagen del espectáculo Plis Plas',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-PlisPlas_es.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Plis Plas'
       },
       {
         title: 'Espectáculo itinerante',
         name: 'Hermanos Freak-Frac',
         link: '/es/espectaculos/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac'
       },
       {
         title: 'Espectáculo de sala',
         name: 'Desencaixats',
         link: '/es/espectaculos/desencaixats',
         image: '/images/img_thumbnail_desencaixats.jpg',
-        alt: 'Imagen del espectáculo Desencaixats',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-Desencaixats_es.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-Desencaixats_es.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Desencaixats'
       }
     ]
   },
@@ -267,57 +121,21 @@ export default {
         name: 'Plis Plas',
         link: '/es/espectaculos/plisplas',
         image: '/images/img_thumbnail_plisplas.jpg',
-        alt: 'Imagen del espectáculo Plis Plas',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-PlisPlas_es.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Plis Plas'
       },
       {
         title: 'Espectáculo',
         name: 'El Circo Filixic',
         link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'Imagen del espectáculo El Circo Filixic',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-ElCircoFilixic.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo El Circo Filixic'
       },
       {
         title: 'Espectáculo',
         name: 'El Circo Filiratas',
         link: '/es/espectaculos/circo-filirates',
         image: '/images/img_thumbnail_filirates.jpg',
-        alt: 'Imagen del espectáculo el Circo Filiratas',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ElCircoFiliratas.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-ElCircoFiliratas.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo el Circo Filiratas'
       }
     ]
   },
@@ -331,57 +149,21 @@ export default {
         name: 'Plis Plas',
         link: '/es/espectaculos/plisplas',
         image: '/images/img_thumbnail_plisplas.jpg',
-        alt: 'Imagen del espectáculo Plis Plas',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-PlisPlas_es.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Plis Plas'
       },
       {
         title: 'Espectáculo itinerante',
         name: 'Hermanos Freak-Frac',
         link: '/es/espectaculos/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac'
       },
       {
         title: 'Espectáculo',
         name: 'El Circo Filixic',
         link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'Imagen del espectáculo El Circo Filixic',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-ElCircoFilixic.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo El Circo Filixic'
       }
     ]
   },
@@ -395,57 +177,21 @@ export default {
         name: 'Plis Plas',
         link: '/es/espectaculos/plisplas',
         image: '/images/img_thumbnail_plisplas.jpg',
-        alt: 'Imagen del espectáculo Plis Plas',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-PlisPlas_es.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Plis Plas'
       },
       {
         title: 'Espectáculo itinerante',
         name: 'Hermanos Freak-Frac',
         link: '/es/espectaculos/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac'
       },
       {
         title: 'Espectáculo',
         name: 'El Circo Filixic',
         link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'Imagen del espectáculo El Circo Filixic',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__black',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-ElCircoFilixic.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down black'
-          }
-        }
+        alt: 'Imagen del espectáculo El Circo Filixic'
       }
     ]
   },
@@ -459,57 +205,161 @@ export default {
         name: 'Plis Plas',
         link: 'es/espectaculos/plisplas',
         image: '/images/img_thumbnail_plisplas.jpg',
-        alt: 'Imagen del espectáculo Plis Plas',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-PlisPlas_es.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del espectáculo Plis Plas'
       },
       {
         title: 'Espectáculo',
         name: 'El Circo Filixic',
         link: '/es/espectaculos/circo-filixic',
         image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'Imagen del espectáculo el Circo Filixic',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-CiaFiligranes-ElCircoFilixic.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del espectáculo el Circo Filixic'
       },
       {
         title: 'Animaciones',
         name: 'a la carta',
         link: '/es/animaciones',
         image: '/images/img_thumbnail_animacions.jpg',
-        alt: 'Imagen de la animación con malabares de fuego',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-Animaciones.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-Animaciones.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen de la animación con malabares de fuego'
+      }
+    ]
+  },
+
+  circus: {
+    title: 'Más Filigranes',
+    description: 'Otros talleres de la Companía',
+    highlighted: [
+      {
+        title: 'Taller de Temporada',
+        name: 'Burbujas de Jabón',
+        link: '/es/talleres/burbujas-jabon',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'Imagen del taller de Burbujas de Jabón'
+      },
+      {
+        title: 'Taller',
+        name: 'Payasos',
+        link: '/es/talleres/payasos',
+        image: '/images/img_thumbnail_pallassos.jpg',
+        alt: 'Imagen del taller de Payasos.'
+      },
+      {
+        title: 'Taller de Temporada',
+        name: 'Ingenios de Agua',
+        link: '/es/talleres/ingenios-agua',
+        image: '/images/img_thumbnail_enginys.jpg',
+        alt: 'Imagen del taller de Ingenios de agua'
+      }
+    ]
+  },
+
+  clowns: {
+    title: 'Más Filigranes',
+    description: 'Otros talleres de la Compañía',
+    highlighted: [
+      {
+        title: 'Taller',
+        name: 'Circo',
+        link: '/es/talleres/circo',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'Imagen del Taller de Circo'
+      },
+      {
+        title: 'Taller de Temporada',
+        name: 'Ingenios de Agua',
+        link: '/es/talleres/ingenios-agua',
+        image: '/images/img_thumbnail_enginys.jpg',
+        alt: 'Imagen del taller de Ingenios de agua'
+      },
+      {
+        title: 'Taller de Temporada',
+        name: 'Burbujas de Jabón',
+        link: '/es/talleres/burbujas-jabon',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'Imagen del taller de Burbujas de Jabón'
+      }
+    ]
+  },
+
+  bubbles: {
+    title: 'Más Filigranes',
+    description: 'Otros talleres de la Compañía',
+    highlighted: [
+      {
+        title: 'Taller',
+        name: 'Circo',
+        link: '/es/talleres/circo',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'Imagen del Taller de Circo'
+      },
+      {
+        title: 'Taller de Temporada',
+        name: 'Ingenios de Agua',
+        link: '/es/talleres/ingenios-agua',
+        image: '/images/img_thumbnail_enginys.jpg',
+        alt: 'Imagen del taller Ingenios de agua'
+      },
+      {
+        title: 'Taller',
+        name: 'Payasos',
+        link: '/es/talleres/payasos',
+        image: '/images/img_thumbnail_pallassos.jpg',
+        alt: 'Imagen del taller de Payasos.'
+      }
+    ]
+  },
+
+  water: {
+    title: 'Más Filigranes',
+    description: 'Otros talleres de la Compañía',
+    highlighted: [
+      {
+        title: 'Taller de Temporada',
+        name: 'Burbujas de Jabón',
+        link: '/es/talleres/burbujas-jabon',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'Imagen del taller de Burbujas de Jabón'
+      },
+      {
+        title: 'Taller',
+        name: 'Circo',
+        link: '/es/talleres/circo',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'Imagen del Taller de Circo'
+      },
+      {
+        title: 'Taller',
+        name: 'Maquillaje',
+        link: '/es/talleres/maquillaje',
+        image: '/images/img_thumbnail_maquillatge.jpg',
+        alt: 'Imagen del taller de Maquillaje'
+      }
+    ]
+  },
+
+  makeup: {
+    title: 'Més Filigranes',
+    description: 'Other Workshops of the Company',
+    highlighted: [
+      {
+        title: 'Taller',
+        name: 'Circo',
+        link: '/es/talleres/circo',
+        image: '/images/img_thumbnail_circ.jpg',
+        alt: 'Imagen del Taller de Circo'
+      },
+      {
+        title: 'Taller de Temporada',
+        name: 'Ingenios de Agua',
+        link: '/es/talleres/ingenios-agua',
+        image: '/images/img_thumbnail_enginys.jpg',
+        alt: 'Imagen del taller de Ingenios de agua'
+      },
+      {
+        title: 'Taller de Temporada',
+        name: 'Burbujas de Jabón',
+        link: '/es/talleres/burbujas-jabon',
+        image: '/images/img_thumbnail_bombolles.jpg',
+        alt: 'Imagen del taller de Burbujas de Jabón'
       }
     ]
   },
@@ -524,59 +374,21 @@ export default {
         name: 'Hermanos Freak-Frac',
         link: '/es/espectaculos/freakfrac',
         image: '/images/img_thumbnail_freakfrac.jpg',
-        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-HermanosFreakFrac.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac'
       },
       {
         title: 'Taller',
         name: 'Burbujas de Jabón',
-        link: '',
+        link: '/es/talleres/burbujas-jabon',
         image: '/images/img_thumbnail_bombolles.jpg',
-        alt: 'Imagen del taller de Burbujas de Jabón',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href:
-            '/downloads/CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-CiaFiligranes-TallerBurbujasJabon.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del taller de Burbujas de Jabón'
       },
-
       {
         title: 'Taller',
         name: 'Circo',
-        link: '',
+        link: '/es/talleres/circo',
         image: '/images/img_thumbnail_circ.jpg',
-        alt: 'Imagen del Taller de Circo',
-        button: {
-          class: 'button-outline-secondary button-outline-secondary__teal',
-          type: 'application',
-          href: '/downloads/CiaFiligranes-TallerCirco.pdf',
-          target: '__blank',
-          download: 'CiaFiligranes-TallerCirco.pdf',
-          text: 'Dosier',
-          slot: {
-            alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-            class: 'arrow_down teal'
-          }
-        }
+        alt: 'Imagen del Taller de Circo'
       }
     ]
   }

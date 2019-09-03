@@ -14,17 +14,17 @@
       />
     </section>
     <Gallery
-      :images="$t('gallery.plisplas.images')"
+      :images="$t('gallery.makeup.images')"
     />
     <Contract
-      :title="$t('contract.title')"
+      :title="$t('contract.workshops_detail.title')"
       :items="$t('contract.items')"
-      class="contract__shows-detail"
+      class="contract__workshops-detail"
     />
     <Highlights
-      :content="$t('highlights.plisplas')"
-      :highlighted="$t('highlights.plisplas.highlighted')"
-      class="highlights__shows"
+      :content="$t('highlights.makeup')"
+      :highlighted="$t('highlights.makeup.highlighted')"
+      class="highlights__workshops"
     />
   </div>
 </template>
@@ -50,7 +50,7 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/maquillage',
+      es: '/talleres/maquillaje',
       ca: '/tallers/maquillatge',
       en: '/workshops/makeup'
     }

@@ -28,7 +28,6 @@
               :link="item.link"
               :title="item.title"
               :name="item.name"
-              :button="item.button"
             />
           </div>
         </b-row>
@@ -39,14 +38,12 @@
 
 <script>
 import Card from './Card/Card'
-import FiliButton from '../FiliButton/FiliButton'
 
 export default {
   name: 'Highlights',
 
   components: {
-    Card,
-    FiliButton
+    Card
   },
 
   props: {

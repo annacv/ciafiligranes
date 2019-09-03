@@ -14,17 +14,17 @@
       />
     </section>
     <Gallery
-      :images="$t('gallery.plisplas.images')"
+      :images="$t('gallery.water.images')"
     />
     <Contract
-      :title="$t('contract.title')"
+      :title="$t('contract.workshops_detail.title')"
       :items="$t('contract.items')"
-      class="contract__shows-detail"
+      class="contract__workshops-detail"
     />
     <Highlights
-      :content="$t('highlights.plisplas')"
-      :highlighted="$t('highlights.plisplas.highlighted')"
-      class="highlights__shows"
+      :content="$t('highlights.water')"
+      :highlighted="$t('highlights.water.highlighted')"
+      class="highlights__workshops"
     />
   </div>
 </template>
