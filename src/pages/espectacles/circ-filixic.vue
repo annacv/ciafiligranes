@@ -11,7 +11,7 @@
         :button="$t('summary.filixic.button')"
       />
       <DataSheet
-        :titles="$t('dataSheet.filixic.titles')"
+        :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.filixic.sheet1')"
         :sheet2="$t('dataSheet.filixic.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"

@@ -11,7 +11,7 @@
         :button="$t('summary.freakfrac.button')"
       />
       <DataSheet
-        :titles="$t('dataSheet.freakfrac.titles')"
+        :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.freakfrac.sheet1')"
         :sheet2="$t('dataSheet.freakfrac.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"

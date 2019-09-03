@@ -11,7 +11,7 @@
         :button="$t('summary.plisplas.button')"
       />
       <DataSheet
-        :titles="$t('dataSheet.plisplas.titles')"
+        :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.plisplas.sheet1')"
         :sheet2="$t('dataSheet.plisplas.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"

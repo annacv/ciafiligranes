@@ -2,7 +2,7 @@
   <div class="content">
     <Cover
       :content="$t('cover.filirates')"
-      class="cover__products-detail shows__filirates"
+      class="cover__shows-detail shows__filirates"
     />
     <section class="main-content">
       <Summary
@@ -11,7 +11,7 @@
         :button="$t('summary.filirates.button')"
       />
       <DataSheet
-        :titles="$t('dataSheet.filirates.titles')"
+        :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.filirates.sheet1')"
         :sheet2="$t('dataSheet.filirates.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"
