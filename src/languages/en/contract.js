@@ -23,7 +23,7 @@ export default {
     title: 'Want to hire any workshop?'
   },
 
-  workshops_detail: {
+  workshopsDetail: {
     title: 'Want to hire this workshop?'
   },
 

@@ -24,7 +24,7 @@ export default {
     title: 'Vols contractar algun taller?'
   },
 
-  workshops_detail: {
+  workshopsDetail: {
     title: 'Vols contractar el taller?'
   },
 
