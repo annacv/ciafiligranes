@@ -6,18 +6,18 @@
     />
     <section class="main-content">
       <DataSheet
-        :titles="$t('dataSheet.plisplas.titles')"
-        :sheet1="$t('dataSheet.plisplas.sheet1')"
-        :sheet2="$t('dataSheet.plisplas.sheet2')"
-        :buttons="$t('dataSheet.plisplas.buttons')"
-        class="shows"
+        :titles="$t('dataSheet.workshops.titles')"
+        :sheet1="$t('dataSheet.makeup.sheet1')"
+        :sheet2="$t('dataSheet.makeup.sheet2')"
+        :buttons="$t('dataSheet.makeup.buttons')"
+        class="workshops"
       />
     </section>
     <Gallery
       :images="$t('gallery.makeup.images')"
     />
     <Contract
-      :title="$t('contract.workshops_detail.title')"
+      :title="$t('contract.workshopsDetail.title')"
       :items="$t('contract.items')"
       class="contract__workshops-detail"
     />
@@ -35,7 +35,6 @@ import Contract from '@/components/Contract/Contract'
 import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
-import Summary from '@/components/Summary/Summary'
 
 export default {
   name: 'Maquillatge',

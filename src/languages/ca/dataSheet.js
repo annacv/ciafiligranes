@@ -1,10 +1,10 @@
 export default {
-  plisplas: {
-    titles: {
-      title1: 'Fitxa tècnica',
-      title2: 'Fitxa artística'
-    },
+  titles: {
+    title1: 'Fitxa tècnica',
+    title2: 'Fitxa artística'
+  },
 
+  plisplas: {
     sheet1: [
       {
         label: 'Plis Plas',
@@ -98,11 +98,6 @@ export default {
   },
 
   filixic: {
-    titles: {
-      title1: 'Fitxa tècnica',
-      title2: 'Fitxa artística'
-    },
-
     sheet1: [
       {
         label: 'El Circ Filixic',
@@ -183,11 +178,6 @@ export default {
   },
 
   freakfrac: {
-    titles: {
-      title1: 'Fitxa tècnica',
-      title2: 'Fitxa artística'
-    },
-
     sheet1: [
       {
         label: 'Cercavila Germans Freak Frac',
@@ -256,11 +246,6 @@ export default {
   },
 
   desencaixats: {
-    titles: {
-      title1: 'Fitxa tècnica',
-      title2: 'Fitxa artística'
-    },
-
     sheet1: [
       {
         label: 'Desencaixats',
@@ -354,11 +339,6 @@ export default {
   },
 
   filirates: {
-    titles: {
-      title1: 'Fitxa tècnica',
-      title2: 'Fitxa artística'
-    },
-
     sheet1: [
       {
         label: 'El Circ Filirates',
@@ -438,12 +418,262 @@ export default {
     ]
   },
 
-  performances: {
+  workshops: {
     titles: {
-      title1: 'Fitxa tècnica',
-      title2: 'Fitxa artística'
-    },
+      title1: 'Què aprendrem?',
+      title2: 'Fitxa tècnica'
+    }
+  },
 
+  circus: {
+    sheet1: [
+      {
+        description:
+          "L'aprenentatge de les diverses disciplines circenses ajuda a desenvolupar la psico-motricitat, la coordinació i descoordinació, i l'agilitat mental."
+      },
+      {
+        description: 'Treballarem amb:'
+      },
+      {
+        label: 'Malabars:',
+        description:
+          'Pràctica amb maces, diàbolo, pals i plats xinesos, boleies, boles...'
+      },
+      {
+        label: 'Equilibris:',
+        description:
+          "Bola d'equilibri, monocicle, “rulos”, xanques i cable (funambulisme)..."
+      },
+      {
+        description:
+          'Seguint les pautes marcades pels talleristes els participants podran experimentar i triar la tècnica que més els motivi.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Espai',
+        description:
+          "Taller recomanat per a un espai exterior ampli, amb sòl ferm i pla. En cas de realitzar-se a l'interior, es requereix una alçada mínima de 3 metres."
+      },
+      {
+        label: 'Llum i so',
+        description: "És necessari un punt de llum per a l'equip de so."
+      },
+      {
+        label: 'Altres recomanacions',
+        description:
+          'Es recomana dur roba còmoda, preferiblement xandall i bambes.'
+      },
+      {
+        label:
+          '* El nombre de talleristes pot variar en funció del volum de participants.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-TallerCirc.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-TallerCirc.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  clowns: {
+    sheet1: [
+      {
+        description:
+          'A cada participant se li entregarà un nas vermell, que es podrà emportar a casa. Ens divertirem mitjançant jocs i dinàmiques participatives, on descobrirem el pallasso que duem a dins!'
+      },
+      {
+        description:
+          "Aprendrem tècniques teatrals per tal de desenvolupar l'expressió corporal, la consciència de l'espai i la comunicació individual i grupal. I posarem en pràctica tècniques que ens ajudaran a augmentar l'autoestima i a perdre la vergonya i la por a expressar-se en públic."
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Materials',
+        description:
+          'Tots els materials seran facilitats per la Companyia Filigranes.'
+      },
+      {
+        label: 'Llum i so',
+        description:
+          "És necessari un punt de llum per a l'equip de so (propi de la companyia)."
+      },
+      {
+        label: 'Altres recomanacions',
+        description:
+          'Es recomana dur roba còmoda, preferiblement xandall i bambes.'
+      },
+      {
+        label:
+          '* El nombre de talleristes pot variar en funció del volum de participants.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-TallerPallassos.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-TallerPallassos.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  seasonalWorkshops: {
+    sheet2: [
+      {
+        label: 'Espai',
+        description:
+          'Taller de temporada, es recomana realitzar-lo a l’exterior.'
+      },
+      {
+        label: "Punt d'aigua",
+        description:
+          "És necessari un punt d'aigua al costat (preferiblement amb mànega)."
+      },
+      {
+        label: 'Llum i so',
+        description: "És necessari un punt de llum per a l'equip de so."
+      },
+      {
+        label: 'Altres recomanacions',
+        description: 'Utilitzar roba còmoda i calçat que es pugui mullar.'
+      },
+      {
+        label:
+          '* El nombre de talleristes pot variar en funció del volum de participants.'
+      }
+    ]
+  },
+
+  bubbles: {
+    sheet1: [
+      {
+        description:
+          "Aprendrem a preparar la mescla idònia i com utilitzar diferents aparells per tal d'aconseguir increïbles bombolles en constant moviment!"
+      },
+      {
+        description:
+          "Els/les talleristes faran demostracions i ens guiaran en l'aprenentatge de l’art de fer bombolles mitjançant diversos aparells en contacte amb aigua i sabó."
+      },
+      {
+        description:
+          'Ens endinsarem en un món de formes i colors que aprendrem a manipular segons el nostre desig!'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-TallerBombollesSabo.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-TallerBombollesSabo.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  water: {
+    sheet1: [
+      {
+        description:
+          'Aquest taller tant refrescant donarà l’opció de fer girar una roda de molí, crear una cascada d’aigua, jugar amb contrapesos, imaginar-se la feina que requereix treure aigua d’un pou...'
+      },
+      {
+        description:
+          'Les estructures de fusta combinades amb elements reciclats, crearan consciència a grans i petits/es de la importància del reciclatge i l’aprofitament de l’aigua.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-EnginysAigua.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-EnginysAigua.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  makeup: {
+    sheet1: [
+      {
+        description:
+          'Amb aquest taller posarem al vostre abast tot un seguit de tècniques de maquillatge de fantasia: amb pinzell, esponja, dits...'
+      },
+      {
+        description:
+          "Amb l'ajuda dels i les nostres talleristes, nens i nenes crearan el seu propi esbós i personatge. Totes juntes, escollirem els colors i aprendrem quines són les tècniques més adients per a cada cas."
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Materials',
+        description:
+          'Les pintures i tot el material necessari seran facilitats per la Companyia Filigranes. Sempre utilitzarem pintures adequades per poder tenir contacte amb la pell.'
+      },
+      {
+        label: 'Llum i so',
+        description: "És necessari un punt de llum per a l'equip de so."
+      },
+      {
+        label: 'A tenir en compte',
+        description:
+          "Les pintures seran aplicades total o parcialment per les talleristes, en funció de l'edat dels i les participants."
+      },
+      {
+        label:
+          '* El nombre de talleristes pot variar en funció del volum de participants.'
+      }
+    ],
+
+    buttons: [
+      {
+        class: 'button-outline-secondary',
+        type: 'application',
+        href: '/downloads/CiaFiligranes-TallerMaquillatge.pdf',
+        target: '__blank',
+        download: 'CiaFiligranes-TallerMaquillatge.pdf',
+        text: 'Dossier',
+        slot: {
+          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+          class: 'arrow_down black'
+        }
+      }
+    ]
+  },
+
+  performances: {
     sheet1: [
       {
         label: 'Animacions a la Carta',

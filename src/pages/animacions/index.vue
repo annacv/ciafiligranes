@@ -23,7 +23,7 @@
       />
     </section>
     <DataSheet
-      :titles="$t('dataSheet.performances.titles')"
+      :titles="$t('dataSheet.titles')"
       :sheet1="$t('dataSheet.performances.sheet1')"
       :sheet2="$t('dataSheet.performances.sheet2')"
       class="performances"
