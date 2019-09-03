@@ -1,4 +1,8 @@
 .product-list {
+  @media only screen and (min-width: 768px) {
+    padding: 4rem 0 0;
+  }
+
   &__shows,
   &__workshops {
     .product-list {
@@ -6,7 +10,7 @@
         padding: 3rem 0 0;
 
         @media only screen and (min-width: 768px) {
-          padding: 4.625rem 0 0;
+          padding: 4rem 0 0;
         }
       }
     }

@@ -1,10 +1,20 @@
 .synopsis {
-  &__title {
-    @media only screen and (min-width: 768px) {
-      margin-bottom: .5rem;
+  @media only screen and (min-width: 768px) {
+    &__heading {
+      padding: 0 2rem;
     }
 
-    @media only screen and (min-width: 1024px) {
+    &__title {
+      margin-bottom: .5rem;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    &__heading {
+      padding: 0;
+    }
+
+    &__title {
       margin-bottom: 0;
     }
   }
@@ -13,8 +23,13 @@
     padding: 1rem 0 0;
     line-height: 1.89;
 
+    @media only screen and (min-width: 768px) {
+      padding: 1rem 1rem 0;
+    }
+
     @media only screen and (min-width: 1024px) {
       margin-right: 2rem;
+      padding: 1rem 0 0;
     }
 
     @media only screen and (min-width: 1200px) {
@@ -37,6 +52,10 @@
     display: inline-flex;
     flex-flow: row wrap;
     margin: 1.5rem 1.5rem 2.5rem 0;
+
+    @media only screen and (min-width: 768px) {
+      margin: 2rem 1rem;
+    }
 
     @media only screen and (min-width: 1024px) {
       margin: 1.5rem 1.5rem 0 0;
@@ -98,11 +117,11 @@
 
         @media only screen and (min-width: 768px) {
           &:first-child {
-            padding: 3.5rem 0 1rem;
+            padding: 4rem 1rem 1rem;
           }
 
           &:last-child {
-            padding: 1rem 0 3.5rem;
+            padding: 1rem 1rem 4rem;
           }
         }
 

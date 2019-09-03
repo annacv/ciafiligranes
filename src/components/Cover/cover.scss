@@ -6,10 +6,6 @@
   background-position: 50% 0%;
   background-size: cover;
 
-  @media only screen and (min-width: 768px) {
-    background-position: 50% 0%;
-  }
-
   @media only screen and (min-width: 1024px) {
     background-position: 50% 30%;
   }
@@ -26,7 +22,12 @@
         font-size: 2.5rem;
 
         @media only screen and (min-width: 768px) {
+          padding: 0 1rem;
           font-size: 3.75rem;
+        }
+
+        @media only screen and (min-width: 1024px) {
+          padding: 0;
         }
 
         @media only screen and (min-width: 1900px) {
@@ -48,9 +49,14 @@
     font-size: 1.25rem;
 
     @media only screen and (min-width: 768px) {
+      padding: 0 1rem;
       text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, .5);
       font-family: "AkkuratLight", "Arial", sans-serif;
       font-size: 2.5rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      padding: 0;
     }
 
     @media only screen and (min-width: 1900px) {
@@ -87,10 +93,6 @@
         &__content {
           padding: 15.4rem 0 4rem;
 
-          @media only screen and (min-width: 768px) {
-            padding: 13rem 0 10rem;
-          }
-
           @media only screen and (min-width: 1900px) {
             padding: 21rem 0 17rem;
           }
@@ -121,8 +123,11 @@
           padding: 22rem 0 5rem;
 
           @media only screen and (min-width: 768px) {
-            margin-bottom: 7.35rem;
-            padding: 12.5rem 0 3rem;
+            padding: 22rem 0 5rem;
+          }
+
+          @media only screen and (min-width: 1024px) {
+            padding: 22rem 0 5rem;
           }
 
           @media only screen and (min-width: 1900px) {
@@ -141,10 +146,6 @@
           bottom: 1.15rem;
           text-shadow: 0 .125rem .1875rem #000;
 
-          @media only screen and (min-width: 768px) {
-            bottom: -.85rem;
-          }
-
           @media only screen and (min-width: 3000px) {
             bottom: -2.65rem;
           }
@@ -162,8 +163,7 @@
           padding: 5rem 0 0;
 
           @media only screen and (min-width: 768px) {
-            top: 18rem;
-            padding: 5.15rem 0 3rem;
+            padding: 7.7rem 0 0;
           }
 
           @media only screen and (min-width: 1900px) {
@@ -179,7 +179,6 @@
     }
 
     &.products {
-
       &__shows {
         background-color: #fd2b5e;
         background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
@@ -232,6 +231,7 @@
         background-blend-mode: luminosity;
 
         @media only screen and (min-width: 768px) {
+          margin-bottom: 2.75rem;
           background-image:
           url("~@/assets/images/img_cover_medium_performances.jpg");
         }
@@ -257,7 +257,6 @@
     }
   }
 
-
   // PRODUCTS DETAIL, LEGAL, CONTACT, FILIPERSONES CUSTOM STYLES
   &__shows-detail,
   &__workshops-detail,
@@ -267,7 +266,7 @@
         &__content {
           padding: 22rem 0 0;
 
-          @media only screen and (min-width: 768px) {
+          @media only screen and (min-width: 1024px) {
             padding: 15.65rem 0 0;
           }
 
@@ -307,7 +306,8 @@
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_shows_plisplas.jpg");
+          background-image:
+          url("~@/assets/images/img_cover_shows_plisplas.jpg");
         }
       }
 
@@ -393,11 +393,13 @@
         background-image: url("~@/assets/images/img_thumbnail_pallassos.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_workshops_pallassos.jpg");
+          background-image:
+          url("~@/assets/images/img_src_workshops_pallassos.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_workshops_pallassos.jpg");
+          background-image:
+          url("~@/assets/images/img_cover_workshops_pallassos.jpg");
         }
       }
 
@@ -405,7 +407,8 @@
         background-image: url("~@/assets/images/img_thumbnail_bombolles.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_workshops_bombolles.jpg");
+          background-image:
+          url("~@/assets/images/img_src_workshops_bombolles.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
@@ -433,7 +436,8 @@
         background-image: url("~@/assets/images/img_thumbnail_maquillatge.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_workshops_maquillatge.jpg");
+          background-image:
+          url("~@/assets/images/img_src_workshops_maquillatge.jpg");
         }
 
         @media only screen and (min-width: 1024px) {

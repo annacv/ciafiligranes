@@ -2,12 +2,7 @@
   padding: 2rem 0;
 
   @media only screen and (min-width: 768px) {
-    margin: 0 0 5rem;
-    padding: 1rem 0;
-  }
-
-  @media only screen and (min-width: 1200px) {
-    margin: 0 0 10rem;
+    padding: 1rem 2rem;
   }
 
   @media only screen and (min-width: 1900px) {
@@ -116,8 +111,19 @@
   // COLOURED BACKGROUND STYLES
 
   &__shows,
+  &__workshops,
+  &__performances,
+  &__shows-detail,
+  &__workshops-detail {
+    @media only screen and (min-width: 768px) {
+      padding: 2rem;
+    }
+  }
+
+  &__shows,
   &__workshops {
-    @media only screen and (min-width: 1024px) {
+
+    @media only screien and (min-width: 1024px) {
       margin: 6.5rem 0;
     }
 

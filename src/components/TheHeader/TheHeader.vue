@@ -8,7 +8,7 @@
   <header role="banner">
     <b-container fluid class="header">
       <b-row no-gutters>
-        <div class="col-12 col-md-10 col-lg-3 offset-0 offset-md-1 offset-xxl-2">
+        <div class="col-12 col-lg-3 offset-lg-1 offset-xxl-2">
           <div class="header__brand">
             <h1>
               <nuxt-link

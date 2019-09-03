@@ -420,7 +420,7 @@ export default {
 
   workshops: {
     titles: {
-      title1: '¿Qué aprenderemos?',
+      title1: 'Qué aprenderemos',
       title2: 'Ficha técnica'
     }
   },
