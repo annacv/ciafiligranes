@@ -133,7 +133,7 @@ export default {
       {
         title: 'Espectáculo',
         name: 'El Circo Filiratas',
-        link: '/es/espectaculos/circo-filirates',
+        link: '/es/espectaculos/circo-filiratas',
         image: '/images/img_thumbnail_filirates.jpg',
         alt: 'Imagen del espectáculo el Circo Filiratas'
       }

@@ -56,7 +56,7 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/circo-filirates',
+      es: '/espectaculos/circo-filiratas',
       ca: '/espectacles/circ-filirates',
       en: '/shows/filirates-circus'
     }

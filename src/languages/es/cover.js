@@ -31,7 +31,7 @@ export default {
 
   filirates: {
     claim: 'Espectáculo',
-    title: 'El Circo Filirates'
+    title: 'El Circo Filiratas'
   },
 
   workshops: {
