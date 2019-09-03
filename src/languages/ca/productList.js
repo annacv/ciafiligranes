@@ -265,7 +265,7 @@ export default {
           {
             class: 'button-outline-primary button-outline-primary__eminence',
             type: 'application',
-            href: '/',
+            href: '/tallers/circ',
             target: '_top',
             download: '',
             text: 'Més info',
@@ -310,7 +310,7 @@ export default {
           {
             class: 'button-outline-primary button-outline-primary__eminence',
             type: 'application',
-            href: '/',
+            href: '/tallers/bombolles-sabo',
             target: '_top',
             download: '',
             text: 'Més info',
@@ -355,7 +355,7 @@ export default {
           {
             class: 'button-outline-primary button-outline-primary__eminence',
             type: 'application',
-            href: '/',
+            href: '/tallers/enginys-aigua',
             target: '_top',
             download: '',
             text: 'Més info',
@@ -400,7 +400,7 @@ export default {
           {
             class: 'button-outline-primary button-outline-primary__eminence',
             type: 'application',
-            href: '/',
+            href: '/tallers/pallassos',
             target: '_top',
             download: '',
             text: 'Més info',
@@ -445,7 +445,7 @@ export default {
           {
             class: 'button-outline-primary button-outline-primary__eminence',
             type: 'application',
-            href: '/',
+            href: '/tallers/maquillatge',
             target: '_top',
             download: '',
             text: 'Més info',

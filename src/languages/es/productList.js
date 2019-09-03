@@ -265,7 +265,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/talleres/circo',
             target: '_top',
             download: '',
             text: 'Más info',
@@ -311,7 +311,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/talleres/burbujas-jabon',
             target: '_top',
             download: '',
             text: 'Más info',
@@ -357,7 +357,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/talleres/ingenios-agua',
             target: '_top',
             download: '',
             text: 'Más info',
@@ -403,7 +403,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/talleres/payasos',
             target: '_top',
             download: '',
             text: 'Más info',
@@ -449,7 +449,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/',
+            href: '/es/talleres/maquillaje',
             target: '_top',
             download: '',
             text: 'Más info',
