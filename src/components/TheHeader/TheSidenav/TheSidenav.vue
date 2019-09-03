@@ -15,6 +15,10 @@
       v-if="show"
       class="sidenav">
       <div class="sidenav__header">
+        <LanguageSelector
+          :selectlang="$t('header.selectlang')"
+          :selectname="$t('header.selectname')"
+        />
         <div
           class="burger-container"
           @click="$emit('close')"
@@ -23,29 +27,17 @@
             class="burger-close"
           />
         </div>
-        <LanguageSelector
-          :selectlang="$t('header.selectlang')"
-          :selectname="$t('header.selectname')"
-        />
       </div>
       <div @click="$emit('close')">
-        <h1>
+        <p class='navbar__menu-item'>
           <nuxt-link
             :to="localePath('index')"
             :aria-label="logo.label"
-            class="navbar__logo navbar__menu-item"
+            @click="$emit('close')"
+            v-text="logo.filicor"
           >
-            <img
-              :alt="logo.alt"
-              src="~assets/icons/filicor.svg"
-              class="navbar__image"
-              @click="$emit('close')"
-            >
-            <p
-              v-text="logo.filicor"
-            />
           </nuxt-link>
-        </h1>
+        </p>
         <TheNavbar
           :menu="menu"
           @click="$emit('close')"
