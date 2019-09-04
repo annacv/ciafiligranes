@@ -176,9 +176,7 @@
 
     &.products {
       &__shows {
-        background-color: #fd2b5e;
         background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
-        background-blend-mode: luminosity;
 
         @media only screen and (min-width: 768px) {
           background-image:
@@ -198,9 +196,7 @@
       }
 
       &__workshops {
-        background-color: #5c2978;
         background-image: url("~@/assets/images/img_cover_small_workshops.jpg");
-        background-blend-mode: luminosity;
 
         @media only screen and (min-width: 768px) {
           background-image:
@@ -221,10 +217,8 @@
       }
 
       &__performances {
-        background-color: #e84e31;
         background-image:
         url("~@/assets/images/img_cover_small_performances.jpg");
-        background-blend-mode: luminosity;
 
         @media only screen and (min-width: 768px) {
           margin-bottom: 2.75rem;
