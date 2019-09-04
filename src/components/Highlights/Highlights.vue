@@ -7,7 +7,7 @@
 <template>
   <b-container fluid class="highlights">
     <b-row no-gutters>
-      <div class="col-12 col-md-10 col-xxl-8 offset-0 offset-md-1 offset-xxl-2">
+      <div class="col-12 col-xl-10 col-xxl-8 offset-0 offset-xl-1 offset-xxl-2">
         <h3
           class="highlights__title"
           v-text="content.title"
