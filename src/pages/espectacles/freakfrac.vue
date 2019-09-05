@@ -29,6 +29,7 @@
     <Highlights
       :content="$t('highlights.freakfrac')"
       :highlighted="$t('highlights.freakfrac.highlighted')"
+      :button="$t('highlights.showsDetail.button')"
       class="highlights__shows"
     />
   </div>

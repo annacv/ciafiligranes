@@ -109,5 +109,28 @@ a {
   }
 }
 
+.button-goback {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  line-height: normal;
+  color: #000;
+  font-family: "Akkurat Light", "Arial", sans-serif;
+
+  .arrow_left {
+    margin-right: .25rem;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: .65rem;
+
+    &.black {
+      background-image: url("~@/assets/icons/arrow_left--black.svg");
+    }
+  }
+
+  &:hover {
+    font-family: "Akkurat", "Arial", sans-serif;
+  }
+}
+
 
 

@@ -55,6 +55,21 @@ export default {
     ]
   },
 
+  showsDetail: {
+    button: {
+      class: 'button-goback',
+      type: 'application',
+      href: '/espectacles',
+      target: '__top',
+      download: '',
+      text: "Tornar al llistat d'espectacles",
+      slot: {
+        alt: "Fletxa esquerra. En clicar es navega al llistat d'espectacles",
+        class: 'arrow_left black'
+      }
+    }
+  },
+
   plisplas: {
     title: 'Més filigranes',
     description: 'Altres espectacles de la Companyia',
@@ -221,6 +236,21 @@ export default {
         alt: "Imatge de l'animació amb malabars de foc"
       }
     ]
+  },
+
+  workshopsDetail: {
+    button: {
+      class: 'button-goback',
+      type: 'application',
+      href: '/tallers',
+      target: '__top',
+      download: '',
+      text: 'Tornar al llistat de tallers',
+      slot: {
+        alt: 'Fletxa esquerra. En clicar es navega al llistat de tallers',
+        class: 'arrow_left black'
+      }
+    }
   },
 
   circus: {

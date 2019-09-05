@@ -31,6 +31,12 @@
             />
           </div>
         </b-row>
+        <b-row no-gutters>
+          <FiliButton
+            v-if="button"
+            :button="button"
+          />
+        </b-row>
       </div>
     </b-row>
   </b-container>
@@ -38,12 +44,14 @@
 
 <script>
 import Card from './Card/Card'
+import FiliButton from '~/components/FiliButton/FiliButton'
 
 export default {
   name: 'Highlights',
 
   components: {
-    Card
+    Card,
+    FiliButton
   },
 
   props: {
@@ -56,6 +64,11 @@ export default {
     highlighted: {
       type: Array,
       default: () => []
+    },
+
+    button: {
+      type: Object,
+      default: () => {}
     }
   }
 }

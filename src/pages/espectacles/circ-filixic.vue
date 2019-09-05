@@ -29,6 +29,7 @@
     <Highlights
       :content="$t('highlights.filixic')"
       :highlighted="$t('highlights.filixic.highlighted')"
+      :button="$t('highlights.showsDetail.button')"
       class="highlights__shows"
     />
   </div>

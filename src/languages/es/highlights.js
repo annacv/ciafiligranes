@@ -56,6 +56,22 @@ export default {
     ]
   },
 
+  showsDetail: {
+    button: {
+      class: 'button-goback',
+      type: 'application',
+      href: '/en/espectaculos',
+      target: '__top',
+      download: '',
+      text: 'Volver a la lista de espectáculos',
+      slot: {
+        alt:
+          'Flecha izquierda. Al hacer clic navegarás al listado de espectáculos',
+        class: 'arrow_left black'
+      }
+    }
+  },
+
   plisplas: {
     title: 'Más Filigranes',
     description: 'Otros espectáculos de la Compañía Filigranes',
@@ -222,6 +238,21 @@ export default {
         alt: 'Imagen de la animación con malabares de fuego'
       }
     ]
+  },
+
+  showsDetail: {
+    button: {
+      class: 'button-goback',
+      type: 'application',
+      href: '/es/talleres',
+      target: '__top',
+      download: '',
+      text: 'Volver a la lista de talleres',
+      slot: {
+        alt: 'Flecha izquierda. Al hacer clic navegarás al listado de talleres',
+        class: 'arrow_left black'
+      }
+    }
   },
 
   circus: {

@@ -29,6 +29,7 @@
     <Highlights
       :content="$t('highlights.plisplas')"
       :highlighted="$t('highlights.plisplas.highlighted')"
+      :button="$t('highlights.showsDetail.button')"
       class="highlights__shows"
     />
   </div>

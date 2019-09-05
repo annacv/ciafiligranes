@@ -24,6 +24,7 @@
     <Highlights
       :content="$t('highlights.bubbles')"
       :highlighted="$t('highlights.bubbles.highlighted')"
+      :button="$t('highlights.workshopsDetail.button')"
       class="highlights__workshops"
     />
   </div>

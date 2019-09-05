@@ -29,6 +29,7 @@
     <Highlights
       :content="$t('highlights.filirates')"
       :highlighted="$t('highlights.filirates.highlighted')"
+      :button="$t('highlights.showsDetail.button')"
       class="highlights__shows"
     />
   </div>
