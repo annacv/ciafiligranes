@@ -1,6 +1,6 @@
 .product-list {
   @media only screen and (min-width: 768px) {
-    padding: 4rem 0 0;
+    padding: 3rem 0 0;
   }
 
   &__shows,
@@ -11,6 +11,14 @@
 
         @media only screen and (min-width: 768px) {
           padding: 4rem 0 0;
+        }
+
+        @media only screen and (min-width: 1024px) {
+          padding: 6rem 0 0;
+        }
+
+        @media only screen and (min-width: 3000px) {
+          padding: 13rem 0 0;
         }
       }
     }
