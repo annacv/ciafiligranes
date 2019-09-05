@@ -11,21 +11,21 @@
         <img
           :src="require(`~/assets${images.image1.src}`)"
           :alt="images.image1.alt"
-          class="gallery__image img--1"
+          class="gallery__image gallery__image--1"
         >
       </div>
       <div class="col-12 col-md-3">
         <img
           :src="require(`~/assets${images.image2.src}`)"
           :alt="images.image2.alt"
-          class="gallery__image img--2"
+          class="gallery__image gallery__image--2"
         >
       </div>
       <div class="col-12 col-md-6">
         <img
           :src="require(`~/assets${images.image3.src}`)"
           :alt="images.image3.alt"
-          class="gallery__image img--3"
+          class="gallery__image gallery__image--3"
         >
       </div>
     </b-row>
