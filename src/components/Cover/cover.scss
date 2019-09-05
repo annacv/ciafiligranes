@@ -27,6 +27,10 @@
         }
 
         @media only screen and (min-width: 1024px) {
+          padding: 0 2rem;
+        }
+
+        @media only screen and (min-width: 1200px) {
           padding: 0;
         }
 
@@ -56,6 +60,10 @@
     }
 
     @media only screen and (min-width: 1024px) {
+      padding: 0 2rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
       padding: 0;
     }
 
@@ -126,13 +134,7 @@
             padding: 22rem 0 5rem;
           }
 
-          @media only screen and (min-width: 1900px) {
-            margin-bottom: 9.35rem;
-            padding: 15.5rem 0 4rem;
-          }
-
           @media only screen and (min-width: 3000px) {
-            margin-bottom: 15rem;
             padding: 30rem 0 6rem;
           }
         }
@@ -143,7 +145,7 @@
           text-shadow: 0 .125rem .1875rem #000;
 
           @media only screen and (min-width: 3000px) {
-            bottom: -2.65rem;
+            bottom: 2.5rem;
           }
         }
 
@@ -167,8 +169,7 @@
           }
 
           @media only screen and (min-width: 3000px) {
-            top: 39rem;
-            padding: 5.15rem 0 4rem;
+            top: 36rem;
           }
         }
       }
@@ -247,18 +248,13 @@
     }
   }
 
-  // PRODUCTS DETAIL, LEGAL, CONTACT, FILIPERSONES CUSTOM STYLES
+  // PRODUCTS DETAIL, CONTACT, FILIPERSONES CUSTOM STYLES
   &__shows-detail,
-  &__workshops-detail,
-  &__legal {
+  &__workshops-detail {
     &.cover {
       .cover {
         &__content {
           padding: 22rem 0 0;
-
-          @media only screen and (min-width: 1900px) {
-            padding: 19.65rem 0 0;
-          }
 
           @media only screen and (min-width: 3000px) {
             padding: 34.15rem 0 0;
@@ -272,8 +268,8 @@
         }
 
         .cover__title {
-          @media only screen and (min-width: 1024px) {
-            width: 150%;
+          @media only screen and (min-width: 992px) {
+            width: 160%;
           }
         }
       }
@@ -446,11 +442,31 @@
     background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
 
     &.cover {
+      .cover {
+        &__content {
+          padding: 25rem 0 0;
+
+          @media only screen and (min-width: 1900px) {
+            padding: 21rem 0 0;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            padding: 35.5rem 0 0;
+          }
+        }
+      }
+
       .row {
         &__title {
           background-color: #fbdd0b;
           padding: .15rem 0;
           color: #000;
+        }
+
+        .cover__title {
+          @media only screen and (min-width: 992px) {
+            width: 160%;
+          }
         }
       }
     }
