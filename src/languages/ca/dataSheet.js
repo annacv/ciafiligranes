@@ -8,11 +8,7 @@ export default {
     sheet1: [
       {
         label: 'Plis Plas',
-        description: 'Espectacle de pallassos per a tots els públics.'
-      },
-      {
-        label: "Durada de l'espectacle",
-        description: '50 minuts.'
+        description: 'Durada: 50 minuts.'
       },
       {
         label: 'Temps de muntatge',
@@ -37,8 +33,7 @@ export default {
       },
       {
         label: 'Equip de so',
-        description:
-          '1000 watts i 2 micros inalàmbrics (propis de la Companyia).'
+        description: '1000 watts i 2 micros inalàmbrics.'
       }
     ],
 
@@ -76,7 +71,7 @@ export default {
         description: 'Gerard Mora'
       },
       {
-        label: 'Disseny Escenografia',
+        label: "Disseny d'Escenografia",
         description: 'Tonet Amorós i Cia.Filigranes'
       }
     ],
@@ -101,11 +96,7 @@ export default {
     sheet1: [
       {
         label: 'El Circ Filixic',
-        description: 'Espectacle de pallassos per a tots els públics.'
-      },
-      {
-        label: "Durada de l'espectacle",
-        description: '60 minuts.'
+        description: 'Durada: 60 minuts.'
       },
       {
         label: 'Temps de muntatge',
@@ -121,7 +112,7 @@ export default {
       },
       {
         label: 'Espai mínim',
-        description: '6m. (ample) x 8m. (fons). Espectacle de sala o carrer.'
+        description: '6m. (ample) x 8m. (fons).'
       },
       {
         label: 'Presa de llum',
@@ -129,8 +120,7 @@ export default {
       },
       {
         label: 'Equip de so',
-        description:
-          '1000 watts i 2 micros inalàmbrics (propis de la Companyia).'
+        description: '1000 watts i 2 micros inalàmbrics.'
       }
     ],
 
@@ -140,15 +130,7 @@ export default {
         description: 'Jordi Torrens i Albert Pérez'
       },
       {
-        label: 'Direcció General',
-        description: 'Companyia Filigranes'
-      },
-      {
-        label: 'Dramatúrgia',
-        description: 'Companyia Filigranes'
-      },
-      {
-        label: 'Vestuari',
+        label: 'Direcció General i Dramatúrgia',
         description: 'Companyia Filigranes'
       },
       {
@@ -156,7 +138,7 @@ export default {
         description: 'Gerard Mora'
       },
       {
-        label: 'Escenografia',
+        label: "Disseny d'Escenografia i Vestuari",
         description: 'Companyia Filigranes'
       }
     ],
@@ -181,10 +163,6 @@ export default {
     sheet1: [
       {
         label: 'Cercavila Germans Freak Frac',
-        description: 'Espectacle itinerant per a tots els públics.'
-      },
-      {
-        label: "Durada de l'espectacle",
         description: 'Durada mínima: 60 minuts.'
       },
       {
@@ -193,7 +171,7 @@ export default {
       },
       {
         label: 'Espai',
-        description: 'Espectacle de carrer, adaptable a interior.'
+        description: 'Espectacle itinerant de carrer, adaptable a interior.'
       },
       {
         label:
@@ -222,7 +200,7 @@ export default {
       },
       {
         label: 'Vestuari',
-        description: "Companyia Filigranes i Associació Tub d'Assaig 7'70"
+        description: "Cia. Filigranes i Associació Tub d'Assaig 7'70"
       },
       {
         label: 'Possibilitat de variació del nombre d’actors i/o músics.'
@@ -249,11 +227,7 @@ export default {
     sheet1: [
       {
         label: 'Desencaixats',
-        description: 'Espectacle de pallassos per a tots els públics.'
-      },
-      {
-        label: "Durada de l'espectacle",
-        description: '50 minuts.'
+        description: 'Durada: 50 minuts.'
       },
       {
         label: 'Temps de muntatge',
@@ -269,8 +243,7 @@ export default {
       },
       {
         label: 'Espai mínim',
-        description:
-          '6m. (ample) x 8m. (fons). Espectacle de sala adaptable a carrer.'
+        description: '6m. (ample) x 8m. (fons).'
       },
       {
         label: 'Presa de llum',
@@ -278,8 +251,7 @@ export default {
       },
       {
         label: 'Equip de so',
-        description:
-          '1000 watts i 2 micros inalàmbrics (propis de la Companyia).'
+        description: '1000 watts i 2 micros inalàmbrics.'
       }
     ],
 
@@ -289,11 +261,7 @@ export default {
         description: 'Jordi Torrens i Albert Pérez'
       },
       {
-        label: 'Direcció General',
-        description: 'Walter Velázquez'
-      },
-      {
-        label: 'Dramatúrgia',
+        label: 'Direcció General i Dramatúrgia',
         description: 'Walter Velázquez'
       },
       {
@@ -305,7 +273,7 @@ export default {
         description: 'Oriol González'
       },
       {
-        label: 'Assessorament en manipulació d’objectes',
+        label: "Assessorament en manipulació d'objectes",
         description: 'Cristhian Uroz'
       },
       {
@@ -317,7 +285,7 @@ export default {
         description: 'Santi Miquel'
       },
       {
-        label: 'Escenografia i Vestuari',
+        label: "Disseny d'Escenografia i Vestuari",
         description: 'Companyia Filigranes'
       }
     ],
@@ -342,11 +310,7 @@ export default {
     sheet1: [
       {
         label: 'El Circ Filirates',
-        description: 'Espectacle de pallassos per a tots els públics.'
-      },
-      {
-        label: "Durada de l'espectacle",
-        description: '50 minuts.'
+        description: 'Durada: 50 minuts.'
       },
       {
         label: 'Temps de muntatge',
@@ -362,7 +326,7 @@ export default {
       },
       {
         label: 'Espai mínim',
-        description: '6m. (ample) x 8m. (fons). Espectacle de sala o carrer.'
+        description: '6m. (ample) x 8m. (fons).'
       },
       {
         label: 'Presa de llum',
@@ -370,8 +334,7 @@ export default {
       },
       {
         label: 'Equip de so',
-        description:
-          '1000 watts i 2 micros inalàmbrics (propis de la Companyia).'
+        description: '1000 watts i 2 micros inalàmbrics.'
       }
     ],
 
@@ -381,23 +344,15 @@ export default {
         description: 'Jordi Torrens i Albert Pérez'
       },
       {
-        label: 'Direcció General',
+        label: 'Direcció General i Dramatúrgia',
         description: 'Walter Velázquez'
-      },
-      {
-        label: 'Dramatúrgia',
-        description: 'Walter Velázquez'
-      },
-      {
-        label: 'Vestuari',
-        description: 'Companyia Filigranes'
       },
       {
         label: "Tècnic de so i d'il·luminació",
         description: 'Gerard Mora'
       },
       {
-        label: 'Escenografia',
+        label: "Disseny d'Escenografia i Vestuari",
         description: 'Companyia Filigranes'
       }
     ],

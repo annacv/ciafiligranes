@@ -1,12 +1,14 @@
 <style
   lang="scss"
-  src="./cover.scss">
+  src="./cover.scss"
+  scoped
+>
 </style>
 
 <template>
   <b-container fluid class="cover">
     <b-row class="cover__content">
-      <div class="col-12 col-sm-8 col-lg-7 col-xl-6 col-xxl-4 offset-0 offset-md-1 offset-xxl-2">
+      <div class="col-12 col-lg-7 col-xl-6 col-xxl-4 offset-xl-1 offset-xxl-2">
         <p
           v-if="content.claim"
           class="cover__claim"
@@ -14,7 +16,7 @@
         />
       </div>
       <b-row class="row__title">
-        <div class="col-11 col-sm-7 col-md-9 col-lg-7 col-xl-6 col-xxl-4 col-xxxl-3 offset-0 offset-md-1 offset-xxl-2">
+        <div class="col-11 col-lg-7 col-xl-6 col-xxl-4 col-xxxl-3 offset-xl-1 offset-xxl-2">
           <h2
             class="cover__title"
             v-text="content.title"

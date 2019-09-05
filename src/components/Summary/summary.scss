@@ -1,9 +1,28 @@
 .summary {
-  margin: 2rem 0 3.5rem;
+  margin: 2rem 0 4rem;
   background-color: white;
 
+
   @media only screen and (min-width: 768px) {
-    margin: 4.625rem 0 5.25rem;
+    margin: 4rem 0 6rem;
+
+    &.container-fluid {
+      padding: 0 2rem;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    margin: 6rem 0 8rem;
+
+    &.container-fluid {
+      padding: 0 3rem;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &.container-fluid {
+      padding: 0;
+    }
   }
 
   @media only screen and (min-width: 1500px) {
@@ -45,7 +64,7 @@
     }
 
     @media only screen and (min-width: 768px) {
-      padding: 0 0 0 2rem;
+      padding: 0 0 0 3rem;
 
       &:first-child {
         margin: .25rem 0 .75rem;

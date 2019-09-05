@@ -15,7 +15,7 @@
         :sheet1="$t('dataSheet.filixic.sheet1')"
         :sheet2="$t('dataSheet.filixic.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"
-        class="shows"
+        class="shows filixic"
       />
     </section>
     <Gallery
@@ -29,6 +29,7 @@
     <Highlights
       :content="$t('highlights.filixic')"
       :highlighted="$t('highlights.filixic.highlighted')"
+      :button="$t('highlights.showsDetail.button')"
       class="highlights__shows"
     />
   </div>

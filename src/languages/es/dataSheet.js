@@ -8,11 +8,7 @@ export default {
     sheet1: [
       {
         label: 'Plis Plas',
-        description: 'Espectáculo de payasos para todos los públicos.'
-      },
-      {
-        label: 'Duración del espectáculo',
-        description: '50 minutos.'
+        description: 'Duración: 50 minutos.'
       },
       {
         label: 'Tiempo de montaje',
@@ -37,8 +33,7 @@ export default {
       },
       {
         label: 'Equipo de sonido',
-        description:
-          '1000 vatios y 2 micros inalámbricos (propios de la Compañía).'
+        description: '1000 vatios y 2 micros inalámbricos.'
       }
     ],
 
@@ -101,11 +96,7 @@ export default {
     sheet1: [
       {
         label: 'El Circo Filixic',
-        description: 'Espectáculo de payasos para todos los públicos.'
-      },
-      {
-        label: 'Duración del espectáculo',
-        description: '60 minutos.'
+        description: 'Duración: 60 minutos.'
       },
       {
         label: 'Tiempo de montaje',
@@ -121,7 +112,7 @@ export default {
       },
       {
         label: 'Espacio mínimo',
-        description: '6m. (ancho) x 8m. (fondo). Espectáculo de sala o calle.'
+        description: '6m. (ancho) x 8m. (fondo).'
       },
       {
         label: 'Toma de luz',
@@ -129,8 +120,7 @@ export default {
       },
       {
         label: 'Equipo de sonido',
-        description:
-          '1000 vatios y 2 micros inalámbricos (propios de la Compañía).'
+        description: '1000 vatios y 2 micros inalámbricos.'
       }
     ],
 
@@ -140,15 +130,7 @@ export default {
         description: 'Jordi Torrens y Albert Pérez'
       },
       {
-        label: 'Dirección General',
-        description: 'Compañía Filigranes'
-      },
-      {
-        label: 'Dramatúrgia',
-        description: 'Compañía Filigranes'
-      },
-      {
-        label: 'Vestuario',
+        label: 'Dirección General y Dramatúrgia',
         description: 'Compañía Filigranes'
       },
       {
@@ -156,7 +138,7 @@ export default {
         description: 'Gerard Mora'
       },
       {
-        label: 'Diseño Escenografía',
+        label: 'Diseño Escenografía y Vestuario',
         description: 'Compañía Filigranes'
       }
     ],
@@ -181,10 +163,6 @@ export default {
     sheet1: [
       {
         label: 'Pasacalles Hermanos Freak Frac',
-        description: 'Espectáculo itinerante para todos los públicos.'
-      },
-      {
-        label: 'Duración del espectáculo',
         description: 'Duración mínima: 60 minutos.'
       },
       {
@@ -193,7 +171,7 @@ export default {
       },
       {
         label: 'Espacio',
-        description: 'Espectáculo de calle, adaptable a interior.'
+        description: 'Espectáculo itinerante de calle, adaptable a interior.'
       },
       {
         label:
@@ -222,7 +200,7 @@ export default {
       },
       {
         label: 'Vestuario',
-        description: "Compañía Filigranes y Asociación Tub d'Assaig 7'70"
+        description: "Cía. Filigranes y Asociación Tub d'Assaig 7'70"
       },
       {
         label: 'Posibilidad de variación del número de actores y/o músicos.'
@@ -249,11 +227,7 @@ export default {
     sheet1: [
       {
         label: 'Desencaixats',
-        description: 'Espectáculo de payasos para todos los públicos.'
-      },
-      {
-        label: 'Duración del espectáculo',
-        description: '50 minutos.'
+        description: 'Duración: 50 minutos.'
       },
       {
         label: 'Tiempo de montaje',
@@ -269,8 +243,7 @@ export default {
       },
       {
         label: 'Espacio mínimo',
-        description:
-          '6m. (ancho) x 8m. (fondo). Espectáculo de sala adaptable a calle.'
+        description: '6m. (ancho) x 8m. (fondo).'
       },
       {
         label: 'Toma de luz',
@@ -278,8 +251,7 @@ export default {
       },
       {
         label: 'Equipo de sonido',
-        description:
-          '1000 vatios y 2 micros inalámbricos (propios de la Compañía).'
+        description: '1000 vatios y 2 micros inalámbricos.'
       }
     ],
 
@@ -289,11 +261,7 @@ export default {
         description: 'Jordi Torrens y Albert Pérez'
       },
       {
-        label: 'Dirección General',
-        description: 'Walter Velázquez'
-      },
-      {
-        label: 'Dramatúrgia',
+        label: 'Dirección General y Dramatúrgia',
         description: 'Walter Velázquez'
       },
       {
@@ -342,11 +310,7 @@ export default {
     sheet1: [
       {
         label: 'El Circo Filiratas',
-        description: 'Espectáculo de payasos para todos los públicos.'
-      },
-      {
-        label: 'Duración del espectáculo',
-        description: '50 minutos.'
+        description: 'Duración: 50 minutos.'
       },
       {
         label: 'Tiempo de montaje',
@@ -362,7 +326,7 @@ export default {
       },
       {
         label: 'Espacio mínimo',
-        description: '6m. (ancho) x 8m. (fondo). Espectáculo de sala o calle.'
+        description: '6m. (ancho) x 8m. (fondo).'
       },
       {
         label: 'Toma de luz',
@@ -370,8 +334,7 @@ export default {
       },
       {
         label: 'Equipo de sonido',
-        description:
-          '1000 vatios y 2 micros inalámbricos (propios de la Compañía).'
+        description: '1000 vatios y 2 micros inalámbricos.'
       }
     ],
 
@@ -381,23 +344,15 @@ export default {
         description: 'Jordi Torrens y Albert Pérez'
       },
       {
-        label: 'Dirección General',
+        label: 'Dirección General y Dramatúrgia',
         description: 'Walter Velázquez'
-      },
-      {
-        label: 'Dramatúrgia',
-        description: 'Walter Velázquez'
-      },
-      {
-        label: 'Vestuario',
-        description: 'Compañía Filigranes'
       },
       {
         label: 'Técnico de sonido e iluminación',
         description: 'Gerard Mora'
       },
       {
-        label: 'Diseño Escenografía',
+        label: 'Diseño Escenografía y Vestuario',
         description: 'Compañía Filigranes'
       }
     ],
@@ -420,7 +375,7 @@ export default {
 
   workshops: {
     titles: {
-      title1: '¿Qué aprenderemos?',
+      title1: 'Qué aprenderemos',
       title2: 'Ficha técnica'
     }
   },

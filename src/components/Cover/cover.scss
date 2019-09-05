@@ -6,10 +6,6 @@
   background-position: 50% 0%;
   background-size: cover;
 
-  @media only screen and (min-width: 768px) {
-    background-position: 50% 0%;
-  }
-
   @media only screen and (min-width: 1024px) {
     background-position: 50% 30%;
   }
@@ -17,8 +13,6 @@
   &.cover {
     .cover {
       &__content {
-        display: flex;
-        justify-content: flex-start;
         color: #fff;
       }
 
@@ -28,7 +22,16 @@
         font-size: 2.5rem;
 
         @media only screen and (min-width: 768px) {
+          padding: 0 1rem;
           font-size: 3.75rem;
+        }
+
+        @media only screen and (min-width: 1024px) {
+          padding: 0 2rem;
+        }
+
+        @media only screen and (min-width: 1200px) {
+          padding: 0;
         }
 
         @media only screen and (min-width: 1900px) {
@@ -47,12 +50,21 @@
     text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, .8);
     line-height: 1.125;
     font-family: "AkkuratBold", "Arial", sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 
     @media only screen and (min-width: 768px) {
+      padding: 0 1rem;
       text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, .5);
       font-family: "AkkuratLight", "Arial", sans-serif;
       font-size: 2.5rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      padding: 0 2rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      padding: 0;
     }
 
     @media only screen and (min-width: 1900px) {
@@ -87,25 +99,30 @@
     &.cover {
       .cover {
         &__content {
-          padding: 8rem 0 6rem;
+          padding: 15.4rem 0 4rem;
 
           @media only screen and (min-width: 768px) {
-            padding: 12.5rem 0 10.5rem;
+            padding: 18rem 0 15rem;
           }
 
           @media only screen and (min-width: 1900px) {
-            padding: 15.5rem 0 13.5rem;
+            padding: 21rem 0 17rem;
           }
 
           @media only screen and (min-width: 3000px) {
-            padding: 30rem 0 28rem;
+            padding: 31rem 0 28rem;
           }
         }
 
         &__title {
           text-shadow: 0 .125rem .1875rem #000;
         }
+
+        &__claim {
+          font-size: 1.75rem;
+        }
       }
+
     }
   }
 
@@ -115,21 +132,13 @@
     &.cover {
       .cover {
         &__content {
-          margin-bottom: 4.8rem;
-          padding: 8rem 0 3rem;
+          padding: 22rem 0 5rem;
 
           @media only screen and (min-width: 768px) {
-            margin-bottom: 7.35rem;
-            padding: 12.5rem 0 3rem;
-          }
-
-          @media only screen and (min-width: 1900px) {
-            margin-bottom: 9.35rem;
-            padding: 15.5rem 0 4rem;
+            padding: 22rem 0 5rem;
           }
 
           @media only screen and (min-width: 3000px) {
-            margin-bottom: 15rem;
             padding: 30rem 0 6rem;
           }
         }
@@ -139,33 +148,24 @@
           bottom: 1.15rem;
           text-shadow: 0 .125rem .1875rem #000;
 
-          @media only screen and (min-width: 768px) {
-            bottom: -.85rem;
-          }
-
           @media only screen and (min-width: 3000px) {
-            bottom: -2.65rem;
+            bottom: 2.5rem;
           }
         }
 
         &__claim {
-          position: relative;
+          position: absolute;
+          bottom: 1.5rem;
         }
       }
 
       .row {
         &__title {
           position: absolute;
-          top: 14rem;
-          padding: 5.15rem 0 1rem;
-
-          @media only screen and (min-width: 358px) {
-            top: 12rem;
-          }
+          padding: 5rem 0 0;
 
           @media only screen and (min-width: 768px) {
-            top: 18rem;
-            padding: 5.15rem 0 3rem;
+            padding: 7.7rem 0 0;
           }
 
           @media only screen and (min-width: 1900px) {
@@ -173,8 +173,7 @@
           }
 
           @media only screen and (min-width: 3000px) {
-            top: 39rem;
-            padding: 5.15rem 0 4rem;
+            top: 36rem;
           }
         }
       }
@@ -193,6 +192,11 @@
           background-image: url("~@/assets/images/img_cover_plisplas.jpg");
           background-position: 50% 0%;
         }
+
+        @media only screen and (min-width: 1900px) {
+          background-position: 50% 20%;
+        }
+
 
         &.cover {
           .row__title {
@@ -227,6 +231,7 @@
         url("~@/assets/images/img_cover_small_performances.jpg");
 
         @media only screen and (min-width: 768px) {
+          margin-bottom: 2.75rem;
           background-image:
           url("~@/assets/images/img_cover_medium_performances.jpg");
         }
@@ -252,33 +257,16 @@
     }
   }
 
-
-  // PRODUCTS DETAIL CUSTOM STYLES
+  // PRODUCTS DETAIL, CONTACT, FILIPERSONES CUSTOM STYLES
   &__shows-detail,
   &__workshops-detail {
     &.cover {
       .cover {
         &__content {
-          padding: 12.15rem 0 0;
-
-          @media only screen and (min-width: 768px) {
-            padding: 15.65rem 0 0;
-          }
-
-          @media only screen and (min-width: 1900px) {
-            padding: 19.65rem 0 0;
-          }
+          padding: 22rem 0 0;
 
           @media only screen and (min-width: 3000px) {
             padding: 34.15rem 0 0;
-          }
-        }
-
-        &__claim {
-          margin-top: 8rem;
-
-          @media only screen and (min-width: 768px) {
-            margin-top: 15.7rem;
           }
         }
       }
@@ -289,8 +277,8 @@
         }
 
         .cover__title {
-          @media only screen and (min-width: 1024px) {
-            width: 150%;
+          @media only screen and (min-width: 992px) {
+            width: 160%;
           }
         }
       }
@@ -309,7 +297,8 @@
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_shows_plisplas.jpg");
+          background-image:
+          url("~@/assets/images/img_cover_shows_plisplas.jpg");
         }
       }
 
@@ -395,11 +384,13 @@
         background-image: url("~@/assets/images/img_thumbnail_pallassos.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_workshops_pallassos.jpg");
+          background-image:
+          url("~@/assets/images/img_src_workshops_pallassos.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_workshops_pallassos.jpg");
+          background-image:
+          url("~@/assets/images/img_cover_workshops_pallassos.jpg");
         }
       }
 
@@ -407,7 +398,8 @@
         background-image: url("~@/assets/images/img_thumbnail_bombolles.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_workshops_bombolles.jpg");
+          background-image:
+          url("~@/assets/images/img_src_workshops_bombolles.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
@@ -435,7 +427,8 @@
         background-image: url("~@/assets/images/img_thumbnail_maquillatge.jpg");
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_workshops_maquillatge.jpg");
+          background-image:
+          url("~@/assets/images/img_src_workshops_maquillatge.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
@@ -454,26 +447,20 @@
     }
   }
 
-  //LEGAL PAGES COVER CUSTOM STYLES
-
   &__legal {
     background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
 
     &.cover {
       .cover {
         &__content {
-          padding: 12.15rem 0 0;
-
-          @media only screen and (min-width: 768px) {
-            padding: 15.65rem 0 0;
-          }
+          padding: 25rem 0 0;
 
           @media only screen and (min-width: 1900px) {
-            padding: 19.65rem 0 0;
+            padding: 21rem 0 0;
           }
 
           @media only screen and (min-width: 3000px) {
-            padding: 34.15rem 0 0;
+            padding: 35.5rem 0 0;
           }
         }
       }
@@ -484,11 +471,13 @@
           padding: .15rem 0;
           color: #000;
         }
+
+        .cover__title {
+          @media only screen and (min-width: 992px) {
+            width: 160%;
+          }
+        }
       }
     }
   }
 }
-
-
-
-

@@ -1,17 +1,19 @@
 .data-sheet {
-  margin: 3rem 0 3.5rem;
+  margin: 2rem 0;
   background-color: white;
 
   @media only screen and (min-width: 768px) {
-    margin: 4.625rem 0 5.25rem;
+    margin: 4rem 0;
+    padding: 0 2rem;
   }
 
-  @media only screen and (min-width: 1500px) {
-    margin: 6rem 0 8rem;
+  @media only screen and (min-width: 1024px) {
+    margin: 7rem 0;
+    padding: 0 3rem;
   }
 
-  @media only screen and (min-width: 3000px) {
-    margin: 8rem 0 10rem;
+  @media only screen and (min-width: 1200px) {
+    padding: 0;
   }
 
   &__title {
@@ -32,11 +34,11 @@
 
       @media only screen and (min-width: 1024px) {
         &:first-child {
-          padding-right: 1.875rem;
+          padding-right: 1.5rem;
         }
 
         &:last-child {
-          padding-left: 1.875rem;
+          padding-left: 1.5rem;
         }
       }
     }
@@ -45,27 +47,14 @@
   &__list {
     border: .0625rem solid;
 
-    @media only screen and (min-width: 768px) {
-      height: 37.25rem;
-    }
-
-    @media only screen and (min-width: 1500px) {
-      height: 42rem;
-    }
-
-    @media only screen and (min-width: 3000px) {
-      height: 64rem;
-    }
-
-
     &.left-side {
-      border-bottom: .5rem solid;
-      padding: 1.5rem 1.5rem 1.05rem;
+      border-bottom: .25rem solid;
+      padding: 1.5rem 1.5rem 1.25rem;
     }
 
     &.right-side {
-      border-top: .5rem solid;
-      padding: 1.05rem 1.5rem 1.5rem;
+      border-top: .25rem solid;
+      padding: 1.25rem 1.5rem 1.5rem;
     }
   }
 
@@ -101,7 +90,7 @@
   }
 
   &__btn {
-    margin: 3rem 0 0;
+    margin: 2rem 0 0;
   }
 
   &.shows {
@@ -116,27 +105,61 @@
       }
     }
 
-    &.freakfrac {
+    &.plisplas {
       .data-sheet {
         &__list {
           @media only screen and (min-width: 768px) {
-            height: 32rem;
-          }
-
-          @media only screen and (min-width: 1024px) {
-            height: 29rem;
-          }
-
-          @media only screen and (min-width: 1300px) {
-            height: 25rem;
+            height: 35rem;
           }
 
           @media only screen and (min-width: 1500px) {
-            height: 28rem;
+            height: 42rem;
           }
 
           @media only screen and (min-width: 3000px) {
-            height: 43rem;
+            height: 64rem;
+          }
+        }
+      }
+    }
+
+    &.filixic,
+    &.freakfrac,
+    &.filirates {
+      .data-sheet {
+        &__list {
+          @media only screen and (min-width: 768px) {
+            height: 28rem;
+          }
+
+          @media only screen and (min-width: 1500px) {
+            height: 33rem;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            height: 50rem;
+          }
+        }
+      }
+    }
+
+    &.desencaixats {
+      .data-sheet {
+        &__list {
+          @media only screen and (min-width: 768px) {
+            height: 33rem;
+          }
+
+          @media only screen and (min-width: 992px) {
+            height: 31rem;
+          }
+
+          @media only screen and (min-width: 1500px) {
+            height: 37rem;
+          }
+
+          @media only screen and (min-width: 3000px) {
+            height: 58rem;
           }
         }
       }
@@ -147,6 +170,22 @@
     .data-sheet {
       &__list {
         border-color: #5c2978;
+
+        @media only screen and (min-width: 768px) {
+          height: 27rem;
+        }
+
+        @media only screen and (min-width: 1200px) {
+          height: 19rem;
+        }
+
+        @media only screen and (min-width: 1500px) {
+          height: 22rem;
+        }
+
+        @media only screen and (min-width: 3000px) {
+          height: 33rem;
+        }
 
         &.left-side,
         &.right-side {
@@ -160,6 +199,22 @@
     .data-sheet {
       &__list {
         border-color: #e84e31;
+
+        @media only screen and (min-width: 768px) {
+          height: 25.5rem;
+        }
+
+        @media only screen and (min-width: 1200px) {
+          height: 24rem;
+        }
+
+        @media only screen and (min-width: 1500px) {
+          height: 29rem;
+        }
+
+        @media only screen and (min-width: 3000px) {
+          height: 44rem;
+        }
 
         &.left-side,
         &.right-side {

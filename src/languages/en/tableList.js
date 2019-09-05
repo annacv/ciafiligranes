@@ -21,12 +21,6 @@ export default {
     ],
     contentfields: [
       {
-        nom: 'PHPSESSID',
-        descripció: "Maintains the user's status in site calls.",
-        responsable: 'Own',
-        durada: 'Session'
-      },
-      {
         nom: '_ga',
         descripció: 'Used by Google to identify recurring users.',
         responsable: 'Google.com',

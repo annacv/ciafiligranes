@@ -8,7 +8,7 @@
 <template>
   <b-container fluid class="table-list">
     <b-row no-gutters class="table__container">
-      <div class="col-12 col-md-10 col-xxl-8 offset-0 offset-md-1 offset-xxl-2">
+      <div class="col-12 col-xl-10 col-xxl-8 offset-xl-1 offset-xxl-2">
         <h2
           class="table__title"
           v-text="table.title"

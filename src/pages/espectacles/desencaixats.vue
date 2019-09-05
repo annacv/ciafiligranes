@@ -15,7 +15,7 @@
         :sheet1="$t('dataSheet.desencaixats.sheet1')"
         :sheet2="$t('dataSheet.desencaixats.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"
-        class="shows"
+        class="shows desencaixats"
       />
     </section>
     <Gallery
@@ -29,6 +29,7 @@
     <Highlights
       :content="$t('highlights.desencaixats')"
       :highlighted="$t('highlights.desencaixats.highlighted')"
+      :button="$t('highlights.showsDetail.button')"
       class="highlights__shows"
     />
   </div>

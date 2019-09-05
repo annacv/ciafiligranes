@@ -15,7 +15,7 @@
         :sheet1="$t('dataSheet.filirates.sheet1')"
         :sheet2="$t('dataSheet.filirates.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"
-        class="shows"
+        class="shows filirates"
       />
     </section>
     <Gallery
@@ -29,6 +29,7 @@
     <Highlights
       :content="$t('highlights.filirates')"
       :highlighted="$t('highlights.filirates.highlighted')"
+      :button="$t('highlights.showsDetail.button')"
       class="highlights__shows"
     />
   </div>

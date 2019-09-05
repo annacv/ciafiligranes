@@ -24,6 +24,7 @@
     <Highlights
       :content="$t('highlights.makeup')"
       :highlighted="$t('highlights.makeup.highlighted')"
+      :button="$t('highlights.workshopsDetail.button')"
       class="highlights__workshops"
     />
   </div>

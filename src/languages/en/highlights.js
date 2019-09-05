@@ -55,6 +55,21 @@ export default {
     ]
   },
 
+  showsDetail: {
+    button: {
+      class: 'button-goback',
+      type: 'application',
+      href: '/en/shows',
+      target: '__top',
+      download: '',
+      text: 'Go back to shows list',
+      slot: {
+        alt: 'Arrow left. On click you will go back to shows list page',
+        class: 'arrow_left black'
+      }
+    }
+  },
+
   plisplas: {
     title: 'More Filigranes',
     description: 'Other shows of Filigranes Company',
@@ -221,6 +236,21 @@ export default {
         alt: 'Image of the animation with juggling of fire'
       }
     ]
+  },
+
+  showsDetail: {
+    button: {
+      class: 'button-goback',
+      type: 'application',
+      href: '/en/workshops',
+      target: '__top',
+      download: '',
+      text: 'Go back to workshops list',
+      slot: {
+        alt: 'Arrow left. On click you will go back to workhops list page',
+        class: 'arrow_left black'
+      }
+    }
   },
 
   circus: {
