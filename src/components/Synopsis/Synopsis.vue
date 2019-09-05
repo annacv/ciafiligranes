@@ -9,7 +9,7 @@
   <div class="synopsis">
     <b-container fluid class="synopsis__heading">
       <b-row no-gutters>
-        <div class="col-12 col-lg-4 offset-0 offset-lg-1 offset-xxl-2">
+        <div class="col-12 col-lg-5 col-xl-4 offset-0 offset-xl-1 offset-xxl-2">
           <h3
             class="synopsis__title"
             v-text="title"
@@ -19,7 +19,7 @@
     </b-container>
     <b-container fluid class="synopsis__content">
       <b-row no-gutters align-v="center">
-        <div class="col-12 col-lg-4 col-xxl-3 offset-lg-1 offset-xxl-2">
+        <div class="col-12 col-lg-5 col-xl-4 col-xxl-3 offset-xl-1 offset-xxl-2">
           <p
             v-for="item in paragraphs"
             :key="item.paragraph"

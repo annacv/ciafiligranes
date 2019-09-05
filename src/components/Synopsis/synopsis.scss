@@ -11,6 +11,12 @@
 
   @media only screen and (min-width: 1024px) {
     &__heading {
+      padding: 0 3rem;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    &__heading {
       padding: 0;
     }
 
@@ -28,6 +34,10 @@
     }
 
     @media only screen and (min-width: 1024px) {
+      padding: 1rem 2rem 0;
+    }
+
+    @media only screen and (min-width: 1200px) {
       margin: 0 2rem 0 -.9375rem;
       padding: 1rem 0 0;
     }
@@ -39,12 +49,11 @@
 
     @media only screen and (min-width: 1500px) {
       line-height: 2.6rem;
-      font-size: 1.25rem;
     }
 
     @media only screen and (min-width: 3000px) {
-      line-height: 3rem;
-      font-size: 1.5rem;
+      line-height: 4rem;
+      font-size: 2rem;
     }
   }
 
@@ -58,11 +67,19 @@
     }
 
     @media only screen and (min-width: 1024px) {
-      margin: 1.5rem 1.5rem 0 0;
+      margin: 2rem 2rem 1rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      margin: 2rem 2rem 1rem;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      margin: 2rem 2.5rem 1rem -.9375rem;
     }
 
     @media only screen and (min-width: 1300px) {
-      margin: 2.5rem 1.5rem 2.5rem 0;
+      margin: 2.5rem 2.5rem 2.5rem -.9375rem;
     }
   }
 
@@ -125,13 +142,23 @@
           }
         }
 
-        @media only screen and (min-width: 1024px) {
+        @media only screen and (min-width: 992px) {
           &:first-child {
-            padding: 2.5rem 0 .5rem;
+            padding: 3rem 1rem .5rem;
           }
 
           &:last-child {
-            padding: .5rem 0 2.5rem;
+            padding: .5rem 1rem 3rem;
+          }
+        }
+
+        @media only screen and (min-width: 1024px) {
+          &:first-child {
+            padding: 2.5rem 2rem .5rem;
+          }
+
+          &:last-child {
+            padding: .5rem 2rem 2.5rem;
           }
         }
 
