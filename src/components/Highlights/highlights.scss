@@ -11,19 +11,18 @@
   }
 
   @media only screen and (min-width: 1024px) {
+    margin: 9rem 0 6rem;
     background-position: 116% bottom;
-    padding: 0 0 4rem;
+    padding: 0 3rem 2rem;
   }
 
   @media only screen and (min-width: 1200px) {
     background-position: 110% bottom;
-    padding: 0 0 5rem;
+    padding: 0 0 2rem;
   }
 
   @media only screen and (min-width: 1500px) {
-    margin: 8rem 0;
     background-position: 100% bottom;
-    padding: 0 0 6rem;
   }
 
   @media only screen and (min-width: 1900px) {
@@ -32,7 +31,6 @@
 
   @media only screen and (min-width: 3000px) {
     margin: 13rem 0;
-    padding: 0 0 7rem;
   }
 
   &__title {
