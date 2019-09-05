@@ -101,6 +101,10 @@
         &__content {
           padding: 15.4rem 0 4rem;
 
+          @media only screen and (min-width: 768px) {
+            padding: 18rem 0 15rem;
+          }
+
           @media only screen and (min-width: 1900px) {
             padding: 21rem 0 17rem;
           }
@@ -188,6 +192,11 @@
           background-image: url("~@/assets/images/img_cover_plisplas.jpg");
           background-position: 50% 0%;
         }
+
+        @media only screen and (min-width: 1900px) {
+          background-position: 50% 20%;
+        }
+
 
         &.cover {
           .row__title {
