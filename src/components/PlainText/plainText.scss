@@ -17,13 +17,23 @@
   }
 
   @media only screen and (min-width: 768px) {
+    padding: 0 2rem;
+
     &__legal {
-      margin: 0 0 4.625rem;
+      margin: 0 0 4rem;
     }
 
     &__title {
-      margin: 4.625rem 0 1rem;
+      margin: 4rem 0 1rem;
     }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    padding: 0 3rem;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    padding: 0;
   }
 
   @media only screen and (min-width: 1500px) {

@@ -2,7 +2,16 @@
   margin: 0 0 3.5rem;
 
   @media only screen and (min-width: 768px) {
-    margin: 0 0 4.625rem;
+    margin: 0 0 4rem;
+    padding: 0 2rem;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    padding: 0 3rem;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    padding: 0;
   }
 
   @media only screen and (min-width: 1500px) {

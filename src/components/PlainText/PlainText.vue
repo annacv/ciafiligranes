@@ -8,7 +8,7 @@
 <template>
   <b-container fluid class="plain-text">
     <b-row no-gutters>
-      <div class="col-12 col-lg-10 col-xxl-8 offset-lg-1 offset-xxl-2">
+      <div class="col-12 col-xl-10 col-xxl-8 offset-xl-1 offset-xxl-2">
         <b-row no-gutters>
           <div
             v-for="item in items"

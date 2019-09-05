@@ -21,12 +21,6 @@ export default {
     ],
     contentfields: [
       {
-        nom: 'PHPSESSID',
-        descripció: 'Manté l’estat de l’usuari en les trucades al lloc',
-        responsable: 'Pròpia',
-        durada: 'Sessió'
-      },
-      {
         nom: '_ga',
         descripció:
           'Utilitzada per Google per a identificar als usuaris recurrents.',
