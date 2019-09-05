@@ -8,7 +8,7 @@
 <template>
   <b-container fluid class="data-sheet">
     <b-row no-gutters>
-      <div class="col-12 col-lg-10 col-xxl-8 offset-lg-1 offset-xxl-2">
+      <div class="col-12 col-xl-10 col-xxl-8 offset-xl-1 offset-xxl-2">
         <b-row class="data-sheet__row">
           <div class="col col-12 col-md-6">
             <div class="data-sheet__container">
@@ -68,7 +68,7 @@
       </div>
     </b-row>
     <b-row no-gutters>
-      <div class="col-12 col-lg-10 col-xxl-8 offset-lg-1 offset-xxl-2">
+      <div class="col-12 col-xl-10 col-xxl-8 offset-xl-1 offset-xxl-2">
         <b-row
           v-for="button in buttons"
           :key="button.class"

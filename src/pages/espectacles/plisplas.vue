@@ -15,7 +15,7 @@
         :sheet1="$t('dataSheet.plisplas.sheet1')"
         :sheet2="$t('dataSheet.plisplas.sheet2')"
         :buttons="$t('dataSheet.plisplas.buttons')"
-        class="shows"
+        class="shows plisplas"
       />
     </section>
     <Gallery

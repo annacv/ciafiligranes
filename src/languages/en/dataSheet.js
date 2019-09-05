@@ -8,11 +8,7 @@ export default {
     sheet1: [
       {
         label: 'Plis Plas',
-        description: 'Show of clowns for all audiences.'
-      },
-      {
-        label: 'Duration of the show',
-        description: '50 minutes.'
+        description: 'Duration: 50 minutes.'
       },
       {
         label: 'Assembly',
@@ -37,8 +33,7 @@ export default {
       },
       {
         label: 'Sound equipment',
-        description:
-          '1000 watts and 2 wireless microphones (owned by the Company).'
+        description: '1000 watts and 2 wireless microphones.'
       }
     ],
 
@@ -101,11 +96,7 @@ export default {
     sheet1: [
       {
         label: 'The Filixic Circus',
-        description: 'Show of clowns for all audiences.'
-      },
-      {
-        label: 'Duration of the show',
-        description: '60 minutes.'
+        description: 'Duration: 60 minutes.'
       },
       {
         label: 'Assembly',
@@ -121,7 +112,7 @@ export default {
       },
       {
         label: 'Minimum space',
-        description: '6m. (width) x 8m. (background). Showroom or street show.'
+        description: '6m. (width) x 8m. (background).'
       },
       {
         label: 'Light jacket',
@@ -129,8 +120,7 @@ export default {
       },
       {
         label: 'Sound equipment',
-        description:
-          '1000 watts and 2 wireless microphones (owned by the Company).'
+        description: '1000 watts and 2 wireless microphones.'
       }
     ],
 
@@ -140,15 +130,7 @@ export default {
         description: 'Jordi Torrens and Albert Pérez'
       },
       {
-        label: 'General Direction',
-        description: 'Companyia Filigranes'
-      },
-      {
-        label: 'Drama',
-        description: 'Companyia Filigranes'
-      },
-      {
-        label: 'Costumes',
+        label: 'General Direction and Drama',
         description: 'Companyia Filigranes'
       },
       {
@@ -156,7 +138,7 @@ export default {
         description: 'Gerard Mora'
       },
       {
-        label: 'Stage Design',
+        label: 'Stage Design and Costumes',
         description: 'Companyia Filigranes'
       }
     ],
@@ -181,10 +163,6 @@ export default {
     sheet1: [
       {
         label: 'Freak Frac Brothers Parades',
-        description: 'Itinerant show for all audiences.'
-      },
-      {
-        label: 'Duration of the show',
         description: 'Minimum duration: 60 minutes.'
       },
       {
@@ -193,7 +171,7 @@ export default {
       },
       {
         label: 'Space',
-        description: 'Street show, adaptable to room show. '
+        description: 'Itinerant street show, adaptable to interior.'
       },
       {
         label:
@@ -222,7 +200,7 @@ export default {
       },
       {
         label: 'Costumes',
-        description: "Companyia Filigranes and Associació Tub d'Assaig 7'70"
+        description: "Cia. Filigranes and Associació Tub d'Assaig 7'70"
       },
       {
         label:
@@ -250,11 +228,7 @@ export default {
     sheet1: [
       {
         label: 'Desencaixats',
-        description: 'Show of clowns for all audiences.'
-      },
-      {
-        label: 'Duration of the show',
-        description: '50 minutes.'
+        description: 'Duration: 50 minutes.'
       },
       {
         label: 'Assembly',
@@ -270,8 +244,7 @@ export default {
       },
       {
         label: 'Minimum space',
-        description:
-          '6m. (width) x 8m. (background). Showroom adaptable to street show.'
+        description: '6m. (width) x 8m. (background).'
       },
       {
         label: 'Light jacket',
@@ -279,8 +252,7 @@ export default {
       },
       {
         label: 'Sound equipment',
-        description:
-          '1000 watts and 2 wireless microphones (owned by the Company).'
+        description: '1000 watts and 2 wireless microphones.'
       }
     ],
 
@@ -290,11 +262,7 @@ export default {
         description: 'Jordi Torrens and Albert Pérez'
       },
       {
-        label: 'General Direction',
-        description: 'Walter Velázquez'
-      },
-      {
-        label: 'Drama',
+        label: 'General Direction and Drama',
         description: 'Walter Velázquez'
       },
       {
@@ -343,11 +311,7 @@ export default {
     sheet1: [
       {
         label: 'The Filirates Circus',
-        description: 'Show of clowns for all audiences.'
-      },
-      {
-        label: 'Duration of the show',
-        description: '50 minutes.'
+        description: 'Duration: 50 minutes.'
       },
       {
         label: 'Assembly',
@@ -363,7 +327,7 @@ export default {
       },
       {
         label: 'Minimum space',
-        description: '6m. (width) x 8m. (background). Showroom or street show.'
+        description: '6m. (width) x 8m. (background).'
       },
       {
         label: 'Light jacket',
@@ -371,8 +335,7 @@ export default {
       },
       {
         label: 'Sound equipment',
-        description:
-          '1000 watts and 2 wireless microphones (owned by the Company).'
+        description: '1000 watts and 2 wireless microphones.'
       }
     ],
 
@@ -382,23 +345,15 @@ export default {
         description: 'Jordi Torrens and Albert Pérez'
       },
       {
-        label: 'General Direction',
+        label: 'General Direction and Drama',
         description: 'Walter Velázquez'
-      },
-      {
-        label: 'Drama',
-        description: 'Walter Velázquez'
-      },
-      {
-        label: 'Costumes',
-        description: 'Companyia Filigranes'
       },
       {
         label: 'Sound and lighting technician',
         description: 'Gerard Mora'
       },
       {
-        label: 'Stage Design',
+        label: 'Stage Design and Costumes',
         description: 'Companyia Filigranes'
       }
     ],
