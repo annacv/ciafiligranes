@@ -30,6 +30,14 @@
         v-text="menu.performances.text"
       />
     </li>
+    <li class="navbar__menu-item">
+      <nuxt-link
+        :aria-label="menu.filipersones.aria"
+        :to="localePath('filipersones', $i18n.locale)"
+        class="navbar__menu-links"
+        v-text="menu.filipersones.text"
+      />
+    </li>
   </ul>
 </template>
 

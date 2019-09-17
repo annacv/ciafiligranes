@@ -22,6 +22,11 @@ export default {
     performances: {
       text: 'Animacions',
       aria: "Enllaç amb la pàgina d'animacions"
+    },
+
+    filipersones: {
+      text: 'Filipersones',
+      aria: 'Enllaç amb la pàgina sobre els pallassos Makutu i Trinxeta'
     }
   }
 }

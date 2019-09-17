@@ -22,6 +22,11 @@ export default {
     performances: {
       text: 'Animaciones',
       aria: 'Enlaza con la página de Animaciones'
+    },
+
+    filipersones: {
+      text: 'Filipersonas',
+      text: 'Enlaza con la página de los payasoso Makutu y Trinxeta'
     }
   }
 }
