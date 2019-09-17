@@ -69,6 +69,11 @@ export default {
     title: 'Performances à la carte'
   },
 
+  filipersones: {
+    claim: 'Filipeople',
+    title: 'Makutu and Trinxeta'
+  },
+
   legalDisclaimer: {
     title: 'Legal notice'
   },

@@ -259,7 +259,8 @@
 
   // PRODUCTS DETAIL, CONTACT, FILIPERSONES CUSTOM STYLES
   &__shows-detail,
-  &__workshops-detail {
+  &__workshops-detail,
+  &__filipersones {
     &.cover {
       .cover {
         &__content {
@@ -442,6 +443,18 @@
       .row {
         &__title {
           background-color: #5c2978;
+        }
+      }
+    }
+  }
+
+  &__filipersones {
+    background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+
+    &.cover {
+      .row {
+        &__title {
+          background-color: #20c0c6;
         }
       }
     }

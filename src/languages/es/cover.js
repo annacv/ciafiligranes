@@ -69,6 +69,11 @@ export default {
     title: 'Animaciones a la carta'
   },
 
+  filipersones: {
+    claim: 'Filipersonas',
+    title: 'Makutu y Trinxeta'
+  },
+
   legalDisclaimer: {
     title: 'Aviso legal'
   },

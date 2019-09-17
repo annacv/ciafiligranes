@@ -16,7 +16,7 @@
         />
       </div>
       <b-row class="row__title">
-        <div class="col-11 col-lg-7 col-xl-6 col-xxl-4 col-xxxl-3 offset-xl-1 offset-xxl-2">
+        <div class="col-12 col-lg-7 col-xl-6 col-xxl-4 col-xxxl-3 offset-xl-1 offset-xxl-2">
           <h2
             class="cover__title"
             v-text="content.title"
