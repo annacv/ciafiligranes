@@ -45,7 +45,11 @@ export default {
       paragraphs: [
         {
           paragraph:
-            'L’ALBERT, diplomat en Educació Social (1998) i pallasso de vocació i professió neix a Terrassa el 1977. Comença a interessar-se pel món del Circ als 16 anys, tot i que de ben petitet ja havia trepitjat algún escenari realitzant representacions musicals i teatrals. Assisteix al Conservatori de Música de Terrassa fins als 14 anys, on aprèn solfeig i fa classes de guitarra.'
+            'L’ALBERT, diplomat en Educació Social (1998) i pallasso de vocació i professió neix a Terrassa el 1977.'
+        },
+        {
+          paragraph:
+            'Comença a interessar-se pel món del Circ als 16 anys, tot i que de ben petitet ja havia trepitjat algún escenari realitzant representacions musicals i teatrals. Assisteix al Conservatori de Música de Terrassa fins als 14 anys, on aprèn solfeig i fa classes de guitarra.'
         }
       ],
 
@@ -59,8 +63,11 @@ export default {
       title: 'Trinxeta',
       paragraphs: [
         {
+          paragraph: 'EN JORDI, nascut a Terrassa (Barcelona) l’any 1975.'
+        },
+        {
           paragraph:
-            'EN JORDI, nascut a Terrassa (Barcelona) l’any 1975, des de ben petit ha estat molt lligat a la cultura popular de la seva ciutat. Fins als 15 anys formà part de l’Esbart Dansaire, els Diables de Terrassa, passant també per la colla castellera dels Minyons de Terrassa. Al 1991 comença a vincular-se a col·lectius de teatre al carrer, pallassos i circ.'
+            'Des de ben petit ha estat molt lligat a la cultura popular de la seva ciutat. Fins als 15 anys formà part de l’Esbart Dansaire, els Diables de Terrassa, passant també per la colla castellera dels Minyons de Terrassa. Al 1991 comença a vincular-se a col·lectius de teatre al carrer, pallassos i circ.'
         }
       ],
 
