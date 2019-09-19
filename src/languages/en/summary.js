@@ -100,20 +100,7 @@ export default {
         title:
           'Ideal to brighten up fairs, markets, streets... where the interaction with public is essential.'
       }
-    ],
-
-    button: {
-      class: '',
-      type: '',
-      href: '',
-      target: '',
-      download: '',
-      text: '',
-      slot: {
-        alt: '',
-        class: ''
-      }
-    }
+    ]
   },
 
   desencaixats: {
@@ -202,5 +189,56 @@ export default {
         class: 'arrow_down black'
       }
     }
+  },
+
+  filipersones: {
+    abstract:
+      'The Filigranes Company was founded in 2004. We are a group linked to the performing arts, mainly connected to circus and to the exciting world of clowns. Our main task is the creation and production of shows. Cia.Filigranes is integrated by Jordi Torrens (Trinxeta) and Albert Pérez (Makutu) as clown actors. Since 1996 we act together in different initiatives related to the world of circus and clowns. We are currently joined by Gerard Mora (sound and lighting technician) and Carles Grau (director). We have also worked with Mago Manu (artistic director), Walter Velázquez (director/playwright). We have performed at major parties in cities, towns and neighborhoods, theaters and festivals, and also participated and co-created various circus events and accumulate a vast background as trainers in workshops and educational activities.',
+
+    items: [
+      {
+        title: 'Antecedents',
+        description:
+          'Alternatiu X · Sàtirs · Pallassos Perillassos · S3 de Riure · La Cremallera Teatre · Comediants.'
+      },
+      {
+        title: 'Background',
+        description:
+          "Tub d'Assaig 7'70 (Zirkolika Price, 2012) · Pallass@s Art i Efecte Associacion · Improvisto's Krusty Show · Pallassos Sense Fronteres · La Roda Fundation · Ca l'Estruch · Circus Professionals Associacion of Catalunya."
+      },
+      {
+        title: 'Stages and festivals',
+        description:
+          "Internacional Festival of clowns of Xirivella (2010) · Cabaret of the Year. Mitenes Circus (Centre Cultural de Terrassa, 2011) · Circus and Modernism (Raluy Circus Tent, 2012 i 2013) · Circus Street Fair of La Bisbal de l'Empordà (2013) · MART. Cabaret de la mentida (Alegria Theater, Performing Arts Center of Terrassa, 2013) · Circus, Clowns and Performing Arts Festivals of Alpicat, Buuuf, Desplaça't, 6 Continentes, Fitkam, Vilanova de Muga · Gala for Pallassos Sense Fronteres (Ca l'Estruch Tent of Sabadell, 2018) · Internacional Clowns Festival of Cornellà del Llobregat 2018 · Circ Cric and Calldeclowns 2019 Festivals."
+      }
+    ]
+  },
+
+  makutu: {
+    abstract:
+      'Later he combines his training with the participation in several companies. He takes numerous clown courses: at the interpretion school "El Timbal" (with Merche Ochoa), at "the Rogelio Rivel Circus School" (with Joan Armengol); and others with Manu Aizpuru, Wálter Velázquez and Moshe Cohen. He also trained in Buenos Aires, where he spent two seasons of six months: he attended to the school of "Circo Criollo", performing a mime course with Alberto Ivern, and the "Teatro del Absurdo Palermo. In 2015 he completed the Patrick Pinchón circus teaching and pedagogy course.',
+
+    items: [
+      {
+        description:
+          "Albert has performed throughout Catalonia and Spain; and also in Latin America: in Guatemala, Mexico, Nicaragua, Brazil, Argentina, Uruguay, Bolivia, Peru ... He is currently a member of the Filigranes Company (2004) and the 7'70 Test Tube Circus Association."
+      },
+      {
+        description:
+          'At the moment, he works as a trainer and also practices disciplines related to the circus world, such as juggling, manipulation of objects, balance ball or stilts.'
+      }
+    ]
+  },
+
+  trinxeta: {
+    abstract:
+      'Jordi has always given a lot of importance to his training and that is why he has been under the direction of renowned clown masters both nationally and internationally, such as Manu Aizpuru, Moshe Cohen, Walter Velázquez, Patrick Pinchón (course didactics and pedagogy of the circus), or Loco Brusca ("The creative body"). Soon he created two characters: «Trinxat Tremola», a jester clown with which he acts in little stages, circ conventions and adult cabarets; "Trinxoff", sharped and whitefaced. During those years he also collaborates as a freelance with other companies, among them Comediants (2008). In 2010, he joins an expedition to Liban with Pallassos Sense Fronteres.',
+
+    items: [
+      {
+        description:
+          "At the moment Jordi is part of Cia.Filigranes and the  Circus Association Tub d'Assaig 7'70. He also dedicates part of his time to the accomplishment of specific workshops a former, being his specialty the clown, the manipulation of objects, the monocicle and the juggling of fire."
+      }
+    ]
   }
 }

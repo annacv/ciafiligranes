@@ -100,20 +100,7 @@ export default {
         title:
           'Ideal para amenizar ferias, mercados, desfiles... donde la interacción con el público es lo primordial.'
       }
-    ],
-
-    button: {
-      class: '',
-      type: '',
-      href: '',
-      target: '',
-      download: '',
-      text: '',
-      slot: {
-        alt: '',
-        class: ''
-      }
-    }
+    ]
   },
 
   desencaixats: {
@@ -202,5 +189,56 @@ export default {
         class: 'arrow_down black'
       }
     }
+  },
+
+  filipersones: {
+    abstract:
+      'La Compañía Filigranes la fundamos en 2004. Somos un grupo vinculado con las artes escénicas, principalmente con el mundo del circo y con el apasionante mundo de los payasos y payasas. Nuestra tarea principal es la creación y producción de espectáculos. La Cia.Filigranes la integramos Jordi Torrens (Trinxeta) y Albert Pérez (Makutu) como actores clown. Desde 1996 que actuamos juntos en diferentes iniciativas relacionadas con el mundo del circo y los payasos. Actualmente nos acompañan Gerard Mora (técnico de sonido e iluminación) y Carles Grau (director). También hemos trabajado con Mago Manu (director artístico), Walter Velázquez (director/dramaturgo). Hemos actuado en fiestas mayores de ciudades, pueblos y barrios, teatros y festivales, hemos participado y co-creado diversas galas de circo y acumulamos un bagaje bien extenso como formadores en talleres y actividades lúdicas y didácticas.',
+
+    items: [
+      {
+        title: 'Antecedentes',
+        description:
+          'Alternatiu X · Sàtirs · Payasos Perillassos · S3 de Riure · La Cremallera Teatre · Comediants.'
+      },
+      {
+        title: 'Colaboraciones',
+        description:
+          "Tub d'Assaig 7'70 (Premio Zirkolika 2012) · Asociación Pallass@s Art i Efecte · Improvisto's Krusty Show · Pallassos Sense Fronteres · Fundación La Roda · Ca l'Estruch · Asociación de Profesionales del Circo de Cataluña."
+      },
+      {
+        title: 'Escenarios y festivales',
+        description:
+          "Festival Internacional de payasos de Xirivella (2010) · Cabaret del Año. Circo Mitenes (Centre Cultural de Terrassa, 2011) · Circo y Modernismo (Carpa del Circo Raluy, 2012 y 2013) · Feria del Circo en la calle de La Bisbal de l'Empordà (2013) · MART. Cabaret de la mentira (Teatro Alegria, Centro de Artes Escénicas de Terrassa, 2013) · Festivales de Circo, Payasos y Artes Escénicas de Alpicat, Buuuf,  Desplaça't, 6 Continentes, Fitkam, Vilanova de Muga · Gala para Payasos Sin Fronteras (Vela de Ca l'Estruch de Sabadell, 2018) · Festival Internacional de Payas@s de Cornellà del Llobregat 2018 · Festivales del Circo Cric y Calldeclowns 2019."
+      }
+    ]
+  },
+
+  makutu: {
+    abstract:
+      'Más adelante combina su formación con la participación en varias compañías. Realiza numerosos cursos de clown: en la escuela de interpretación «El Timbal» (con Merche Ochoa), a «la Escuela de Circo Rogelio Rivel» (con Joan Armengol); y otros con Manu Aizpuru, Wálter Velázquez y Moshe Cohen. También se ha formado en Buenos Aires, donde ha pasado dos temporadas de seis meses: ha asistido a la escuela de «Circo Criollo", realizando un curso de mimo con Alberto Ivern, y al «Teatro del Absurdo Palermo. 2015 realiza el curso de didáctica y pedagogía del circo de Patrick Pinchon.',
+
+    items: [
+      {
+        description:
+          'Albert ha actuado por toda Cataluña y España; y también en América Latina: en Guatemala, México, Nicaragua, Brasil, Argentina, Uruguay, Bolivia, Perú ...'
+      },
+      {
+        description:
+          "Actualmente es miembro de la Compañía Filigranes (2004) y de la Asociación de Circo Tub d'Assaig 7'70. Ejerce como formador y también practica disciplinas vinculadas con el mundo del circo, como los malabares, la manipulación de objetos, la bola de equilibrios o los zancos."
+      }
+    ]
+  },
+
+  trinxeta: {
+    abstract:
+      'Jordi siempre ha dado mucha importancia a su formación y es por este motivo que se ha puesto bajo la dirección de reconocidos maestros clown tanto a nivel nacional como internacional, como son Manu Aizpuru, Moshe Cohen, Walter Velázquez, Patrick Pinchon (curso didáctica y pedagogía del circo), o Loco Brusca ( "El cuerpo creativo"). Muy pronto crea dos personajes: «Trinxat Tiembla», un payaso abufonado con el que actúa en pequeños escenarios, convenciones de circo y cabarets para adultos; y «Trinxoff», puntiagudo y carablanca. Es durante estos años que también colabora como freelance con otras compañías, entre ellas Comediants (2008). En 2010 participa con Payasos Sin Fronteras en una expedición al Líbano.',
+
+    items: [
+      {
+        description:
+          "Actualmente Jordi forma parte de la Cía.Filigranes y de la Asociación de Circo Tub d'Assaig 7'70. También dedica parte de su tiempo a la realización de talleres específicos ejerciendo de docente, siendo su especialidad el clown, la manipulación de objetos, el monociclo y los malabares de fuego."
+      }
+    ]
   }
 }
