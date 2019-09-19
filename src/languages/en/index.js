@@ -3,6 +3,7 @@ import cookies from './cookies'
 import cover from './cover'
 import dataSheet from './dataSheet'
 import dottedList from './dottedList'
+import filipartners from './filipartners'
 import footer from './footer'
 import gallery from './gallery'
 import header from './header'
@@ -20,6 +21,7 @@ export default {
   cover,
   dataSheet,
   dottedList,
+  filipartners,
   footer,
   gallery,
   header,
