@@ -24,10 +24,6 @@
     }
   }
 
-  @media only screen and (min-width: 1500px) {
-    margin: 6rem 0 8rem;
-  }
-
   @media only screen and (min-width: 3000px) {
     margin: 8rem 0 10rem;
   }
@@ -118,22 +114,42 @@
 
         @media only screen and (min-width: 768px) {
           margin-bottom: 3.5rem;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
         }
 
         @media only screen and (min-width: 1200px) {
           font-size: 1.125rem;
         }
-    
+
         @media only screen and (min-width: 1500px) {
           line-height: 2.6rem;
           font-size: 1.25rem;
         }
-    
+
         @media only screen and (min-width: 3000px) {
           line-height: 4rem;
           font-size: 2rem;
         }
       }
+    }
+  }
+
+  &__filipersones-detail-clown {
+    margin: 2rem 0 0;
+
+    @media only screen and (min-width: 768px) {
+      margin: 4rem 0 0;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      margin: 6rem 0 0;
+    }
+
+    @media only screen and (min-width: 3000px) {
+      margin: 8rem 0 10rem;
     }
   }
 }
