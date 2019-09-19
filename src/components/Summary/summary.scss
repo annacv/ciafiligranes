@@ -2,7 +2,6 @@
   margin: 2rem 0 4rem;
   background-color: white;
 
-
   @media only screen and (min-width: 768px) {
     margin: 4rem 0 6rem;
 
@@ -57,24 +56,23 @@
   }
 
   &__list {
-    padding: 0;
-
-    &:first-child {
-      margin: 0 0 .75rem;
-    }
-
     @media only screen and (min-width: 768px) {
       padding: 0 0 0 3rem;
-
-      &:first-child {
-        margin: .25rem 0 .75rem;
-      }
     }
   }
 
   &__list-item {
+    margin: 0 0 .75rem;
     line-height: 1.43rem;
     font-size: .875rem;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    @media only screen and (min-width: 768px) {
+      margin: .25rem 0 .75rem;
+    }
 
     @media only screen and (min-width: 1200px) {
       &:first-child {
@@ -111,5 +109,31 @@
     position: absolute;
     right: 0;
     bottom: 0;
+  }
+
+  &__filipersones {
+    .summary {
+      &__abstract {
+        margin-bottom: 1.5rem;
+
+        @media only screen and (min-width: 768px) {
+          margin-bottom: 3.5rem;
+        }
+
+        @media only screen and (min-width: 1200px) {
+          font-size: 1.125rem;
+        }
+    
+        @media only screen and (min-width: 1500px) {
+          line-height: 2.6rem;
+          font-size: 1.25rem;
+        }
+    
+        @media only screen and (min-width: 3000px) {
+          line-height: 4rem;
+          font-size: 2rem;
+        }
+      }
+    }
   }
 }
