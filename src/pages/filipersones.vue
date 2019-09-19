@@ -4,15 +4,15 @@
       :content="$t('cover.filipersones')"
       class="cover__filipersones"
     />
-    <section class="main-content">
+    <section>
       <Summary
         :abstract="$t('summary.filipersones.abstract')"
         :items="$t('summary.filipersones.items')"
         class="summary__filipersones"
       />
     </section>
-    <section class="profiles-content">
-      <article class="profiles__makutu">
+    <article>
+      <article>
         <Synopsis
           :title="$t('synopsis.filipersones.makutu.title')"
           :image="$t('synopsis.filipersones.makutu.image')"
@@ -29,7 +29,7 @@
           class='gallery__filipersones'
         />
       </article>
-      <article class="profiles__trinxeta">
+      <article>
         <SynopsisReverse
           :title="$t('synopsis.filipersones.trinxeta.title')"
           :image="$t('synopsis.filipersones.trinxeta.image')"
@@ -46,7 +46,7 @@
           class='gallery__filipersones'
         />
       </article>
-    </section>
+    </article>
     <section>
       <Filipartners
         :heading="$t('filipartners.heading')"
