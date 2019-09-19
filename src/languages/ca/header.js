@@ -27,6 +27,11 @@ export default {
     filipersones: {
       text: 'Filipersones',
       aria: 'Enllaç amb la pàgina sobre els pallassos Makutu i Trinxeta'
+    },
+
+    contacte: {
+      text: 'Contacte',
+      aria: 'Enllaç amb la pàgina de contacte de la Cia.Filigranes'
     }
   }
 }
