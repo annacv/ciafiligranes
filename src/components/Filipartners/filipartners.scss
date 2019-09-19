@@ -1,0 +1,52 @@
+.filipartners {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 0 0 4rem;
+
+  @media only screen and (min-width: 768px) {
+    margin: 0 0 6rem;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    margin: 0 0 8rem;
+  }
+
+  @media only screen and (min-width: 3000px) {
+    margin: 0 0 10rem;
+  }
+
+  &__heading {
+    text-align: center;
+    font-family: "AkkuratLight", "Arial", sans-serif;
+    font-size: 1.25rem;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 2rem 0 0;
+
+    @media only screen and (min-width: 768px) {
+      padding: 4rem 0 0;
+    }
+  }
+
+  &__link {
+    &:hover {
+      opacity: .6;
+    }
+  }
+}
+
+.filipartners-icons {
+  &__image {
+    width: auto;
+    height: 6rem;
+  }
+}

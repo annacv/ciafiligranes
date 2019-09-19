@@ -8,7 +8,7 @@
 <template>
   <b-container fluid class="filipartners">
     <b-row no-gutters align-h="center">
-      <div class= "col-12 offset-xl-1 offset-xxl-2">
+      <div class= "col-12">
         <h2 
           class="filipartners__heading"
           v-text="heading"
@@ -20,7 +20,7 @@
       align-h="center" 
       align-v="center"
     >
-      <div class= "col-12 col-xl-3 col-xxxl-2 offset-0 offset-xl-1 offset-xxl-2">
+      <div class= "col-12 filipartners-icons">
         <ul class="filipartners__list">
           <li
             v-for="item in partnersicons"
