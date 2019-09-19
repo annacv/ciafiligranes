@@ -112,7 +112,8 @@
   /* COLOURED BACKGROUND STYLES WITH ALSO DIF PADDINGS & MARGINS */
 
   &__home,
-  &__performances {
+  &__performances,
+  &__filipersones {
     .synopsis {
       &__title {
         margin-bottom: 0;
@@ -227,4 +228,33 @@
       }
     }
   }
+
+  &__filipersones {
+    .synopsis {
+      &__content {
+        background-color: #20c0c6;
+      }
+    }
+
+    &.reverse {
+      .synopsis {
+        &__title {
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        &__content {
+          >.row {
+            display: flex;
+            flex-flow: row-reverse;
+          }
+        }
+
+        &__paragraph {
+          padding: .5rem 2rem 2.5rem 2.75rem;
+        }
+      }
+    }
+  }
 }
+

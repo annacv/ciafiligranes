@@ -9,7 +9,7 @@
   <div class="synopsis">
     <b-container fluid class="synopsis__heading">
       <b-row no-gutters>
-        <div class="col-12 col-lg-5 col-xl-4 offset-0 offset-xl-1 offset-xxl-2">
+        <div class="col-12 col-lg-9 col-xl-10 offset-xl-1 offset-xxl-2">
           <h3
             class="synopsis__title"
             v-text="title"
