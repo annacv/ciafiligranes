@@ -26,7 +26,7 @@ export default {
 
     filipersones: {
       text: 'Filipersonas',
-      text: 'Enlaza con la página de los payasoso Makutu y Trinxeta'
+      aria: 'Enlaza con la página de los payasoso Makutu y Trinxeta'
     }
   }
 }
