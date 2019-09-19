@@ -1,7 +1,11 @@
 export default {
   home: {
-    abstract:
-      'The key to this work is a constant game of tug-of-war, which gives rise to an impregnated relationship of fantasy, similar to the real world in which children live, at the same time intriguing and conflicting. Among the Clown (Makutu) and August (Toti) there is a relationship where carefully curb their rivalry and complicity',
+    abstract: [
+      {
+        paragraph:
+          'The key to this work is a constant game of tug-of-war, which gives rise to an impregnated relationship of fantasy, similar to the real world in which children live, at the same time intriguing and conflicting. Among the Clown (Makutu) and August (Toti) there is a relationship where carefully curb their rivalry and complicity.'
+      }
+    ],
     items: [
       {
         title: 'Plis-plas',
@@ -29,8 +33,12 @@ export default {
   },
 
   plisplas: {
-    abstract:
-      'The key to this work is a constant game of tug-of-war, which gives rise to an impregnated relationship of fantasy, similar to the real world in which children live, at the same time intriguing and conflicting. Among the Clown (Makutu) and August (Toti) there is a relationship where carefully curb their rivalry and complicity',
+    abstract: [
+      {
+        paragraph:
+          'The key to this work is a constant game of tug-of-war, which gives rise to an impregnated relationship of fantasy, similar to the real world in which children live, at the same time intriguing and conflicting. Among the Clown (Makutu) and August (Toti) there is a relationship where carefully curb their rivalry and complicity'
+      }
+    ],
 
     items: [
       {
@@ -58,8 +66,12 @@ export default {
   },
 
   filixic: {
-    abstract:
-      'These two experienced clowns will surprise you with a show with several numbers recovered from the historic Filigranes Circus. The «rolling monocicle», the Ale-hop Hula-hop, or the fantastic jugglers The Tal KualBrothers, with its number internationally recognized as Xiguagua: with passing maces and an amazing final on the balancing balls!',
+    abstract: [
+      {
+        paragraph:
+          'These two experienced clowns will surprise you with a show with several numbers recovered from the historic Filigranes Circus. The «rolling monocicle», the Ale-hop Hula-hop, or the fantastic jugglers The Tal KualBrothers, with its number internationally recognized as Xiguagua: with passing maces and an amazing final on the balancing balls!'
+      }
+    ],
 
     items: [
       {
@@ -87,8 +99,12 @@ export default {
   },
 
   freakfrac: {
-    abstract:
-      'Itinerant show with live musicians (saxophone and / or percussion) and our incredible flyers. We will captivate you with their constant motion! Different stops with juggling routines, such as clubs and diabolos, rope jump... accompanied always by music.',
+    abstract: [
+      {
+        paragraph:
+          'Itinerant show with live musicians (saxophone and / or percussion) and our incredible flyers. We will captivate you with their constant motion! Different stops with juggling routines, such as clubs and diabolos, rope jump... accompanied always by music.'
+      }
+    ],
 
     items: [
       {
@@ -104,8 +120,12 @@ export default {
   },
 
   desencaixats: {
-    abstract:
-      'A story where boxes of all kinds take alive. We will be captivated by the surprises carried out by Trinxeta and Makutu, who will enjoy us with their very peculiar outings and the humor always present! Show of clowns where humor, magic, music and object manipulation will make us enjoy a story where friendship is the knot and the most remarkable value.',
+    abstract: [
+      {
+        paragraph:
+          'A story where boxes of all kinds take alive. We will be captivated by the surprises carried out by Trinxeta and Makutu, who will enjoy us with their very peculiar outings and the humor always present! Show of clowns where humor, magic, music and object manipulation will make us enjoy a story where friendship is the knot and the most remarkable value.'
+      }
+    ],
 
     items: [
       {
@@ -133,8 +153,12 @@ export default {
   },
 
   filirates: {
-    abstract:
-      'Clown show where a review of the history of the circus is performed and different disciplines are fused, such as juggling, magic and puppets. The driver thread: a surprising turn that will make a shot in the history of the mythical Circ Filigranes. Mr.Makutu and Trinxeta will have to stop a real plague of rats!',
+    abstract: [
+      {
+        paragraph:
+          'Clown show where a review of the history of the circus is performed and different disciplines are fused, such as juggling, magic and puppets. The driver thread: a surprising turn that will make a shot in the history of the mythical Circ Filigranes. Mr.Makutu and Trinxeta will have to stop a real plague of rats!'
+      }
+    ],
 
     items: [
       {
@@ -162,8 +186,12 @@ export default {
   },
 
   performances: {
-    abstract:
-      'An endless number of customized characters will interact with the public. These authentic chameleons of the scene perform different actions and tricks with the humor always present: juggling, costumes,magic, music, sweeping actions, humor routines and participatory games. They will reveal their identity from the beginning or at a certain time.',
+    abstract: [
+      {
+        paragraph:
+          'An endless number of customized characters will interact with the public. These authentic chameleons of the scene perform different actions and tricks with the humor always present: juggling, costumes,magic, music, sweeping actions, humor routines and participatory games. They will reveal their identity from the beginning or at a certain time.'
+      }
+    ],
 
     items: [
       {
@@ -192,8 +220,20 @@ export default {
   },
 
   filipersones: {
-    abstract:
-      'The Filigranes Company was founded in 2004. We are a group linked to the performing arts, mainly connected to circus and to the exciting world of clowns. Our main task is the creation and production of shows. Cia.Filigranes is integrated by Jordi Torrens (Trinxeta) and Albert Pérez (Makutu) as clown actors. Since 1996 we act together in different initiatives related to the world of circus and clowns. We are currently joined by Gerard Mora (sound and lighting technician) and Carles Grau (director). We have also worked with Mago Manu (artistic director), Walter Velázquez (director/playwright). We have performed at major parties in cities, towns and neighborhoods, theaters and festivals, and also participated and co-created various circus events and accumulate a vast background as trainers in workshops and educational activities.',
+    abstract: [
+      {
+        paragraph:
+          'The Filigranes Company was founded in 2004. We are a group linked to the performing arts, mainly connected to circus and to the exciting world of clowns. Our main task is the creation and production of shows.'
+      },
+      {
+        paragraph:
+          'Cia.Filigranes is integrated by Jordi Torrens (Trinxeta) and Albert Pérez (Makutu) as clown actors. Since 1996 we act together in different initiatives related to the world of circus and clowns. We are currently joined by Gerard Mora (sound and lighting technician) and Carles Grau (director). We have also worked with Mago Manu (artistic director), Walter Velázquez (director/playwright).'
+      },
+      {
+        paragraph:
+          'We have performed at major parties in cities, towns and neighborhoods, theaters and festivals, and also participated and co-created various circus events and accumulate a vast background as trainers in workshops and educational activities.'
+      }
+    ],
 
     items: [
       {
@@ -215,8 +255,12 @@ export default {
   },
 
   makutu: {
-    abstract:
-      'Later he combines his training with the participation in several companies. He takes numerous clown courses: at the interpretion school "El Timbal" (with Merche Ochoa), at "the Rogelio Rivel Circus School" (with Joan Armengol); and others with Manu Aizpuru, Wálter Velázquez and Moshe Cohen. He also trained in Buenos Aires, where he spent two seasons of six months: he attended to the school of "Circo Criollo", performing a mime course with Alberto Ivern, and the "Teatro del Absurdo Palermo. In 2015 he completed the Patrick Pinchón circus teaching and pedagogy course.',
+    abstract: [
+      {
+        paragraph:
+          'Later he combines his training with the participation in several companies. He takes numerous clown courses: at the interpretion school "El Timbal" (with Merche Ochoa), at "the Rogelio Rivel Circus School" (with Joan Armengol); and others with Manu Aizpuru, Wálter Velázquez and Moshe Cohen. He also trained in Buenos Aires, where he spent two seasons of six months: he attended to the school of "Circo Criollo", performing a mime course with Alberto Ivern, and the "Teatro del Absurdo Palermo. In 2015 he completed the Patrick Pinchón circus teaching and pedagogy course.'
+      }
+    ],
 
     items: [
       {
@@ -231,13 +275,21 @@ export default {
   },
 
   trinxeta: {
-    abstract:
-      'Jordi has always given a lot of importance to his training and that is why he has been under the direction of renowned clown masters both nationally and internationally, such as Manu Aizpuru, Moshe Cohen, Walter Velázquez, Patrick Pinchón (course didactics and pedagogy of the circus), or Loco Brusca ("The creative body"). Soon he created two characters: «Trinxat Tremola», a jester clown with which he acts in little stages, circ conventions and adult cabarets; "Trinxoff", sharped and whitefaced. During those years he also collaborates as a freelance with other companies, among them Comediants (2008). In 2010, he joins an expedition to Liban with Pallassos Sense Fronteres.',
+    abstract: [
+      {
+        paragraph:
+          'Jordi has always given a lot of importance to his training and that is why he has been under the direction of renowned clown masters both nationally and internationally, such as Manu Aizpuru, Moshe Cohen, Walter Velázquez, Patrick Pinchón (course didactics and pedagogy of the circus), or Loco Brusca ("The creative body"). Soon he created two characters: «Trinxat Tremola», a jester clown with which he acts in little stages, circ conventions and adult cabarets; "Trinxoff", sharped and whitefaced. During those years he also collaborates as a freelance with other companies, among them Comediants (2008). In 2010, he joins an expedition to Liban with Pallassos Sense Fronteres.'
+      }
+    ],
 
     items: [
       {
         description:
-          "At the moment Jordi is part of Cia.Filigranes and the  Circus Association Tub d'Assaig 7'70. He also dedicates part of his time to the accomplishment of specific workshops a former, being his specialty the clown, the manipulation of objects, the monocicle and the juggling of fire."
+          "At the moment Jordi is part of Cia.Filigranes and the  Circus Association Tub d'Assaig 7'70."
+      },
+      {
+        description:
+          'He also dedicates part of his time to the accomplishment of specific workshops a former, being his specialty the clown, the manipulation of objects, the monocicle and the juggling of fire.'
       }
     ]
   }

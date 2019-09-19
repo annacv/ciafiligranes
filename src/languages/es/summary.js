@@ -1,7 +1,11 @@
 export default {
   home: {
-    abstract:
-      'La clave de esta obra es un juego constante de tira y afloja, que da lugar a una relación impregnada de fantasía, parecido al mundo real en el que viven los niños/as, a la vez entrañable y conflictiva. Entre el Clown (Makutu ) y el Augusto (Toti) hay una relación donde se equilibran cuidadosamente la rivalidad y la complicidad.',
+    abstract: [
+      {
+        paragraph:
+          'La clave de esta obra es un juego constante de tira y afloja, que da lugar a una relación impregnada de fantasía, parecido al mundo real en el que viven los niños/as, a la vez entrañable y conflictiva. Entre el Clown (Makutu ) y el Augusto (Toti) hay una relación donde se equilibran cuidadosamente la rivalidad y la complicidad.'
+      }
+    ],
     items: [
       {
         title: 'Plis-plas',
@@ -29,8 +33,12 @@ export default {
   },
 
   plisplas: {
-    abstract:
-      'La clave de esta obra es un juego constante de tira y afloja, que da lugar a una relación impregnada de fantasía, parecido al mundo real en el que viven los niños/as, a la vez entrañable y conflictiva. Entre el Clown (Makutu ) y el Augusto (Toti) hay una relación donde se equilibran cuidadosamente la rivalidad y la complicidad.',
+    abstract: [
+      {
+        paragraph:
+          'La clave de esta obra es un juego constante de tira y afloja, que da lugar a una relación impregnada de fantasía, parecido al mundo real en el que viven los niños/as, a la vez entrañable y conflictiva. Entre el Clown (Makutu ) y el Augusto (Toti) hay una relación donde se equilibran cuidadosamente la rivalidad y la complicidad.'
+      }
+    ],
 
     items: [
       {
@@ -58,8 +66,12 @@ export default {
   },
 
   filixic: {
-    abstract:
-      'Estos dos payasos experimentados nos sorprenderán con un espectáculo con varios números recuperados del histórico Filigranes. El monociclo volteador, el Ale-hop Hula-hop, o los fantásticos malabaristas The Tal KualBrothers, con su número reconocido internacionalmente con el nombre de Xiguagua: con passing de mazas y un alucinante final sobre las bolas de equilibrio!',
+    abstract: [
+      {
+        paragraph:
+          'Estos dos payasos experimentados nos sorprenderán con un espectáculo con varios números recuperados del histórico Filigranes. El monociclo volteador, el Ale-hop Hula-hop, o los fantásticos malabaristas The Tal KualBrothers, con su número reconocido internacionalmente con el nombre de Xiguagua: con passing de mazas y un alucinante final sobre las bolas de equilibrio!'
+      }
+    ],
 
     items: [
       {
@@ -87,8 +99,12 @@ export default {
   },
 
   freakfrac: {
-    abstract:
-      'Espectáculo itinerante con músicos en vivo (saxo y / o percusión) y nuestros increíbles zancudos. Nos cautivarán con sus ritmos en movimiento constante! Diferentes paradas con rutinas de malabares, como mazas y diábolos, salto de cuerda... acompañados siempre de música.',
+    abstract: [
+      {
+        paragraph:
+          'Espectáculo itinerante con músicos en vivo (saxo y / o percusión) y nuestros increíbles zancudos. Nos cautivarán con sus ritmos en movimiento constante! Diferentes paradas con rutinas de malabares, como mazas y diábolos, salto de cuerda... acompañados siempre de música.'
+      }
+    ],
 
     items: [
       {
@@ -104,8 +120,12 @@ export default {
   },
 
   desencaixats: {
-    abstract:
-      'Una historia donde cajas de todo tipo toman vida. Nos cautivarán con las sorpresas protagonizadas por Trinxeta y Makutu, que nos harán disfrutar con sus salidas bien peculiares y el humor siempre presente! Espectáculo de payasos donde el humor, la magia, la música y la manipulación de objetos nos harán disfrutar de una historia donde la amistad es el nudo y el valor más destacable.',
+    abstract: [
+      {
+        paragraph:
+          'Una historia donde cajas de todo tipo toman vida. Nos cautivarán con las sorpresas protagonizadas por Trinxeta y Makutu, que nos harán disfrutar con sus salidas bien peculiares y el humor siempre presente! Espectáculo de payasos donde el humor, la magia, la música y la manipulación de objetos nos harán disfrutar de una historia donde la amistad es el nudo y el valor más destacable.'
+      }
+    ],
 
     items: [
       {
@@ -133,8 +153,12 @@ export default {
   },
 
   filirates: {
-    abstract:
-      'Obra clown donde se hace un repaso de la historia del circo y se fusionan diferentes disciplinas, como los malabares, la magia y los títeres. El hilo conductor: un sorprendente contratiempo que dará un giro a la historia del mítico Circo Filigranes. ¡¡El Sr.Makutu y el payaso Trinxeta deberán frenar una auténtica plaga de ratas!!',
+    abstract: [
+      {
+        paragraph:
+          'Obra clown donde se hace un repaso de la historia del circo y se fusionan diferentes disciplinas, como los malabares, la magia y los títeres. El hilo conductor: un sorprendente contratiempo que dará un giro a la historia del mítico Circo Filigranes. ¡¡El Sr.Makutu y el payaso Trinxeta deberán frenar una auténtica plaga de ratas!!'
+      }
+    ],
 
     items: [
       {
@@ -162,8 +186,12 @@ export default {
   },
 
   performances: {
-    abstract:
-      'Una infinidad de personajes caracterizados a medida interrelacionarán con el público. Estos auténticos camaleones de la escena realizan diferentes acciones y trucos con el humor siempre presente: trucos malabares, disfraces, magia, música, acciones sorpressives, rutinas de humor y juegos participativos.Desvelarán su identidad desde el inicio o en un momento determinado.',
+    abstract: [
+      {
+        paragraph:
+          'Una infinidad de personajes caracterizados a medida interrelacionarán con el público. Estos auténticos camaleones de la escena realizan diferentes acciones y trucos con el humor siempre presente: trucos malabares, disfraces, magia, música, acciones sorpressives, rutinas de humor y juegos participativos.Desvelarán su identidad desde el inicio o en un momento determinado.'
+      }
+    ],
 
     items: [
       {
@@ -192,8 +220,20 @@ export default {
   },
 
   filipersones: {
-    abstract:
-      'La Compañía Filigranes la fundamos en 2004. Somos un grupo vinculado con las artes escénicas, principalmente con el mundo del circo y con el apasionante mundo de los payasos y payasas. Nuestra tarea principal es la creación y producción de espectáculos. La Cia.Filigranes la integramos Jordi Torrens (Trinxeta) y Albert Pérez (Makutu) como actores clown. Desde 1996 que actuamos juntos en diferentes iniciativas relacionadas con el mundo del circo y los payasos. Actualmente nos acompañan Gerard Mora (técnico de sonido e iluminación) y Carles Grau (director). También hemos trabajado con Mago Manu (director artístico), Walter Velázquez (director/dramaturgo). Hemos actuado en fiestas mayores de ciudades, pueblos y barrios, teatros y festivales, hemos participado y co-creado diversas galas de circo y acumulamos un bagaje bien extenso como formadores en talleres y actividades lúdicas y didácticas.',
+    abstract: [
+      {
+        paragraph:
+          'La Compañía Filigranes la fundamos en 2004. Somos un grupo vinculado con las artes escénicas, principalmente con el mundo del circo y con el apasionante mundo de los payasos y payasas. Nuestra tarea principal es la creación y producción de espectáculos.'
+      },
+      {
+        paragraph:
+          'La Cia.Filigranes la integramos Jordi Torrens (Trinxeta) y Albert Pérez (Makutu) como actores clown. Desde 1996 que actuamos juntos en diferentes iniciativas relacionadas con el mundo del circo y los payasos.'
+      },
+      {
+        paragraph:
+          'Actualmente nos acompañan Gerard Mora (técnico de sonido e iluminación) y Carles Grau (director). También hemos trabajado con Mago Manu (director artístico), Walter Velázquez (director/dramaturgo). Hemos actuado en fiestas mayores de ciudades, pueblos y barrios, teatros y festivales, hemos participado y co-creado diversas galas de circo y acumulamos un bagaje bien extenso como formadores en talleres y actividades lúdicas y didácticas.'
+      }
+    ],
 
     items: [
       {
@@ -215,8 +255,12 @@ export default {
   },
 
   makutu: {
-    abstract:
-      'Más adelante combina su formación con la participación en varias compañías. Realiza numerosos cursos de clown: en la escuela de interpretación «El Timbal» (con Merche Ochoa), a «la Escuela de Circo Rogelio Rivel» (con Joan Armengol); y otros con Manu Aizpuru, Wálter Velázquez y Moshe Cohen. También se ha formado en Buenos Aires, donde ha pasado dos temporadas de seis meses: ha asistido a la escuela de «Circo Criollo", realizando un curso de mimo con Alberto Ivern, y al «Teatro del Absurdo Palermo. 2015 realiza el curso de didáctica y pedagogía del circo de Patrick Pinchon.',
+    abstract: [
+      {
+        paragraph:
+          'Más adelante combina su formación con la participación en varias compañías. Realiza numerosos cursos de clown: en la escuela de interpretación «El Timbal» (con Merche Ochoa), a «la Escuela de Circo Rogelio Rivel» (con Joan Armengol); y otros con Manu Aizpuru, Wálter Velázquez y Moshe Cohen. También se ha formado en Buenos Aires, donde ha pasado dos temporadas de seis meses: ha asistido a la escuela de «Circo Criollo", realizando un curso de mimo con Alberto Ivern, y al «Teatro del Absurdo Palermo. 2015 realiza el curso de didáctica y pedagogía del circo de Patrick Pinchon.'
+      }
+    ],
 
     items: [
       {
@@ -231,13 +275,21 @@ export default {
   },
 
   trinxeta: {
-    abstract:
-      'Jordi siempre ha dado mucha importancia a su formación y es por este motivo que se ha puesto bajo la dirección de reconocidos maestros clown tanto a nivel nacional como internacional, como son Manu Aizpuru, Moshe Cohen, Walter Velázquez, Patrick Pinchon (curso didáctica y pedagogía del circo), o Loco Brusca ( "El cuerpo creativo"). Muy pronto crea dos personajes: «Trinxat Tiembla», un payaso abufonado con el que actúa en pequeños escenarios, convenciones de circo y cabarets para adultos; y «Trinxoff», puntiagudo y carablanca. Es durante estos años que también colabora como freelance con otras compañías, entre ellas Comediants (2008). En 2010 participa con Payasos Sin Fronteras en una expedición al Líbano.',
+    abstract: [
+      {
+        paragraph:
+          'Jordi siempre ha dado mucha importancia a su formación y es por este motivo que se ha puesto bajo la dirección de reconocidos maestros clown tanto a nivel nacional como internacional, como son Manu Aizpuru, Moshe Cohen, Walter Velázquez, Patrick Pinchon (curso didáctica y pedagogía del circo), o Loco Brusca ( "El cuerpo creativo"). Muy pronto crea dos personajes: «Trinxat Tiembla», un payaso abufonado con el que actúa en pequeños escenarios, convenciones de circo y cabarets para adultos; y «Trinxoff», puntiagudo y carablanca. Es durante estos años que también colabora como freelance con otras compañías, entre ellas Comediants (2008). En 2010 participa con Payasos Sin Fronteras en una expedición al Líbano.'
+      }
+    ],
 
     items: [
       {
         description:
-          "Actualmente Jordi forma parte de la Cía.Filigranes y de la Asociación de Circo Tub d'Assaig 7'70. También dedica parte de su tiempo a la realización de talleres específicos ejerciendo de docente, siendo su especialidad el clown, la manipulación de objetos, el monociclo y los malabares de fuego."
+          "Actualmente Jordi forma parte de la Cía.Filigranes y de la Asociación de Circo Tub d'Assaig 7'70."
+      },
+      {
+        description:
+          'También dedica parte de su tiempo a la realización de talleres específicos ejerciendo de docente, siendo su especialidad el clown, la manipulación de objetos, el monociclo y los malabares de fuego.'
       }
     ]
   }
