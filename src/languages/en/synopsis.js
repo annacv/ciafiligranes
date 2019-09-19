@@ -37,5 +37,38 @@ export default {
       src: '/images/img_sinopsi_performances.jpg',
       srcset: '/images/img_sinopsi_performances.png'
     }
+  },
+
+  filipersones: {
+    makutu: {
+      title: 'Makutu',
+      paragraphs: [
+        {
+          paragraph:
+            'ALBERT, diplomat in Social Education (1998) and clown by vocation and profession, was born in Terrassa in 1977. He began to be interested in the Circus world at the age of 16, although he was already involved in musical performances and theatre. He attends the Music Conservatory of Terrassa until he was 14 years old, where he learned solfeo and attended guitar lessons.'
+        }
+      ],
+
+      image: {
+        alt: 'Albert when he was a child',
+        src: '/images/img_src_sinopsi_makutu.jpg',
+        srcset: '/images/img_sinopsi_makutu.png'
+      }
+    },
+    trinxeta: {
+      title: 'Trinxeta',
+      paragraphs: [
+        {
+          paragraph:
+            "JORDI, born in Terrassa (Barcelona) in 1975, since he was a child he has been very connected to the popular culture of his city. Until the age of 15 he was part of the Esbart Dansaire, the Devils of Terrassa, and also entered in the human castle's group Minyons de Terrassa. In 1991 he began to join street theater groups, clowns and circus."
+        }
+      ],
+
+      image: {
+        alt: 'Jordi when he was a child',
+        src: '/images/img_src_sinopsi_trinxeta.jpg',
+        srcset: '/images/img_sinopsi_trinxeta.png'
+      }
+    }
   }
 }
