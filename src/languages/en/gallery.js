@@ -206,5 +206,44 @@ export default {
         alt: 'Image of the lion tamer'
       }
     }
+  },
+
+  filipersones: {
+    makutu: {
+      images: {
+        image1: {
+          src: '/images/img_gallery_makutu--1.jpg',
+          alt: 'Makutu in Plis Plas show'
+        },
+
+        image2: {
+          src: '/images/img_gallery_makutu--2.jpg',
+          alt: 'Makutu in Desencaixats show'
+        },
+
+        image3: {
+          src: '/images/img_gallery_makutu--3.jpg',
+          alt: 'Makutu as the Circ Filirates director'
+        }
+      }
+    },
+    trinxeta: {
+      images: {
+        image1: {
+          src: '/images/img_gallery_trinxeta--1.jpg',
+          alt: 'Trinxeta in Circ Filixic show'
+        },
+
+        image2: {
+          src: '/images/img_gallery_trinxeta--2.jpg',
+          alt: 'Image of the character Trinxat approached by a monocicle'
+        },
+
+        image3: {
+          src: '/images/img_gallery_trinxeta--3.jpg',
+          alt: 'Trinxeta in Desencaixats show'
+        }
+      }
+    }
   }
 }

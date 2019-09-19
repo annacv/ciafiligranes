@@ -206,5 +206,44 @@ export default {
         alt: 'Imagen del domador de leones'
       }
     }
+  },
+
+  filipersones: {
+    makutu: {
+      images: {
+        image1: {
+          src: '/images/img_gallery_makutu--1.jpg',
+          alt: 'Makutu en el espectáculo Plis Plas'
+        },
+
+        image2: {
+          src: '/images/img_gallery_makutu--2.jpg',
+          alt: 'Makutu en el espectáculo Desencaixats'
+        },
+
+        image3: {
+          src: '/images/img_gallery_makutu--3.jpg',
+          alt: 'Makutu como director del Circo Filiratas'
+        }
+      }
+    },
+    trinxeta: {
+      images: {
+        image1: {
+          src: '/images/img_gallery_trinxeta--1.jpg',
+          alt: 'Trinxeta en el espectáculo el Circo Filixic'
+        },
+
+        image2: {
+          src: '/images/img_gallery_trinxeta--2.jpg',
+          alt: 'Imagen del personage Trinxat a bordo de un monociclo'
+        },
+
+        image3: {
+          src: '/images/img_gallery_trinxeta--3.jpg',
+          alt: 'Trinxeta en el espectáculo Desencaixats'
+        }
+      }
+    }
   }
 }
