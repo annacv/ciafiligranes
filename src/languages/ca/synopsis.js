@@ -77,5 +77,24 @@ export default {
         srcset: '/images/img_sinopsi_trinxeta.png'
       }
     }
+  },
+
+  contact: {
+    paragraphs: [
+      {
+        paragraph:
+          'Xafardeja sobre actualitat, agenda i imatges dels nostres espectacles:'
+      },
+      {
+        paragraph:
+          'Filigranes TV, espectacles i grans moments en viu a la nostra Filitele'
+      }
+    ],
+
+    image: {
+      alt: "En Trinxeta a l'aparell!",
+      src: '/images/img_src_contact-rrss.jpg',
+      srcset: '/images/img_contact-rrss.png'
+    }
   }
 }

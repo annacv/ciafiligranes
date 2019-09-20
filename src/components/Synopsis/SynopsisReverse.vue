@@ -11,6 +11,7 @@
       <b-row no-gutters>
         <div class="col-12 col-lg-8">
           <h3
+            v-if="title"
             class="synopsis__title"
             v-text="title"
           />
