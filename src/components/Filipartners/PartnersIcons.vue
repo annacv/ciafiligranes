@@ -1,6 +1,7 @@
 <style
   lang="scss"
   src="./filipartners.scss"
+  scoped
   >
 </style>
 
