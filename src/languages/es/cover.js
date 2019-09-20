@@ -74,6 +74,11 @@ export default {
     title: 'Makutu y Trinxeta'
   },
 
+  contacte: {
+    claim: 'Si quieres vernos de cerca o resolver alguna duda ...',
+    title: 'Contáctanos'
+  },
+
   legalDisclaimer: {
     title: 'Aviso legal'
   },

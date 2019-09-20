@@ -77,5 +77,23 @@ export default {
         srcset: '/images/img_sinopsi_trinxeta.png'
       }
     }
+  },
+  contact: {
+    paragraphs: [
+      {
+        paragraph:
+          'Cotillea sobre actualidad, agenda e imágenes de nuestros espectáculos:'
+      },
+      {
+        paragraph:
+          'Filigranes TV, espectáculos y grandes momentos en vivo en nuestra Filitele'
+      }
+    ],
+
+    image: {
+      alt: 'Trinxeta al habla!',
+      src: '/images/img_src_contact-rrss.jpg',
+      srcset: '/images/img_contact-rrss.png'
+    }
   }
 }

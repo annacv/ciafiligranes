@@ -113,7 +113,8 @@
 
   &__home,
   &__performances,
-  &__filipersones {
+  &__filipersones,
+  &__contact {
     .synopsis {
       &__title {
         margin-bottom: 0;
@@ -233,6 +234,15 @@
     .synopsis {
       &__content {
         background-color: #20c0c6;
+      }
+    }
+  }
+
+  &__contact {
+    .synopsis {
+      &__content {
+        color: #000;
+        background-color: #fbdd0b;
       }
     }
   }

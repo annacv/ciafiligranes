@@ -77,5 +77,21 @@ export default {
         srcset: '/images/img_sinopsi_trinxeta.png'
       }
     }
+  },
+  contact: {
+    paragraphs: [
+      {
+        paragraph: 'Gossip about news, agenda and images of our shows:'
+      },
+      {
+        paragraph: 'Filigranes TV, shows and great live moments in our Filitele'
+      }
+    ],
+
+    image: {
+      alt: 'Trinxeta on the phone',
+      src: '/images/img_src_contact-rrss.jpg',
+      srcset: '/images/img_contact-rrss.png'
+    }
   }
 }

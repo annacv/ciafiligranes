@@ -1,6 +1,7 @@
 import contract from './contract'
 import cookies from './cookies'
 import cover from './cover'
+import brandedList from './brandedList'
 import dataSheet from './dataSheet'
 import dottedList from './dottedList'
 import filipartners from './filipartners'
@@ -19,6 +20,7 @@ export default {
   contract,
   cookies,
   cover,
+  brandedList,
   dataSheet,
   dottedList,
   filipartners,

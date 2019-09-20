@@ -27,6 +27,11 @@ export default {
     filipersones: {
       text: 'Filipeople',
       aria: "Links to the clowns' Makutu and Trinxeta page"
+    },
+
+    contacte: {
+      text: 'Contact',
+      aria: "Links to the Cia.Filigranes' contact page"
     }
   }
 }

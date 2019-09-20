@@ -8,7 +8,7 @@
 <template>
   <b-container fluid class="cover">
     <b-row class="cover__content">
-      <div class="col-12 col-lg-7 col-xl-6 col-xxl-4 offset-xl-1 offset-xxl-2">
+      <div class="col-12 col-xl-10 col-xxl-8 offset-xl-1 offset-xxl-2">
         <p
           v-if="content.claim"
           class="cover__claim"
