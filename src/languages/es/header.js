@@ -29,7 +29,7 @@ export default {
       aria: 'Enlaza con la página de los payasoso Makutu y Trinxeta'
     },
 
-    contact: {
+    contacte: {
       text: 'Contacto',
       aria: 'Enlaza con la página de contacto de la Cía.Filigranes'
     }
