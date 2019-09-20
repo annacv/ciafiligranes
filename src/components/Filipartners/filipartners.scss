@@ -37,16 +37,15 @@
     }
   }
 
-  &__link {
-    &:hover {
-      opacity: .6;
-    }
-  }
 }
 
 .filipartners-icons {
   &__image {
     width: auto;
     height: 6rem;
+
+    &:hover {
+      opacity: .6;
+    }
   }
 }
