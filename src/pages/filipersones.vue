@@ -11,7 +11,7 @@
         class="summary__filipersones"
       />
     </section>
-    <article>
+    <section>
       <article>
         <Synopsis
           :title="$t('synopsis.filipersones.makutu.title')"
@@ -46,7 +46,7 @@
           class='gallery__filipersones'
         />
       </article>
-    </article>
+    </section>
     <section>
       <Filipartners
         :heading="$t('filipartners.heading')"
