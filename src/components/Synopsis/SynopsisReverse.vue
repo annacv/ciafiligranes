@@ -42,12 +42,30 @@
           </b-row>
         </div>
         <div class="col-12 col-lg-5 col-xl-4 col-xxl-3 offset-xl-1 offset-xxl-2">
-          <p
+          <div
             v-for="item in paragraphs"
             :key="item.paragraph"
-            class="synopsis__paragraph"
-            v-text="item.paragraph"
-          />
+          >
+            <p
+              class="synopsis__paragraph"
+              v-text="item.paragraph"
+            />
+            <ul
+              class="social-icons__list">
+              <li
+                v-for="item in socialicons"
+                :key="item.alt"
+                class="social-icons__list-item"
+              >
+                <SocialIcons
+                  v-if="item.alt"
+                  :alt="item.alt"
+                  :image="item.image"
+                  :link="item.link"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </b-row>
     </b-container>
@@ -55,8 +73,14 @@
 </template>
 
 <script>
+import SocialIcons from '../SocialIcons/SocialIcons'
+
 export default {
   name: 'SynopsisReverse',
+
+  components: {
+    SocialIcons
+  },
 
   props: {
     title: {
@@ -73,6 +97,11 @@ export default {
     image: {
       type: Object,
       default: () => {}
+    },
+
+    socialicons: {
+      type: Array,
+      default: () => []
     }
   }
 }

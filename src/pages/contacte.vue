@@ -10,6 +10,7 @@
     <SynopsisReverse
       :image="$t('synopsis.contact.image')"
       :paragraphs="$t('synopsis.contact.paragraphs')"
+      :socialicons="$t('footer.socialicons')"
       class="synopsis__contact"
     />
   </div>

@@ -113,6 +113,16 @@
 
   &__home,
   &__performances,
+  &__filipersones {
+    .synopsis {
+      &__paragraph {
+        color: #fff;
+      }
+    }
+  }
+
+  &__home,
+  &__performances,
   &__filipersones,
   &__contact {
     .synopsis {
@@ -122,7 +132,6 @@
       }
 
       &__paragraph {
-        color: #fff;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
 
@@ -241,8 +250,13 @@
   &__contact {
     .synopsis {
       &__content {
-        color: #000;
         background-color: #fbdd0b;
+        color: #000;
+      }
+
+      &__image {
+        width: 100%;
+        height: auto;
       }
     }
   }
