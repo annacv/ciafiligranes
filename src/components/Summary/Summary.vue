@@ -12,17 +12,21 @@
         <b-row no-gutters>
           <div class="col-12 col-md-7">
             <p
+              v-for="item in abstract"
+              :key="item.paragraph"
               class="summary__abstract"
-              v-text="abstract"
+              v-text="item.paragraph"
             />
           </div>
           <div class="col-12 col-md-5 col-xl-4 offset-xl-1">
             <ul
-              v-for="item in items"
-              :key="item.title"
               class="summary__list"
             >
-              <li class="summary__list-item">
+              <li 
+                v-for="item in items"
+                :key="item.title"
+                class="summary__list-item"
+              >
                 <p
                   class="summary__item--bold"
                   v-text="item.title"
@@ -33,7 +37,10 @@
                 />
               </li>
             </ul>
-            <div class="summary__btn">
+            <div
+              v-if="button" 
+              class="summary__btn"
+            >
               <FiliButton
                 :button="button"
               />
@@ -57,13 +64,15 @@ export default {
 
   props: {
     abstract: {
-      type: String,
-      default: ''
+      type: Array,
+      required: true,
+      default: () => []
     },
 
     items: {
       type: Array,
-      required: true
+      required: true,
+      default: () => []
     },
 
     button: {

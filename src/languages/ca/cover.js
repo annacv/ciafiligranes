@@ -69,6 +69,16 @@ export default {
     title: 'Animacions a la carta'
   },
 
+  filipersones: {
+    claim: 'Filipersones',
+    title: 'Makutu i Trinxeta'
+  },
+
+  contacte: {
+    claim: "Si vols veure'ns d'aprop o resoldre algun dubte...",
+    title: "Contacta'ns"
+  },
+
   legalDisclaimer: {
     title: 'Avís legal'
   },

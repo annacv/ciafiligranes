@@ -22,6 +22,16 @@ export default {
     performances: {
       text: 'Performances',
       aria: 'Links to Performances page'
+    },
+
+    filipersones: {
+      text: 'Filipeople',
+      aria: "Links to the clowns' Makutu and Trinxeta page"
+    },
+
+    contacte: {
+      text: 'Contact',
+      aria: "Links to the Cia.Filigranes' contact page"
     }
   }
 }

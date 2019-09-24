@@ -259,7 +259,9 @@
 
   // PRODUCTS DETAIL, CONTACT, FILIPERSONES CUSTOM STYLES
   &__shows-detail,
-  &__workshops-detail {
+  &__workshops-detail,
+  &__filipersones,
+  &__contact {
     &.cover {
       .cover {
         &__content {
@@ -442,6 +444,40 @@
       .row {
         &__title {
           background-color: #5c2978;
+        }
+      }
+    }
+  }
+
+  &__filipersones {
+    background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+
+    &.cover {
+      .row {
+        &__title {
+          background-color: #20c0c6;
+        }
+      }
+    }
+  }
+
+  &__contact {
+    background-image: url("~@/assets/images/img_cover_small_contact.jpg");
+    @media only screen and (min-width: 768px) {
+      background-image:
+      url("~@/assets/images/img_cover_medium_contact.jpg");
+    }
+
+    @media only screen and (min-width: 1024px) {
+      background-image:
+      url("~@/assets/images/img_cover_contact.jpg");
+    }
+
+    &.cover {
+      .row {
+        &__title {
+          color: #000;
+          background-color: #fbdd0b;
         }
       }
     }

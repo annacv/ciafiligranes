@@ -8,7 +8,6 @@
       <Summary
         :abstract="$t('summary.freakfrac.abstract')"
         :items="$t('summary.freakfrac.items')"
-        :button="$t('summary.freakfrac.button')"
       />
       <DataSheet
         :titles="$t('dataSheet.titles')"
