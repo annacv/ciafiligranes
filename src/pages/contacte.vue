@@ -7,11 +7,12 @@
     <BrandedList
       :brandedicons="$t('brandedList.brandedicons')"
     />
-    <SynopsisReverse
+    <Synopsis
       :image="$t('synopsis.contact.image')"
+      :title="$t('synopsis.contact.title')"
       :paragraphs="$t('synopsis.contact.paragraphs')"
-      :socialicons="$t('footer.socialicons')"
-      class="synopsis__contact"
+      :socialicons="$t('synopsis.contact.socialicons')"
+      class="synopsis__contact synopsis__reverse"
     />
   </div>
 </template>
@@ -19,7 +20,7 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import BrandedList from '@/components/BrandedList/BrandedList'
-import SynopsisReverse from '@/components/Synopsis/SynopsisReverse'
+import Synopsis from '@/components/Synopsis/Synopsis'
 
 export default {
   name: 'Contacte',
@@ -27,7 +28,7 @@ export default {
   components: {
     Cover,
     BrandedList,
-    SynopsisReverse
+    Synopsis
   },
 
   nuxtI18n: {
