@@ -80,14 +80,37 @@ export default {
   },
 
   contact: {
+    title:
+      'I si vols fer una mica el xafarder, o veure on actuem properament...',
+
     paragraphs: [
       {
         paragraph:
-          'Xafardeja sobre actualitat, agenda i imatges dels nostres espectacles:'
+          "Informa't sobre actualitat, agenda i troba més imatges de la Companyia Filigranes, o entra a la Filitele per veure grans moments dels nostres espectacles."
+      }
+    ],
+
+    socialicons: [
+      {
+        alt: 'Facebook de la Companyia Filigranes. Obre en una nova pestanya',
+        image: '/icons/facebook--black.svg',
+        link: 'https://www.facebook.com/Cia-Filigranes-204888372926384/'
       },
       {
-        paragraph:
-          'Filigranes TV, espectacles i grans moments en viu a la nostra Filitele'
+        alt: 'Twitter de la Companyia Filigranes. Obre en una nova pestanya',
+        image: '/icons/twitter--black.svg',
+        link: 'https://twitter.com/ciafiligranes?lang=ca'
+      },
+      {
+        alt: 'Instagram de la Companyia Filigranes. Obre en una nova pestanya',
+        image: '/icons/instagram--black.svg',
+        link: 'https://www.instagram.com/cia.filigranes/'
+      },
+      {
+        alt:
+          'Canal Youtube de la Companyia Filigranes. Obre en una nova pestanya',
+        image: '/icons/youtube--black.svg',
+        link: 'https://www.youtube.com/channel/UCaH3Bb7VIiuzwy51TyyKzpg'
       }
     ],
 

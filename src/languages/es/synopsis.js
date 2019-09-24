@@ -79,14 +79,37 @@ export default {
     }
   },
   contact: {
+    title:
+      'Y si quieres chafardear un poco o ver dónde actuamos próximamente...',
+
     paragraphs: [
       {
         paragraph:
-          'Cotillea sobre actualidad, agenda e imágenes de nuestros espectáculos:'
+          'Infórmate sobre actualidad, agenda y encuentra más imágenes de la Compañía Filigranes, o entra en la Filitele para ver grandes momentos de nuestros espectáculos:'
+      }
+    ],
+
+    socialicons: [
+      {
+        alt: 'Facebook de la Compañía Filigranes. Abre en una nueva pestaña',
+        image: '/icons/facebook--black.svg',
+        link: 'https://www.facebook.com/Cia-Filigranes-204888372926384/'
       },
       {
-        paragraph:
-          'Filigranes TV, espectáculos y grandes momentos en vivo en nuestra Filitele'
+        alt: 'Twitter de la Compañía Filigranes. Abre en una nueva pestaña',
+        image: '/icons/twitter--black.svg',
+        link: 'https://twitter.com/ciafiligranes?lang=es'
+      },
+      {
+        alt: 'Instagram de la Compañía Filigranes. Abre en una nueva pestaña',
+        image: '/icons/instagram--black.svg',
+        link: 'https://www.instagram.com/cia.filigranes/'
+      },
+      {
+        alt:
+          'Canal Youtube de la Compañía Filigranes. Abre en una nueva pestaña',
+        image: '/icons/youtube--black.svg',
+        link: 'https://www.youtube.com/channel/UCaH3Bb7VIiuzwy51TyyKzpg'
       }
     ],
 

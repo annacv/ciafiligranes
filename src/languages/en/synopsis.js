@@ -79,12 +79,35 @@ export default {
     }
   },
   contact: {
+    title: 'And if you want to gossip a little bit or see where we act soon...',
+
     paragraphs: [
       {
-        paragraph: 'Gossip about news, agenda and images of our shows:'
+        paragraph:
+          'Get informed about news, agenda and find more images of Filigranes Company, or enter in FiligranesTV and watch great live moments of our shows.'
+      }
+    ],
+
+    socialicons: [
+      {
+        alt: "Companyia Filigranes's Facebook profile. Opens in a new window.",
+        image: '/icons/facebook--black.svg',
+        link: 'https://www.facebook.com/Cia-Filigranes-204888372926384/'
       },
       {
-        paragraph: 'Filigranes TV, shows and great live moments in our Filitele'
+        alt: "Companyia Filigranes's Twitter. Opens in a new window.",
+        image: '/icons/twitter--black.svg',
+        link: 'https://twitter.com/ciafiligranes?lang=en'
+      },
+      {
+        alt: "Companyia Filigranes's Instagram profile. Opens in a new window.",
+        image: '/icons/instagram--black.svg',
+        link: 'https://www.instagram.com/cia.filigranes/'
+      },
+      {
+        alt: "Companyia Filigranes's Youtube channel. Opens in a new window.",
+        image: '/icons/youtube--black.svg',
+        link: 'https://www.youtube.com/channel/UCaH3Bb7VIiuzwy51TyyKzpg'
       }
     ],
 
