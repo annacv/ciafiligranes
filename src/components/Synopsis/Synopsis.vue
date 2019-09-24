@@ -7,37 +7,49 @@
 
 <template>
   <div class="synopsis">
-    <b-container fluid class="synopsis__heading">
-      <b-row no-gutters>
-        <div class="col-12 col-lg-9 col-xl-10 offset-xl-1 offset-xxl-2">
-          <h3
-            class="synopsis__title"
-            v-text="title"
-          />
-        </div>
-      </b-row>
-    </b-container>
     <b-container fluid class="synopsis__content">
       <b-row no-gutters align-v="center">
-        <div class="col-12 col-lg-5 col-xl-4 col-xxl-3 offset-xl-1 offset-xxl-2">
-          <p
-            v-for="item in paragraphs"
-            :key="item.paragraph"
-            class="synopsis__paragraph"
-            v-text="item.paragraph"
-          />
-          <div
-            v-for="button in buttons"
-            :key="button.class"
-            class="synopsis__btn"
-          >
-            <FiliButton
-              v-if="button"
-              :button="button"
+        <div class="col-12 col-lg-5 col-xl-3 col-xxl-3 offset-xl-1 offset-xxl-2 ">
+          <div class="synopsis__info-container">
+            <h3
+              v-if="title"
+              class="synopsis__title"
+              v-text="title"
             />
+            <p
+              v-for="item in paragraphs"
+              :key="item.paragraph"
+              class="synopsis__paragraph"
+              v-text="item.paragraph"
+            />
+            <ul
+              class="social-icons__list">
+              <li
+                v-for="item in socialicons"
+                :key="item.alt"
+                class="social-icons__list-item"
+              >
+                <SocialIcons
+                  v-if="item.alt"
+                  :alt="item.alt"
+                  :image="item.image"
+                  :link="item.link"
+                />
+              </li>
+            </ul>
+            <div
+              v-for="button in buttons"
+              :key="button.class"
+              class="synopsis__btn"
+            >
+              <FiliButton
+                v-if="button"
+                :button="button"
+              />
+            </div>
           </div>
         </div>
-        <div class="col-12 col-lg-7 col-xl-6 offset-xl-1 offset-xxl-1">
+        <div class="col-12 col-lg-7 col-xxl-6 offset-xl-1 offset-xxl-1">
           <b-row>
             <div class="synopsis__image-container">
               <picture>
@@ -65,12 +77,14 @@
 
 <script>
 import FiliButton from '~/components/FiliButton/FiliButton'
+import SocialIcons from '../SocialIcons/SocialIcons'
 
 export default {
   name: 'Synopsis',
 
   components: {
-    FiliButton
+    FiliButton,
+    SocialIcons
   },
 
   props: {
@@ -91,6 +105,11 @@ export default {
     },
 
     buttons: {
+      type: Array,
+      default: () => []
+    },
+
+    socialicons: {
       type: Array,
       default: () => []
     }
