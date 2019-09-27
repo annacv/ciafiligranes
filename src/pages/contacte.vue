@@ -18,16 +18,16 @@
 </template>
 
 <script>
-import Cover from '@/components/Cover/Cover'
 import BrandedList from '@/components/BrandedList/BrandedList'
+import Cover from '@/components/Cover/Cover'
 import Synopsis from '@/components/Synopsis/Synopsis'
 
 export default {
   name: 'Contacte',
 
   components: {
-    Cover,
     BrandedList,
+    Cover,
     Synopsis
   },
 
