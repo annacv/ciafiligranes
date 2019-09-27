@@ -1,4 +1,52 @@
 export default {
+  brandedCorp: [
+    {
+      image: {
+        image: '/icons/shows.svg',
+        alt: 'Barret de copa. Icona per a espectacles',
+        aria: "Fent clic navegaràs a la pàgina index d'espectacles",
+        link: '/espectacles'
+      },
+      links: [
+        {
+          link: '/espectacles',
+          aria: "Fent clic navegaràs a la pàgina index d'espectacles",
+          text: 'Espectacles'
+        }
+      ]
+    },
+    {
+      image: {
+        image: '/icons/workshops.svg',
+        alt: 'Mà. Icona per a tallers.',
+        aria: 'Fent clic navegaràs a la pàgina index de tallers',
+        link: '/tallers'
+      },
+      links: [
+        {
+          link: '/tallers',
+          aria: 'Fent clic navegaràs a la pàgina index de tallers',
+          text: 'Tallers'
+        }
+      ]
+    },
+    {
+      image: {
+        image: '/icons/performances.svg',
+        alt: 'Monocicle. Icona per a les animacions.',
+        aria: "Fent clic navegaràs a la pàgina d'animacions",
+        link: '/animacions'
+      },
+      links: [
+        {
+          link: '/animacions',
+          aria: "Fent clic navegaràs a la pàgina d'animacions",
+          text: 'Animacions'
+        }
+      ]
+    }
+  ],
+
   brandedicons: [
     {
       image: {

@@ -1,4 +1,52 @@
 export default {
+  brandedCorp: [
+    {
+      image: {
+        image: '/icons/shows.svg',
+        alt: "Top hat. Shows' icon.",
+        aria: "By clicking you will browse to shows' page",
+        link: '/en/shows'
+      },
+      links: [
+        {
+          link: '/en/shows',
+          aria: "By clicking you will browse to shows' page",
+          text: 'Shows'
+        }
+      ]
+    },
+    {
+      image: {
+        image: '/icons/workshops.svg',
+        alt: "Hand. Workshops' icon.",
+        aria: "By clicking you will browse to workshops' page",
+        link: '/en/workshops'
+      },
+      links: [
+        {
+          link: '/en/workshops',
+          aria: "By clicking you will browse to workshops' page",
+          text: 'Workshops'
+        }
+      ]
+    },
+    {
+      image: {
+        image: '/icons/performances.svg',
+        alt: "Unicycle. Performances' icon.",
+        aria: "By clicking you will browse to performances' page",
+        link: '/en/performances'
+      },
+      links: [
+        {
+          link: '/en/performances',
+          aria: "By clicking you will browse to performances' page",
+          text: 'Performances'
+        }
+      ]
+    }
+  ],
+
   brandedicons: [
     {
       image: {

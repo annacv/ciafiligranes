@@ -27,10 +27,15 @@
       :highlighted="$t('highlights.home.highlighted')"
       class="highlights__mixed"
     />
+    <BrandedList
+      :brandedicons="$t('brandedList.brandedCorp')"
+      class="branded-list-corp"
+    />
   </div>
 </template>
 
 <script>
+import BrandedList from '@/components/BrandedList/BrandedList'
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
 import Highlights from '@/components/Highlights/Highlights'
@@ -45,6 +50,7 @@ export default {
   },
 
   components: {
+    BrandedList,
     Contract,
     Cover,
     Highlights,
