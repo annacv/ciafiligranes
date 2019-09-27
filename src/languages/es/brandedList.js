@@ -1,8 +1,13 @@
 export default {
   brandedicons: [
     {
-      alt: 'Icono de un sobre.',
-      image: '/icons/contact--email.svg',
+      image: {
+        image: '/icons/contact--email.svg',
+        alt: 'Icono de un sobre.',
+        aria:
+          'Haciendo clic se abre una ventana nueva para escribir un correo electrónico',
+        link: 'mailto:ciafiligranes@gmail.com'
+      },
       links: [
         {
           link: 'mailto:ciafiligranes@gmail.com',
@@ -13,8 +18,12 @@ export default {
       ]
     },
     {
-      alt: 'Icono de un teléfono.',
-      image: '/icons/contact--phone.svg',
+      image: {
+        image: '/icons/contact--phone.svg',
+        alt: 'Icono de un teléfono.',
+        aria: '615. 41. 16. 52.',
+        link: 'tel:615411652'
+      },
       links: [
         {
           link: 'tel:615411652',
@@ -29,8 +38,14 @@ export default {
       ]
     },
     {
-      alt: 'Icono de una carpa de circo.',
-      image: '/icons/contact--headquarters.svg',
+      image: {
+        image: '/icons/contact--headquarters.svg',
+        alt: 'Icono de localización',
+        aria:
+          'Haciendo clic se abre google maps con la localización de la sede.',
+        link:
+          'https://www.google.com/maps/place/Cia+Filigranes/@41.5678,2.0105131,17z/data=!3m1!4b1!4m5!3m4!1s0x12a492c3e2155299:0x4d072d8f6b4f6768!8m2!3d41.567796!4d2.0127018'
+      },
       links: [
         {
           link:

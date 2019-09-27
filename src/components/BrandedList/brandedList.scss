@@ -45,8 +45,8 @@
   }
 }
 
-.branded-list-icons {
-  display: inline-flex;
+.branded-list-icon {
+  display: flex;
   flex-flow: column wrap;
   align-items: center;
   text-align: center;
@@ -62,7 +62,6 @@
       height: 4rem;
     }
   }
-
 
   &__link {
     line-height: 1.4;
