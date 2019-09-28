@@ -52,11 +52,16 @@
         :heading="$t('filipartners.heading')"
         :partnersicons="$t('filipartners.partnersicons')"
       />
+      <BrandedList
+        :brandedicons="$t('brandedList.brandedCorp')"
+        class="branded-list-corp"
+      />
     </section>
   </div>
 </template>
 
 <script>
+import BrandedList from '@/components/BrandedList/BrandedList'
 import Cover from '@/components/Cover/Cover'
 import Filipartners from '@/components/Filipartners/Filipartners'
 import Gallery from '@/components/Gallery/Gallery'
@@ -68,6 +73,7 @@ export default {
   name: 'Filipersones',
 
   components: {
+    BrandedList,
     Cover,
     Filipartners,
     Gallery,
