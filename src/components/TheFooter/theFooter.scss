@@ -6,12 +6,16 @@
     padding: 2rem .9375rem;
     color: #fff;
 
+    @media only screen and (min-width: 768px) {
+      padding: 2rem;
+    }
+
     @media only screen and (min-width: 1024px) {
-      padding: 3.5rem .9375rem;
+      padding: 3.5rem 3rem;
     }
 
     @media only screen and (min-width: 1200px) {
-      padding: 4.5rem .9375rem;
+      padding: 4.5rem 0;
     }
   }
 
@@ -26,15 +30,12 @@
     -moz-osx-font-smoothing: grayscale;
 
     @media only screen and (min-width: 768px) {
+      justify-content: flex-start;
       padding: 3rem 0;
     }
 
-    @media only screen and (min-width: 1024px) {
-      justify-content: flex-start;
-      padding: 4rem 0 0;
-    }
-
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 992px) {
+      justify-content: center;
       padding: 0;
     }
 
@@ -55,14 +56,14 @@
         }
 
         @media only screen and (min-width: 768px) {
-          margin-right: .75rem;
+          margin-right: .65rem;
         }
       }
 
       @media only screen and (min-width: 768px) {
         &__adress {
           &::before {
-            margin-right: .75rem;
+            margin-right: .65rem;
             content: "·";
           }
         }
@@ -73,8 +74,22 @@
   &__rrss {
     order: 3;
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 992px) {
       order: 1;
+    }
+
+    .social-icons {
+      &__list {
+        justify-content: center;
+
+        @media only screen and (min-width: 768px) {
+          justify-content: flex-end;
+        }
+
+        @media only screen and (min-width: 992px) {
+          justify-content: flex-start;
+        }
+      }
     }
   }
 
@@ -87,7 +102,9 @@
       align-self: flex-end;
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 992px) {
+      align-self: center;
+      justify-content: flex-end;
       order: 3;
     }
   }
@@ -95,6 +112,15 @@
   &__image {
     width: auto;
     height: 2.75rem;
+
+    @media only screen and (min-width: 992px) {
+      height: 2.125rem;
+    }
+
+    @media only screen and (min-width: 1300px) {
+      height: 2.75rem;
+    }
+
 
     @media only screen and (min-width: 1900px) {
       height: 3rem;

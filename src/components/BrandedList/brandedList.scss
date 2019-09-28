@@ -17,19 +17,27 @@
   }
 
   .row {
-    padding: 0 2rem;
     width: 100%;
   }
 
   &__list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+
+    @media only screen and (min-width: 1900px) {
+      padding: 0 12rem;
+    }
+
+    @media only screen and (min-width: 2500px) {
+      padding: 0 20rem;
+    }
   }
 
   &__list-item {
     margin-bottom: 2rem;
+    padding: 0 2.5rem;
 
     &:last-child {
       margin-bottom: 0;
@@ -41,12 +49,21 @@
 
     @media only screen and (min-width: 1024px) {
       margin-bottom: 0;
+      padding: 0 3rem;
+    }
+
+    @media only screen and (min-width: 1300px) {
+      padding: 0 6rem;
+    }
+
+    @media only screen and (min-width: 1600px) {
+      padding: 0 8rem;
     }
   }
 }
 
-.branded-list-icons {
-  display: inline-flex;
+.branded-list-icon {
+  display: flex;
   flex-flow: column wrap;
   align-items: center;
   text-align: center;
@@ -56,13 +73,17 @@
     width: 3rem;
     height: 3rem;
 
-    @media only screen and (min-width: 768px) {
-      margin-bottom: 2rem;
+    &:hover {
       width: 4rem;
       height: 4rem;
     }
-  }
 
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 2rem;
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
 
   &__link {
     line-height: 1.4;
@@ -71,5 +92,61 @@
     &:hover {
       color: #000;
     }
+  }
+}
+
+.branded-list-corp {
+  padding: 0;
+
+  .branded-list {
+    &__list {
+      @media only screen and (min-width: 1900px) {
+        display: none;
+      }
+    }
+
+    &__list-item {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 0 0 2.5rem;
+      height: 12rem;
+
+      &:nth-child(1) {
+        background-color: #fd2b5e;
+      }
+
+      &:nth-child(2) {
+        background-color: #5c2978;
+      }
+
+      &:nth-child(3) {
+        background-color: #e32906;
+      }
+    }
+  }
+
+  .branded-list-icon {
+    &__link {
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+
+      &:hover {
+        font-family: "AkkuratBold";
+      }
+    }
+
+    &__image {
+      margin-bottom: .5rem;
+      width: 3rem;
+      height: auto;
+
+      &:hover {
+        width: 3.5rem;
+        height: auto;
+      }
+    }
+
   }
 }

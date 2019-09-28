@@ -103,7 +103,7 @@
   &__performances-w {
     display: none;
     margin: 0;
-    border-bottom: .125rem solid #e84e31;
+    border-bottom: .125rem solid #e32906;
 
     @media only screen and (min-width: 768px) {
       display: block;
@@ -112,7 +112,7 @@
     .contract {
       &__title,
       &__link {
-        color: #e84e31;
+        color: #e32906;
       }
     }
   }
@@ -126,11 +126,7 @@
     }
 
     @media only screen and (min-width: 1024px) {
-      margin: 8rem 0;
-    }
-
-    @media only screen and (min-width: 1200px) {
-      margin: 8rem 0;
+      margin: 2rem 0 8rem;
     }
   }
 
@@ -151,6 +147,6 @@
   }
 
   &__performances {
-    background-color: #e84e31;
+    background-color: #e32906;
   }
 }

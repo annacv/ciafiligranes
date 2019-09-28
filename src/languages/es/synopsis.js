@@ -45,11 +45,7 @@ export default {
       paragraphs: [
         {
           paragraph:
-            'ALBERT, diplomado en Educación Social (1998) y payaso de vocación y profesión nace en Terrassa en 1977.'
-        },
-        {
-          paragraph:
-            'Comienza a interesarse por el mundo del Circo a los 16 años, aunque de bien pequeñito ya había pisado algún escenario realizando representaciones musicales y teatrales. Asiste el Conservatorio de Música de Terrassa hasta los 14 años, donde aprende solfeo y asiste a clases de guitarra.'
+            'Diplomado en Educación Social, Albert nace en Terrassa en 1977. Comienza a interesarse por el mundo del Circo a los 16 años, aunque de pequeñito ya había pisado algún escenario realizando representaciones musicales y teatrales. Asiste el Conservatorio de Música de Terrassa hasta los 14, donde aprende solfeo y guitarra.'
         }
       ],
 
@@ -63,11 +59,8 @@ export default {
       title: 'Trinxeta',
       paragraphs: [
         {
-          paragraph: 'JORDI, nacido en Terrassa (Barcelona) en 1975.'
-        },
-        {
           paragraph:
-            'Desde pequeño ha estado muy conectado a la cultura popular de su ciudad. Hasta los 15 años formó parte del Esbart Dansaire, los Diablos de Terrassa, e ingresó también en la colla castellera de los Minyons de Terrassa. En 1991 comienza a vincularse a colectivos de teatro de calle, payasos y circo.'
+            'Jordi nació en Terrassa (Barcelona) en 1975. Desde pequeño ha estado conectado a la cultura popular de su ciudad. Hasta los 15 años formó parte del Esbart Dansaire, los Diablos de Terrassa, e ingresó también en la colla castellera de los Minyons de Terrassa. En 1991 comienza a vincularse a colectivos de teatro de calle, payasos y circo.'
         }
       ],
 

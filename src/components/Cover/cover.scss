@@ -102,7 +102,7 @@
           padding: 15.4rem 0 4rem;
 
           @media only screen and (min-width: 768px) {
-            padding: 18rem 0 15rem;
+            padding: 16rem 0 20rem;
           }
 
           @media only screen and (min-width: 1900px) {
@@ -249,7 +249,7 @@
 
           .row {
             &__title {
-              background-color: #e84e31;
+              background-color: #e32906;
             }
           }
         }
@@ -450,7 +450,17 @@
   }
 
   &__filipersones {
-    background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+    background-image: url("~@/assets/images/img_cover_small_filipersones.jpg");
+
+    @media only screen and (min-width: 768px) {
+      background-image:
+      url("~@/assets/images/img_cover_medium_filipersones.jpg");
+    }
+
+    @media only screen and (min-width: 1024px) {
+      background-image:
+      url("~@/assets/images/img_cover_filipersones.jpg");
+    }
 
     &.cover {
       .row {
@@ -463,6 +473,7 @@
 
   &__contact {
     background-image: url("~@/assets/images/img_cover_small_contact.jpg");
+
     @media only screen and (min-width: 768px) {
       background-image:
       url("~@/assets/images/img_cover_medium_contact.jpg");
@@ -484,7 +495,17 @@
   }
 
   &__legal {
-    background-image: url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+    background-image: url("~@/assets/images/img_cover_small_legal.jpg");
+
+    @media only screen and (min-width: 768px) {
+      background-image:
+      url("~@/assets/images/img_cover_medium_legal.jpg");
+    }
+
+    @media only screen and (min-width: 1024px) {
+      background-image:
+      url("~@/assets/images/img_cover_legal.jpg");
+    }
 
     &.cover {
       .cover {

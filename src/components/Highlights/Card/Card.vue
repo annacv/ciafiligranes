@@ -6,15 +6,16 @@
 
 <template>
   <div class="card">
-    <img
-      :src="require(`~/assets${image}`)"
-      :alt="alt"
-      class="card__image"
-    >
     <a
       :href="link"
       class="card__link"
     >
+      <img
+        :src="require(`~/assets${image}`)"
+        :alt="alt"
+        :aria-label="alt"
+        class="card__image"
+      >
       <div class="card__content">
         <div>
           <h4
