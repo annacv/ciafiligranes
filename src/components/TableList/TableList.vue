@@ -34,7 +34,7 @@
             >
               <td
                 v-for="item in items"
-                :key="item"
+                :key="item.nom"
                 class="table__cell"
                 v-text="item"
               />

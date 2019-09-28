@@ -1,9 +1,14 @@
 export default {
-  text: {
-    barDescription:
-      'Utilizamos cookies para poder comprender cómo utilizas la web, con el fin de mejorar tu experiencia de usuaria. Si sigues navegando, consideramos que aceptas su uso. Para más información puedes consultar nuestra política de cookies.',
-    acceptAll: 'Aceptar',
+  text:
+    'Utilizamos cookies para poder comprender cómo utilizas la web. Si sigues navegando, consideramos que aceptas su uso. Para más información puedes consultar nuestra',
+  link: {
+    text: 'política de cookies.',
+    href: '/es/cookies',
+    ariaLabel: 'Leer más sobre la privacidad de las cookies'
+  },
+  desc: {
+    aria: 'Al hacer clic aceptas las cookies',
     alt: 'Al hacer clic aceptas las cookies',
-    href: '/cookies'
+    acceptAll: 'Aceptar'
   }
 }

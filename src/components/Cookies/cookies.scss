@@ -1,4 +1,4 @@
-.cookie-control {
+.cookies {
   position: relative;
   z-index: 100000;
 
@@ -10,8 +10,7 @@
     left: 0;
     align-items: center;
     justify-content: space-between;
-    border: .0125rem solid #fff;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(41, 41, 41, .9);
     padding: 1.25rem;
     font-family: "Akkurat", Arial, sans-serif;
 
@@ -20,30 +19,34 @@
       margin: 0;
       max-width: unset;
       color: #fff;
-      font-size: .875rem;
+      font-size: .75rem;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
 
-    .cookies-link {
-      cursor: pointer;
-      text-decoration: none;
-    }
-
     & button {
-      border: solid .0625rem #000;
+      border: 0;
       border-radius: 1.125rem;
       background-color: #fff;
-      padding: .5rem .8rem .5rem .7rem;
+      padding: .35rem .5rem .35rem .6rem;
       line-height: normal;
       color: #000;
       font-family: "AkkuratBold", "Arial", sans-serif;
-      font-size: .875rem;
+      font-size: .75rem;
 
       &:hover {
         background-color: #000;
         color: #fff;
       }
+    }
+  }
+
+  &__link {
+    cursor: pointer;
+    text-decoration: underline;
+
+    &:hover {
+      font-family: "AkkuratBold", Arial, sans-serif;
     }
   }
 
