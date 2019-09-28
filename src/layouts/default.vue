@@ -27,31 +27,57 @@
       :credits="$t('footer.credits')"
       :legal="$t('footer.legal')"
     />
-    <CookieControl
+    <Cookies
+      :cookie-accepted="cookieAccepted"
+      :cookie-name="cookieName"
+      :desc="$t('cookies.desc')"
+      :link="$t('cookies.link')"
       :text="$t('cookies.text')"
+      @accepted-cookie="onAcceptedCookie"
     />
   </div>
 </template>
 
 <script>
-import CookieControl from '../components/CookieControl/CookieControl'
 import TheHeader from '../components/TheHeader/TheHeader'
 import TheFooter from '../components/TheFooter/TheFooter'
 import TheSidenav from '../components/TheHeader/TheSidenav/TheSidenav'
+import Cookies from '../components/Cookies/Cookies'
+
+const REGEX = '=([^;]+)'
 
 export default {
   name: 'Default',
 
   components: {
-    CookieControl,
+    Cookies,
     TheHeader,
     TheFooter,
     TheSidenav
   },
 
+  mounted() {
+    this.cookieAccepted = this.isCookieAccepted()
+  },
+
   data() {
     return {
-      displaySidenav: false
+      displaySidenav: false,
+      cookieAccepted: undefined,
+      cookieName: 'cookie-policy-consent-accepted'
+    }
+  },
+
+  methods: {
+    isCookieAccepted() {
+      const match = document.cookie.match(
+        new RegExp(`${this.cookieName}${REGEX}`)
+      )
+      return !!match
+    },
+
+    onAcceptedCookie() {
+      this.cookieAccepted = true
     }
   }
 }
