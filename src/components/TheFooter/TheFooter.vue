@@ -8,15 +8,20 @@
   <footer role="contentinfo">
     <b-container fluid class="footer__corp">
       <b-row no-gutters align-v="center">
-        <div class="col-12 col-lg-2 col-xxxl-1 footer__brand">
-          <img
-            :alt="logo"
-            src="~assets/icons/ciafiligranes.svg"
-            class="footer__image"
-          />
+        <div class="col-12 col-lg-2 col-xxl-1 col-xxxl-1 footer__brand">
+          <nuxt-link
+            :to="localePath('index')"
+            :aria-label="logo"
+          >
+            <img
+              :alt="logo"
+              src="~assets/icons/ciafiligranes.svg"
+              class="footer__image"
+            />
+          </nuxt-link>
         </div>
         <div
-          class="col-12 col-lg-8 col-xl-5 col-xxl-4 col-xxxl-6 offset-lg-1 offset-xl-0 footer__contact"
+          class="col-12 col-md-8 col-lg-7 col-xl-5 col-xxl-5 col-xxxl-5 footer__contact"
         >
           <b-row
             no-gutters align-v="center"
@@ -32,7 +37,7 @@
           </b-row>
         </div>
         <div
-          class="col-12 col-xl-3 col-xxxl-2 offset-0 offset-xl-1 offset-xxl-2 footer__rrss"
+          class="col-12 col-md-4 col-lg-3 col-xxl-2 offset-xl-1 offset-xxl-2 footer__rrss"
         >
           <ul class="social-icons__list">
             <li
