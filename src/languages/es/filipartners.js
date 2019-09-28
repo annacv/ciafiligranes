@@ -5,13 +5,13 @@ export default {
     {
       alt:
         "Logotipo de la Asociación Tub d'Assaig 7'70. Abre en una nueva pestaña",
-      image: '/icons/filipartners--tub.jpg',
+      image: '/icons/filipartners--tub.svg',
       link: 'http://tubdassaig.com/'
     },
     {
       alt:
         'Logotipo de la Asociación de Profesionales del Circo de Cataluña. Abre en una nueva pestaña',
-      image: '/icons/filipartners--apcc.jpg',
+      image: '/icons/filipartners--apcc.svg',
       link: 'http://www.apcc.cat/'
     },
     {

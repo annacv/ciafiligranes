@@ -4,13 +4,13 @@ export default {
   partnersicons: [
     {
       alt: "Logo of Tub d'Assaig 7'70 Association. Opens in a new window.",
-      image: '/icons/filipartners--tub.jpg',
+      image: '/icons/filipartners--tub.svg',
       link: 'http://tubdassaig.com/'
     },
     {
       alt:
         'Logo of The Association of Circus Professionals of Catalunya. Opens in a new window.',
-      image: '/icons/filipartners--apcc.jpg',
+      image: '/icons/filipartners--apcc.svg',
       link: 'http://www.apcc.cat/'
     },
     {
