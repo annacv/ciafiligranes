@@ -60,7 +60,7 @@ export default {
       paragraphs: [
         {
           paragraph:
-            "Jordi was born in Terrassa (Barcelona) in 1975. Since he was a child he has been very connected to the popular culture of his city. Until the age of 15 he was part of the Esbart Dansaire, the Devils of Terrassa, and also entered in the human castle's group Minyons de Terrassa. In 1991 he began to join street theater groups, clowns and circus"
+            "Jordi was born in Terrassa (Barcelona) in 1975. Since he was a child he has been connected to the popular culture of his city. Until the age of 15 he was part of the Esbart Dansaire, the Devils of Terrassa, and also entered in the human castle's group Minyons de Terrassa. In 1991 he began to join street theater groups, clowns and circus"
         }
       ],
 

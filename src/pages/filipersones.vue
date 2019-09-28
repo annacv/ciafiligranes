@@ -30,7 +30,7 @@
         />
       </article>
       <article>
-        <Synopsis
+        <SynopsisReverse
           :title="$t('synopsis.filipersones.trinxeta.title')"
           :image="$t('synopsis.filipersones.trinxeta.image')"
           :paragraphs="$t('synopsis.filipersones.trinxeta.paragraphs')"
@@ -67,6 +67,7 @@ import Filipartners from '@/components/Filipartners/Filipartners'
 import Gallery from '@/components/Gallery/Gallery'
 import PlainText from '@/components/PlainText/PlainText'
 import Synopsis from '@/components/Synopsis/Synopsis'
+import SynopsisReverse from '@/components/Synopsis/SynopsisReverse'
 import Summary from '@/components/Summary/Summary'
 
 export default {
@@ -79,6 +80,7 @@ export default {
     Gallery,
     PlainText,
     Synopsis,
+    SynopsisReverse,
     Summary
   },
 

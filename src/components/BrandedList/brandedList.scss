@@ -23,8 +23,16 @@
   &__list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+
+    @media only screen and (min-width: 1900px) {
+      padding: 0 12rem;
+    }
+
+    @media only screen and (min-width: 2500px) {
+      padding: 0 20rem;
+    }
   }
 
   &__list-item {
@@ -45,7 +53,11 @@
     }
 
     @media only screen and (min-width: 1300px) {
-      padding: 0 4.5rem;
+      padding: 0 6rem;
+    }
+
+    @media only screen and (min-width: 1600px) {
+      padding: 0 8rem;
     }
   }
 }
@@ -87,6 +99,12 @@
   padding: 0;
 
   .branded-list {
+    &__list {
+      @media only screen and (min-width: 1900px) {
+        display: none;
+      }
+    }
+
     &__list-item {
       display: flex;
       align-items: flex-end;

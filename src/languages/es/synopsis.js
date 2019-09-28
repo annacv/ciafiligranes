@@ -60,7 +60,7 @@ export default {
       paragraphs: [
         {
           paragraph:
-            'Jordi nació en Terrassa (Barcelona) en 1975. Desde pequeño ha estado muy conectado a la cultura popular de su ciudad. Hasta los 15 años formó parte del Esbart Dansaire, los Diablos de Terrassa, e ingresó también en la colla castellera de los Minyons de Terrassa. En 1991 comienza a vincularse a colectivos de teatro de calle, payasos y circo.'
+            'Jordi nació en Terrassa (Barcelona) en 1975. Desde pequeño ha estado conectado a la cultura popular de su ciudad. Hasta los 15 años formó parte del Esbart Dansaire, los Diablos de Terrassa, e ingresó también en la colla castellera de los Minyons de Terrassa. En 1991 comienza a vincularse a colectivos de teatro de calle, payasos y circo.'
         }
       ],
 

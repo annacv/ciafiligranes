@@ -60,7 +60,7 @@ export default {
       paragraphs: [
         {
           paragraph:
-            'En Jordi va nèixer a Terrassa (Barcelona) l’any 1975. Des de ben petit ha estat molt lligat a la cultura popular de la seva ciutat. Fins als 15 anys formà part de l’Esbart Dansaire, Diables de Terrassa, i també de la colla castellera Minyons de Terrassa. Al 1991 comença a vincular-se a col·lectius de teatre al carrer, pallassos i circ.'
+            'En Jordi va nèixer a Terrassa (Barcelona) l’any 1975. Des de ben petit ha estat lligat a la cultura popular de la seva ciutat. Fins als 15 anys formà part de l’Esbart Dansaire, Diables de Terrassa, i també de la colla castellera Minyons de Terrassa. Al 1991 comença a vincular-se a col·lectius de teatre al carrer, pallassos i circ.'
         }
       ],
 
