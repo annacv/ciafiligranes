@@ -24,6 +24,7 @@
               </nuxt-link>
             </h1>
             <TheBurger
+              :aria-label="$t('header.burger.open')"
               @toggle="$emit('sidenavToggle')"
             />
           </div>

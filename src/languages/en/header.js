@@ -33,5 +33,11 @@ export default {
       text: 'Contact',
       aria: "Links to the Cia.Filigranes' contact page"
     }
+  },
+
+  burger: {
+    label: 'tablet and mobile menu',
+    close: 'close menu',
+    open: 'open menu'
   }
 }
