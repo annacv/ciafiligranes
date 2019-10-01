@@ -150,15 +150,9 @@
 
   &__credits {
     background-color: #242629;
-    padding: .5rem .9375rem;
+    padding: .75rem .9375rem;
 
     .credits {
-      &__cia,
-      &__partners {
-        margin-right: .5rem;
-        color: #fff;
-      }
-
       &__content {
         display: flex;
         flex-flow: row wrap;
@@ -166,8 +160,21 @@
         justify-content: center;
       }
 
+      &__cia,
+      &__partners {
+        padding: .45rem 0;
+        color: #fff;
+      }
+
+      &__cia {
+        @media only screen and (min-width: 768px) {
+          margin-right: .45rem;
+        }
+      }
+
       &__partners {
         display: flex;
+        margin-right: .45rem;
 
         @media only screen and (min-width: 441px) {
           &::before {
@@ -186,7 +193,7 @@
       }
 
       &__link {
-        margin-left: .5rem;
+        margin-left: .35rem;
         color: #fff;
 
         &:hover {
