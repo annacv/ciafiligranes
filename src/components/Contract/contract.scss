@@ -15,7 +15,7 @@
 
   &__title {
     margin: 0 0 .5rem;
-    padding: 0 .5rem;
+    padding: 0 .5rem .35rem;
     text-align: center;
     color: #fff;
 
@@ -41,14 +41,10 @@
     justify-content: center;
     line-height: 1.5;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.125rem;
 
     @media only screen and (min-width: 768px) {
       align-self: flex-end;
-    }
-
-    @media only screen and (min-width: 1200px) {
-      font-size: 1.125rem;
     }
 
     @media only screen and (min-width: 1500px) {
@@ -62,19 +58,23 @@
 
   &__label {
     margin: 0 .125rem;
+    padding: 0 0 .35rem;
 
     @media only screen and (min-width: 768px) {
       margin: 0 .25rem;
+      padding: 0;
     }
   }
 
   &__link {
     margin: 0 .125rem;
+    padding: 0 0 .35rem;
     color: #fff;
     font-family: "AkkuratBold", "Arial", sans-serif;
 
     @media only screen and (min-width: 768px) {
       margin: 0 .25rem;
+      padding: 0;
     }
   }
 
