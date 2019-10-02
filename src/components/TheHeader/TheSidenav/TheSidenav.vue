@@ -24,6 +24,7 @@
           @click="$emit('close')"
         >
           <TheBurger
+            :aria-label="$t('header.burger.close')"
             class="burger-close"
           />
         </div>

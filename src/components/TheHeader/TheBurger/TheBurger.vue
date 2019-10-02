@@ -7,6 +7,7 @@
 <template>
   <div class="burger">
     <div
+      :aria-label="$t('header.burger.label')"
       class="burger__toggle"
       role="button"
       @click="$emit('toggle')">

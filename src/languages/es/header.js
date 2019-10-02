@@ -33,5 +33,11 @@ export default {
       text: 'Contacto',
       aria: 'Enlaza con la página de contacto de la Cía.Filigranes'
     }
+  },
+
+  burger: {
+    label: 'menu para tablets y dispositivos móviles',
+    close: 'cerrar menu',
+    open: 'abrir menu'
   }
 }
