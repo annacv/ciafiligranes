@@ -120,6 +120,8 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
+    '@nuxtjs/sitemap',
+
     [
       'nuxt-i18n',
       {
@@ -135,6 +137,12 @@ module.exports = {
       }
     ]
   ],
+
+  /* nuxt-sitemap config */
+  sitemap: {
+    generate: true,
+    hostname: 'http://ciafiligranes.net'
+  },
 
   /*
   ** Disable automatic inclusion of Bootstrap and BootstrapVue pre-compiled CSS and add only layout component
