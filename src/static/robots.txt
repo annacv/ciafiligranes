@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: https://ciafiligranes.net/sitemap.xml
+Sitemap: http://ciafiligranes.net/sitemap.xml

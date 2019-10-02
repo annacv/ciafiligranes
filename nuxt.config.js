@@ -141,7 +141,7 @@ module.exports = {
   /* nuxt-sitemap config */
   sitemap: {
     generate: true,
-    hostname: 'https://ciafiligranes.net'
+    hostname: 'http://ciafiligranes.net'
   },
 
   /*
