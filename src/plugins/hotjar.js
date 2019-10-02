@@ -1,13 +1,7 @@
 /* eslint-disable */
 
 export default ({ app }) => {
-  /*
-  ** Only run on client-side and only in production mode
-  */
   if (process.env.NODE_ENV !== 'production') return
-  /*
-   ** Hotjar Tracking Code for ciafiligranes.net
-   */
   (function (h, o, t, j, a, r) {
     h.hj = h.hj || function () {
       (h.hj.q = h.hj.q || []).push(arguments)
