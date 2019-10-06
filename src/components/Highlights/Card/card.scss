@@ -8,6 +8,10 @@
   min-width: 0;
   word-wrap: break-word;
 
+  &:hover {
+    box-shadow: 0 .125rem .1875rem rgba(0, 0, 0, .5);
+  }
+
   @media only screen and (min-width: 768px) {
     margin-bottom: 2rem;
   }
@@ -31,7 +35,7 @@
   }
 
   &__link {
-    cursor: none; //still not having these links active
+    cursor: pointer;
   }
 
   &__title,
