@@ -15,7 +15,7 @@ export default {
     image: {
       alt: "Imatge de l'espectacle plis-plas",
       srcmobile: '/images/img_src_mobile_shows_plisplas.jpg',
-      src: '/images/img_sinopsi_plisplas.jpg',
+      src: '/images/img_src_shows_plisplas.jpg',
       srcset: '/images/img_sinopsi_plisplas.png'
     }
   },

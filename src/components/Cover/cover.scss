@@ -86,14 +86,14 @@
   // HOME COVER CUSTOM STYLES
 
   &__home {
-    background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
+    background-image: url("~@/assets/images/img_cover_small_home.jpg");
 
     @media only screen and (min-width: 768px) {
-      background-image: url("~@/assets/images/img_cover_medium_plisplas.jpg");
+      background-image: url("~@/assets/images/img_cover_medium_home.jpg");
     }
 
     @media only screen and (min-width: 1024px) {
-      background-image: url("~@/assets/images/img_cover_plisplas.jpg");
+      background-image: url("~@/assets/images/img_cover_home.jpg");
     }
 
     &.cover {
@@ -181,15 +181,15 @@
 
     &.products {
       &__shows {
-        background-image: url("~@/assets/images/img_cover_small_plisplas.jpg");
+        background-image: url("~@/assets/images/img_cover_small_shows.jpg");
 
         @media only screen and (min-width: 768px) {
           background-image:
-          url("~@/assets/images/img_cover_medium_plisplas.jpg");
+          url("~@/assets/images/img_cover_medium_shows.jpg");
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_plisplas.jpg");
+          background-image: url("~@/assets/images/img_cover_shows.jpg");
           background-position: 50% 0%;
         }
 
@@ -294,7 +294,7 @@
         background-position: 60% 0%;
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_sinopsi_plisplas.jpg");
+          background-image: url("~@/assets/images/img_src_shows_plisplas.jpg");
           background-position: 50% 0%;
         }
 
