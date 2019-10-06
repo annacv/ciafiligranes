@@ -1,4 +1,5 @@
 User-Agent: *
-Disallow: 
+Disallow: /test-filigranes.web.app
+Disallow: /test-filigranes.firebaseapp.com
 
-Sitemap: http://ciafiligranes.net/sitemap.xml
+Sitemap: https://ciafiligranes.net/sitemap.xml

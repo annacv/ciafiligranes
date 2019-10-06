@@ -43,6 +43,7 @@ export default {
         ],
         image: {
           alt: "Imatge de l'espectacle El Circ Filixic",
+          srcmobile: '/images/img_src_mobile_shows_filixic.jpg',
           src: '/images/img_src_shows_filixic.jpg',
           srcset: '/images/img_shows_filixic.jpg'
         }
@@ -89,6 +90,7 @@ export default {
         ],
         image: {
           alt: "Imatge de l'espectacle Plis Plas",
+          srcmobile: '/images/img_src_mobile_shows_plisplas.jpg',
           src: '/images/img_sinopsi_plisplas.jpg',
           srcset: '/images/img_shows_plisplas.jpg'
         }
@@ -135,6 +137,7 @@ export default {
         ],
         image: {
           alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac",
+          srcmobile: '/images/img_src_mobile_shows_freakfrac.jpg',
           src: '/images/img_src_shows_freakfrac.jpg',
           srcset: '/images/img_shows_freakfrac.jpg'
         }
@@ -181,6 +184,7 @@ export default {
         ],
         image: {
           alt: "Imatge de l'espectacle Desencaixats",
+          srcmobile: '/images/img_src_mobile_shows_desencaixats.jpg',
           src: '/images/img_src_shows_desencaixats.jpg',
           srcset: '/images/img_shows_desencaixats.jpg'
         }
@@ -227,6 +231,7 @@ export default {
         ],
         image: {
           alt: "Imatge de l'espectacle El Circ Filirates",
+          srcmobile: '/images/img_src_mobile_shows_filirates.jpg',
           src: '/images/img_src_shows_filirates.jpg',
           srcset: '/images/img_shows_filirates.jpg'
         }
@@ -277,6 +282,7 @@ export default {
         ],
         image: {
           alt: 'Imatge del Taller de Circ',
+          srcmobile: '/images/img_src_mobile_workshops_circ.jpg',
           src: '/images/img_src_workshops_circ.jpg',
           srcset: '/images/img_workshops_circ.jpg'
         }
@@ -322,6 +328,7 @@ export default {
         ],
         image: {
           alt: 'Imatge del Taller de Bombolles de Sabó.',
+          srcmobile: '/images/img_src_mobile_workshops_bombolles.jpg',
           src: '/images/img_src_workshops_bombolles.jpg',
           srcset: '/images/img_workshops_bombolles.jpg'
         }
@@ -367,6 +374,7 @@ export default {
         ],
         image: {
           alt: "Imatge del Taller d'Enginys d'Aigua",
+          srcmobile: '/images/img_src_mobile_workshops_enginys.jpg',
           src: '/images/img_src_workshops_enginys.jpg',
           srcset: '/images/img_workshops_enginys.jpg'
         }
@@ -412,6 +420,7 @@ export default {
         ],
         image: {
           alt: 'Imatge del Taller de Pallassos',
+          srcmobile: '/images/img_src_mobile_workshops_pallassos.jpg',
           src: '/images/img_src_workshops_pallassos.jpg',
           srcset: '/images/img_workshops_pallassos.jpg'
         }
@@ -457,6 +466,7 @@ export default {
         ],
         image: {
           alt: 'Imatge del Taller de Maquillatge',
+          srcmobile: '/images/img_src_mobile_workshops_maquillatge.jpg',
           src: '/images/img_src_workshops_maquillatge.jpg',
           srcset: '/images/img_workshops_maquillatge.jpg'
         }

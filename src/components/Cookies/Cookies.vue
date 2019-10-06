@@ -23,7 +23,7 @@
         />
       </p>
     </div>
-    <div class="cookies__bar-buttons col-12 col-md-2 col-xl-1">
+    <div class="cookies__button col-12 col-md-2 col-xl-1">
         <button
           :alt="desc.alt"
           :aria-label="desc.aria"

@@ -14,6 +14,7 @@ export default {
 
     image: {
       alt: "Imatge de l'espectacle plis-plas",
+      srcmobile: '/images/img_src_mobile_shows_plisplas.jpg',
       src: '/images/img_sinopsi_plisplas.jpg',
       srcset: '/images/img_sinopsi_plisplas.png'
     }
@@ -34,6 +35,7 @@ export default {
 
     image: {
       alt: "Imatge de l'animació amb malabars de foc",
+      srcmobile: '/images/img_src_mobile_performances.jpg',
       src: '/images/img_sinopsi_performances.jpg',
       srcset: '/images/img_sinopsi_performances.png'
     }
@@ -50,7 +52,8 @@ export default {
       ],
 
       image: {
-        alt: "L'Albert quan era petit",
+        alt: "L'Albert és el pallasso Makutu",
+        srcmobile: '/images/img_src_mobile_sinopsi_makutu.jpg',
         src: '/images/img_src_sinopsi_makutu.jpg',
         srcset: '/images/img_sinopsi_makutu.png'
       }
@@ -65,7 +68,8 @@ export default {
       ],
 
       image: {
-        alt: 'En Jordi quan era petit',
+        alt: 'En Jordi és el pallasso Trinxeta',
+        srcmobile: '/images/img_src_mobile_sinopsi_trinxeta.jpg',
         src: '/images/img_src_sinopsi_trinxeta.jpg',
         srcset: '/images/img_sinopsi_trinxeta.png'
       }
@@ -109,6 +113,7 @@ export default {
 
     image: {
       alt: "En Trinxeta a l'aparell!",
+      srcmobile: '/images/img_src_mobile_contact-rrss.jpg',
       src: '/images/img_src_contact-rrss.jpg',
       srcset: '/images/img_contact-rrss.png'
     }

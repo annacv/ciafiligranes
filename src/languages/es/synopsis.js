@@ -14,6 +14,7 @@ export default {
 
     image: {
       alt: 'Imagen del espectáculo Plis Plas',
+      srcmobile: '/images/img_src_mobile_performances.jpg',
       src: '/images/img_sinopsi_plisplas.jpg',
       srcset: '/images/img_sinopsi_plisplas.png'
     }
@@ -34,6 +35,7 @@ export default {
 
     image: {
       alt: 'Imagen de la animación con malabares de fuego',
+      srcmobile: '/images/img_src_mobile_performances.jpg',
       src: '/images/img_sinopsi_performances.jpg',
       srcset: '/images/img_sinopsi_performances.png'
     }
@@ -50,7 +52,8 @@ export default {
       ],
 
       image: {
-        alt: 'Albert cuando era un niño',
+        alt: 'Albert es el payaso Makutu',
+        srcmobile: '/images/img_src_mobile_sinopsi_makutu.jpg',
         src: '/images/img_src_sinopsi_makutu.jpg',
         srcset: '/images/img_sinopsi_makutu.png'
       }
@@ -65,7 +68,8 @@ export default {
       ],
 
       image: {
-        alt: 'Jordi cuando era un niño',
+        alt: 'Jordi es el payaso Trinxeta',
+        srcmobile: '/images/img_src_mobile_sinopsi_trinxeta.jpg',
         src: '/images/img_src_sinopsi_trinxeta.jpg',
         srcset: '/images/img_sinopsi_trinxeta.png'
       }
@@ -108,6 +112,7 @@ export default {
 
     image: {
       alt: 'Trinxeta al habla!',
+      srcmobile: '/images/img_src_mobile_contact-rrss.jpg',
       src: '/images/img_src_contact-rrss.jpg',
       srcset: '/images/img_contact-rrss.png'
     }
