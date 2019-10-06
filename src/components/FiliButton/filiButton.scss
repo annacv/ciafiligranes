@@ -114,7 +114,7 @@ a {
   flex-flow: row-reverse nowrap;
   line-height: normal;
   color: #000;
-  font-family: "Akkurat Light", "Arial", sans-serif;
+  font-family: "Akkurat", "Arial", sans-serif;
 
   .arrow_left {
     margin-right: .25rem;
@@ -128,7 +128,7 @@ a {
   }
 
   &:hover {
-    font-family: "Akkurat", "Arial", sans-serif;
+    text-decoration: underline;
   }
 }
 
