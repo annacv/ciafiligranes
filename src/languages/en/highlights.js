@@ -60,7 +60,7 @@ export default {
       class: 'button-goback',
       type: 'application',
       href: '/en/shows',
-      target: '__top',
+      target: 'self',
       download: '',
       text: 'Go back to shows list',
       slot: {
@@ -238,12 +238,12 @@ export default {
     ]
   },
 
-  showsDetail: {
+  workshopsDetail: {
     button: {
       class: 'button-goback',
       type: 'application',
       href: '/en/workshops',
-      target: '__top',
+      target: 'self',
       download: '',
       text: 'Go back to workshops list',
       slot: {

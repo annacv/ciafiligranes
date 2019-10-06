@@ -60,10 +60,10 @@ export default {
     button: {
       class: 'button-goback',
       type: 'application',
-      href: '/en/espectaculos',
-      target: '__top',
+      href: '/es/espectaculos',
+      target: 'self',
       download: '',
-      text: 'Volver a la lista de espectáculos',
+      text: 'Volver al listado de espectáculos',
       slot: {
         alt:
           'Flecha izquierda. Al hacer clic navegarás al listado de espectáculos',
@@ -240,14 +240,14 @@ export default {
     ]
   },
 
-  showsDetail: {
+  workshopsDetail: {
     button: {
       class: 'button-goback',
       type: 'application',
       href: '/es/talleres',
-      target: '__top',
+      target: 'self',
       download: '',
-      text: 'Volver a la lista de talleres',
+      text: 'Volver al listado de talleres',
       slot: {
         alt: 'Flecha izquierda. Al hacer clic navegarás al listado de talleres',
         class: 'arrow_left black'

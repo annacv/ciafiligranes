@@ -60,7 +60,7 @@ export default {
       class: 'button-goback',
       type: 'application',
       href: '/espectacles',
-      target: '__top',
+      target: 'self',
       download: '',
       text: "Tornar al llistat d'espectacles",
       slot: {
@@ -243,7 +243,7 @@ export default {
       class: 'button-goback',
       type: 'application',
       href: '/tallers',
-      target: '__top',
+      target: 'self',
       download: '',
       text: 'Tornar al llistat de tallers',
       slot: {
