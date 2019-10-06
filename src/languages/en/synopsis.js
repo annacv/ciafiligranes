@@ -14,6 +14,7 @@ export default {
 
     image: {
       alt: 'Plis-plas show image',
+      srcmobile: '/images/img_src_mobile_shows_plisplas.jpg',
       src: '/images/img_sinopsi_plisplas.jpg',
       srcset: '/images/img_sinopsi_plisplas.png'
     }
@@ -34,6 +35,7 @@ export default {
 
     image: {
       alt: 'Image of the animation with juggling of fire',
+      srcmobile: '/images/img_src_mobile_performances.jpg',
       src: '/images/img_sinopsi_performances.jpg',
       srcset: '/images/img_sinopsi_performances.png'
     }
@@ -50,7 +52,8 @@ export default {
       ],
 
       image: {
-        alt: 'Albert when he was a child',
+        alt: 'Albert is clown Makutu',
+        srcmobile: '/images/img_src_mobile_sinopsi_makutu.jpg',
         src: '/images/img_src_sinopsi_makutu.jpg',
         srcset: '/images/img_sinopsi_makutu.png'
       }
@@ -65,7 +68,8 @@ export default {
       ],
 
       image: {
-        alt: 'Jordi when he was a child',
+        alt: 'Jordi is clown Trinxeta',
+        srcmobile: '/images/img_src_mobile_sinopsi_trinxeta.jpg',
         src: '/images/img_src_sinopsi_trinxeta.jpg',
         srcset: '/images/img_sinopsi_trinxeta.png'
       }
@@ -106,6 +110,7 @@ export default {
 
     image: {
       alt: 'Trinxeta on the phone',
+      srcmobile: '/images/img_src_mobile_contact-rrss.jpg',
       src: '/images/img_src_contact-rrss.jpg',
       srcset: '/images/img_contact-rrss.png'
     }

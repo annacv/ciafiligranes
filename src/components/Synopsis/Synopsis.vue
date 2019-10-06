@@ -59,10 +59,14 @@
                 >
                 <source
                   :srcset="require(`~/assets${image.src}`)"
-                  media="(max-width: 768px)"
+                  media="(min-width: 768px)"
+                >
+                <source
+                  :srcset="require(`~/assets${image.src}`)"
+                  media="(max-width: 767px) and (min-width: 479px)"
                 >
                 <img
-                  :src="require(`~/assets${image.src}`)"
+                  :src="require(`~/assets${image.srcmobile}`)"
                   :alt="image.alt"
                   class="synopsis__image"
                 >

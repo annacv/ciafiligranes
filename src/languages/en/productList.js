@@ -43,6 +43,7 @@ export default {
         ],
         image: {
           alt: 'An image of The Filixic Circus show',
+          srcmobile: '/images/img_src_mobile_shows_filixic.jpg',
           src: '/images/img_src_shows_filixic.jpg',
           srcset: '/images/img_shows_filixic.jpg'
         }
@@ -89,6 +90,7 @@ export default {
         ],
         image: {
           alt: 'Plis Plas show image',
+          srcmobile: '/images/img_src_mobile_shows_plisplas.jpg',
           src: '/images/img_sinopsi_plisplas.jpg',
           srcset: '/images/img_shows_plisplas.jpg'
         }
@@ -135,6 +137,7 @@ export default {
         ],
         image: {
           alt: 'An image of The Freak-Frac Brothers Parade show',
+          srcmobile: '/images/img_src_mobile_shows_freakfrac.jpg',
           src: '/images/img_src_shows_freakfrac.jpg',
           srcset: '/images/img_shows_freakfrac.jpg'
         }
@@ -181,6 +184,7 @@ export default {
         ],
         image: {
           alt: 'An image of the Desencaixats show',
+          srcmobile: '/images/img_src_mobile_shows_desencaixats.jpg',
           src: '/images/img_src_shows_desencaixats.jpg',
           srcset: '/images/img_shows_desencaixats.jpg'
         }
@@ -227,6 +231,7 @@ export default {
         ],
         image: {
           alt: 'An image of The Filirates Circus',
+          srcmobile: '/images/img_src_mobile_shows_filirates.jpg',
           src: '/images/img_src_shows_filirates.jpg',
           srcset: '/images/img_shows_filirates.jpg'
         }
@@ -278,6 +283,7 @@ export default {
         ],
         image: {
           alt: 'An image of the Circus Workshop',
+          srcmobile: '/images/img_src_mobile_workshops_circ.jpg',
           src: '/images/img_src_workshops_circ.jpg',
           srcset: '/images/img_workshops_circ.jpg'
         }
@@ -324,6 +330,7 @@ export default {
         ],
         image: {
           alt: 'Soap Bubbles Workshop image',
+          srcmobile: '/images/img_src_mobile_workshops_bombolles.jpg',
           src: '/images/img_src_workshops_bombolles.jpg',
           srcset: '/images/img_workshops_bombolles.jpg'
         }
@@ -370,6 +377,7 @@ export default {
         ],
         image: {
           alt: 'An image of the Water Tricks Workshop',
+          srcmobile: '/images/img_src_mobile_workshops_enginys.jpg',
           src: '/images/img_src_workshops_enginys.jpg',
           srcset: '/images/img_workshops_enginys.jpg'
         }
@@ -416,6 +424,7 @@ export default {
         ],
         image: {
           alt: 'An image of the Clowns Workshop',
+          srcmobile: '/images/img_src_mobile_workshops_pallassos.jpg',
           src: '/images/img_src_workshops_pallassos.jpg',
           srcset: '/images/img_workshops_pallassos.jpg'
         }
@@ -462,6 +471,7 @@ export default {
         ],
         image: {
           alt: 'An image of the Makeup Workshop',
+          srcmobile: '/images/img_src_mobile_workshops_maquillatge.jpg',
           src: '/images/img_src_workshops_maquillatge.jpg',
           srcset: '/images/img_workshops_maquillatge.jpg'
         }

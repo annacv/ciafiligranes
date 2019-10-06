@@ -65,16 +65,12 @@
   }
 
   &__image {
-    width: auto;
-    height: 20rem;
-
-    @media only screen and (min-width: 512px) {
-      height: 28rem;
-    }
+    width: 100%;
+    height: auto;
 
     @media only screen and (min-width: 720px) {
       width: 100%;
-      height: 100%;
+      height: auto;
     }
 
     @media only screen and (min-width: 1024px) {
@@ -141,6 +137,18 @@
 
   &__reverse {
     .synopsis {
+
+      &__content {
+        & > .row {
+          display: flex;
+          flex-flow: column-reverse nowrap;
+
+          @media only screen and (min-width: 992px) {
+            flex-flow: row wrap;
+          }
+        }
+      }
+
       &__image-container {
         justify-content: flex-start;
       }
