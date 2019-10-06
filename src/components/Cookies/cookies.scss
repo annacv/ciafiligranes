@@ -50,30 +50,21 @@
     }
   }
 
-  &__bar-buttons {
+  &__button {
     display: flex;
     justify-content: flex-end;
+    margin-top: 1rem;
   }
-}
 
-@media screen and (max-width: 768px) {
-  .cookie-control {
+  @media screen and (min-width: 768px) {
     &__bar {
       flex-direction: row;
     }
 
-    &__bar-buttons {
+    &__button {
       margin-top: 0;
     }
   }
 }
 
-@media screen and (max-width: 767px) {
-  .cookie-control {
-    &__bar-buttons {
-      justify-content: flex-start;
-      margin-top: 1.125rem;
-    }
-  }
-}
 
