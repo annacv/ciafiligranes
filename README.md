@@ -1,7 +1,8 @@
 # ciafiligranes
 
 > Cia Filigranes web project
-> on test at: https://test-filigranes.web.app/
+> on test at: test-filigranes.web.app
+> deployed at: ciafiligranes.net
 
 ## Build Setup
 
