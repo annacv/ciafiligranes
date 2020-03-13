@@ -27,7 +27,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "devDependencies": {
-    "acorn": "^6.3.0",
+    "acorn": "^6.4.1",
     "acorn-dynamic-import": "^4.0.0",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
