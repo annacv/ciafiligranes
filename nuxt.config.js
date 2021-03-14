@@ -1,7 +1,5 @@
 module.exports = {
-  mode: 'spa',
-  modern: 'true',
-
+  ssr: 'false',
   srcDir: './src',
 
   env: {
