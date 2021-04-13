@@ -94,6 +94,45 @@ export default {
     }
   },
 
+  trinxeta_circus: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_trinxeta--4.jpg',
+        alt:
+          'Equilibrios galácticos de un monociclo sobre la barbilla de Trinxeta.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_trinxeta--5.jpg',
+        alt: 'Trinxeta y el monociclo giratorio en dirección a Saturno.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_trinxeta--3.jpg',
+        alt: 'Aplausos de Trinxeta hacia el público.'
+      }
+    }
+  },
+
+  makutu_circus: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_makutu--4.jpg',
+        alt: 'El payaso Makutu en busca de artistas entre el público.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_makutu--2.jpg',
+        alt: 'El sorprendente número del faquir de pinzas.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_makutu--5.jpg',
+        alt: 'Makutu llega al volante de una bici chiquita.'
+      }
+    }
+  },
+
   circus: {
     images: {
       image1: {

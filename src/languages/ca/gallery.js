@@ -94,6 +94,44 @@ export default {
     }
   },
 
+  trinxeta_circus: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_trinxeta--4.jpg',
+        alt: "Equilibris galàtics d'un monocicle sobre la barbeta de'n Trinxeta"
+      },
+
+      image2: {
+        src: '/images/img_gallery_trinxeta--5.jpg',
+        alt: 'Trinxeta i el monocicle giravolt en direcció a Saturn.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_trinxeta--3.jpg',
+        alt: "Aplaudiments d'en Trinxeta cap al públic."
+      }
+    }
+  },
+
+  makutu_circus: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_makutu--4.jpg',
+        alt: "El pallasso Makutu a la recerca d'artistes entre el públic."
+      },
+
+      image2: {
+        src: '/images/img_gallery_makutu--2.jpg',
+        alt: 'El sorprenent número del faquir de pinces.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_makutu--5.jpg',
+        alt: "En Makutu arriba al volant d'una bici menuda."
+      }
+    }
+  },
+
   circus: {
     images: {
       image1: {
