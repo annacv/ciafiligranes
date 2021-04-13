@@ -235,6 +235,76 @@ export default {
           src: '/images/img_src_shows_filirates.jpg',
           srcset: '/images/img_shows_filirates.jpg'
         }
+      },
+      {
+        title: 'Trinxat No Tiembla',
+        paragraphs: [
+          {
+            paragraph:
+              'A Trinxeta le encanta viajar y conocer nuevos mundos, además le gusta el cielo de noche y observar las estrellas. Él ya está decidido, quiere hacer un vuelo galáctico por los diferentes planetas.'
+          },
+          {
+            paragraph:
+              '¿Os animáis a hacer un viaje lleno de sorpresas? ¡Pues vamos!'
+          }
+        ],
+
+        buttons: [
+          {
+            class: 'button-outline-primary',
+            type: 'application',
+            href: '/es/espectaculos/circo-trinxeta',
+            target: '_top',
+            download: '',
+            text: 'Más info',
+            slot: {
+              alt:
+                'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
+              class: 'arrow_right radical-red'
+            }
+          }
+        ],
+        image: {
+          alt: 'Imagen del espectáculo Trinxat No Tiembla',
+          srcmobile: '/images/img_src_mobile_shows_trinxeta.jpg',
+          src: '/images/img_src_shows_trinxeta.jpg',
+          srcset: '/images/img_shows_trinxeta.jpg'
+        }
+      },
+      {
+        title: 'El Pequeño Circo de Makutu',
+        paragraphs: [
+          {
+            paragraph:
+              'En un pueblo pequeñito, entre montañas, llegó un circo increíble, con sus carruajes, sus caravanas y...'
+          },
+          {
+            paragraph:
+              '¡...una serie de artistas que tendremos que descubrir entre todos y todas!'
+          }
+        ],
+
+        buttons: [
+          {
+            class: 'button-outline-primary',
+            type: 'application',
+            href: '/es/espectaculos/circo-filixic',
+            target: '_top',
+            download: '',
+            text: 'Más info',
+            slot: {
+              alt:
+                'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
+              class: 'arrow_right radical-red'
+            }
+          }
+        ],
+        image: {
+          alt: 'Imagen del espectáculo El Pequeño Circo de Makutu',
+          srcmobile: '/images/img_src_mobile_shows_makutu.jpg',
+          src: '/images/img_src_shows_makutu.jpg',
+          srcset: '/images/img_shows_makutu.jpg'
+        }
       }
     ]
   },
