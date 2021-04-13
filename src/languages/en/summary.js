@@ -185,6 +185,46 @@ export default {
     }
   },
 
+  trinxeta_circus: {
+    abstract: [
+      {
+        paragraph:
+          'Trinxeta invites us to take a trip around our galaxy and discover new worlds. Little by little we will discover the secrets of each planet, playing with different circus techniques, until we return to earth.'
+      }
+    ],
+
+    items: [
+      {
+        title: "Trinxat doesn't Tremble",
+        description: 'Companyia Filigranes, 2021'
+      },
+      {
+        title: 'Direction',
+        description: 'Companyia Filigranes'
+      }
+    ]
+  },
+
+  makutu_circus: {
+    abstract: [
+      {
+        paragraph:
+          "In this story, Makutu takes us into the world of the circus and with the participation of the audience, we can see more closely different circus disciplines, with humor as the main protagonist. Here's a dog, here's a cat, and a story inside a hat"
+      }
+    ],
+
+    items: [
+      {
+        title: "Makutu's Little Circus",
+        description: 'Companyia Filigranes, 2021'
+      },
+      {
+        title: 'Direction',
+        description: 'Companyia Filigranes'
+      }
+    ]
+  },
+
   performances: {
     abstract: [
       {

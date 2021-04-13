@@ -186,6 +186,46 @@ export default {
     }
   },
 
+  trinxeta_circus: {
+    abstract: [
+      {
+        paragraph:
+          'En Trinxeta ens convida a fer un viatge per tota la nostra galàxia i conèixer nous móns. Poc a poc descobrirem els secrets de cada planeta, tot jugant amb diferents tècniques de circ, fins a tornar a la terra.'
+      }
+    ],
+
+    items: [
+      {
+        title: 'Trinxat No Tremola',
+        description: 'Companyia Filigranes, 2021'
+      },
+      {
+        title: 'Direcció',
+        description: 'Companyia Filigranes'
+      }
+    ]
+  },
+
+  makutu_circus: {
+    abstract: [
+      {
+        paragraph:
+          "En aquesta història, Makutu ens endinsa en el món del circ i amb la participació del públic assistent, podrem veure de més a prop diferents disciplines circenses, amb l'humor com a principal protagonista. Vet aquí un gos, vet aquí un gat, i aquest conte s'ha acabat."
+      }
+    ],
+
+    items: [
+      {
+        title: 'El Petit Circ de Makutu',
+        description: 'Companyia Filigranes, 2021'
+      },
+      {
+        title: 'Direcció',
+        description: 'Companyia Filigranes'
+      }
+    ]
+  },
+
   performances: {
     abstract: [
       {
