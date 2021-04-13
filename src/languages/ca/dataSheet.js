@@ -373,6 +373,110 @@ export default {
     ]
   },
 
+  trinxeta_circus: {
+    sheet1: [
+      {
+        label: 'Trinxat No Tremola',
+        description: 'Durada: 50 minuts.'
+      },
+      {
+        label: 'Temps de muntatge',
+        description: '1 hora 30 minuts.'
+      },
+      {
+        label: 'Temps de desmuntatge',
+        description: '1 hora.'
+      },
+      {
+        label: 'Escenografia',
+        description: "Fons d'escenari i pista semicircular."
+      },
+      {
+        label: 'Espai mínim',
+        description: '3m. (ample) x 3m. (fons).'
+      },
+      {
+        label: 'Presa de llum',
+        description: "250 volts a peu d'escenari."
+      },
+      {
+        label: 'Equip de so',
+        description: '1000 watts i 1 micro inalàmbric.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Pallasso',
+        description: 'Jordi Torrens'
+      },
+      {
+        label: 'Direcció General i Dramatúrgia',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: "Tècnic de so i d'il·luminació",
+        description: 'Gerard Mora'
+      },
+      {
+        label: "Disseny d'Escenografia i Vestuari",
+        description: 'Companyia Filigranes'
+      }
+    ]
+  },
+
+  makutu_circus: {
+    sheet1: [
+      {
+        label: 'El Petit Circ de Makutu',
+        description: 'Durada: 50 minuts.'
+      },
+      {
+        label: 'Temps de muntatge',
+        description: '1 hora 30 minuts.'
+      },
+      {
+        label: 'Temps de desmuntatge',
+        description: '1 hora.'
+      },
+      {
+        label: 'Escenografia',
+        description: "Fons d'escenari i pista semicircular."
+      },
+      {
+        label: 'Espai mínim',
+        description: '3m. (ample) x 3m. (fons).'
+      },
+      {
+        label: 'Presa de llum',
+        description: "250 volts a peu d'escenari."
+      },
+      {
+        label: 'Equip de so',
+        description: '1000 watts i 1 micro inalàmbrics.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Pallasso',
+        description: 'Albert Pérez'
+      },
+      {
+        label: 'Direcció General i Dramatúrgia',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: "Tècnic de so i d'il·luminació",
+        description: 'Gerard Mora'
+      },
+      {
+        label: "Disseny d'Escenografia i Vestuari",
+        description: 'Companyia Filigranes'
+      }
+    ]
+  },
+
   workshops: {
     titles: {
       title1: 'Què aprendrem?',

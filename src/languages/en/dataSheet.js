@@ -374,6 +374,110 @@ export default {
     ]
   },
 
+  trinxeta_circus: {
+    sheet1: [
+      {
+        label: "Trinxat doesn't Tremble",
+        description: 'Duration: 50 minutes.'
+      },
+      {
+        label: 'Assembly',
+        description: '1 hour 30 minutes.'
+      },
+      {
+        label: 'Disassembly',
+        description: '1 hour.'
+      },
+      {
+        label: 'Scenery',
+        description: 'Round stage background and semicircular track.'
+      },
+      {
+        label: 'Minimum space',
+        description: '3m. (width) x 3m. (background).'
+      },
+      {
+        label: 'Light jacket',
+        description: '250v on stage.'
+      },
+      {
+        label: 'Sound equipment',
+        description: '1000 watts and 1 wireless microphone.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Clown',
+        description: 'Jordi Torrens'
+      },
+      {
+        label: 'General Direction and Drama',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: 'Sound and lighting technician',
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Stage Design and Costumes',
+        description: 'Companyia Filigranes'
+      }
+    ]
+  },
+
+  makutu_circus: {
+    sheet1: [
+      {
+        label: "Makutu's Little Circus",
+        description: 'Duration: 50 minutes.'
+      },
+      {
+        label: 'Assembly',
+        description: '1 hour 30 minutes.'
+      },
+      {
+        label: 'Disassembly',
+        description: '1 hour.'
+      },
+      {
+        label: 'Scenery',
+        description: 'Round stage background and semicircular track.'
+      },
+      {
+        label: 'Minimum space',
+        description: '3m. (width) x 3m. (background).'
+      },
+      {
+        label: 'Light jacket',
+        description: '250v on stage.'
+      },
+      {
+        label: 'Sound equipment',
+        description: '1000 watts and 1 wireless microphone.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Clown',
+        description: 'Albert Pérez'
+      },
+      {
+        label: 'General Direction and Drama',
+        description: 'Companyia Filigranes'
+      },
+      {
+        label: 'Sound and lighting technician',
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Stage Design and Costumes',
+        description: 'Companyia Filigranes'
+      }
+    ]
+  },
+
   workshops: {
     titles: {
       title1: 'What will we learn?',
