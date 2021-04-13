@@ -34,6 +34,16 @@ export default {
     title: 'The Filirates Circus'
   },
 
+  trinxeta: {
+    claim: 'Show',
+    title: "Trinxat doesn't Tremble"
+  },
+
+  makutu: {
+    claim: 'Show',
+    title: "Makutu's Little Circus"
+  },
+
   workshops: {
     claim: 'Cia.Filigranes offers you...',
     title: 'Workshops for all ages'

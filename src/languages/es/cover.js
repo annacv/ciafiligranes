@@ -34,6 +34,16 @@ export default {
     title: 'El Circo Filiratas'
   },
 
+  trinxeta: {
+    claim: 'Espectáculo',
+    title: 'Trinxat No Tiembla'
+  },
+
+  makutu: {
+    claim: 'Espectáculo',
+    title: 'El Pequeño Circo de Makutu'
+  },
+
   workshops: {
     claim: 'Cia.Filigranes os ofrece...',
     title: 'Talleres para todas'
