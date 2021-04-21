@@ -54,13 +54,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=VOcQTqZ9C2A',
+      href: '/downloads/CiaFiligranes-PlisPlas_en.pdf',
       target: '__blank',
-      download: '',
-      text: 'Video',
+      download: 'CiaFiligranes-PlisPlas_en.pdf',
+      text: 'Dossier',
       slot: {
-        alt: 'Arrow right. By clicking you will navigate to another page',
-        class: 'arrow_right black'
+        alt: 'Arrow down. By clicking a file will be downloaded',
+        class: 'arrow_down black'
       }
     }
   },
@@ -87,13 +87,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=rg3XzGQIPpU',
+      href: '/downloads/CiaFiligranes-TheFilixicCircus.pdf',
       target: '__blank',
-      download: '',
-      text: 'Video',
+      download: 'CiaFiligranes-TheFilixicCircus.pdf',
+      text: 'Dossier',
       slot: {
-        alt: 'Arrow right. By clicking you will navigate to another page',
-        class: 'arrow_right black'
+        alt: 'Arrow down. By clicking a file will be downloaded',
+        class: 'arrow_down black'
       }
     }
   },
@@ -102,21 +102,33 @@ export default {
     abstract: [
       {
         paragraph:
-          'Itinerant show with live musicians (saxophone and / or percussion) and our incredible flyers. We will captivate you with their constant motion! Different stops with juggling routines, such as clubs and diabolos, rope jump... accompanied always by music.'
+          'Itinerant show with live musicians (saxophone and / or percussion) and our incredible flyers. We will captivate you with their constant motion! Different stops with juggling routines, such as clubs and diabolos, rope jump... accompanied always by music. Ideal to brighten up fairs, markets, streets... where the interaction with public is essential.'
       }
     ],
 
     items: [
       {
         title: 'Freak Frac Brothers Parades',
-        description:
-          "Companyia Filigranes and Tub d'Assaig Circus Assotiation, 2013"
+        description: "Cia. Filigranes and Tub d'Assaig 7'70, 2013"
       },
       {
-        title:
-          'Ideal to brighten up fairs, markets, streets... where the interaction with public is essential.'
+        title: 'Direction',
+        description: "Cia. Filigranes and Tub d'Assaig 7'70"
       }
-    ]
+    ],
+
+    button: {
+      class: 'button-outline-secondary',
+      type: 'application',
+      href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
+      target: '__blank',
+      download: 'CiaFiligranes-FreakFracBrothers.pdf',
+      text: 'Dossier',
+      slot: {
+        alt: 'Arrow down. By clicking a file will be downloaded',
+        class: 'arrow_down black'
+      }
+    }
   },
 
   desencaixats: {
@@ -141,13 +153,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=GQ67p38vqcY',
+      href: '/downloads/CiaFiligranes-Desencaixats_en.pdf',
       target: '__blank',
-      download: '',
-      text: 'Video',
+      download: 'CiaFiligranes-Desencaixats_en.pdf',
+      text: 'Dossier',
       slot: {
-        alt: 'Arrow right. By clicking you will navigate to another page',
-        class: 'arrow_right black'
+        alt: 'Arrow down. By clicking a file will be downloaded',
+        class: 'arrow_down black'
       }
     }
   },
@@ -174,13 +186,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=lU5b5V7U6Wc',
+      href: '/downloads/CiaFiligranes-TheFiliratesCircus.pdf',
       target: '__blank',
-      download: '',
-      text: 'Video',
+      download: 'CiaFiligranes-TheFiliratesCircus.pdf',
+      text: 'Dossier',
       slot: {
-        alt: 'Arrow right. By clicking you will navigate to another page',
-        class: 'arrow_right black'
+        alt: 'Arrow down. By clicking a file will be downloaded',
+        class: 'arrow_down black'
       }
     }
   },

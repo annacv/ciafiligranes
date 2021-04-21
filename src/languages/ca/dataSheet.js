@@ -25,7 +25,7 @@ export default {
       },
       {
         label: 'Espai mínim',
-        description: '6m. (ample) x 8m. (fons). Superfície plana.'
+        description: '6m (ample) x 8m (fons). Superfície plana.'
       },
       {
         label: 'Presa de llum',
@@ -73,21 +73,6 @@ export default {
       {
         label: "Disseny d'Escenografia",
         description: 'Tonet Amorós i Cia.Filigranes'
-      }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-PlisPlas_ca.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-          class: 'arrow_down black'
-        }
       }
     ]
   },
@@ -141,21 +126,6 @@ export default {
         label: "Disseny d'Escenografia i Vestuari",
         description: 'Companyia Filigranes'
       }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-ElCircFilixic.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-          class: 'arrow_down black'
-        }
-      }
     ]
   },
 
@@ -200,25 +170,10 @@ export default {
       },
       {
         label: 'Vestuari',
-        description: "Cia. Filigranes i Associació Tub d'Assaig 7'70"
+        description: "Cia. Filigranes i Associació de Circ Tub d'Assaig 7'70"
       },
       {
         label: 'Possibilitat de variació del nombre d’actors i/o músics.'
-      }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-GermansFreakFrac.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-          class: 'arrow_down black'
-        }
       }
     ]
   },
@@ -288,21 +243,6 @@ export default {
         label: "Disseny d'Escenografia i Vestuari",
         description: 'Companyia Filigranes'
       }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-Desencaixats_ca.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-Desencaixats_ca.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-          class: 'arrow_down black'
-        }
-      }
     ]
   },
 
@@ -354,21 +294,6 @@ export default {
       {
         label: "Disseny d'Escenografia i Vestuari",
         description: 'Companyia Filigranes'
-      }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-ElCircFilirates.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-ElCircFilirates.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-          class: 'arrow_down black'
-        }
       }
     ]
   },
@@ -740,7 +665,7 @@ export default {
       },
       {
         label: 'Espai',
-        description: 'Tant en un espai delimitat com en moviment.'
+        description: 'Tant en espai delimitat com en moviment.'
       },
       {
         label: 'Temps de muntatge',

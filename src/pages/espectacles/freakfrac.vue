@@ -8,12 +8,13 @@
       <Summary
         :abstract="$t('summary.freakfrac.abstract')"
         :items="$t('summary.freakfrac.items')"
+        :button="$t('summary.freakfrac.button')"
       />
       <DataSheet
         :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.freakfrac.sheet1')"
         :sheet2="$t('dataSheet.freakfrac.sheet2')"
-        :buttons="$t('dataSheet.freakfrac.buttons')"
+        video-id="dY4GelzNlRc"
         class="shows freakfrac"
       />
     </section>

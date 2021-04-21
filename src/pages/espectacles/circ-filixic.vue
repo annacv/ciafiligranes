@@ -14,7 +14,7 @@
         :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.filixic.sheet1')"
         :sheet2="$t('dataSheet.filixic.sheet2')"
-        :buttons="$t('dataSheet.filixic.buttons')"
+        video-id="rg3XzGQIPpU"
         class="shows filixic"
       />
     </section>

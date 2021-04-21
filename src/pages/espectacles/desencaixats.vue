@@ -14,7 +14,7 @@
         :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.desencaixats.sheet1')"
         :sheet2="$t('dataSheet.desencaixats.sheet2')"
-        :buttons="$t('dataSheet.desencaixats.buttons')"
+        video-id="GQ67p38vqcY"
         class="shows desencaixats"
       />
     </section>

@@ -14,7 +14,7 @@
         :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.filirates.sheet1')"
         :sheet2="$t('dataSheet.filirates.sheet2')"
-        :buttons="$t('dataSheet.filirates.buttons')"
+        video-id="lU5b5V7U6Wc"
         class="shows filirates"
       />
     </section>

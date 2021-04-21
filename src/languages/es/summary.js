@@ -54,13 +54,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=VOcQTqZ9C2A',
+      href: '/downloads/CiaFiligranes-PlisPlas_es.pdf',
       target: '__blank',
-      download: '',
-      text: 'Vídeo',
+      download: 'CiaFiligranes-PlisPlas_es.pdf',
+      text: 'Dosier',
       slot: {
-        alt: 'Flecha derecha. Al hacer clic navegarás a otra página',
-        class: 'arrow_right black'
+        alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+        class: 'arrow_down black'
       }
     }
   },
@@ -87,13 +87,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=rg3XzGQIPpU',
+      href: '/downloads/CiaFiligranes-ElCircoFilixic.pdf',
       target: '__blank',
-      download: '',
-      text: 'Vídeo',
+      download: 'CiaFiligranes-ElCircoFilixic.pdf',
+      text: 'Dosier',
       slot: {
-        alt: 'Flecha derecha. Al hacer clic navegarás a otra página',
-        class: 'arrow_right black'
+        alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+        class: 'arrow_down black'
       }
     }
   },
@@ -102,7 +102,7 @@ export default {
     abstract: [
       {
         paragraph:
-          'Espectáculo itinerante con músicos en vivo (saxo y / o percusión) y nuestros increíbles zancudos. Nos cautivarán con sus ritmos en movimiento constante! Diferentes paradas con rutinas de malabares, como mazas y diábolos, salto de cuerda... acompañados siempre de música.'
+          'Espectáculo itinerante con músicos en vivo (saxo y / o percusión) y nuestros increíbles zancudos. Nos cautivarán con sus ritmos en movimiento constante! Diferentes paradas con rutinas de malabares, como mazas y diábolos, salto de cuerda... acompañados siempre de música. Ideal para amenizar ferias, mercados, desfiles... donde la interacción con el público es lo primordial.'
       }
     ],
 
@@ -113,10 +113,23 @@ export default {
           "Compañía Filigranes y Asociación de Circo Tub d'Assaig, 2013"
       },
       {
-        title:
-          'Ideal para amenizar ferias, mercados, desfiles... donde la interacción con el público es lo primordial.'
+        title: 'Dirección',
+        description: "Cia. Filigranes y Tub d'Assaig 7'70"
       }
-    ]
+    ],
+
+    button: {
+      class: 'button-outline-secondary',
+      type: 'application',
+      href: '/downloads/CiaFiligranes-HermanosFreakFrac.pdf',
+      target: '__blank',
+      download: 'CiaFiligranes-HermanosFreakFrac.pdf',
+      text: 'Dosier',
+      slot: {
+        alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+        class: 'arrow_down black'
+      }
+    }
   },
 
   desencaixats: {
@@ -141,13 +154,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=GQ67p38vqcY',
+      href: '/downloads/CiaFiligranes-Desencaixats_es.pdf',
       target: '__blank',
-      download: '',
-      text: 'Vídeo',
+      download: 'CiaFiligranes-Desencaixats_es.pdf',
+      text: 'Dosier',
       slot: {
-        alt: 'Flecha derecha. Al hacer clic navegarás a otra página',
-        class: 'arrow_right black'
+        alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+        class: 'arrow_down black'
       }
     }
   },
@@ -174,13 +187,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=lU5b5V7U6Wc',
+      href: '/downloads/CiaFiligranes-ElCircoFiliratas.pdf',
       target: '__blank',
-      download: '',
-      text: 'Vídeo',
+      download: 'CiaFiligranes-ElCircoFiliratas.pdf',
+      text: 'Dosier',
       slot: {
-        alt: 'Flecha derecha. Al hacer clic navegarás a otra página',
-        class: 'arrow_right black'
+        alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
+        class: 'arrow_down black'
       }
     }
   },
