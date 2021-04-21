@@ -18,7 +18,7 @@
 
       &__title {
         line-height: 1.125;
-        font-family: "AkkuratBold", "Arial", sans-serif;
+        font-family: 'AkkuratBold', 'Arial', sans-serif;
         font-size: 2.5rem;
 
         @media only screen and (min-width: 768px) {
@@ -46,16 +46,16 @@
   }
 
   &__claim {
-    margin-bottom: .5rem;
-    text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, .8);
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0.125rem 0.1875rem rgba(0, 0, 0, 0.8);
     line-height: 1.125;
-    font-family: "AkkuratBold", "Arial", sans-serif;
+    font-family: 'AkkuratBold', 'Arial', sans-serif;
     font-size: 1.25rem;
 
     @media only screen and (min-width: 768px) {
       padding: 0 1rem;
-      text-shadow: 0 .125rem .1875rem rgba(0, 0, 0, .5);
-      font-family: "AkkuratLight", "Arial", sans-serif;
+      text-shadow: 0 0.125rem 0.1875rem rgba(0, 0, 0, 0.5);
+      font-family: 'AkkuratLight', 'Arial', sans-serif;
       font-size: 2.5rem;
     }
 
@@ -86,14 +86,14 @@
   // HOME COVER CUSTOM STYLES
 
   &__home {
-    background-image: url("~@/assets/images/img_cover_small_home.jpg");
+    background-image: url('~@/assets/images/img_cover_small_home.jpg');
 
     @media only screen and (min-width: 768px) {
-      background-image: url("~@/assets/images/img_cover_medium_home.jpg");
+      background-image: url('~@/assets/images/img_cover_medium_home.jpg');
     }
 
     @media only screen and (min-width: 1024px) {
-      background-image: url("~@/assets/images/img_cover_home.jpg");
+      background-image: url('~@/assets/images/img_cover_home.jpg');
     }
 
     &.cover {
@@ -115,14 +115,13 @@
         }
 
         &__title {
-          text-shadow: 0 .125rem .1875rem #000;
+          text-shadow: 0 0.125rem 0.1875rem #000;
         }
 
         &__claim {
           font-size: 1.75rem;
         }
       }
-
     }
   }
 
@@ -146,7 +145,7 @@
         &__title {
           position: absolute;
           bottom: 1.15rem;
-          text-shadow: 0 .125rem .1875rem #000;
+          text-shadow: 0 0.125rem 0.1875rem #000;
 
           @media only screen and (min-width: 3000px) {
             bottom: 2.5rem;
@@ -181,22 +180,20 @@
 
     &.products {
       &__shows {
-        background-image: url("~@/assets/images/img_cover_small_shows.jpg");
+        background-image: url('~@/assets/images/img_cover_small_shows.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image:
-          url("~@/assets/images/img_cover_medium_shows.jpg");
+          background-image: url('~@/assets/images/img_cover_medium_shows.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_shows.jpg");
+          background-image: url('~@/assets/images/img_cover_shows.jpg');
           background-position: 50% 0%;
         }
 
         @media only screen and (min-width: 1900px) {
           background-position: 50% 20%;
         }
-
 
         &.cover {
           .row__title {
@@ -206,15 +203,14 @@
       }
 
       &__workshops {
-        background-image: url("~@/assets/images/img_cover_small_workshops.jpg");
+        background-image: url('~@/assets/images/img_cover_small_workshops.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image:
-          url("~@/assets/images/img_cover_medium_workshops.jpg");
+          background-image: url('~@/assets/images/img_cover_medium_workshops.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_workshops.jpg");
+          background-image: url('~@/assets/images/img_cover_workshops.jpg');
         }
 
         &.cover {
@@ -227,17 +223,15 @@
       }
 
       &__performances {
-        background-image:
-        url("~@/assets/images/img_cover_small_performances.jpg");
+        background-image: url('~@/assets/images/img_cover_small_performances.jpg');
 
         @media only screen and (min-width: 768px) {
           margin-bottom: 2.75rem;
-          background-image:
-          url("~@/assets/images/img_cover_medium_performances.jpg");
+          background-image: url('~@/assets/images/img_cover_medium_performances.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_performances.jpg");
+          background-image: url('~@/assets/images/img_cover_performances.jpg');
         }
 
         &.cover {
@@ -275,7 +269,7 @@
 
       .row {
         &__title {
-          padding: .15rem 0;
+          padding: 0.15rem 0;
         }
 
         .cover__title {
@@ -290,70 +284,88 @@
   &__shows-detail {
     &.shows {
       &__plisplas {
-        background-image: url("~@/assets/images/img_thumbnail_plisplas.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_plisplas.jpg');
         background-position: 60% 0%;
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_shows_plisplas.jpg");
+          background-image: url('~@/assets/images/img_src_shows_plisplas.jpg');
           background-position: 50% 0%;
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_shows_plisplas.jpg");
+          background-image: url('~@/assets/images/img_cover_shows_plisplas.jpg');
         }
       }
 
       &__filixic {
-        background-image: url("~@/assets/images/img_thumbnail_filixic.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_filixic.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_shows_filixic.jpg");
+          background-image: url('~@/assets/images/img_src_shows_filixic.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image: url("~@/assets/images/img_cover_shows_filixic.jpg");
+          background-image: url('~@/assets/images/img_cover_shows_filixic.jpg');
         }
       }
 
       &__freakfrac {
-        background-image: url("~@/assets/images/img_thumbnail_freakfrac.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_freakfrac.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_shows_freakfrac.jpg");
+          background-image: url('~@/assets/images/img_src_shows_freakfrac.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_shows_freakfrac.jpg");
+          background-image: url('~@/assets/images/img_cover_shows_freakfrac.jpg');
         }
       }
 
       &__desencaixats {
-        background-image:
-        url("~@/assets/images/img_thumbnail_desencaixats.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_desencaixats.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image:
-          url("~@/assets/images/img_src_shows_desencaixats.jpg");
+          background-image: url('~@/assets/images/img_src_shows_desencaixats.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_shows_desencaixats.jpg");
+          background-image: url('~@/assets/images/img_cover_shows_desencaixats.jpg');
         }
       }
 
       &__filirates {
-        background-image: url("~@/assets/images/img_thumbnail_filirates.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_filirates.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_shows_filirates.jpg");
+          background-image: url('~@/assets/images/img_src_shows_filirates.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_shows_filirates.jpg");
+          background-image: url('~@/assets/images/img_cover_shows_filirates.jpg');
+        }
+      }
+
+      &__trinxeta {
+        background-image: url('~@/assets/images/img_thumbnail_trinxeta.jpg');
+
+        @media only screen and (min-width: 768px) {
+          background-image: url('~@/assets/images/img_src_shows_trinxeta.jpg');
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url('~@/assets/images/img_cover_shows_trinxeta.jpg');
+        }
+      }
+
+      &__makutu {
+        background-image: url('~@/assets/images/img_thumbnail_makutu.jpg');
+
+        @media only screen and (min-width: 768px) {
+          background-image: url('~@/assets/images/img_src_shows_makutu.jpg');
+        }
+
+        @media only screen and (min-width: 1024px) {
+          background-image: url('~@/assets/images/img_cover_shows_makutu.jpg');
         }
       }
     }
@@ -370,72 +382,62 @@
   &__workshops-detail {
     &.workshops {
       &__circus {
-        background-image: url("~@/assets/images/img_thumbnail_circ.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_circ.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image: url("~@/assets/images/img_src_workshops_circ.jpg");
+          background-image: url('~@/assets/images/img_src_workshops_circ.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_workshops_circ.jpg");
+          background-image: url('~@/assets/images/img_cover_workshops_circ.jpg');
         }
       }
 
       &__clowns {
-        background-image: url("~@/assets/images/img_thumbnail_pallassos.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_pallassos.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image:
-          url("~@/assets/images/img_src_workshops_pallassos.jpg");
+          background-image: url('~@/assets/images/img_src_workshops_pallassos.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_workshops_pallassos.jpg");
+          background-image: url('~@/assets/images/img_cover_workshops_pallassos.jpg');
         }
       }
 
       &__bubbles {
-        background-image: url("~@/assets/images/img_thumbnail_bombolles.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_bombolles.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image:
-          url("~@/assets/images/img_src_workshops_bombolles.jpg");
+          background-image: url('~@/assets/images/img_src_workshops_bombolles.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_workshops_bombolles.jpg");
+          background-image: url('~@/assets/images/img_cover_workshops_bombolles.jpg');
         }
       }
 
       &__water {
-        background-image:
-        url("~@/assets/images/img_thumbnail_enginys.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_enginys.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image:
-          url("~@/assets/images/img_src_workshops_enginys.jpg");
+          background-image: url('~@/assets/images/img_src_workshops_enginys.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_workshops_enginys.jpg");
+          background-image: url('~@/assets/images/img_cover_workshops_enginys.jpg');
         }
       }
 
       &__makeup {
-        background-image: url("~@/assets/images/img_thumbnail_maquillatge.jpg");
+        background-image: url('~@/assets/images/img_thumbnail_maquillatge.jpg');
 
         @media only screen and (min-width: 768px) {
-          background-image:
-          url("~@/assets/images/img_src_workshops_maquillatge.jpg");
+          background-image: url('~@/assets/images/img_src_workshops_maquillatge.jpg');
         }
 
         @media only screen and (min-width: 1024px) {
-          background-image:
-          url("~@/assets/images/img_cover_workshops_maquillatge.jpg");
+          background-image: url('~@/assets/images/img_cover_workshops_maquillatge.jpg');
         }
       }
     }
@@ -450,16 +452,14 @@
   }
 
   &__filipersones {
-    background-image: url("~@/assets/images/img_cover_small_filipersones.jpg");
+    background-image: url('~@/assets/images/img_cover_small_filipersones.jpg');
 
     @media only screen and (min-width: 768px) {
-      background-image:
-      url("~@/assets/images/img_cover_medium_filipersones.jpg");
+      background-image: url('~@/assets/images/img_cover_medium_filipersones.jpg');
     }
 
     @media only screen and (min-width: 1024px) {
-      background-image:
-      url("~@/assets/images/img_cover_filipersones.jpg");
+      background-image: url('~@/assets/images/img_cover_filipersones.jpg');
     }
 
     &.cover {
@@ -472,16 +472,14 @@
   }
 
   &__contact {
-    background-image: url("~@/assets/images/img_cover_small_contact.jpg");
+    background-image: url('~@/assets/images/img_cover_small_contact.jpg');
 
     @media only screen and (min-width: 768px) {
-      background-image:
-      url("~@/assets/images/img_cover_medium_contact.jpg");
+      background-image: url('~@/assets/images/img_cover_medium_contact.jpg');
     }
 
     @media only screen and (min-width: 1024px) {
-      background-image:
-      url("~@/assets/images/img_cover_contact.jpg");
+      background-image: url('~@/assets/images/img_cover_contact.jpg');
     }
 
     &.cover {
@@ -495,16 +493,14 @@
   }
 
   &__legal {
-    background-image: url("~@/assets/images/img_cover_small_legal.jpg");
+    background-image: url('~@/assets/images/img_cover_small_legal.jpg');
 
     @media only screen and (min-width: 768px) {
-      background-image:
-      url("~@/assets/images/img_cover_medium_legal.jpg");
+      background-image: url('~@/assets/images/img_cover_medium_legal.jpg');
     }
 
     @media only screen and (min-width: 1024px) {
-      background-image:
-      url("~@/assets/images/img_cover_legal.jpg");
+      background-image: url('~@/assets/images/img_cover_legal.jpg');
     }
 
     &.cover {
@@ -525,7 +521,7 @@
       .row {
         &__title {
           background-color: #fbdd0b;
-          padding: .15rem 0;
+          padding: 0.15rem 0;
           color: #000;
         }
 

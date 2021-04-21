@@ -212,6 +212,62 @@ export default {
     ]
   },
 
+  trinxeta_circus: {
+    title: 'Más Filigranes',
+    description: 'Otros espectáculos de la Compañía Filigranes',
+    highlighted: [
+      {
+        title: 'Espectáculo',
+        name: 'El Pequeño Circo de Makutu',
+        link: '/es/espectaculos/circo-makutu',
+        image: '/images/img_thumbnail_makutu.jpg',
+        alt: 'Imagen del espectáculo El Pequeño Circo de Makutu'
+      },
+      {
+        title: 'Espectáculo',
+        name: 'Plis Plas',
+        link: '/es/espectaculos/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'Imagen del espectáculo Plis Plas'
+      },
+      {
+        title: 'Espectáculo',
+        name: 'El Circo Filixic',
+        link: '/es/espectaculos/circo-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'Imagen del espectáculo El Circo Filixic'
+      }
+    ]
+  },
+
+  makutu_circus: {
+    title: 'Más Filigranes',
+    description: 'Otros espectáculos de la Compañía Filigranes',
+    highlighted: [
+      {
+        title: 'Espectáculo',
+        name: 'Trinxat No Tiembla',
+        link: '/es/espectaculos/circo-trinxeta',
+        image: '/images/img_thumbnail_trinxeta.jpg',
+        alt: 'Imagen del espectáculo Trinxat No Tiembla'
+      },
+      {
+        title: 'Espectáculo',
+        name: 'Plis Plas',
+        link: '/es/espectaculos/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'Imagen del espectáculo Plis Plas'
+      },
+      {
+        title: 'Espectáculo',
+        name: 'El Circo Filixic',
+        link: '/es/espectaculos/circo-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'Imagen del espectáculo El Circo Filixic'
+      }
+    ]
+  },
+
   workshops: {
     title: 'Más Filigranes',
     description: 'Encuentra espectáculos y animaciones a la carta',

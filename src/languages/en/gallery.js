@@ -27,7 +27,7 @@ export default {
 
       image2: {
         src: '/images/img_gallery_filixic--2.jpg',
-        alt: 'Trinxeta and the rolling monocicle.'
+        alt: 'Trinxeta and the rolling unicycle.'
       },
 
       image3: {
@@ -90,6 +90,44 @@ export default {
       image3: {
         src: '/images/img_gallery_filirates--3.jpg',
         alt: 'The director Sr.Makutu presents the next performance.'
+      }
+    }
+  },
+
+  trinxeta_circus: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_trinxeta--4.jpg',
+        alt: "Galactic balances of a unicycle on Trinxeta's chin"
+      },
+
+      image2: {
+        src: '/images/img_gallery_trinxeta--5.jpg',
+        alt: 'Trinxeta and the unicycle spinning in the direction of Saturn.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_trinxeta--3.jpg',
+        alt: 'Trinxeta applause to the audience.'
+      }
+    }
+  },
+
+  makutu_circus: {
+    images: {
+      image1: {
+        src: '/images/img_gallery_makutu--4.jpg',
+        alt: 'The clown Makutu searching artists among the audience.'
+      },
+
+      image2: {
+        src: '/images/img_gallery_makutu--2.jpg',
+        alt: 'The amazing number of tweezers fakir.'
+      },
+
+      image3: {
+        src: '/images/img_gallery_makutu--5.jpg',
+        alt: 'Makutu arrives behind the wheel of a tiny bike.'
       }
     }
   },
@@ -236,7 +274,7 @@ export default {
 
         image2: {
           src: '/images/img_gallery_trinxeta--2.jpg',
-          alt: 'Image of the character Trinxat approached by a monocicle'
+          alt: 'Image of the character Trinxat approached by a unicycle'
         },
 
         image3: {

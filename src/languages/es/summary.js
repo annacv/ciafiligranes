@@ -185,6 +185,46 @@ export default {
     }
   },
 
+  trinxeta_circus: {
+    abstract: [
+      {
+        paragraph:
+          'Trinxeta nos invita a hacer un viaje por toda nuestra galaxia y conocer nuevos mundos. Poco a poco descubriremos los secretos de cada planeta, jugando con diferentes técnicas de circo, hasta volver a la tierra.'
+      }
+    ],
+
+    items: [
+      {
+        title: 'Trinxat No Tremola',
+        description: 'Compañía Filigranes, 2021'
+      },
+      {
+        title: 'Dirección',
+        description: 'Compañía Filigranes'
+      }
+    ]
+  },
+
+  makutu_circus: {
+    abstract: [
+      {
+        paragraph:
+          'En esta historia, Makutu nos adentra en el mundo del circo y con la participación del público asistente, podremos ver más de cerca diferentes disciplinas circenses, con el humor como principal protagonista. Y colorín, colorete, por la chimenea se escapó un cohete.'
+      }
+    ],
+
+    items: [
+      {
+        title: 'El Pequeño Circo de Makutu',
+        description: 'Compañía Filigranes, 2021'
+      },
+      {
+        title: 'Dirección',
+        description: 'Compañía Filigranes'
+      }
+    ]
+  },
+
   performances: {
     abstract: [
       {

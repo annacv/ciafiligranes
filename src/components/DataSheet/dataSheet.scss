@@ -44,23 +44,23 @@
   }
 
   &__list {
-    border: .0625rem solid;
+    border: 0.0625rem solid;
 
     &.left-side {
-      border-bottom: .25rem solid;
+      border-bottom: 0.25rem solid;
       padding: 1.5rem 1.5rem 1.25rem;
     }
 
     &.right-side {
-      border-top: .25rem solid;
+      border-top: 0.25rem solid;
       padding: 1.25rem 1.5rem 1.5rem;
     }
   }
 
   &__list-item {
-    margin: 0 0 .9rem;
+    margin: 0 0 0.9rem;
     line-height: 1.43rem;
-    font-size: .875rem;
+    font-size: 0.875rem;
 
     &:last-child {
       margin: 0;
@@ -80,11 +80,11 @@
 
   &__item {
     &--bold {
-      font-family: "AkkuratBold", "Arial", sans-serif;
+      font-family: 'AkkuratBold', 'Arial', sans-serif;
     }
 
     &--light {
-      font-family: "AkkuratLight", "Arial", sans-serif;
+      font-family: 'AkkuratLight', 'Arial', sans-serif;
     }
   }
 
@@ -124,7 +124,8 @@
 
     &.filixic,
     &.freakfrac,
-    &.filirates {
+    &.filirates,
+    &.one_clown {
       .data-sheet {
         &__list {
           @media only screen and (min-width: 768px) {

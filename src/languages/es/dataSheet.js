@@ -373,6 +373,110 @@ export default {
     ]
   },
 
+  trinxeta_circus: {
+    sheet1: [
+      {
+        label: 'Trinxat No Tiembla',
+        description: 'Duración: 50 minutos.'
+      },
+      {
+        label: 'Tiempo de montaje',
+        description: '1 hora 30 minutos.'
+      },
+      {
+        label: 'Tiempo de desmontaje',
+        description: '1 hora.'
+      },
+      {
+        label: 'Escenografía',
+        description: 'Fondo de escenario redondo y pista semicircular.'
+      },
+      {
+        label: 'Espacio mínimo',
+        description: '3m. (ancho) x 3m. (fondo).'
+      },
+      {
+        label: 'Toma de luz',
+        description: '250v a pie de escenario.'
+      },
+      {
+        label: 'Equipo de sonido',
+        description: '1000 vatios y 1 micro inalámbrico.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Payaso',
+        description: 'Jordi Torrens'
+      },
+      {
+        label: 'Dirección General y Dramatúrgia',
+        description: 'Compañía Filigranes'
+      },
+      {
+        label: 'Técnico de sonido e iluminación',
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Diseño Escenografía y Vestuario',
+        description: 'Compañía Filigranes'
+      }
+    ]
+  },
+
+  makutu_circus: {
+    sheet1: [
+      {
+        label: 'El Pequeño Circo de Makutu',
+        description: 'Duración: 50 minutos.'
+      },
+      {
+        label: 'Tiempo de montaje',
+        description: '1 hora 30 minutos.'
+      },
+      {
+        label: 'Tiempo de desmontaje',
+        description: '1 hora.'
+      },
+      {
+        label: 'Escenografía',
+        description: 'Fondo de escenario redondo y pista semicircular.'
+      },
+      {
+        label: 'Espacio mínimo',
+        description: '3m. (ancho) x 3m. (fondo).'
+      },
+      {
+        label: 'Toma de luz',
+        description: '250v a pie de escenario.'
+      },
+      {
+        label: 'Equipo de sonido',
+        description: '1000 vatios y 1 micro inalámbrico.'
+      }
+    ],
+
+    sheet2: [
+      {
+        label: 'Payaso',
+        description: 'Albert Pérez'
+      },
+      {
+        label: 'Dirección General y Dramatúrgia',
+        description: 'Compañía Filigranes'
+      },
+      {
+        label: 'Técnico de sonido e iluminación',
+        description: 'Gerard Mora'
+      },
+      {
+        label: 'Diseño Escenografía y Vestuario',
+        description: 'Compañía Filigranes'
+      }
+    ]
+  },
+
   workshops: {
     titles: {
       title1: 'Qué aprenderemos',

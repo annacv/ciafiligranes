@@ -235,6 +235,76 @@ export default {
           src: '/images/img_src_shows_filirates.jpg',
           srcset: '/images/img_shows_filirates.jpg'
         }
+      },
+      {
+        title: 'Trinxat No Tremola',
+        paragraphs: [
+          {
+            paragraph:
+              'Al Trinxeta li encanta viatjar i conèixer nous móns, a més li agrada el cel de nit i observar les estrelles. Ell ja està decidit, vol fer un vol galàctic pels diferents planetes.'
+          },
+          {
+            paragraph:
+              'Us animeu a fer un viatge ple de sorpreses? Doncs som-hi!'
+          }
+        ],
+
+        buttons: [
+          {
+            class: 'button-outline-primary',
+            type: 'application',
+            href: '/espectacles/circ-trinxeta',
+            target: '_top',
+            download: '',
+            text: 'Més info',
+            slot: {
+              alt:
+                "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
+              class: 'arrow_right radical-red'
+            }
+          }
+        ],
+        image: {
+          alt: "Imatge de l'espectacle Trinxat No Tremola",
+          srcmobile: '/images/img_src_mobile_shows_trinxeta.jpg',
+          src: '/images/img_src_shows_trinxeta.jpg',
+          srcset: '/images/img_shows_trinxeta.jpg'
+        }
+      },
+      {
+        title: 'El Petit Circ de Makutu',
+        paragraphs: [
+          {
+            paragraph:
+              'En un poble petitet, entre muntanyes, va arribar un circ menut i increïble, amb els seus carruatges, les seves caravanes i...'
+          },
+          {
+            paragraph:
+              "...un seguit d'artistes que haurem de descobrir entre tots i totes!"
+          }
+        ],
+
+        buttons: [
+          {
+            class: 'button-outline-primary',
+            type: 'application',
+            href: '/espectacles/circ-makutu',
+            target: '_top',
+            download: '',
+            text: 'Més info',
+            slot: {
+              alt:
+                "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
+              class: 'arrow_right radical-red'
+            }
+          }
+        ],
+        image: {
+          alt: "Imatge de l'espectacle El Petit Circ de Makutu ",
+          srcmobile: '/images/img_src_mobile_shows_makutu.jpg',
+          src: '/images/img_src_shows_makutu.jpg',
+          srcset: '/images/img_shows_makutu.jpg'
+        }
       }
     ]
   },

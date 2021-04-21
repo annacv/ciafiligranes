@@ -43,6 +43,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ciafiligranes.net/en/shows/filirates-circus/"/>
   </url>
   <url>
+    <loc>https://ciafiligranes.net/espectacles/circ-trinxeta/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://ciafiligranes.net/espectacles/circ-trinxeta/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ciafiligranes.net/es/espectaculos/circo-trinxeta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciafiligranes.net/en/shows/trinxeta-circus/"/>
+  </url>
+  <url>
+    <loc>https://ciafiligranes.net/espectacles/circ-makutu/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://ciafiligranes.net/espectacles/circ-makutu/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ciafiligranes.net/es/espectaculos/circo-makutu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ciafiligranes.net/en/shows/makutu-circus/"/>
+  </url>
+  <url>
     <loc>https://ciafiligranes.net/tallers/</loc>
     <xhtml:link rel="alternate" hreflang="ca" href="https://ciafiligranes.net/tallers/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://ciafiligranes.net/es/talleres/"/>

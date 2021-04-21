@@ -210,6 +210,62 @@ export default {
     ]
   },
 
+  trinxeta_circus: {
+    title: 'Més filigranes',
+    description: 'Altres espectacles de la Companyia',
+    highlighted: [
+      {
+        title: 'Espectacle',
+        name: 'El Petit Circ de Makutu',
+        link: '/espectacles/circ-makutu',
+        image: '/images/img_thumbnail_makutu.jpg',
+        alt: "Imatge de l'espectacle El Petit Circ de Makutu"
+      },
+      {
+        title: 'Espectacle',
+        name: 'Plis Plas',
+        link: '/espectacles/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: "Imatge de l'espectacle Plis Plas"
+      },
+      {
+        title: 'Espectacle',
+        name: 'El Circ Filixic',
+        link: '/espectacles/circ-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: "Imatge de l'espectacle El Circ Filixic"
+      }
+    ]
+  },
+
+  makutu_circus: {
+    title: 'Més filigranes',
+    description: 'Altres espectacles de la Companyia',
+    highlighted: [
+      {
+        title: 'Espectacle',
+        name: 'Trinxat No Tremola',
+        link: '/espectacles/circ-trinxeta',
+        image: '/images/img_thumbnail_trinxeta.jpg',
+        alt: "Imatge de l'espectacle Trinxat No Tremola"
+      },
+      {
+        title: 'Espectacle',
+        name: 'Plis Plas',
+        link: '/espectacles/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: "Imatge de l'espectacle Plis Plas"
+      },
+      {
+        title: 'Espectacle',
+        name: 'El Circ Filixic',
+        link: '/espectacles/circ-filixic',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: "Imatge de l'espectacle El Circ Filixic"
+      }
+    ]
+  },
+
   workshops: {
     title: 'Més Filigranes',
     description: 'Troba espectacles i animacions fetes a mida',

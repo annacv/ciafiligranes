@@ -210,6 +210,62 @@ export default {
     ]
   },
 
+  trinxeta_circus: {
+    title: 'More Filigranes',
+    description: 'Other spectacles of Filigranes Company',
+    highlighted: [
+      {
+        title: 'Show',
+        name: "Makutu's Little Circus",
+        link: '/en/shows/makutu-circus',
+        image: '/images/img_thumbnail_makutu.jpg',
+        alt: "An image of The Makutu's Little Circus show"
+      },
+      {
+        title: 'Show',
+        name: 'Plis Plas',
+        link: '/en/shows/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'An image of the Plis Plas show'
+      },
+      {
+        title: 'Show',
+        name: 'The Filixic Circus',
+        link: '/en/shows/filixic-circus',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'An image of The Circ Filixic show'
+      }
+    ]
+  },
+
+  makutu_circus: {
+    title: 'More Filigranes',
+    description: 'Other spectacles of Filigranes Company',
+    highlighted: [
+      {
+        title: 'Show',
+        name: "Trinxat doesn't Tremble",
+        link: '/en/shows/trinxeta-circus',
+        image: '/images/img_thumbnail_trinxeta.jpg',
+        alt: "An image of The Trinxat doesn't Tremble show"
+      },
+      {
+        title: 'Show',
+        name: 'Plis Plas',
+        link: '/en/shows/plisplas',
+        image: '/images/img_thumbnail_plisplas.jpg',
+        alt: 'An image of the Plis Plas show'
+      },
+      {
+        title: 'Show',
+        name: 'The Filixic Circus',
+        link: '/en/shows/filixic-circus',
+        image: '/images/img_thumbnail_filixic.jpg',
+        alt: 'An image of The Circ Filixic show'
+      }
+    ]
+  },
+
   workshops: {
     title: 'More Filigranes',
     description: 'Find shows and performances à la carte',

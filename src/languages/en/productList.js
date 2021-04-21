@@ -235,6 +235,76 @@ export default {
           src: '/images/img_src_shows_filirates.jpg',
           srcset: '/images/img_shows_filirates.jpg'
         }
+      },
+      {
+        title: "Trinxat doesn't Tremble",
+        paragraphs: [
+          {
+            paragraph:
+              'Trinxeta loves to travel and discover new worlds, he also likes the night sky and observing the stars. He is already determined, he wants to make a galactic flight through the different planets.'
+          },
+          {
+            paragraph:
+              'Do you dare to take a trip full of surprises? Well here we go!'
+          }
+        ],
+
+        buttons: [
+          {
+            class: 'button-outline-primary',
+            type: 'application',
+            href: '/en/shows/trinxeta-circus',
+            target: '_top',
+            download: '',
+            text: 'More info',
+            slot: {
+              alt:
+                "Arrow right. By clicking you will navigate to the show's page",
+              class: 'arrow_right radical-red'
+            }
+          }
+        ],
+        image: {
+          alt: "An image of Trinxat doesn't Tremble show",
+          srcmobile: '/images/img_src_mobile_shows_trinxeta.jpg',
+          src: '/images/img_src_shows_trinxeta.jpg',
+          srcset: '/images/img_shows_trinxeta.jpg'
+        }
+      },
+      {
+        title: "Makutu's Little Circus",
+        paragraphs: [
+          {
+            paragraph:
+              'In an small village, between mountains, came an incredible circus, with their carriages, their caravans and...'
+          },
+          {
+            paragraph:
+              '...an amount of artists that we will have to discover together!'
+          }
+        ],
+
+        buttons: [
+          {
+            class: 'button-outline-primary',
+            type: 'application',
+            href: '/en/shows/makutu-circus',
+            target: '_top',
+            download: '',
+            text: 'More info',
+            slot: {
+              alt:
+                "Arrow right. By clicking you will navigate to the show's page",
+              class: 'arrow_right radical-red'
+            }
+          }
+        ],
+        image: {
+          alt: "An image of Makutu's Little Circus",
+          srcmobile: '/images/img_src_mobile_shows_makutu.jpg',
+          src: '/images/img_src_shows_makutu.jpg',
+          srcset: '/images/img_shows_makutu.jpg'
+        }
       }
     ]
   },
