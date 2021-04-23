@@ -98,17 +98,22 @@ export default {
     images: {
       image1: {
         src: '/images/img_gallery_trinxeta--4.jpg',
-        alt: "Galactic balances of a unicycle on Trinxeta's chin"
+        alt: 'Trinxeta reviews the map of the galaxy.'
       },
 
       image2: {
         src: '/images/img_gallery_trinxeta--5.jpg',
-        alt: 'Trinxeta and the unicycle spinning in the direction of Saturn.'
+        alt: "Galactic balances of a unicycle on Trinxeta's chin."
       },
 
       image3: {
-        src: '/images/img_gallery_trinxeta--3.jpg',
-        alt: 'Trinxeta applause to the audience.'
+        src: '/images/img_gallery_trinxeta--6.jpg',
+        alt: 'The clown Trinxeta pondering.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_trinxeta--7.jpg',
+        alt: 'Trinxeta and the unicycle spinning in the direction of Saturn.'
       }
     }
   },
@@ -117,17 +122,22 @@ export default {
     images: {
       image1: {
         src: '/images/img_gallery_makutu--4.jpg',
-        alt: 'The clown Makutu searching artists among the audience.'
+        alt: 'The clown Makutu prepares a number of juggling.'
       },
 
       image2: {
-        src: '/images/img_gallery_makutu--2.jpg',
-        alt: 'The amazing number of tweezers fakir.'
+        src: '/images/img_gallery_makutu--5.jpg',
+        alt: 'The clown Makutu enters the scene.'
       },
 
       image3: {
-        src: '/images/img_gallery_makutu--5.jpg',
-        alt: 'Makutu arrives behind the wheel of a tiny bike.'
+        src: '/images/img_gallery_makutu--6.jpg',
+        alt: 'Makutu finds a very small artist.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_makutu--7.jpg',
+        alt: 'The clown Makutu searching artists among the audience.'
       }
     }
   },
@@ -146,6 +156,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_circ--3.jpg',
+        alt: 'Image of the Circus Workshop.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_circ--4.jpg',
         alt: 'Image of the Circus Workshop.'
       }
     }
@@ -166,6 +181,11 @@ export default {
       image3: {
         src: '/images/img_gallery_pallassos--3.jpg',
         alt: 'Image of the Clowns Workshop.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_pallassos--4.jpg',
+        alt: 'Image of the Clowns Workshop.'
       }
     }
   },
@@ -184,6 +204,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_bombolles--3.jpg',
+        alt: 'Image of the Soap Bubbles Workshop.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_bombolles--4.jpg',
         alt: 'Image of the Soap Bubbles Workshop.'
       }
     }
@@ -204,6 +229,11 @@ export default {
       image3: {
         src: '/images/img_gallery_enginys--3.jpg',
         alt: 'Image of the Water Tricks Workshop.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_enginys--4.jpg',
+        alt: 'Image of the Water Tricks Workshop.'
       }
     }
   },
@@ -222,6 +252,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_maquillatge--3.jpg',
+        alt: 'Image of the Makeup Workshop.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_maquillatge--4.jpg',
         alt: 'Image of the Makeup Workshop.'
       }
     }
@@ -242,6 +277,11 @@ export default {
       image3: {
         src: '/images/img_gallery_performances--3.jpg',
         alt: 'Image of the lion tamer'
+      },
+
+      image4: {
+        src: '/images/img_gallery_performances--4.jpg',
+        alt: 'Image of the animation with juggling of fire'
       }
     }
   },

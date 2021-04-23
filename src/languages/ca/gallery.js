@@ -98,17 +98,23 @@ export default {
     images: {
       image1: {
         src: '/images/img_gallery_trinxeta--4.jpg',
-        alt: "Equilibris galàtics d'un monocicle sobre la barbeta de'n Trinxeta"
+        alt: 'En Trinxeta revisa el mapa de la galàxia.'
       },
 
       image2: {
         src: '/images/img_gallery_trinxeta--5.jpg',
-        alt: 'Trinxeta i el monocicle giravolt en direcció a Saturn.'
+        alt:
+          "Equilibris galàtics d'un monocicle sobre la barbeta de'n Trinxeta."
       },
 
       image3: {
-        src: '/images/img_gallery_trinxeta--3.jpg',
-        alt: "Aplaudiments d'en Trinxeta cap al públic."
+        src: '/images/img_gallery_trinxeta--6.jpg',
+        alt: 'El pallasso Trinxeta rumiant.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_trinxeta--7.jpg',
+        alt: 'Trinxeta i el monocicle giravolt en direcció a Saturn.'
       }
     }
   },
@@ -117,17 +123,22 @@ export default {
     images: {
       image1: {
         src: '/images/img_gallery_makutu--4.jpg',
-        alt: "El pallasso Makutu a la recerca d'artistes entre el públic."
+        alt: 'El pallasso Makutu prepara un número de malabars.'
       },
 
       image2: {
-        src: '/images/img_gallery_makutu--2.jpg',
-        alt: 'El sorprenent número del faquir de pinces.'
+        src: '/images/img_gallery_makutu--5.jpg',
+        alt: 'El pallasso Makutu surt a escena.'
       },
 
       image3: {
-        src: '/images/img_gallery_makutu--5.jpg',
-        alt: "En Makutu arriba al volant d'una bici menuda."
+        src: '/images/img_gallery_makutu--6.jpg',
+        alt: 'En Makutu troba una artista ben menuda.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_makutu--7.jpg',
+        alt: "El pallasso Makutu a la recerca d'artistes entre el públic."
       }
     }
   },
@@ -146,6 +157,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_circ--3.jpg',
+        alt: 'Imatge del taller de Circ.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_circ--4.jpg',
         alt: 'Imatge del taller de Circ.'
       }
     }
@@ -166,6 +182,11 @@ export default {
       image3: {
         src: '/images/img_gallery_pallassos--3.jpg',
         alt: 'Imatge del taller de Pallassos.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_pallassos--4.jpg',
+        alt: 'Imatge del taller de Pallassos.'
       }
     }
   },
@@ -184,6 +205,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_bombolles--3.jpg',
+        alt: 'Imatge del taller de Bombolles de Sabó.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_bombolles--4.jpg',
         alt: 'Imatge del taller de Bombolles de Sabó.'
       }
     }
@@ -204,6 +230,11 @@ export default {
       image3: {
         src: '/images/img_gallery_enginys--3.jpg',
         alt: "Imatge del taller d'Enginys d'aigua."
+      },
+
+      image4: {
+        src: '/images/img_gallery_enginys--4.jpg',
+        alt: "Imatge del taller d'Enginys d'aigua."
       }
     }
   },
@@ -222,6 +253,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_maquillatge--3.jpg',
+        alt: 'Imatge del taller de Maquillatge.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_maquillatge--4.jpg',
         alt: 'Imatge del taller de Maquillatge.'
       }
     }
@@ -242,6 +278,11 @@ export default {
       image3: {
         src: '/images/img_gallery_performances--3.jpg',
         alt: 'Imatge del domador de lleons'
+      },
+
+      image4: {
+        src: '/images/img_gallery_performances--4.jpg',
+        alt: "Imatge de l'animació amb malabars de foc"
       }
     }
   },
