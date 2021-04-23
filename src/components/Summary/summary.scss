@@ -3,7 +3,7 @@
   background-color: white;
 
   @media only screen and (min-width: 768px) {
-    margin: 4rem 0 6rem;
+    margin: 4rem 0;
 
     &.container-fluid {
       padding: 0 2rem;
@@ -11,7 +11,7 @@
   }
 
   @media only screen and (min-width: 1024px) {
-    margin: 6rem 0 8rem;
+    margin: 6rem 0;
 
     &.container-fluid {
       padding: 0 3rem;
@@ -25,7 +25,7 @@
   }
 
   @media only screen and (min-width: 3000px) {
-    margin: 8rem 0 10rem;
+    margin: 8rem 0;
   }
 
   &__abstract {

@@ -13,6 +13,7 @@
         :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.trinxeta_circus.sheet1')"
         :sheet2="$t('dataSheet.trinxeta_circus.sheet2')"
+        :images="$t('gallery.trinxeta_circus.images')"
         class="shows one_clown"
       />
     </section>

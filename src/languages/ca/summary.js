@@ -55,13 +55,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=VOcQTqZ9C2A',
+      href: '/downloads/CiaFiligranes-PlisPlas_ca.pdf',
       target: '__blank',
-      download: '',
-      text: 'Video',
+      download: 'CiaFiligranes-PlisPlas_ca.pdf',
+      text: 'Dossier',
       slot: {
-        alt: 'Fletxa direcció dreta. En clicar es navega a una nova pàgina',
-        class: 'arrow_right black'
+        alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+        class: 'arrow_down black'
       }
     }
   },
@@ -88,13 +88,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=rg3XzGQIPpU',
+      href: '/downloads/CiaFiligranes-ElCircFilixic.pdf',
       target: '__blank',
-      download: '',
-      text: 'Video',
+      download: 'CiaFiligranes-ElCircFilixic.pdf',
+      text: 'Dossier',
       slot: {
-        alt: 'Fletxa direcció dreta. En clicar es navega a una nova pàgina',
-        class: 'arrow_right black'
+        alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+        class: 'arrow_down black'
       }
     }
   },
@@ -103,7 +103,7 @@ export default {
     abstract: [
       {
         paragraph:
-          'Espectacle itinerant amb músics en viu (saxo i/o percussió) i els nostres increïbles xanquers. Ens captivaran amb els seus ritmes en moviment constant! Diferents parades amb rutines de malabars, com maces i diàbolos, salt de corda... acompanyats sempre de música.'
+          'Espectacle itinerant amb músics en viu (saxo i/o percussió) i els nostres increïbles xanquers. Ens captivaran amb els seus ritmes en moviment constant! Diferents parades amb rutines de malabars, com maces i diàbolos, salt de corda... acompanyats sempre de música. Ideal per amenitzar fires, mercats, rues... on la interacció amb el públic és el primordial.'
       }
     ],
 
@@ -114,10 +114,23 @@ export default {
           "Companyia Filigranes i Associació de Circ Tub d'Assaig 7'70, 2013."
       },
       {
-        title:
-          'Ideal per amenitzar fires, mercats, rues... on la interacció amb el públic és el primordial.'
+        title: 'Direcció',
+        description: "Cia. Filigranes i Tub d'Assaig 7'70"
       }
-    ]
+    ],
+
+    button: {
+      class: 'button-outline-secondary',
+      type: 'application',
+      href: '/downloads/CiaFiligranes-GermansFreakFrac.pdf',
+      target: '__blank',
+      download: 'CiaFiligranes-GermansFreakFrac.pdf',
+      text: 'Dossier',
+      slot: {
+        alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+        class: 'arrow_down black'
+      }
+    }
   },
 
   desencaixats: {
@@ -142,13 +155,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=GQ67p38vqcY',
+      href: '/downloads/CiaFiligranes-Desencaixats_ca.pdf',
       target: '__blank',
-      download: '',
-      text: 'Video',
+      download: 'CiaFiligranes-Desencaixats_ca.pdf',
+      text: 'Dossier',
       slot: {
-        alt: 'Fletxa direcció dreta. En clicar es navega a una nova pàgina',
-        class: 'arrow_right black'
+        alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+        class: 'arrow_down black'
       }
     }
   },
@@ -175,13 +188,13 @@ export default {
     button: {
       class: 'button-outline-secondary',
       type: 'application',
-      href: 'https://www.youtube.com/watch?v=lU5b5V7U6Wc',
+      href: '/downloads/CiaFiligranes-ElCircFilirates.pdf',
       target: '__blank',
-      download: '',
-      text: 'Video',
+      download: 'CiaFiligranes-ElCircFilirates.pdf',
+      text: 'Dossier',
       slot: {
-        alt: 'Fletxa direcció dreta. En clicar es navega a una nova pàgina',
-        class: 'arrow_right black'
+        alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
+        class: 'arrow_down black'
       }
     }
   },

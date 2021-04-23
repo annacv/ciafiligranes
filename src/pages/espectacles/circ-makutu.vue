@@ -13,6 +13,7 @@
         :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.makutu_circus.sheet1')"
         :sheet2="$t('dataSheet.makutu_circus.sheet2')"
+        :images="$t('gallery.makutu_circus.images')"
         class="shows one_clown"
       />
     </section>
@@ -26,7 +27,7 @@
     />
     <Highlights
       :content="$t('highlights.filirates')"
-      :highlighted="$t('highlights.filirates.highlighted')"
+      :highlighted="$t('highlights.makutu_circus.highlighted')"
       :button="$t('highlights.showsDetail.button')"
       class="highlights__shows"
     />

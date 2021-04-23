@@ -9,6 +9,7 @@
         :titles="$t('dataSheet.workshops.titles')"
         :sheet1="$t('dataSheet.water.sheet1')"
         :sheet2="$t('dataSheet.seasonalWorkshops.sheet2')"
+        :images="$t('gallery.water.images')"
         :buttons="$t('dataSheet.water.buttons')"
         class="workshops"
       />

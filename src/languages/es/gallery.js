@@ -98,18 +98,23 @@ export default {
     images: {
       image1: {
         src: '/images/img_gallery_trinxeta--4.jpg',
-        alt:
-          'Equilibrios galácticos de un monociclo sobre la barbilla de Trinxeta.'
+        alt: 'Trinxeta revisa el mapa de la galaxia.'
       },
 
       image2: {
         src: '/images/img_gallery_trinxeta--5.jpg',
-        alt: 'Trinxeta y el monociclo giratorio en dirección a Saturno.'
+        alt:
+          'Equilibrios galácticos de un monociclo sobre la barbilla de Trinxeta.'
       },
 
       image3: {
-        src: '/images/img_gallery_trinxeta--3.jpg',
-        alt: 'Aplausos de Trinxeta hacia el público.'
+        src: '/images/img_gallery_trinxeta--6.jpg',
+        alt: 'El payaso Trinxeta pensando.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_trinxeta--7.jpg',
+        alt: 'Trinxeta y el monociclo giratorio en dirección a Saturno.'
       }
     }
   },
@@ -118,17 +123,22 @@ export default {
     images: {
       image1: {
         src: '/images/img_gallery_makutu--4.jpg',
-        alt: 'El payaso Makutu en busca de artistas entre el público.'
+        alt: 'El payaso Makutu prepara un número de malabares.'
       },
 
       image2: {
-        src: '/images/img_gallery_makutu--2.jpg',
-        alt: 'El sorprendente número del faquir de pinzas.'
+        src: '/images/img_gallery_makutu--5.jpg',
+        alt: 'El payaso Makutu sale a escena.'
       },
 
       image3: {
-        src: '/images/img_gallery_makutu--5.jpg',
-        alt: 'Makutu llega al volante de una bici chiquita.'
+        src: '/images/img_gallery_makutu--6.jpg',
+        alt: 'En Makutu encuentra una artista muy chiquita.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_makutu--7.jpg',
+        alt: 'El payaso Makutu en busca de artistas entre el público.'
       }
     }
   },
@@ -147,6 +157,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_circ--3.jpg',
+        alt: 'Imagen del taller de Circo.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_circ--4.jpg',
         alt: 'Imagen del taller de Circo.'
       }
     }
@@ -167,6 +182,11 @@ export default {
       image3: {
         src: '/images/img_gallery_pallassos--3.jpg',
         alt: 'Imagen del taller de Payasos.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_pallassos--4.jpg',
+        alt: 'Imagen del taller de Payasos.'
       }
     }
   },
@@ -185,6 +205,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_bombolles--3.jpg',
+        alt: 'Imagen del taller de Burnujas de Jabón.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_bombolles--4.jpg',
         alt: 'Imagen del taller de Burnujas de Jabón.'
       }
     }
@@ -205,6 +230,11 @@ export default {
       image3: {
         src: '/images/img_gallery_enginys--3.jpg',
         alt: 'Imagen del taller Ingenios de agua.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_enginys--4.jpg',
+        alt: 'Imagen del taller Ingenios de agua.'
       }
     }
   },
@@ -223,6 +253,11 @@ export default {
 
       image3: {
         src: '/images/img_gallery_maquillatge--3.jpg',
+        alt: 'Imatge del taller de Maquillatge.'
+      },
+
+      image4: {
+        src: '/images/img_gallery_maquillatge--4.jpg',
         alt: 'Imatge del taller de Maquillatge.'
       }
     }
@@ -243,6 +278,11 @@ export default {
       image3: {
         src: '/images/img_gallery_performances--3.jpg',
         alt: 'Imagen del domador de leones'
+      },
+
+      image4: {
+        src: '/images/img_gallery_performances--4.jpg',
+        alt: 'Imagen de la animación con malabares de fuego'
       }
     }
   },

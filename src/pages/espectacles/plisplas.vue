@@ -14,7 +14,7 @@
         :titles="$t('dataSheet.titles')"
         :sheet1="$t('dataSheet.plisplas.sheet1')"
         :sheet2="$t('dataSheet.plisplas.sheet2')"
-        :buttons="$t('dataSheet.plisplas.buttons')"
+        video-id="VOcQTqZ9C2A"
         class="shows plisplas"
       />
     </section>

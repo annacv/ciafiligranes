@@ -74,21 +74,6 @@ export default {
         label: 'Stage Design',
         description: 'Tonet Amorós and Cia. Filigranes'
       }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-PlisPlas_en.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-PlisPlas_en.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Arrow down. By clicking a file will be downloaded',
-          class: 'arrow_down black'
-        }
-      }
     ]
   },
 
@@ -141,21 +126,6 @@ export default {
         label: 'Stage Design and Costumes',
         description: 'Companyia Filigranes'
       }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-TheFilixicCircus.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-TheFilixicCircus.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Arrow down. By clicking a file will be downloaded',
-          class: 'arrow_down black'
-        }
-      }
     ]
   },
 
@@ -200,26 +170,11 @@ export default {
       },
       {
         label: 'Costumes',
-        description: "Cia. Filigranes and Associació Tub d'Assaig 7'70"
+        description: "Cia. Filigranes and Associació de Circ Tub d'Assaig 7'70"
       },
       {
         label:
           'Possibility of variation in the number of actors and/or musicians.'
-      }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-FreakFracBrothers.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-FreakFracBrothers.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Arrow down. By clicking a file will be downloaded',
-          class: 'arrow_down black'
-        }
       }
     ]
   },
@@ -289,21 +244,6 @@ export default {
         label: 'Stage Design and Costumes',
         description: 'Companyia Filigranes'
       }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-Desencaixats_en.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-Desencaixats_en.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Arrow down. By clicking a file will be downloaded',
-          class: 'arrow_down black'
-        }
-      }
     ]
   },
 
@@ -355,21 +295,6 @@ export default {
       {
         label: 'Stage Design and Costumes',
         description: 'Companyia Filigranes'
-      }
-    ],
-
-    buttons: [
-      {
-        class: 'button-outline-secondary',
-        type: 'application',
-        href: '/downloads/CiaFiligranes-TheFiliratesCircus.pdf',
-        target: '__blank',
-        download: 'CiaFiligranes-TheFiliratesCircus.pdf',
-        text: 'Dossier',
-        slot: {
-          alt: 'Arrow down. By clicking a file will be downloaded',
-          class: 'arrow_down black'
-        }
       }
     ]
   },
