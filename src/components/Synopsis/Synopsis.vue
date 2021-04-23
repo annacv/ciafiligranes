@@ -68,6 +68,7 @@
                 <img
                   :src="require(`~/assets${image.srcmobile}`)"
                   :alt="image.alt"
+                  loading="lazy"
                   class="synopsis__image"
                 >
               </picture>
