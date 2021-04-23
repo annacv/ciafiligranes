@@ -87,13 +87,20 @@
 
   &__home {
     background-image: url('~@/assets/images/img_cover_small_home.jpg');
+    background-position: 50% 30%;
 
     @media only screen and (min-width: 768px) {
       background-image: url('~@/assets/images/img_cover_medium_home.jpg');
+      background-position: 50% 20%;
     }
 
     @media only screen and (min-width: 1024px) {
       background-image: url('~@/assets/images/img_cover_home.jpg');
+      background-position: 50% 30%;
+    }
+
+    @media only screen and (min-width: 1900px) {
+      background-position: 50% 12%;
     }
 
     &.cover {
@@ -137,6 +144,10 @@
             padding: 22rem 0 5rem;
           }
 
+          @media only screen and (min-width: 2400px) {
+            padding: 28rem 0 6rem;
+          }
+
           @media only screen and (min-width: 3000px) {
             padding: 30rem 0 6rem;
           }
@@ -171,6 +182,10 @@
             top: 23rem;
           }
 
+          @media only screen and (min-width: 2400px) {
+            top: 30rem;
+          }
+
           @media only screen and (min-width: 3000px) {
             top: 36rem;
           }
@@ -195,9 +210,22 @@
           background-position: 50% 20%;
         }
 
+        @media only screen and (min-width: 2400px) {
+          background-position: 50% 30%;
+        }
+
         &.cover {
           .row__title {
             background-color: #fd2b5e;
+
+            .cover__title {
+              @media only screen and (min-width: 2400px) {
+                padding: 0 15rem 0 0;
+              }
+              @media only screen and (min-width: 3000px) {
+                padding: 0;
+              }
+            }
           }
         }
       }
@@ -217,6 +245,15 @@
           .row {
             &__title {
               background-color: #5c2978;
+
+              .cover__title {
+                @media only screen and (min-width: 2400px) {
+                  padding: 0 15rem 0 0;
+                }
+                @media only screen and (min-width: 3000px) {
+                  padding: 0;
+                }
+              }
             }
           }
         }
@@ -285,15 +322,18 @@
     &.shows {
       &__plisplas {
         background-image: url('~@/assets/images/img_thumbnail_plisplas.jpg');
-        background-position: 60% 0%;
+        background-position: 50% 0%;
 
         @media only screen and (min-width: 768px) {
           background-image: url('~@/assets/images/img_src_shows_plisplas.jpg');
-          background-position: 50% 0%;
         }
 
         @media only screen and (min-width: 1024px) {
           background-image: url('~@/assets/images/img_cover_shows_plisplas.jpg');
+        }
+
+        @media only screen and (min-width: 1900px) {
+          background-position: 50% 23%;
         }
       }
 
