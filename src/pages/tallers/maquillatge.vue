@@ -9,6 +9,7 @@
         :titles="$t('dataSheet.workshops.titles')"
         :sheet1="$t('dataSheet.makeup.sheet1')"
         :sheet2="$t('dataSheet.makeup.sheet2')"
+        :images="$t('gallery.makeup.images')"
         :buttons="$t('dataSheet.makeup.buttons')"
         class="workshops"
       />

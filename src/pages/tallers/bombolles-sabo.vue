@@ -10,6 +10,7 @@
         :sheet1="$t('dataSheet.bubbles.sheet1')"
         :sheet2="$t('dataSheet.seasonalWorkshops.sheet2')"
         :buttons="$t('dataSheet.bubbles.buttons')"
+        :images="$t('gallery.bubbles.images')"
         class="workshops"
       />
     </section>

@@ -9,10 +9,21 @@
     <b-row no-gutters>
       <div class="col-12 col-xl-10 col-xxl-8 offset-xl-1 offset-xxl-2">
         <b-row no-gutters class="data-sheet__row">
-          <div class="col-12 col-lg-8">
-            <YTEmbed v-if="videoId" :video-id="videoId"/>
+          <div
+            v-if="videoId"
+            class="col-12 col-lg-7"
+          >
+            <YTEmbed :video-id="videoId"/>
           </div>
-          <div class="col-12 col-lg-4 col-xl-4">
+          <div
+            v-else
+            class="col-12 col-md-7"
+          >
+            <Gallery
+              v-if="images" :images="images" 
+              squared/>
+          </div>
+          <div class="col-12 col-lg-5 col-xl-4 offset-xl-1">
             <TabCard
               :tabs="tabs"
               :initial-tab="initialTab"
@@ -97,17 +108,19 @@
 </template>
 
 <script>
-import YTEmbed from '@/components/DataSheet/YTEmbed'
+import Gallery from '~/components/Gallery/Gallery'
 import FiliButton from '~/components/FiliButton/FiliButton'
 import TabCard from '@/components/DataSheet/TabCard'
+import YTEmbed from '@/components/DataSheet/YTEmbed'
 
 export default {
   name: 'DataSheet',
 
   components: {
-    YTEmbed,
     FiliButton,
-    TabCard
+    Gallery,
+    TabCard,
+    YTEmbed
   },
 
   data: () => ({
@@ -120,6 +133,12 @@ export default {
       type: String,
       default: ''
     },
+
+    images: {
+      type: Object,
+      default: () => {}
+    },
+
     titles: {
       type: Object,
       default: () => {},
