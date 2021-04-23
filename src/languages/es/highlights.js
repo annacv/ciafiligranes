@@ -231,11 +231,11 @@ export default {
         alt: 'Imagen del espectáculo Plis Plas'
       },
       {
-        title: 'Espectáculo',
-        name: 'El Circo Filixic',
-        link: '/es/espectaculos/circo-filixic',
-        image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'Imagen del espectáculo El Circo Filixic'
+        title: 'Espectáculo itinerante',
+        name: 'Hermanos Freak-Frac',
+        link: '/es/espectaculos/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac'
       }
     ]
   },
@@ -259,11 +259,11 @@ export default {
         alt: 'Imagen del espectáculo Plis Plas'
       },
       {
-        title: 'Espectáculo',
-        name: 'El Circo Filixic',
-        link: '/es/espectaculos/circo-filixic',
-        image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'Imagen del espectáculo El Circo Filixic'
+        title: 'Espectáculo itinerante',
+        name: 'Hermanos Freak-Frac',
+        link: '/es/espectaculos/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'Imagen del espectáculo Pasacalles Hermanos Freak-Frac'
       }
     ]
   },

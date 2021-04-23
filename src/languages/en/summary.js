@@ -208,7 +208,7 @@ export default {
     items: [
       {
         title: "Trinxat doesn't Tremble",
-        description: 'Companyia Filigranes, 2021'
+        description: 'Companyia Filigranes, 2019'
       },
       {
         title: 'Direction',
@@ -228,7 +228,7 @@ export default {
     items: [
       {
         title: "Makutu's Little Circus",
-        description: 'Companyia Filigranes, 2021'
+        description: 'Companyia Filigranes, 2019'
       },
       {
         title: 'Direction',

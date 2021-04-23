@@ -14,6 +14,7 @@
         :src="require(`~/assets${image}`)"
         :alt="alt"
         :aria-label="alt"
+        loading="lazy"
         class="card__image"
       >
       <div class="card__content">

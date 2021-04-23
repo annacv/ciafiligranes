@@ -170,11 +170,10 @@ export default {
       },
       {
         label: 'Costumes',
-        description: "Cia. Filigranes and Associació de Circ Tub d'Assaig 7'70"
+        description: "Cia. Filigranes and Tub d'Assaig 7'70"
       },
       {
-        label:
-          'Possibility of variation in the number of actors and/or musicians.'
+        label: "It's possible to change the number of actors."
       }
     ]
   },
@@ -221,7 +220,7 @@ export default {
         description: 'Walter Velázquez'
       },
       {
-        label: 'Artistic Direction and advice on magic effects',
+        label: 'Artistic and magic effects Direction',
         description: 'Manuel Jiménez (Mago Manu)'
       },
       {

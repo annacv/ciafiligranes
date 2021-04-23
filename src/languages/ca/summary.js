@@ -210,7 +210,7 @@ export default {
     items: [
       {
         title: 'Trinxat No Tremola',
-        description: 'Companyia Filigranes, 2021'
+        description: 'Companyia Filigranes, 2019'
       },
       {
         title: 'Direcció',
@@ -230,7 +230,7 @@ export default {
     items: [
       {
         title: 'El Petit Circ de Makutu',
-        description: 'Companyia Filigranes, 2021'
+        description: 'Companyia Filigranes, 2019'
       },
       {
         title: 'Direcció',
