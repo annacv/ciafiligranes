@@ -170,10 +170,10 @@ export default {
       },
       {
         label: 'Vestuari',
-        description: "Cia. Filigranes i Associació de Circ Tub d'Assaig 7'70"
+        description: "Cia. Filigranes i Tub d'Assaig 7'70"
       },
       {
-        label: 'Possibilitat de variació del nombre d’actors i/o músics.'
+        label: 'Possibilitat de variació del nombre d’actors.'
       }
     ]
   },
@@ -220,7 +220,7 @@ export default {
         description: 'Walter Velázquez'
       },
       {
-        label: 'Direcció artística i assessorament en efectes màgics',
+        label: "Direcció artística i d'efectes màgics",
         description: 'Manuel Jiménez (Mago Manu)'
       },
       {
@@ -378,7 +378,7 @@ export default {
       },
       {
         label: 'Equip de so',
-        description: '1000 watts i 1 micro inalàmbrics.'
+        description: '1000 watts i 1 micro inalàmbric.'
       }
     ],
 

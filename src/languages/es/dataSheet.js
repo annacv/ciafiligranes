@@ -170,10 +170,10 @@ export default {
       },
       {
         label: 'Vestuario',
-        description: "Cía. Filigranes y Asociación de Circo Tub d'Assaig 7'70"
+        description: "Cía. Filigranes y Circ Tub d'Assaig 7'70"
       },
       {
-        label: 'Posibilidad de variación del número de actores y/o músicos.'
+        label: 'Posibilidad de variación del número de actores.'
       }
     ]
   },
@@ -220,7 +220,7 @@ export default {
         description: 'Walter Velázquez'
       },
       {
-        label: 'Dirección artística y asesoramiento de efectos mágicos',
+        label: 'Dirección artística y de efectos mágicos',
         description: 'Manuel Jiménez (Mago Manu)'
       },
       {

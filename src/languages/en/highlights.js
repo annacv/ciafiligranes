@@ -229,11 +229,11 @@ export default {
         alt: 'An image of the Plis Plas show'
       },
       {
-        title: 'Show',
-        name: 'The Filixic Circus',
-        link: '/en/shows/filixic-circus',
-        image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'An image of The Circ Filixic show'
+        title: 'Itinerant Show',
+        name: 'The Freak-Frac Brothers',
+        link: '/en/shows/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'An image of The Freak-Frac Brothers Parade'
       }
     ]
   },
@@ -257,11 +257,11 @@ export default {
         alt: 'An image of the Plis Plas show'
       },
       {
-        title: 'Show',
-        name: 'The Filixic Circus',
-        link: '/en/shows/filixic-circus',
-        image: '/images/img_thumbnail_filixic.jpg',
-        alt: 'An image of The Circ Filixic show'
+        title: 'Itinerant Show',
+        name: 'The Freak-Frac Brothers',
+        link: '/en/shows/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: 'An image of The Freak-Frac Brothers Parade'
       }
     ]
   },

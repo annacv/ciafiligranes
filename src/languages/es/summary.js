@@ -110,7 +110,7 @@ export default {
       {
         title: 'Pasacalles Hermanos Freak Frac',
         description:
-          "Compañía Filigranes y Asociación de Circo Tub d'Assaig, 2013"
+          "Compañía Filigranes y Asociación de Circo Tub d'Assaig 7'70, 2013"
       },
       {
         title: 'Dirección',
@@ -209,7 +209,7 @@ export default {
     items: [
       {
         title: 'Trinxat No Tremola',
-        description: 'Compañía Filigranes, 2021'
+        description: 'Compañía Filigranes, 2019'
       },
       {
         title: 'Dirección',
@@ -229,7 +229,7 @@ export default {
     items: [
       {
         title: 'El Pequeño Circo de Makutu',
-        description: 'Compañía Filigranes, 2021'
+        description: 'Compañía Filigranes, 2019'
       },
       {
         title: 'Dirección',

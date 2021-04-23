@@ -229,11 +229,11 @@ export default {
         alt: "Imatge de l'espectacle Plis Plas"
       },
       {
-        title: 'Espectacle',
-        name: 'El Circ Filixic',
-        link: '/espectacles/circ-filixic',
-        image: '/images/img_thumbnail_filixic.jpg',
-        alt: "Imatge de l'espectacle El Circ Filixic"
+        title: 'Espectacle itinerant',
+        name: 'Germans Freak-Frac',
+        link: '/espectacles/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac"
       }
     ]
   },
@@ -257,11 +257,11 @@ export default {
         alt: "Imatge de l'espectacle Plis Plas"
       },
       {
-        title: 'Espectacle',
-        name: 'El Circ Filixic',
-        link: '/espectacles/circ-filixic',
-        image: '/images/img_thumbnail_filixic.jpg',
-        alt: "Imatge de l'espectacle El Circ Filixic"
+        title: 'Espectacle itinerant',
+        name: 'Germans Freak-Frac',
+        link: '/espectacles/freakfrac',
+        image: '/images/img_thumbnail_freakfrac.jpg',
+        alt: "Imatge de l'espectacle Cercavila Germans Freak-Frac"
       }
     ]
   },
