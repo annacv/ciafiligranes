@@ -27,7 +27,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -60,7 +60,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -93,7 +93,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -126,7 +126,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -159,7 +159,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -192,7 +192,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -266,7 +266,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },

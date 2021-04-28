@@ -24,7 +24,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -37,7 +37,7 @@ export default {
             slot: {
               alt:
                 "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -71,7 +71,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -84,7 +84,7 @@ export default {
             slot: {
               alt:
                 "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -118,7 +118,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -131,7 +131,7 @@ export default {
             slot: {
               alt:
                 "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -165,7 +165,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -178,7 +178,7 @@ export default {
             slot: {
               alt:
                 "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -212,7 +212,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -225,7 +225,7 @@ export default {
             slot: {
               alt:
                 "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -260,7 +260,7 @@ export default {
             slot: {
               alt:
                 "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -295,7 +295,7 @@ export default {
             slot: {
               alt:
                 "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -334,7 +334,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -346,7 +346,7 @@ export default {
             text: 'Més info',
             slot: {
               alt: 'Fletxa dreta. En clicar es navega a la pàgina del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],
@@ -380,7 +380,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -392,7 +392,7 @@ export default {
             text: 'Més info',
             slot: {
               alt: 'Fletxa dreta. En clicar es navega a la pàgina del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],
@@ -426,7 +426,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -438,7 +438,7 @@ export default {
             text: 'Més info',
             slot: {
               alt: 'Fletxa dreta. En clicar es navega a la pàgina del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],
@@ -472,7 +472,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -484,7 +484,7 @@ export default {
             text: 'Més info',
             slot: {
               alt: 'Fletxa dreta. En clicar es navega a la pàgina del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],
@@ -518,7 +518,7 @@ export default {
             text: 'Dossier',
             slot: {
               alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -530,7 +530,7 @@ export default {
             text: 'Més info',
             slot: {
               alt: 'Fletxa dreta. En clicar es navega a la pàgina del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],

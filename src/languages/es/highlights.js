@@ -67,7 +67,7 @@ export default {
       slot: {
         alt:
           'Flecha izquierda. Al hacer clic navegarás al listado de espectáculos',
-        class: 'arrow_left black'
+        class: 'arrow-left black'
       }
     }
   },
@@ -306,7 +306,7 @@ export default {
       text: 'Volver al listado de talleres',
       slot: {
         alt: 'Flecha izquierda. Al hacer clic navegarás al listado de talleres',
-        class: 'arrow_left black'
+        class: 'arrow-left black'
       }
     }
   },

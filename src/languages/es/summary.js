@@ -27,7 +27,7 @@ export default {
       text: 'Dosier',
       slot: {
         alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -60,7 +60,7 @@ export default {
       text: 'Dosier',
       slot: {
         alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -93,7 +93,7 @@ export default {
       text: 'Dosier',
       slot: {
         alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -127,7 +127,7 @@ export default {
       text: 'Dosier',
       slot: {
         alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -160,7 +160,7 @@ export default {
       text: 'Dosier',
       slot: {
         alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -193,7 +193,7 @@ export default {
       text: 'Dosier',
       slot: {
         alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -267,7 +267,7 @@ export default {
       text: 'Dosier',
       slot: {
         alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },

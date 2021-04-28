@@ -28,7 +28,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -61,7 +61,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -94,7 +94,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -128,7 +128,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -161,7 +161,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -194,7 +194,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -268,7 +268,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Fletxa descendent. En clicar es descarrega un arxiu',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
