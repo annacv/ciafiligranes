@@ -1,3 +1,9 @@
+<style
+  lang="scss"
+  src="@/components/ProductInfo/EmbeddedVideo/YTEmbedded.scss"
+>
+</style>
+
 <template>
   <div :video-id="getVideoId(videoId)" class="video-container">
     <script src="https://www.youtube.com/iframe_api"></script>
@@ -7,7 +13,7 @@
 
 <script>
 export default {
-  name: 'YTEmbed',
+  name: 'YTEmbedded',
 
   data: () => ({
     player: null,
