@@ -9,11 +9,9 @@
         :abstract="$t('summary.makutu_circus.abstract')"
         :items="$t('summary.makutu_circus.items')"
       />
-      <DataSheet
-        :titles="$t('dataSheet.titles')"
-        :sheet1="$t('dataSheet.makutu_circus.sheet1')"
-        :sheet2="$t('dataSheet.makutu_circus.sheet2')"
+      <ProductInfo
         :images="$t('gallery.makutu_circus.images')"
+        :sheets="$t('dataSheet.makutu_circus.sheets')"
         class="shows one_clown"
       />
     </section>
@@ -37,9 +35,9 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 import Summary from '@/components/Summary/Summary'
 
 export default {
@@ -48,9 +46,9 @@ export default {
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
     Highlights,
+    ProductInfo,
     Summary
   },
 

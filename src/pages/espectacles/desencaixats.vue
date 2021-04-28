@@ -10,10 +10,8 @@
         :items="$t('summary.desencaixats.items')"
         :button="$t('summary.desencaixats.button')"
       />
-      <DataSheet
-        :titles="$t('dataSheet.titles')"
-        :sheet1="$t('dataSheet.desencaixats.sheet1')"
-        :sheet2="$t('dataSheet.desencaixats.sheet2')"
+      <ProductInfo
+        :sheets="$t('dataSheet.desencaixats.sheets')"
         video-id="GQ67p38vqcY"
         class="shows desencaixats"
       />
@@ -38,9 +36,9 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 import Summary from '@/components/Summary/Summary'
 
 export default {
@@ -49,9 +47,9 @@ export default {
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
     Highlights,
+    ProductInfo,
     Summary
   },
 

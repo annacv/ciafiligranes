@@ -5,12 +5,10 @@
       class="cover__workshops-detail workshops__circus"
     />
     <section class="main-content">
-      <DataSheet
-        :titles="$t('dataSheet.workshops.titles')"
-        :sheet1="$t('dataSheet.circus.sheet1')"
-        :sheet2="$t('dataSheet.circus.sheet2')"
-        :images="$t('gallery.circus.images')"
+      <ProductInfo
         :buttons="$t('dataSheet.circus.buttons')"
+        :images="$t('gallery.circus.images')"
+        :sheets="$t('dataSheet.circus.sheets')"
         class="workshops"
       />
     </section>
@@ -34,9 +32,9 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 
 export default {
   name: 'Circ',
@@ -44,9 +42,9 @@ export default {
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
-    Highlights
+    Highlights,
+    ProductInfo
   },
 
   nuxtI18n: {

@@ -5,14 +5,18 @@
       class="cover__workshops-detail workshops__bubbles"
     />
     <section class="main-content">
-      <DataSheet
+      <ProductInfo
+        :buttons="$t('dataSheet.bubbles.buttons')"
+        :images="$t('gallery.bubbles.images')"
+        :sheets="$t('dataSheet.bubbles.sheets')"
+        class="workshops"
+      />
+      <!-- <DataSheet
         :titles="$t('dataSheet.workshops.titles')"
         :sheet1="$t('dataSheet.bubbles.sheet1')"
         :sheet2="$t('dataSheet.seasonalWorkshops.sheet2')"
-        :buttons="$t('dataSheet.bubbles.buttons')"
-        :images="$t('gallery.bubbles.images')"
-        class="workshops"
-      />
+      
+      /> -->
     </section>
     <Gallery
       :images="$t('gallery.bubbles.images')"
@@ -34,9 +38,9 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 
 export default {
   name: 'BombollesSabo',
@@ -44,9 +48,9 @@ export default {
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
-    Highlights
+    Highlights,
+    ProductInfo
   },
 
   nuxtI18n: {
