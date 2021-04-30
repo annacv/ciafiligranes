@@ -54,8 +54,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/circo-trinxeta',
       ca: '/espectacles/circ-trinxeta',
+      es: '/espectaculos/circo-trinxeta',
       en: '/shows/trinxeta-circus'
     }
   }

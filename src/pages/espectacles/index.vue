@@ -41,8 +41,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos',
       ca: '/espectacles',
+      es: '/espectaculos',
       en: '/shows'
     }
   }

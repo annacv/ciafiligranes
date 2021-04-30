@@ -49,8 +49,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/maquillaje',
       ca: '/tallers/maquillatge',
+      es: '/talleres/maquillaje',
       en: '/workshops/makeup'
     }
   }

@@ -55,8 +55,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/circo-filixic',
       ca: '/espectacles/circ-filixic',
+      es: '/espectaculos/circo-filixic',
       en: '/shows/filixic-circus'
     }
   }

@@ -55,8 +55,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/burbujas-jabon',
       ca: '/tallers/bombolles-sabo',
+      es: '/talleres/burbujas-jabon',
       en: '/workshops/soap-bubles'
     }
   }

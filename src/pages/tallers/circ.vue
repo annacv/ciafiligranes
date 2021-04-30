@@ -49,8 +49,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/circo',
       ca: '/tallers/circ',
+      es: '/talleres/circo',
       en: '/workshops/circus'
     }
   }

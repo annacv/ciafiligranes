@@ -67,8 +67,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/animaciones',
       ca: '/animacions',
+      es: '/animaciones',
       en: '/performances'
     }
   }

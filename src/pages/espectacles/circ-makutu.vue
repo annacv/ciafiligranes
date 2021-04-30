@@ -54,8 +54,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/circo-makutu',
       ca: '/espectacles/circ-makutu',
+      es: '/espectaculos/circo-makutu',
       en: '/shows/makutu-circus'
     }
   }

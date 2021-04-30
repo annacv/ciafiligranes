@@ -55,8 +55,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/plisplas',
       ca: '/espectacles/plisplas',
+      es: '/espectaculos/plisplas',
       en: '/shows/plisplas'
     }
   }

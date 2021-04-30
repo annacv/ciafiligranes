@@ -41,8 +41,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/talleres',
       ca: '/tallers',
+      es: '/talleres',
       en: '/workshops'
     }
   }

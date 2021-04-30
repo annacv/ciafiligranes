@@ -26,8 +26,8 @@ export default {
   nuxtI18n: {
     paths: {
       ca: '/avis-legal',
-      en: '/legal-notice',
-      es: '/aviso-legal'
+      es: '/aviso-legal',
+      en: '/legal-notice'
     }
   }
 }

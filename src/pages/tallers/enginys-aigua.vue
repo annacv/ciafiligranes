@@ -57,8 +57,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/ingenios-agua',
       ca: '/tallers/enginys-aigua',
+      es: '/talleres/ingenios-agua',
       en: '/workshops/water-tricks'
     }
   }

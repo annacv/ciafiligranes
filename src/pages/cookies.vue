@@ -39,8 +39,8 @@ export default {
   nuxtI18n: {
     paths: {
       ca: '/cookies',
-      en: '/cookies-policy',
-      es: '/cookies'
+      es: '/cookies',
+      en: '/cookies-policy'
     }
   }
 }

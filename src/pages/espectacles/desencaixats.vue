@@ -55,8 +55,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/desencaixats',
       ca: '/espectacles/desencaixats',
+      es: '/espectaculos/desencaixats',
       en: '/shows/desencaixats'
     }
   }

@@ -60,13 +60,11 @@ export default {
     this.cookieAccepted = this.isCookieAccepted()
   },
 
-  data() {
-    return {
-      displaySidenav: false,
-      cookieAccepted: undefined,
-      cookieName: 'cookie-policy-consent-accepted'
-    }
-  },
+  data: () => ({
+    displaySidenav: false,
+    cookieAccepted: undefined,
+    cookieName: 'cookie-policy-consent-accepted'
+  }),
 
   methods: {
     isCookieAccepted() {

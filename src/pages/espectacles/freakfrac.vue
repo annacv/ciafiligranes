@@ -55,8 +55,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/freakfrac',
       ca: '/espectacles/freakfrac',
+      es: '/espectaculos/freakfrac',
       en: '/shows/freakfrac'
     }
   }

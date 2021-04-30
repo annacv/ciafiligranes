@@ -49,8 +49,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/payasos',
       ca: '/tallers/pallassos',
+      es: '/talleres/payasos',
       en: '/workshops/clowns'
     }
   }
