@@ -288,7 +288,7 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/es/espectaculos/circo-filixic',
+            href: '/es/espectaculos/circo-makutu',
             target: '_top',
             download: '',
             text: 'Más info',

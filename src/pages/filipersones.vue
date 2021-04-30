@@ -22,6 +22,7 @@
         <Summary
           :abstract="$t('summary.makutu.abstract')"
           :items="$t('summary.makutu.items')"
+          :button="$t('summary.makutu.button')"
           class="summary__filipersones-detail-clown"
         />
         <Gallery
@@ -30,15 +31,17 @@
         />
       </article>
       <article>
-        <SynopsisReverse
+        <Synopsis
           :title="$t('synopsis.filipersones.trinxeta.title')"
           :image="$t('synopsis.filipersones.trinxeta.image')"
           :paragraphs="$t('synopsis.filipersones.trinxeta.paragraphs')"
+          reverse
           class="synopsis__filipersones synopsis__reverse"
         />
         <Summary
           :abstract="$t('summary.trinxeta.abstract')"
           :items="$t('summary.trinxeta.items')"
+          :button="$t('summary.trinxeta.button')"
           class="summary__filipersones-detail-clown"
         />
         <Gallery
@@ -67,7 +70,6 @@ import Filipartners from '@/components/Filipartners/Filipartners'
 import Gallery from '@/components/Gallery/Gallery'
 import PlainText from '@/components/PlainText/PlainText'
 import Synopsis from '@/components/Synopsis/Synopsis'
-import SynopsisReverse from '@/components/Synopsis/SynopsisReverse'
 import Summary from '@/components/Summary/Summary'
 
 export default {
@@ -80,15 +82,14 @@ export default {
     Gallery,
     PlainText,
     Synopsis,
-    SynopsisReverse,
     Summary
   },
 
   nuxtI18n: {
     paths: {
       ca: '/filipersones',
-      en: '/filipeople',
-      es: '/filipersonas'
+      es: '/filipersonas',
+      en: '/filipeople'
     }
   }
 }

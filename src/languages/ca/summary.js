@@ -37,7 +37,7 @@ export default {
     abstract: [
       {
         paragraph:
-          "La clau d'aquesta obra és un joc constant d'estira i arronsa, que dona lloc a una relació impregnada de fantasia, semblant al món real en el que viuen els nens/es, alhora entranyable i conflictiva. Entre el Clown (Makutu) i l'August (Toti) hi ha una relació on s'equilibren curosament la rivalitat i la complicitat."
+          "Plis-Plas i.... Acció! Música, aplaudiments i molt dinamisme en una entrada ràpida i festiva dels dos pallassos! Des de l'inici de l'espectacle entrem en un ritme vibrant, on el Clown (Makutu) i l'August (Toti) ens acompanyaran durant una estona ben divertida."
       }
     ],
 
@@ -325,7 +325,19 @@ export default {
         description:
           "Actualment és membre de la Companyia Filigranes (2004) i de l'Associació de Circ Tub d'Assaig 7'70. Exerceix com a formador i també practica disciplines vinculades amb el món del circ, com els malabars, la manipulació d'objectes, la bola d'equilibris o les xanques."
       }
-    ]
+    ],
+    button: {
+      class: 'button-outline-primary button-outline-primary__teal',
+      type: 'application',
+      href: '/espectacles/circ-makutu',
+      target: '_top',
+      download: '',
+      text: 'El Petit Circ de Makutu',
+      slot: {
+        alt: "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
+        class: 'arrow-right teal'
+      }
+    }
   },
 
   trinxeta: {
@@ -345,6 +357,18 @@ export default {
         description:
           "També dedica part del seu temps a la realització de tallers específics exercint com a docent, sent la seva especialitat el clown, la manipulació d'objectes, el monocicle i els malabars de foc."
       }
-    ]
+    ],
+    button: {
+      class: 'button-outline-primary button-outline-primary__teal',
+      type: 'application',
+      href: '/espectacles/circ-trinxeta',
+      target: '_top',
+      download: '',
+      text: 'Trinxat No Tremola',
+      slot: {
+        alt: "Fletxa dreta. En clicar es navega a la pàgina de l'espectacle",
+        class: 'arrow-right teal'
+      }
+    }
   }
 }

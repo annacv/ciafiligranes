@@ -1,6 +1,6 @@
 a {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   text-decoration: none;
 
   &:hover {
@@ -24,6 +24,10 @@ a {
 
     &.eminence {
       background-image: url("~@/assets/icons/arrow_right--eminence.svg");
+    }
+
+    &.teal {
+      background-image: url("~@/assets/icons/arrow_right--teal.svg");
     }
   }
 
@@ -90,8 +94,8 @@ a {
   font-family: "AkkuratBold", "Arial", sans-serif;
 
   &__teal {
-    color: #008287;
     border: solid .0625rem #20c0c6;
+    color: #008287;
 
     &:hover {
       background-color: #008287;

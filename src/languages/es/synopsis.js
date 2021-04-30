@@ -17,7 +17,23 @@ export default {
       srcmobile: '/images/img_src_mobile_shows_plisplas.jpg',
       src: '/images/img_src_shows_plisplas.jpg',
       srcset: '/images/img_sinopsi_plisplas.png'
-    }
+    },
+
+    buttons: [
+      {
+        class: 'button-outline-primary',
+        type: 'application',
+        href: '/es/espectaculos/plisplas',
+        target: '_top',
+        download: '',
+        text: 'Más info',
+        slot: {
+          alt:
+            'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
+          class: 'arrow-right radical-red'
+        }
+      }
+    ]
   },
 
   performances: {

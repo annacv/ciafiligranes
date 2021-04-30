@@ -17,7 +17,22 @@ export default {
       srcmobile: '/images/img_src_mobile_shows_plisplas.jpg',
       src: '/images/img_src_shows_plisplas.jpg',
       srcset: '/images/img_sinopsi_plisplas.png'
-    }
+    },
+
+    buttons: [
+      {
+        class: 'button-outline-primary',
+        type: 'application',
+        href: '/en/shows/plisplas',
+        target: '_top',
+        download: '',
+        text: 'More info',
+        slot: {
+          alt: "Arrow right. By clicking you will navigate to the show's page",
+          class: 'arrow-right radical-red'
+        }
+      }
+    ]
   },
 
   performances: {
