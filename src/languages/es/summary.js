@@ -36,7 +36,7 @@ export default {
     abstract: [
       {
         paragraph:
-          'La clave de esta obra es un juego constante de tira y afloja, que da lugar a una relación impregnada de fantasía, parecido al mundo real en el que viven los niños/as, a la vez entrañable y conflictiva. Entre el Clown (Makutu ) y el Augusto (Toti) hay una relación donde se equilibran cuidadosamente la rivalidad y la complicidad.'
+          'Plis-Plas y .... Acción! Música, aplausos y mucho dinamismo en una entrada rápida y festiva de los dos payasos! Desde el comienzo del espectáculo entramos en un ritmo vibrante, donde el Clown (Makutu) y el Augusto (Toti) nos acompañarán para pasar un rato divertido.'
       }
     ],
 
@@ -324,7 +324,21 @@ export default {
         description:
           "Actualmente es miembro de la Compañía Filigranes (2004) y de la Asociación de Circo Tub d'Assaig 7'70. Ejerce como formador y también practica disciplinas vinculadas con el mundo del circo, como los malabares, la manipulación de objetos, la bola de equilibrios o los zancos."
       }
-    ]
+    ],
+
+    button: {
+      class: 'button-outline-primary button-outline-primary__teal',
+      type: 'application',
+      href: '/es/espectaculos/circo-makutu',
+      target: '_top',
+      download: '',
+      text: 'El Pequeño Circo de Makutu',
+      slot: {
+        alt:
+          'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
+        class: 'arrow-right teal'
+      }
+    }
   },
 
   trinxeta: {
@@ -344,6 +358,20 @@ export default {
         description:
           'También dedica parte de su tiempo a la realización de talleres específicos ejerciendo de docente, siendo su especialidad el clown, la manipulación de objetos, el monociclo y los malabares de fuego.'
       }
-    ]
+    ],
+
+    button: {
+      class: 'button-outline-primary button-outline-primary__teal',
+      type: 'application',
+      href: '/es/espectaculos/circo-trinxeta',
+      target: '_top',
+      download: '',
+      text: 'Trinxat No Tiembla',
+      slot: {
+        alt:
+          'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
+        class: 'arrow-right teal'
+      }
+    }
   }
 }
