@@ -8,6 +8,10 @@
   height: auto;
   overflow: hidden;
 
+  @media only screen and (min-width: 1024px) {
+    margin: 2.25rem 0 0;
+  }
+
   &::after {
     display: block;
     padding-top: 56.25%;

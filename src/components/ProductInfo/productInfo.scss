@@ -53,12 +53,6 @@
         }
       }
 
-      &__tab-card {
-        @media only screen and (min-width: 1024px) {
-          margin: -2.25rem 0 0;
-        }
-      }
-
       &__tabs {
         .tab--active {
           color: #fd2b5e;
