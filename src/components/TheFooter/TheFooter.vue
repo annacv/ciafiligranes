@@ -60,21 +60,21 @@
         <div class="col-12 credits__content">
           <p class="credits__cia" v-text="cia" />
           <div
-            v-for="item in credits"
+            v-for="(item, index) in credits"
             :key="item.text"
             class="credits__partners"
           >
             <p
-              id="item-link"
+              :id="'credit-link-'+`${index}`"
               class="credits__text"
               v-text="item.text"
             />
             <a
               :aria-label="item.arialabel"
               :href="item.href"
+              :aria-describedby="'credit-link-'+`${index}`"
               target="__blank"
               rel="noopener nofollow"
-              aria-describedby="item-link"
               class="credits__link"
               v-text="item.link"
             />

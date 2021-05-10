@@ -14,19 +14,19 @@
             v-text="title"
           />
           <div
-            v-for="item in items"
+            v-for="(item, index) in items"
             :key="item.label"
             class="contract__ways"
           >
             <p
-              id="item-link"
+              :id="'contract-link-'+`${index}`"
               class="contract__label"
               v-text="item.text"
             />
             <a
               :aria-label="item.arialabel"
               :href="item.href"
-              aria-describedby="item-link"
+              :aria-describedby="'contract-link-'+`${index}`"
               class="contract__link"
               v-text="item.link"
             />
