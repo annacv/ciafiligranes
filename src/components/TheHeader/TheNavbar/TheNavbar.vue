@@ -5,47 +5,22 @@
 </style>
 
 <template>
-  <ul class="navbar__menu-list">
-    <li class="navbar__menu-item">
+  <ul class="navbar__menu-list" role="menu">
+    <li
+      v-for="(menuitem, index) in menu"
+      :key="index"
+      class="navbar__menu-item"
+      >
       <nuxt-link
-        :aria-label="menu.shows.aria"
-        :to="localePath('espectacles', $i18n.locale)"
+        :aria-label="menuitem.ariaLabel"
+        :name="menuitem.name"
+        :to="localePath(`${menuitem.name}`, $i18n.locale)"
+        :text="menuitem.text"
         class="navbar__menu-links"
-        v-text="menu.shows.text"
-      />
-    </li>
-    <li class="navbar__menu-item">
-      <nuxt-link
-        :aria-label="menu.workshops.aria"
-        :to="localePath('tallers', $i18n.locale)"
-        class="navbar__menu-links"
-        v-text="menu.workshops.text"
-      />
-    </li>
-    <li class="navbar__menu-item">
-      <nuxt-link
-        :aria-label="menu.performances.aria"
-        :to="localePath('animacions', $i18n.locale)"
-        class="navbar__menu-links"
-        v-text="menu.performances.text"
-      />
-    </li>
-    <li class="navbar__menu-item">
-      <nuxt-link
-        :aria-label="menu.filipersones.aria"
-        :to="localePath('filipersones', $i18n.locale)"
-        class="navbar__menu-links"
-        v-text="menu.filipersones.text"
-      />
-    </li>
-    <li class="navbar__menu-item">
-      <nuxt-link
-        :aria-label="menu.contacte.aria"
-        :to="localePath('contacte', $i18n.locale)"
-        class="navbar__menu-links"
-        v-text="menu.contacte.text"
-      />
-    </li>
+        role="menuitem"
+      > {{ menuitem.text }}
+      </nuxt-link>
+    </li>    
   </ul>
 </template>
 
@@ -55,8 +30,8 @@ export default {
 
   props: {
     menu: {
-      type: Object,
-      default: () => {}
+      type: Array,
+      default: () => []
     }
   }
 }

@@ -21,6 +21,10 @@ nav {
     flex-flow: row wrap;
     align-content: center;
     margin: 0 1rem 0 0;
+
+    @media only screen and (min-width: 1024px) {
+      flex-flow: row nowrap;
+    }
   }
 
   &__menu-item > a,
@@ -34,8 +38,15 @@ nav {
     -moz-osx-font-smoothing: grayscale;
 
     &:hover {
-      border-bottom: .05rem solid #fff;
+      border-bottom: .05rem solid #d6d6d6;
+      border-radius: .0625rem;
       text-decoration: none;
+      color: #d6d6d6;
+    }
+
+    &.nuxt-link-exact-active {
+      border-bottom: .05rem solid #fff;
+      border-radius: .0625rem;
     }
 
     @media only screen and (min-width: 1200px) {

@@ -6,37 +6,39 @@
 </style>
 
 <template>
-  <div class="language-selector">
-    <label
-      :aria-label="selectlang"
-      class="language-selector__label"
-      for="selectlang"
-    >
-    </label>
-    <select
-      id="selectlang"
-      :aria-label="selectlang"
-      :name="selectname"
-      v-model="selected"
-      class="language-selector__field"
-      @change="changeLocale()"
-    >
-      <option
-        :value="selected"
+  <client-only>
+    <div class="language-selector">
+      <label
+        :aria-label="selectlang"
+        class="language-selector__label"
+        for="selectlang"
       >
-        {{ $i18n.locale }}
-      </option>
-      <option
-        v-for="locale in availableLocales"
-        :value="locale.code"
-        :key="locale.code" >{{ locale.name }}
-        <nuxt-link
-          :to="switchLocalePath(locale.code)"
-          :aria-label="locale.iso">
-        </nuxt-link>
-      </option>
-    </select>
-  </div>
+      </label>
+      <select
+        id="selectlang"
+        :aria-label="selectlang"
+        :name="selectname"
+        v-model="selected"
+        class="language-selector__field"
+        @change="changeLocale()"
+      >
+        <option
+          :value="selected"
+        >
+          {{ $i18n.locale }}
+        </option>
+        <option
+          v-for="locale in availableLocales"
+          :value="locale.code"
+          :key="locale.code" >{{ locale.name }}
+          <nuxt-link
+            :to="switchLocalePath(locale.code)"
+            :aria-label="locale.iso">
+          </nuxt-link>
+        </option>
+      </select>
+    </div>
+  </client-only>
 </template>
 
 <script>

@@ -9,13 +9,10 @@
     <TheHeader
       :logo="$t('header.logo')"
       :menu="$t('header.menu')"
-      @sidenavToggle="displaySidenav =! displaySidenav"
     />
     <TheSidenav
       :logo="$t('header.logo')"
       :menu="$t('header.menu')"
-      :show="displaySidenav"
-      @close="displaySidenav = false"
     />
       <nuxt/>
     <TheFooter
@@ -61,7 +58,6 @@ export default {
   },
 
   data: () => ({
-    displaySidenav: false,
     cookieAccepted: undefined,
     cookieName: 'cookie-policy-consent-accepted'
   }),

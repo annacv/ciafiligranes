@@ -8,7 +8,7 @@
   <header role="banner">
     <b-container fluid class="header">
       <b-row no-gutters>
-        <div class="col-12 col-lg-3 offset-xl-1 offset-xxl-2">
+        <div class="col-12 col-lg-2 offset-xl-1 offset-xxl-2">
           <div class="header__brand">
             <h1>
               <nuxt-link
@@ -25,12 +25,12 @@
             </h1>
             <TheBurger
               :aria-label="$t('header.burger.open')"
-              @toggle="$emit('sidenavToggle')"
+              @toggle="sidenavToggle()"
             />
           </div>
         </div>
-        <div class="col-12 col-lg-9 col-xl-7 col-xxl-5">
-          <div class= "header__navbar">
+        <div class="col-12 col-lg-9 col-xl-7 col-xxl-5 offset-lg-1">
+          <div class="header__navbar">
             <nav
               class="navbar__main"
               role="navigation"
@@ -51,6 +51,8 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
+
 import TheBurger from './TheBurger/TheBurger'
 import LanguageSelector from './LanguageSelector/LanguageSelector'
 import TheNavbar from './TheNavbar/TheNavbar'
@@ -71,9 +73,13 @@ export default {
     },
 
     menu: {
-      type: Object,
-      default: () => {}
+      type: Array,
+      default: () => []
     }
+  },
+
+  methods: {
+    ...mapMutations({ sidenavToggle: 'sidenav/toggle' })
   }
 }
 </script>
