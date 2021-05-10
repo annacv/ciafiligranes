@@ -55,6 +55,10 @@ import Summary from '@/components/Summary/Summary'
 export default {
   name: 'Performances',
 
+  head() {
+    return Object.assign({}, this.$t('meta.performances'))
+  },
+
   components: {
     Contract,
     Cover,

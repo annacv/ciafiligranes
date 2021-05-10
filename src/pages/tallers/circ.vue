@@ -39,6 +39,10 @@ import ProductInfo from '@/components/ProductInfo/ProductInfo'
 export default {
   name: 'Circ',
 
+  head() {
+    return Object.assign({}, this.$t('meta.workshops'))
+  },
+
   components: {
     Contract,
     Cover,

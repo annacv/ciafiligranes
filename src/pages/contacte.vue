@@ -26,6 +26,10 @@ import Synopsis from '@/components/Synopsis/Synopsis'
 export default {
   name: 'Contacte',
 
+  head() {
+    return Object.assign({}, this.$t('meta.home'))
+  },
+
   components: {
     BrandedList,
     Cover,

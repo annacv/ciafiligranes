@@ -53,7 +53,7 @@ export default {
   name: 'HomePage',
 
   head() {
-    return this.$t('meta.index')
+    return Object.assign({}, this.$t('meta.home'))
   },
 
   components: {

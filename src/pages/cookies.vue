@@ -29,6 +29,10 @@ import TableList from '@/components/TableList/TableList'
 export default {
   name: 'Cookies',
 
+  head() {
+    return Object.assign({}, this.$t('meta.legal'))
+  },
+
   components: {
     Cover,
     DottedList,

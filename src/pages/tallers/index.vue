@@ -32,6 +32,10 @@ import ProductList from '@/components/ProductList/ProductList'
 export default {
   name: 'Workshops',
 
+  head() {
+    return Object.assign({}, this.$t('meta.workshops'))
+  },
+
   components: {
     Contract,
     Cover,

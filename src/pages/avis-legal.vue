@@ -18,6 +18,10 @@ import PlainText from '@/components/PlainText/PlainText'
 export default {
   name: 'LegalDisclaimer',
 
+  head() {
+    return Object.assign({}, this.$t('meta.legal'))
+  },
+
   components: {
     Cover,
     PlainText

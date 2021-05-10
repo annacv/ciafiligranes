@@ -44,6 +44,10 @@ import Summary from '@/components/Summary/Summary'
 export default {
   name: 'CircFilirates',
 
+  head() {
+    return Object.assign({}, this.$t('meta.shows'))
+  },
+
   components: {
     Contract,
     Cover,
