@@ -9,6 +9,7 @@
     <li
       v-for="(menuitem, index) in menu"
       :key="index"
+      role="menuitem"
       class="navbar__menu-item"
       >
       <nuxt-link
@@ -17,7 +18,6 @@
         :to="localePath(`${menuitem.name}`, $i18n.locale)"
         :text="menuitem.text"
         class="navbar__menu-links"
-        role="menuitem"
       > {{ menuitem.text }}
       </nuxt-link>
     </li>    
