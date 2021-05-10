@@ -10,10 +10,8 @@
         :items="$t('summary.filixic.items')"
         :button="$t('summary.filixic.button')"
       />
-      <DataSheet
-        :titles="$t('dataSheet.titles')"
-        :sheet1="$t('dataSheet.filixic.sheet1')"
-        :sheet2="$t('dataSheet.filixic.sheet2')"
+      <ProductInfo
+        :sheets="$t('dataSheet.filixic.sheets')"
         video-id="rg3XzGQIPpU"
         class="shows filixic"
       />
@@ -38,27 +36,31 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 import Summary from '@/components/Summary/Summary'
 
 export default {
   name: 'CircFilixic',
 
+  head() {
+    return Object.assign({}, this.$t('meta.shows'))
+  },
+
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
     Highlights,
+    ProductInfo,
     Summary
   },
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/circo-filixic',
       ca: '/espectacles/circ-filixic',
+      es: '/espectaculos/circo-filixic',
       en: '/shows/filixic-circus'
     }
   }

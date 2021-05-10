@@ -65,7 +65,7 @@ export default {
       text: 'Go back to shows list',
       slot: {
         alt: 'Arrow left. On click you will go back to shows list page',
-        class: 'arrow_left black'
+        class: 'arrow-left black'
       }
     }
   },
@@ -304,7 +304,7 @@ export default {
       text: 'Go back to workshops list',
       slot: {
         alt: 'Arrow left. On click you will go back to workhops list page',
-        class: 'arrow_left black'
+        class: 'arrow-left black'
       }
     }
   },

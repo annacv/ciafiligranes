@@ -18,6 +18,10 @@ import PlainText from '@/components/PlainText/PlainText'
 export default {
   name: 'LegalDisclaimer',
 
+  head() {
+    return Object.assign({}, this.$t('meta.legal'))
+  },
+
   components: {
     Cover,
     PlainText
@@ -26,8 +30,8 @@ export default {
   nuxtI18n: {
     paths: {
       ca: '/avis-legal',
-      en: '/legal-notice',
-      es: '/aviso-legal'
+      es: '/aviso-legal',
+      en: '/legal-notice'
     }
   }
 }

@@ -1,44 +1,5 @@
 .data-sheet {
-  margin: 2rem 0;
   background-color: #fff;
-
-  @media only screen and (min-width: 768px) {
-    margin: 4rem 0;
-    padding: 0 2rem;
-  }
-
-  @media only screen and (min-width: 1024px) {
-    padding: 0 3rem;
-  }
-
-  @media only screen and (min-width: 1200px) {
-    padding: 0;
-  }
-
-  .video-container {
-    position: relative;
-    border-top: 0.25rem solid #fd2b5e;
-    border-right: 0.0625rem solid #fd2b5e;
-    border-bottom: 0.25rem solid #fd2b5e;
-    border-left: 0.0625rem solid#fd2b5e;
-    width: auto;
-    height: auto;
-    overflow: hidden;
-
-    &::after {
-      display: block;
-      padding-top: 56.25%;
-      content: '';
-    }
-
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
 
   &__tab-card {
     padding: 2rem 0 0;
@@ -162,81 +123,6 @@
 
     &--light {
       font-family: 'AkkuratLight', 'Arial', sans-serif;
-    }
-  }
-
-  &__btn {
-    margin: 2rem 0 0;
-  }
-
-  &.shows {
-    .data-sheet {
-      &__list {
-        border-color: #fd2b5e;
-
-        &.left-side,
-        &.right-side {
-          border-color: #fd2b5e;
-        }
-      }
-
-      &__tab-card {
-        @media only screen and (min-width: 1024px) {
-          margin: -2.25rem 0 0;
-        }
-      }
-
-      &__tabs {
-        .tab--active {
-          color: #fd2b5e;
-        }
-      }
-    }
-  }
-
-  &.workshops {
-    .gallery {
-      margin: 2.25rem 0 0;
-    }
-
-    .data-sheet {
-      &__list {
-        border-color: #5c2978;
-
-        &.left-side,
-        &.right-side {
-          border-color: #5c2978;
-        }
-      }
-
-      &__tabs {
-        .tab--active {
-          color: #5c2978;
-        }
-      }
-    }
-  }
-
-  &.performances {
-    .gallery {
-      margin: 2.25rem 0 0;
-    }
-
-    .data-sheet {
-      &__list {
-        border-color: #e32906;
-
-        &.left-side,
-        &.right-side {
-          border-color: #e32906;
-        }
-      }
-
-      &__tabs {
-        .tab--active {
-          color: #e32906;
-        }
-      }
     }
   }
 }

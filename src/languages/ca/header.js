@@ -8,32 +8,38 @@ export default {
   selectlang: 'Selecciona el teu idioma',
   selectname: "Selector d'idioma",
 
-  menu: {
-    shows: {
-      text: 'Espectacles',
-      aria: "Enllaç amb la pàgina d'espectacles"
+  menu: [
+    {
+      ariaLabel: "Enllaç amb la pàgina d'inici",
+      name: 'index',
+      text: 'Inici'
     },
-
-    workshops: {
-      text: 'Tallers',
-      aria: 'Enllaç amb la pàgina de tallers'
+    {
+      ariaLabel: "Enllaç amb la pàgina d'espectacles",
+      name: 'espectacles',
+      text: 'Espectacles'
     },
-
-    performances: {
-      text: 'Animacions',
-      aria: "Enllaç amb la pàgina d'animacions"
+    {
+      ariaLabel: 'Enllaç amb la pàgina de tallers',
+      name: 'tallers',
+      text: 'Tallers'
     },
-
-    filipersones: {
-      text: 'Filipersones',
-      aria: 'Enllaç amb la pàgina sobre els pallassos Makutu i Trinxeta'
+    {
+      ariaLabel: "Enllaç amb la pàgina d'animacions",
+      name: 'animacions',
+      text: 'Animacions'
     },
-
-    contacte: {
-      text: 'Contacte',
-      aria: 'Enllaç amb la pàgina de contacte de la Cia.Filigranes'
+    {
+      ariaLabel: 'Enllaç amb la pàgina sobre els pallassos Makutu i Trinxeta',
+      name: 'filipersones',
+      text: 'Filipersones'
+    },
+    {
+      ariaLabel: 'Enllaç amb la pàgina de contacte de la Cia.Filigranes',
+      name: 'contacte',
+      text: 'Contacte'
     }
-  },
+  ],
 
   burger: {
     label: 'menu per a tablets i dispositius mòbils',

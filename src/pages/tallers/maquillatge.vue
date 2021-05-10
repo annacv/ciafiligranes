@@ -5,12 +5,10 @@
       class="cover__workshops-detail workshops__makeup"
     />
     <section class="main-content">
-      <DataSheet
-        :titles="$t('dataSheet.workshops.titles')"
-        :sheet1="$t('dataSheet.makeup.sheet1')"
-        :sheet2="$t('dataSheet.makeup.sheet2')"
-        :images="$t('gallery.makeup.images')"
+      <ProductInfo
         :buttons="$t('dataSheet.makeup.buttons')"
+        :images="$t('gallery.makeup.images')"
+        :sheets="$t('dataSheet.makeup.sheets')"
         class="workshops"
       />
     </section>
@@ -34,25 +32,29 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 
 export default {
   name: 'Maquillatge',
 
+  head() {
+    return Object.assign({}, this.$t('meta.workshops'))
+  },
+
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
-    Highlights
+    Highlights,
+    ProductInfo
   },
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/maquillaje',
       ca: '/tallers/maquillatge',
+      es: '/talleres/maquillaje',
       en: '/workshops/makeup'
     }
   }

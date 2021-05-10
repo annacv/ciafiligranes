@@ -5,14 +5,20 @@
       class="cover__workshops-detail workshops__water"
     />
     <section class="main-content">
-      <DataSheet
+      <ProductInfo
+        :buttons="$t('dataSheet.water.buttons')"
+        :images="$t('gallery.water.images')"
+        :sheets="$t('dataSheet.water.sheets')"
+        class="workshops"
+      />
+      <!-- <DataSheet
         :titles="$t('dataSheet.workshops.titles')"
         :sheet1="$t('dataSheet.water.sheet1')"
         :sheet2="$t('dataSheet.seasonalWorkshops.sheet2')"
         :images="$t('gallery.water.images')"
         :buttons="$t('dataSheet.water.buttons')"
         class="workshops"
-      />
+      /> -->
     </section>
     <Gallery
       :images="$t('gallery.water.images')"
@@ -34,25 +40,29 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 
 export default {
   name: 'EnginysAigua',
 
+  head() {
+    return Object.assign({}, this.$t('meta.workshops'))
+  },
+
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
-    Highlights
+    Highlights,
+    ProductInfo
   },
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/ingenios-agua',
       ca: '/tallers/enginys-aigua',
+      es: '/talleres/ingenios-agua',
       en: '/workshops/water-tricks'
     }
   }

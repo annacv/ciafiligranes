@@ -27,7 +27,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -36,7 +36,7 @@ export default {
     abstract: [
       {
         paragraph:
-          'The key to this work is a constant game of tug-of-war, which gives rise to an impregnated relationship of fantasy, similar to the real world in which children live, at the same time intriguing and conflicting. Among the Clown (Makutu) and August (Toti) there is a relationship where carefully curb their rivalry and complicity'
+          'Plis-Plas and .... Action! Music, applause and a lot of dynamism in a quick and festive entrance of the two clowns! From the beginning of the show we join a vibrant rhythm, where the Clown (Makutu) and the August (Toti) will lead us to have a fun time.'
       }
     ],
 
@@ -60,7 +60,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -93,7 +93,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -126,7 +126,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -159,7 +159,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -192,7 +192,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -266,7 +266,7 @@ export default {
       text: 'Dossier',
       slot: {
         alt: 'Arrow down. By clicking a file will be downloaded',
-        class: 'arrow_down black'
+        class: 'arrow-down black'
       }
     }
   },
@@ -323,7 +323,20 @@ export default {
         description:
           'At the moment, he works as a trainer and also practices disciplines related to the circus world, such as juggling, manipulation of objects, balance ball or stilts.'
       }
-    ]
+    ],
+
+    button: {
+      class: 'button-outline-primary button-outline-primary__teal',
+      type: 'application',
+      href: '/en/shows/makutu-circus',
+      target: '_top',
+      download: '',
+      text: "Makutu's Little Circus",
+      slot: {
+        alt: "Arrow right. By clicking you will navigate to the show's page",
+        class: 'arrow-right teal'
+      }
+    }
   },
 
   trinxeta: {
@@ -343,6 +356,19 @@ export default {
         description:
           'He also dedicates part of his time to the accomplishment of specific workshops a former, being his specialty the clown, the manipulation of objects, the monocicle and the juggling of fire.'
       }
-    ]
+    ],
+
+    button: {
+      class: 'button-outline-primary button-outline-primary__teal',
+      type: 'application',
+      href: '/en/shows/trinxeta-circus',
+      target: '_top',
+      download: '',
+      text: "Trinxat doesn't Tremble",
+      slot: {
+        alt: "Arrow right. By clicking you will navigate to the show's page",
+        class: 'arrow-right teal'
+      }
+    }
   }
 }

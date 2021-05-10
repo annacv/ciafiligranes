@@ -65,7 +65,7 @@ export default {
       text: "Tornar al llistat d'espectacles",
       slot: {
         alt: "Fletxa esquerra. En clicar es navega al llistat d'espectacles",
-        class: 'arrow_left black'
+        class: 'arrow-left black'
       }
     }
   },
@@ -304,7 +304,7 @@ export default {
       text: 'Tornar al llistat de tallers',
       slot: {
         alt: 'Fletxa esquerra. En clicar es navega al llistat de tallers',
-        class: 'arrow_left black'
+        class: 'arrow-left black'
       }
     }
   },

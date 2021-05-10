@@ -11,9 +11,9 @@
         :button="$t('summary.home.button')"
       />
       <Synopsis
-        :title="$t('synopsis.home.title')"
         :image="$t('synopsis.home.image')"
         :paragraphs="$t('synopsis.home.paragraphs')"
+        :buttons="$t('synopsis.home.buttons')"
         class="synopsis__home"
       />
       <Contract
@@ -27,12 +27,24 @@
       :highlighted="$t('highlights.home.highlighted')"
       class="highlights__mixed"
     />
+    <section>
+      <Filipartners
+        :heading="$t('filipartners.heading')"
+        :partnersicons="$t('filipartners.partnersicons')"
+      />
+      <BrandedList
+        :brandedicons="$t('brandedList.brandedCorp')"
+        class="branded-list-corp"
+      />
+    </section>
   </div>
 </template>
 
 <script>
+import BrandedList from '@/components/BrandedList/BrandedList'
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
+import Filipartners from '@/components/Filipartners/Filipartners'
 import Highlights from '@/components/Highlights/Highlights'
 import Summary from '@/components/Summary/Summary'
 import Synopsis from '@/components/Synopsis/Synopsis'
@@ -41,12 +53,14 @@ export default {
   name: 'HomePage',
 
   head() {
-    return this.$t('meta.index')
+    return Object.assign({}, this.$t('meta.home'))
   },
 
   components: {
+    BrandedList,
     Contract,
     Cover,
+    Filipartners,
     Highlights,
     Summary,
     Synopsis
@@ -54,8 +68,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/',
       ca: '/',
+      es: '/',
       en: '/'
     }
   }

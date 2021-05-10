@@ -10,10 +10,8 @@
         :items="$t('summary.plisplas.items')"
         :button="$t('summary.plisplas.button')"
       />
-      <DataSheet
-        :titles="$t('dataSheet.titles')"
-        :sheet1="$t('dataSheet.plisplas.sheet1')"
-        :sheet2="$t('dataSheet.plisplas.sheet2')"
+      <ProductInfo
+        :sheets="$t('dataSheet.plisplas.sheets')"
         video-id="VOcQTqZ9C2A"
         class="shows plisplas"
       />
@@ -38,27 +36,31 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 import Summary from '@/components/Summary/Summary'
 
 export default {
   name: 'PlisPlas',
 
+  head() {
+    return Object.assign({}, this.$t('meta.shows'))
+  },
+
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
     Highlights,
+    ProductInfo,
     Summary
   },
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/plisplas',
       ca: '/espectacles/plisplas',
+      es: '/espectaculos/plisplas',
       en: '/shows/plisplas'
     }
   }

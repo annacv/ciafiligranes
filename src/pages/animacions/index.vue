@@ -22,11 +22,9 @@
         class="contract__performances-w"
       />
     </section>
-    <DataSheet
-      :titles="$t('dataSheet.titles')"
-      :sheet1="$t('dataSheet.performances.sheet1')"
-      :sheet2="$t('dataSheet.performances.sheet2')"
+    <ProductInfo
       :images="$t('gallery.performances.images')"
+      :sheets="$t('dataSheet.performances.sheets')"
       class="performances"
     />
     <Gallery
@@ -48,31 +46,33 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
-import ProductList from '@/components/ProductList/ProductList'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 import Synopsis from '@/components/Synopsis/Synopsis'
 import Summary from '@/components/Summary/Summary'
 
 export default {
   name: 'Performances',
 
+  head() {
+    return Object.assign({}, this.$t('meta.performances'))
+  },
+
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
     Highlights,
-    ProductList,
+    ProductInfo,
     Synopsis,
     Summary
   },
 
   nuxtI18n: {
     paths: {
-      es: '/animaciones',
       ca: '/animacions',
+      es: '/animaciones',
       en: '/performances'
     }
   }

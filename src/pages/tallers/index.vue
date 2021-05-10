@@ -32,6 +32,10 @@ import ProductList from '@/components/ProductList/ProductList'
 export default {
   name: 'Workshops',
 
+  head() {
+    return Object.assign({}, this.$t('meta.workshops'))
+  },
+
   components: {
     Contract,
     Cover,
@@ -41,8 +45,8 @@ export default {
 
   nuxtI18n: {
     paths: {
-      es: '/talleres',
       ca: '/tallers',
+      es: '/talleres',
       en: '/workshops'
     }
   }

@@ -1,0 +1,109 @@
+.product-info {
+  margin: 2rem 0;
+
+  @media only screen and (min-width: 768px) {
+    margin: 4rem 0;
+    padding: 0 2rem;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    padding: 0 3rem;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    padding: 0;
+  }
+
+  &__row {
+    .col {
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      @media only screen and (min-width: 768px) {
+        margin-bottom: 0;
+      }
+
+      @media only screen and (min-width: 1024px) {
+        &:first-child {
+          padding-right: 1.5rem;
+        }
+
+        &:last-child {
+          padding-left: 1.5rem;
+        }
+      }
+    }
+  }
+
+  &__btn {
+    margin: 2rem 0 0;
+  }
+
+  &.shows {
+    .data-sheet {
+      &__list {
+        border-color: #fd2b5e;
+
+        &.left-side,
+        &.right-side {
+          border-color: #fd2b5e;
+        }
+      }
+
+      &__tabs {
+        .tab--active {
+          color: #fd2b5e;
+        }
+      }
+    }
+  }
+
+  &.workshops {
+    .gallery {
+      margin: 2.25rem 0 0;
+    }
+
+    .data-sheet {
+      &__list {
+        border-color: #5c2978;
+
+        &.left-side,
+        &.right-side {
+          border-color: #5c2978;
+        }
+      }
+
+      &__tabs {
+        .tab--active {
+          color: #5c2978;
+        }
+      }
+    }
+  }
+
+  &.performances {
+    .gallery {
+      margin: 2.25rem 0 0;
+    }
+
+    .data-sheet {
+      &__list {
+        border-color: #e32906;
+
+        &.left-side,
+        &.right-side {
+          border-color: #e32906;
+        }
+      }
+
+      &__tabs {
+        .tab--active {
+          color: #e32906;
+        }
+      }
+    }
+  }
+}

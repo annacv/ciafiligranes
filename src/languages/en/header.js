@@ -8,32 +8,38 @@ export default {
   selectlang: 'Select your language',
   selectname: 'Language selector',
 
-  menu: {
-    shows: {
-      text: 'Shows',
-      aria: 'Links to Shows page'
+  menu: [
+    {
+      ariaLabel: 'Links to Home page',
+      name: 'index',
+      text: 'Home'
     },
-
-    workshops: {
-      text: 'Workshops',
-      aria: 'Links to Workshops page'
+    {
+      ariaLabel: 'Links to Shows page',
+      name: 'espectacles',
+      text: 'Shows'
     },
-
-    performances: {
-      text: 'Performances',
-      aria: 'Links to Performances page'
+    {
+      ariaLabel: 'Links to Workshops page',
+      name: 'tallers',
+      text: 'Workshops'
     },
-
-    filipersones: {
-      text: 'Filipeople',
-      aria: "Links to the clowns' Makutu and Trinxeta page"
+    {
+      ariaLabel: 'Links to Performances page',
+      name: 'animacions',
+      text: 'Performances'
     },
-
-    contacte: {
-      text: 'Contact',
-      aria: "Links to the Cia.Filigranes' contact page"
+    {
+      ariaLabel: "Links to the clowns' Makutu and Trinxeta page",
+      name: 'filipersones',
+      text: 'Filipeople'
+    },
+    {
+      ariaLabel: "Links to the Cia.Filigranes' contact page",
+      name: 'contacte',
+      text: 'Contact'
     }
-  },
+  ],
 
   burger: {
     label: 'tablet and mobile menu',

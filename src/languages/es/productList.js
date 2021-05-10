@@ -24,7 +24,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -37,7 +37,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -71,7 +71,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -84,7 +84,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -118,7 +118,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -131,7 +131,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -165,7 +165,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -178,7 +178,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -212,7 +212,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -225,7 +225,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -260,7 +260,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -288,14 +288,14 @@ export default {
           {
             class: 'button-outline-primary',
             type: 'application',
-            href: '/es/espectaculos/circo-filixic',
+            href: '/es/espectaculos/circo-makutu',
             target: '_top',
             download: '',
             text: 'Más info',
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
-              class: 'arrow_right radical-red'
+              class: 'arrow-right radical-red'
             }
           }
         ],
@@ -334,7 +334,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -347,7 +347,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],
@@ -381,7 +381,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -394,7 +394,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del espectáculo',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],
@@ -428,7 +428,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -441,7 +441,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],
@@ -475,7 +475,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -488,7 +488,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],
@@ -522,7 +522,7 @@ export default {
             text: 'Dosier',
             slot: {
               alt: 'Flecha descendiente. Al hacer clic se descarga un archivo',
-              class: 'arrow_down black'
+              class: 'arrow-down black'
             }
           },
           {
@@ -535,7 +535,7 @@ export default {
             slot: {
               alt:
                 'Flecha derecha. Al hacer clic navegarás a la página del taller',
-              class: 'arrow_right eminence'
+              class: 'arrow-right eminence'
             }
           }
         ],

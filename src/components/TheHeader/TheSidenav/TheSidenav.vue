@@ -7,41 +7,31 @@
 <template>
 <div class="sidenav__container">
   <div
-    v-if="show"
+    v-if="sidenav"
     class="sidenav__backdrop"
-    @click="$emit('close')"></div>
+    @click="close()"
+  />
   <transition name="slide-side">
     <div
-      v-if="show"
-      class="sidenav">
+      v-if="sidenav"
+      class="sidenav"
+    >
       <div class="sidenav__header">
         <LanguageSelector
           :selectlang="$t('header.selectlang')"
           :selectname="$t('header.selectname')"
         />
-        <div
-          class="burger-container"
-          @click="$emit('close')"
-        >
+        <div class="burger-container">
           <TheBurger
             :aria-label="$t('header.burger.close')"
             class="burger-close"
+            @toggle="close()"
           />
         </div>
       </div>
-      <div @click="$emit('close')">
-        <p class='navbar__menu-item'>
-          <nuxt-link
-            :to="localePath('index')"
-            :aria-label="logo.label"
-            @click="$emit('close')"
-            v-text="logo.filicor"
-          >
-          </nuxt-link>
-        </p>
+      <div @click="close()">
         <TheNavbar
           :menu="menu"
-          @click="$emit('close')"
         />
       </div>
     </div>
@@ -50,6 +40,8 @@
 </template>
 
 <script>
+import { mapGetters, mapMutations } from 'vuex'
+
 import TheBurger from '../TheBurger/TheBurger'
 import LanguageSelector from '../LanguageSelector/LanguageSelector'
 import TheNavbar from '../TheNavbar/TheNavbar'
@@ -57,15 +49,16 @@ import TheNavbar from '../TheNavbar/TheNavbar'
 export default {
   name: 'TheSidenav',
 
-  props: {
-    show: {
-      type: Boolean,
-      default: false
-    },
+  components: {
+    TheBurger,
+    LanguageSelector,
+    TheNavbar
+  },
 
+  props: {
     menu: {
-      type: Object,
-      default: () => {}
+      type: Array,
+      default: () => []
     },
 
     logo: {
@@ -74,10 +67,12 @@ export default {
     }
   },
 
-  components: {
-    TheBurger,
-    LanguageSelector,
-    TheNavbar
+  computed: {
+    ...mapGetters({ sidenav: 'sidenav/getSidenavState' })
+  },
+
+  methods: {
+    ...mapMutations({ close: 'sidenav/toggle' })
   }
 }
 </script>

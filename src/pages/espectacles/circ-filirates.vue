@@ -10,10 +10,8 @@
         :items="$t('summary.filirates.items')"
         :button="$t('summary.filirates.button')"
       />
-      <DataSheet
-        :titles="$t('dataSheet.titles')"
-        :sheet1="$t('dataSheet.filirates.sheet1')"
-        :sheet2="$t('dataSheet.filirates.sheet2')"
+      <ProductInfo
+        :sheets="$t('dataSheet.filirates.sheets')"
         video-id="lU5b5V7U6Wc"
         class="shows filirates"
       />
@@ -38,27 +36,31 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 import Summary from '@/components/Summary/Summary'
 
 export default {
   name: 'CircFilirates',
 
+  head() {
+    return Object.assign({}, this.$t('meta.shows'))
+  },
+
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
     Highlights,
+    ProductInfo,
     Summary
   },
 
   nuxtI18n: {
     paths: {
-      es: '/espectaculos/circo-filiratas',
       ca: '/espectacles/circ-filirates',
+      es: '/espectaculos/circo-filiratas',
       en: '/shows/filirates-circus'
     }
   }

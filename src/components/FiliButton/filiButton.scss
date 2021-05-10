@@ -1,6 +1,6 @@
 a {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   text-decoration: none;
 
   &:hover {
@@ -12,7 +12,7 @@ a {
   border: solid .0625rem #fd2b5e;
   color: #fd2b5e;
 
-  .arrow_right {
+  .arrow-right {
     margin-left: .25rem;
     background-repeat: no-repeat;
     width: .6875rem;
@@ -25,13 +25,17 @@ a {
     &.eminence {
       background-image: url("~@/assets/icons/arrow_right--eminence.svg");
     }
+
+    &.teal {
+      background-image: url("~@/assets/icons/arrow_right--teal.svg");
+    }
   }
 
   &:hover {
     background-color: #fd2b5e;
     color: #fff;
 
-    .arrow_right {
+    .arrow-right {
       background-image: url("~@/assets/icons/arrow_right--white.svg");
     }
   }
@@ -41,7 +45,7 @@ a {
   border: solid .0625rem #000;
   color: #000;
 
-  .arrow_down {
+  .arrow-down {
     margin-left: .35rem;
     background-repeat: no-repeat;
     width: .5rem;
@@ -56,7 +60,7 @@ a {
     }
   }
 
-  .arrow_right {
+  .arrow-right {
     margin-left: .25rem;
     background-repeat: no-repeat;
     width: 1rem;
@@ -71,11 +75,11 @@ a {
     background-color: #000;
     color: #fff;
 
-    .arrow_down {
+    .arrow-down {
       background-image: url("~@/assets/icons/arrow_down--white.svg");
     }
 
-    .arrow_right {
+    .arrow-right {
       background-image: url("~@/assets/icons/arrow_right--white.svg");
     }
   }
@@ -90,8 +94,8 @@ a {
   font-family: "AkkuratBold", "Arial", sans-serif;
 
   &__teal {
-    color: #008287;
     border: solid .0625rem #20c0c6;
+    color: #008287;
 
     &:hover {
       background-color: #008287;
@@ -99,12 +103,12 @@ a {
   }
 
   &__eminence {
-    color: #5c2978;
     border: solid .0625rem #5c2978;
+    color: #5c2978;
 
     &:hover {
-      background-color: #5c2978;
       border: solid .0625rem #350a64;
+      background-color: #5c2978;
     }
   }
 }
@@ -116,7 +120,7 @@ a {
   color: #000;
   font-family: "Akkurat", "Arial", sans-serif;
 
-  .arrow_left {
+  .arrow-left {
     margin-right: .25rem;
     background-repeat: no-repeat;
     width: 1rem;

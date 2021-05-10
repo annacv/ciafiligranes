@@ -5,12 +5,10 @@
       class="cover__workshops-detail workshops__clowns"
     />
     <section class="main-content">
-      <DataSheet
-        :titles="$t('dataSheet.workshops.titles')"
-        :sheet1="$t('dataSheet.clowns.sheet1')"
-        :sheet2="$t('dataSheet.clowns.sheet2')"
-        :images="$t('gallery.clowns.images')"
+      <ProductInfo
         :buttons="$t('dataSheet.clowns.buttons')"
+        :images="$t('gallery.clowns.images')"
+        :sheets="$t('dataSheet.clowns.sheets')"
         class="workshops"
       />
     </section>
@@ -34,25 +32,29 @@
 <script>
 import Cover from '@/components/Cover/Cover'
 import Contract from '@/components/Contract/Contract'
-import DataSheet from '@/components/DataSheet/DataSheet'
 import Gallery from '@/components/Gallery/Gallery'
 import Highlights from '@/components/Highlights/Highlights'
+import ProductInfo from '@/components/ProductInfo/ProductInfo'
 
 export default {
   name: 'Pallassos',
 
+  head() {
+    return Object.assign({}, this.$t('meta.workshops'))
+  },
+
   components: {
     Contract,
     Cover,
-    DataSheet,
     Gallery,
-    Highlights
+    Highlights,
+    ProductInfo
   },
 
   nuxtI18n: {
     paths: {
-      es: '/talleres/payasos',
       ca: '/tallers/pallassos',
+      es: '/talleres/payasos',
       en: '/workshops/clowns'
     }
   }
