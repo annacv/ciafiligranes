@@ -23,7 +23,7 @@
     "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.0.2",
     "sass-lint": "^1.13.1",
-    "tar": "^2.2.2",
+    "tar": "^4.4.15",
     "vue": "^2.6.10",
     "vue-server-renderer": "^2.6.12",
     "vue-template-compiler": "^2.6.10"
