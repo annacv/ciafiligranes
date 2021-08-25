@@ -11,12 +11,6 @@
         :sheets="$t('dataSheet.bubbles.sheets')"
         class="workshops"
       />
-      <!-- <DataSheet
-        :titles="$t('dataSheet.workshops.titles')"
-        :sheet1="$t('dataSheet.bubbles.sheet1')"
-        :sheet2="$t('dataSheet.seasonalWorkshops.sheet2')"
-      
-      /> -->
     </section>
     <Gallery
       :images="$t('gallery.bubbles.images')"
@@ -61,7 +55,7 @@ export default {
     paths: {
       ca: '/tallers/bombolles-sabo',
       es: '/talleres/burbujas-jabon',
-      en: '/workshops/soap-bubles'
+      en: '/workshops/soap-bubbles'
     }
   }
 }
