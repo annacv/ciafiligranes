@@ -1,29 +1,23 @@
 // Colors
-$black: #000 !default;
-$cardinal: #bc1b36 !default;
-$eminence: #5c2978 !default;
-$electric-violet: #863fee !default;
-$illusion: #f6b1bd !default;
-$java: #20c0c6 !default;
-$radical-red: #fd2b5e !default;
-$red-ribbon: #e1092e !default;
-$shark: #25272c !default;
-$teal: #008287 !default;
-$tundora: #444 !default;
-$white: #fff !default;
+$alabaster: rgb(248, 248, 248); // #f8f8f8
+$alto: rgb(214, 214, 214); // #d6d6d6
+$black: rgb(0, 0, 0); // #000
+$cardinal: rgb(188, 27, 54); // #bc1b36
+$eminence: rgb(92, 41, 120); // #5c2978
+$gray: rgb(136, 136, 136); // #888
+$illusion: rgb(246, 177, 189); // #f6b1bd
+$java: rgb(32, 192, 198); // #20c0c6
+$lemon: rgb(251, 221, 11); // #fbdd0b
+$radical-red: rgb(253, 43, 94); // #fd2b5e
+$red-ribbon: rgb(225, 9, 46); // #e1092e
+$scarlet: rgb(227, 41, 6); // #e32906
+$shark: rgb(36, 38, 41); // #242629
+$silver: rgb(192, 192, 192); // #c0c0c0
+$teal: rgb(0, 130, 135); // #008287
+$tundora: rgb(68, 68, 68); // #444
+$violent-violet: rgb(41, 12, 94); // #350a64
+$white: rgb(255, 255, 255); // #fff
 
-$colors: () !default;
-$colors: map-merge(("black": $black,
-"cardinal": $cardinal,
-"eminence": $eminence,
-"electric-violet": $electric-violet,
-"illusion": $illusion,
-"java": $java,
-"radical-red": $radical-red,
-"red-ribbon": $red-ribbon,
-"shark": $shark,
-"teal": $teal,
-"tundora": $tundora,
-"white": $white), $colors);
-
-$color-primary: $radical-red;
+// Shadows
+$black-shadow: rgba(0, 0, 0, 0.5);
+$eminence-shadow: rgba(92, 41, 120, 0);
