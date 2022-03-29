@@ -49,7 +49,7 @@ rules:
     - size: 2
   leading-zero:
     - 2
-    - include: false
+    - include: true
   max-line-length:
     - 2
     - length: 80
@@ -60,10 +60,10 @@ rules:
   mixins-before-declarations:
     - 2
     - exclude:
-      - 'mq'
+        - 'mq'
   nesting-depth:
     - 3
-    - max-depth: 3
+    - max-depth: 4
   no-attribute-selectors: 0
   no-color-hex: 2
   no-color-keywords: 2
@@ -101,12 +101,12 @@ rules:
   property-units:
     - 2
     - global:
-      - 'rem'
-      - 's'
+        - 'rem'
+        - 's'
   pseudo-element: 2
   quotes:
     - 2
-    - style: double
+    - style: single
   shorthand-values: 2
   single-line-per-selector: 2
   space-after-bang:

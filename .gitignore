@@ -71,7 +71,7 @@ typings/
 # Nuxt generate
 dist/
 build/
-.DS_Store
+.build
 
 # vuepress build output
 .vuepress/dist
@@ -85,3 +85,9 @@ build/
 #VS Code
 .filigranes.code-workspace
 .vscode/
+
+#firebase
+.firebase
+
+# MacOSx
+.DS_Store

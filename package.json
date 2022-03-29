@@ -15,11 +15,13 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/style-resources": "^1.0.0",
     "bootstrap-vue": "^2.1.0",
     "bootstrap-xxl": "^4.1.1",
     "cross-env": "^5.2.1",
     "gonzales-pe-sl": "^4.2.3",
     "minimist": "^1.2.5",
+    "node": "^14.16.1",
     "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.0.2",
     "sass-lint": "^1.13.1",

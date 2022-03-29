@@ -1,9 +1,10 @@
 module.exports = {
   ssr: 'false',
   srcDir: './src',
+  target: 'static',
 
   env: {
-    baseUrl: 'https://ciafiligranes.net'
+    baseUrl: process.env.BASE_URL
   },
 
   generate: {
@@ -20,7 +21,6 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Companyia Filigranes',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -101,9 +101,9 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['@assets/scss/app.scss', '@assets/scss/_reboot.scss'],
+  css: [{ src: '@assets/scss/app.scss', lang: 'scss' }],
 
-  /*
+  /*s
   ** Plugins to load before mounting the App
   */
   plugins: [{ src: '~plugins/ga.js', ssr: false, mode: 'client' }],
@@ -115,7 +115,6 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
-
     [
       'nuxt-i18n',
       {
@@ -129,8 +128,13 @@ module.exports = {
           { code: 'en', iso: 'en-US', name: 'en', file: 'en/index.js' }
         ]
       }
-    ]
+    ],
+    '@nuxtjs/style-resources'
   ],
+
+  styleResources: {
+    scss: ['@/assets/scss/_colors.scss']
+  },
 
   /*
   ** Disable automatic inclusion of Bootstrap and BootstrapVue pre-compiled CSS and add only layout component
@@ -158,6 +162,7 @@ module.exports = {
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
+        config.resolve.symlinks = false
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
