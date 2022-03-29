@@ -11,7 +11,7 @@ nav {
   }
 
   &__image {
-    margin: 0 0 .35rem .05rem;
+    margin: 0 0 0.35rem 0.05rem;
     width: 1.65rem;
     height: auto;
   }
@@ -29,28 +29,28 @@ nav {
 
   &__menu-item > a,
   &__menu-item > p {
-    margin: 0 .875rem;
+    margin: 0 0.875rem;
     line-height: 1.7;
-    color: #fff;
-    font-family: "Akkurat", "Arial", sans-serif;
+    color: $white;
+    font-family: 'Akkurat', 'Arial', sans-serif;
     font-size: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
     &:hover {
-      border-bottom: .05rem solid #d6d6d6;
-      border-radius: .0625rem;
+      border-bottom: 0.05rem solid $alto;
+      border-radius: 0.0625rem;
       text-decoration: none;
-      color: #d6d6d6;
+      color: $alto;
     }
 
     &.nuxt-link-exact-active {
-      border-bottom: .05rem solid #fff;
-      border-radius: .0625rem;
+      border-bottom: 0.05rem solid $white;
+      border-radius: 0.0625rem;
     }
 
     @media only screen and (min-width: 1200px) {
-      margin: 0 .875rem;
+      margin: 0 0.875rem;
       line-height: 1.4;
       font-size: 1.125rem;
     }

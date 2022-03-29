@@ -10,16 +10,16 @@
     left: 0;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(41, 41, 41, .9);
+    background-color: $mine-shaft;
     padding: 1.25rem;
-    font-family: "Akkurat", Arial, sans-serif;
+    font-family: 'Akkurat', Arial, sans-serif;
 
     p,
     a {
       margin: 0;
       max-width: unset;
-      color: #fff;
-      font-size: .75rem;
+      color: $white;
+      font-size: 0.75rem;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
@@ -27,16 +27,16 @@
     & button {
       border: 0;
       border-radius: 1.125rem;
-      background-color: #fff;
-      padding: .35rem .5rem .35rem .6rem;
+      background-color: $white;
+      padding: 0.35rem 0.5rem 0.35rem 0.6rem;
       line-height: normal;
-      color: #000;
-      font-family: "AkkuratBold", "Arial", sans-serif;
-      font-size: .75rem;
+      color: $black;
+      font-family: 'AkkuratBold', 'Arial', sans-serif;
+      font-size: 0.75rem;
 
       &:hover {
-        background-color: #000;
-        color: #fff;
+        background-color: $black;
+        color: $white;
       }
     }
   }
@@ -46,7 +46,7 @@
     text-decoration: underline;
 
     &:hover {
-      font-family: "AkkuratBold", Arial, sans-serif;
+      font-family: 'AkkuratBold', Arial, sans-serif;
     }
   }
 
@@ -66,5 +66,3 @@
     }
   }
 }
-
-

@@ -39,7 +39,7 @@
   }
 
   &__subtitle {
-    margin: 2rem 0 .5rem;
+    margin: 2rem 0 0.5rem;
     background-repeat: no-repeat;
     background-position: 0 50%;
     padding: 0 0 0 1rem;
@@ -55,7 +55,7 @@
     background-repeat: no-repeat;
     background-position: 0 50%;
     padding: 0 0 0 1rem;
-    color: #000;
+    color: $black;
 
     &:hover {
       text-decoration: underline;
@@ -66,15 +66,14 @@
     .dotted-list {
       &__subtitle,
       &__list-link {
-        background-image: url("~@/assets/icons/dot--lemon.svg");
+        background-image: url('~@/assets/icons/dot--lemon.svg');
       }
 
       &__list-link {
         &:hover {
-          text-decoration-color: #fbdd0b;
+          text-decoration-color: $lemon;
         }
       }
     }
   }
-
 }

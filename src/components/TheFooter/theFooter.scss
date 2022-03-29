@@ -2,9 +2,9 @@
   width: 100%;
 
   &__corp {
-    background-color: #000;
-    padding: 2rem .9375rem;
-    color: #fff;
+    background-color: $black;
+    padding: 2rem 0.9375rem;
+    color: $tundora;
 
     @media only screen and (min-width: 768px) {
       padding: 2rem;
@@ -25,7 +25,7 @@
     order: 2;
     padding: 2rem 0;
     text-align: center;
-    font-size: .75rem;
+    font-size: 0.75rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
@@ -49,22 +49,22 @@
 
     .contact {
       &__email {
-        color: #fff;
+        color: $white;
 
         &:hover {
           text-decoration: underline;
         }
 
         @media only screen and (min-width: 768px) {
-          margin-right: .65rem;
+          margin-right: 0.65rem;
         }
       }
 
       @media only screen and (min-width: 768px) {
         &__adress {
           &::before {
-            margin-right: .65rem;
-            content: "·";
+            margin-right: 0.65rem;
+            content: '·';
           }
         }
       }
@@ -121,7 +121,6 @@
       height: 2.75rem;
     }
 
-
     @media only screen and (min-width: 1900px) {
       height: 3rem;
     }
@@ -135,12 +134,12 @@
   &__legal {
     display: flex;
     justify-content: center;
-    font-size: .75rem;
+    font-size: 0.75rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
     @media only screen and (min-width: 1500px) {
-      font-size: .875rem;
+      font-size: 0.875rem;
     }
 
     @media only screen and (min-width: 3000px) {
@@ -149,8 +148,8 @@
   }
 
   &__credits {
-    background-color: #242629;
-    padding: .75rem .9375rem;
+    background-color: $shark;
+    padding: 0.75rem 0.9375rem;
 
     .credits {
       &__content {
@@ -162,24 +161,24 @@
 
       &__cia,
       &__partners {
-        padding: .45rem 0;
-        color: #fff;
+        padding: 0.45rem 0;
+        color: $white;
       }
 
       &__cia {
         @media only screen and (min-width: 768px) {
-          margin-right: .45rem;
+          margin-right: 0.45rem;
         }
       }
 
       &__partners {
         display: flex;
-        margin-right: .45rem;
+        margin-right: 0.45rem;
 
         @media only screen and (min-width: 441px) {
           &::before {
-            margin-right: .5rem;
-            content: "·";
+            margin-right: 0.5rem;
+            content: '·';
           }
 
           &:last-child {
@@ -193,8 +192,8 @@
       }
 
       &__link {
-        margin-left: .35rem;
-        color: #fff;
+        margin-left: 0.35rem;
+        color: $white;
 
         &:hover {
           text-decoration: underline;
@@ -204,8 +203,8 @@
   }
 
   &__legal {
-    background-color: #fbdd0b;
-    padding: .35rem .5rem;
+    background-color: $lemon;
+    padding: 0.35rem 0.5rem;
   }
 
   &__legal-list {
@@ -215,14 +214,14 @@
   &__legal-list-item {
     &:first-child {
       &::after {
-        content: "|";
+        content: '|';
       }
     }
   }
 
   &__legal-links {
     margin: 0 1rem;
-    color: #000;
+    color: $black;
 
     &:hover {
       text-decoration: underline;

@@ -32,7 +32,7 @@
       margin: 1rem 0 0;
       border-spacing: 0;
       text-indent: 0;
-      font-size: .75rem;
+      font-size: 0.75rem;
 
       @media only screen and (min-width: 768px) {
         margin: 2rem 0 0;
@@ -46,7 +46,7 @@
     &__head {
       display: inline-flex;
       flex-direction: column;
-      border-bottom: .0625rem solid #444;
+      border-bottom: 0.0625rem solid $tundora;
       width: 100%;
 
       @media only screen and (min-width: 768px) {
@@ -57,15 +57,15 @@
     &__row {
       display: inline-flex;
       flex-direction: column;
-      border-bottom: .0625rem solid #c0c0c0;
+      border-bottom: 0.0625rem solid $silver;
       width: 100%;
 
       &:last-child {
-        border-bottom: .0625rem solid #444;
+        border-bottom: 0.0625rem solid $tundora;
       }
 
       &:hover {
-        background-color: #f8f8f8;
+        background-color: $alabaster;
       }
 
       @media only screen and (min-width: 768px) {
@@ -75,7 +75,7 @@
 
     &__heading,
     &__cell {
-      padding: .5rem;
+      padding: 0.5rem;
 
       @media only screen and (min-width: 768px) {
         padding: 1rem;

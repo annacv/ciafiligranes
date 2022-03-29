@@ -87,10 +87,10 @@
 
   &__link {
     line-height: 1.4;
-    color: #444;
+    color: $tundora;
 
     &:hover {
-      color: #000;
+      color: $black;
     }
   }
 }
@@ -114,32 +114,32 @@
       height: 12rem;
 
       &:nth-child(1) {
-        background-color: #fd2b5e;
+        background-color: $radical-red;
       }
 
       &:nth-child(2) {
-        background-color: #5c2978;
+        background-color: $eminence;
       }
 
       &:nth-child(3) {
-        background-color: #e32906;
+        background-color: $scarlet;
       }
     }
   }
 
   .branded-list-icon {
     &__link {
-      color: #fff;
+      color: $white;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
 
       &:hover {
-        font-family: "AkkuratBold";
+        font-family: 'AkkuratBold';
       }
     }
 
     &__image {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
       width: 3rem;
       height: auto;
 
@@ -148,6 +148,5 @@
         height: auto;
       }
     }
-
   }
 }

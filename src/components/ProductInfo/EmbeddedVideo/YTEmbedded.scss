@@ -1,15 +1,22 @@
 .video-container {
   position: relative;
-  border-top: 0.25rem solid #fd2b5e;
-  border-right: 0.0625rem solid #fd2b5e;
-  border-bottom: 0.25rem solid #fd2b5e;
-  border-left: 0.0625rem solid#fd2b5e;
   width: auto;
   height: auto;
   overflow: hidden;
 
   @media only screen and (min-width: 1024px) {
     margin: 2.25rem 0 0;
+    border-top: 4rem solid $radical-red;
+    border-right: 0;
+    border-bottom: 4rem solid $radical-red;
+    border-left: 0;
+  }
+
+  @media only screen and (min-width: 2300px) {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
   }
 
   &::after {

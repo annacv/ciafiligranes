@@ -1,5 +1,5 @@
 .data-sheet {
-  background-color: #fff;
+  background-color: $white;
 
   &__tab-card {
     padding: 2rem 0 0;
@@ -23,7 +23,7 @@
 
     .tab {
       margin: 0 1rem 0 0;
-      color: #888;
+      color: $gray;
 
       @media only screen and (min-width: 768px) {
         margin: 0 0.6rem 0 0;
@@ -34,7 +34,7 @@
       }
 
       &:hover {
-        color: #000;
+        color: $black;
       }
 
       &--active {
@@ -84,6 +84,14 @@
     border: 0.0625rem solid;
     height: auto;
 
+    @media only screen and (min-width: 1024px) {
+      height: 35rem;
+    }
+
+    @media only screen and (min-width: 1500px) {
+      height: 41.75rem;
+    }
+
     &.left-side {
       border-bottom: 0.25rem solid;
       padding: 1.5rem 1.5rem 1.25rem;
@@ -93,6 +101,7 @@
       border-top: 0.25rem solid;
       padding: 1.25rem 1.5rem 1.5rem;
     }
+
   }
 
   &__list-item {

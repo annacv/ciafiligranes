@@ -18,7 +18,7 @@
 
   &__heading {
     text-align: center;
-    font-family: "AkkuratLight", "Arial", sans-serif;
+    font-family: 'AkkuratLight', 'Arial', sans-serif;
     font-size: 1.25rem;
 
     @media only screen and (min-width: 768px) {
@@ -36,7 +36,6 @@
       padding: 4rem 0 0;
     }
   }
-
 }
 
 .filipartners-icons {
@@ -45,7 +44,7 @@
     height: 4.5rem;
 
     &:hover {
-      opacity: .6;
+      opacity: 0.6;
     }
   }
 }

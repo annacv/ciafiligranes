@@ -8,36 +8,36 @@
   }
 
   &__field {
-    border: .0625rem solid #fff;
-    border-radius: .875rem;
+    border: 0.0625rem solid $white;
+    border-radius: 0.875rem;
     background-color: transparent;
-    background-image: url("~@/assets/icons/select_down.svg");
+    background-image: url('~@/assets/icons/select_down.svg');
     background-repeat: no-repeat;
-    background-position: calc(100% - .625rem) 50%;
-    padding: 0 .5rem;
+    background-position: calc(100% - 0.625rem) 50%;
+    padding: 0 0.5rem;
     width: 3.375rem;
     height: 1.75rem;
     line-height: 1.2;
-    color: #fff;
-    font-family: "Akkurat", "Arial", sans-serif;
-    font-size: .875rem;
-    appearance: none;
+    color: $white;
+    font-family: 'Akkurat', 'Arial', sans-serif;
+    font-size: 0.875rem;
     -webkit-appearance: none;
     -moz-appearance: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    appearance: none;
 
     &:hover {
-      background-color: #fff;
-      background-image: url("~@/assets/icons/select_down--black.svg");
-      color: #000;
+      background-color: $white;
+      background-image: url('~@/assets/icons/select_down--black.svg');
+      color: $black;
     }
 
     @media only screen and (min-width: 1900px) {
       border-radius: 1.125rem;
-      background-position: calc(100% - .75rem) 55%;
-      background-size: .75rem;
-      padding: 0 .75rem;
+      background-position: calc(100% - 0.75rem) 55%;
+      background-size: 0.75rem;
+      padding: 0 0.75rem;
       width: 4.2rem;
       height: 2.25rem;
       font-size: 1rem;
@@ -45,9 +45,9 @@
 
     @media only screen and (min-width: 3000px) {
       border-radius: 1.25rem;
-      background-position: calc(100% - .875rem) 55%;
+      background-position: calc(100% - 0.875rem) 55%;
       background-size: 1rem;
-      padding: 0 .875rem;
+      padding: 0 0.875rem;
       width: 5rem;
       height: 2.5rem;
       font-size: 1.125rem;

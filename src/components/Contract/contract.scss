@@ -14,19 +14,19 @@
   }
 
   &__title {
-    margin: 0 0 .5rem;
-    padding: 0 .5rem .35rem;
+    margin: 0 0 0.5rem;
+    padding: 0 0.5rem 0.35rem;
     text-align: center;
-    color: #fff;
+    color: $white;
 
     @media only screen and (min-width: 768px) {
-      margin: 0 .5rem 0 0;
+      margin: 0 0.5rem 0 0;
       padding: 0;
       line-height: 1.4;
     }
 
     @media only screen and (min-width: 1200px) {
-      margin: 0 .75rem 0 0;
+      margin: 0 0.75rem 0 0;
       line-height: 1.5;
     }
 
@@ -40,7 +40,7 @@
     flex-flow: row wrap;
     justify-content: center;
     line-height: 1.5;
-    color: #fff;
+    color: $white;
     font-size: 1.125rem;
 
     @media only screen and (min-width: 768px) {
@@ -48,8 +48,8 @@
     }
 
     @media only screen and (min-width: 1500px) {
-      font-size: 1.25rem;
       line-height: 2.25rem;
+      font-size: 1.25rem;
     }
 
     @media only screen and (min-width: 3000px) {
@@ -58,23 +58,23 @@
   }
 
   &__label {
-    margin: 0 .125rem;
-    padding: 0 0 .35rem;
+    margin: 0 0.125rem;
+    padding: 0 0 0.35rem;
 
     @media only screen and (min-width: 768px) {
-      margin: 0 .25rem;
+      margin: 0 0.25rem;
       padding: 0;
     }
   }
 
   &__link {
-    margin: 0 .125rem;
-    padding: 0 0 .35rem;
-    color: #fff;
-    font-family: "AkkuratBold", "Arial", sans-serif;
+    margin: 0 0.125rem;
+    padding: 0 0 0.35rem;
+    color: $white;
+    font-family: 'AkkuratBold', 'Arial', sans-serif;
 
     @media only screen and (min-width: 768px) {
-      margin: 0 .25rem;
+      margin: 0 0.25rem;
       padding: 0;
     }
   }
@@ -85,18 +85,18 @@
   &__performances-w {
     .contract {
       &__ways {
-        color: #000;
+        color: $black;
       }
     }
   }
 
   &__home {
-    border-bottom: .125rem solid #fd2b5e;
+    border-bottom: 0.125rem solid $radical-red;
 
     .contract {
       &__title,
       &__link {
-        color: #fd2b5e;
+        color: $radical-red;
       }
     }
   }
@@ -104,7 +104,7 @@
   &__performances-w {
     display: none;
     margin: 0;
-    border-bottom: .125rem solid #e32906;
+    border-bottom: 0.125rem solid $scarlet;
 
     @media only screen and (min-width: 768px) {
       display: block;
@@ -113,7 +113,7 @@
     .contract {
       &__title,
       &__link {
-        color: #e32906;
+        color: $scarlet;
       }
     }
   }
@@ -134,20 +134,20 @@
   &__shows-detail,
   &__workshops-detail,
   &__performances {
-    margin-top: -.05rem;
+    margin-top: -0.05rem;
   }
 
   &__shows,
   &__shows-detail {
-    background-color: #fd2b5e;
+    background-color: $radical-red;
   }
 
   &__workshops,
   &__workshops-detail {
-    background-color: #5c2978;
+    background-color: $eminence;
   }
 
   &__performances {
-    background-color: #e32906;
+    background-color: $scarlet;
   }
 }

@@ -45,17 +45,17 @@
   &.shows {
     .data-sheet {
       &__list {
-        border-color: #fd2b5e;
+        border-color: $radical-red;
 
         &.left-side,
         &.right-side {
-          border-color: #fd2b5e;
+          border-color: $radical-red;
         }
       }
 
       &__tabs {
         .tab--active {
-          color: #fd2b5e;
+          color: $radical-red;
         }
       }
     }
@@ -68,17 +68,17 @@
 
     .data-sheet {
       &__list {
-        border-color: #5c2978;
+        border-color: $eminence;
 
         &.left-side,
         &.right-side {
-          border-color: #5c2978;
+          border-color: $eminence;
         }
       }
 
       &__tabs {
         .tab--active {
-          color: #5c2978;
+          color: $eminence;
         }
       }
     }
@@ -91,17 +91,17 @@
 
     .data-sheet {
       &__list {
-        border-color: #e32906;
+        border-color: $scarlet;
 
         &.left-side,
         &.right-side {
-          border-color: #e32906;
+          border-color: $scarlet;
         }
       }
 
       &__tabs {
         .tab--active {
-          color: #e32906;
+          color: $scarlet;
         }
       }
     }

@@ -9,78 +9,78 @@ a {
 }
 
 .button-outline-primary {
-  border: solid .0625rem #fd2b5e;
-  color: #fd2b5e;
+  border: solid 0.0625rem $radical-red;
+  color: $radical-red;
 
   .arrow-right {
-    margin-left: .25rem;
+    margin-left: 0.25rem;
     background-repeat: no-repeat;
-    width: .6875rem;
-    height: .5rem;
+    width: 0.6875rem;
+    height: 0.5rem;
 
     &.radical-red {
-      background-image: url("~@/assets/icons/arrow_right--radical-red.svg");
+      background-image: url('~@/assets/icons/arrow_right--radical-red.svg');
     }
 
     &.eminence {
-      background-image: url("~@/assets/icons/arrow_right--eminence.svg");
+      background-image: url('~@/assets/icons/arrow_right--eminence.svg');
     }
 
     &.teal {
-      background-image: url("~@/assets/icons/arrow_right--teal.svg");
+      background-image: url('~@/assets/icons/arrow_right--teal.svg');
     }
   }
 
   &:hover {
-    background-color: #fd2b5e;
-    color: #fff;
+    background-color: $radical-red;
+    color: $white;
 
     .arrow-right {
-      background-image: url("~@/assets/icons/arrow_right--white.svg");
+      background-image: url('~@/assets/icons/arrow_right--white.svg');
     }
   }
 }
 
 .button-outline-secondary {
-  border: solid .0625rem #000;
-  color: #000;
+  border: solid 0.0625rem $black;
+  color: $black;
 
   .arrow-down {
-    margin-left: .35rem;
+    margin-left: 0.35rem;
     background-repeat: no-repeat;
-    width: .5rem;
-    height: .6875rem;
+    width: 0.5rem;
+    height: 0.6875rem;
 
     &.black {
-      background-image: url("~@/assets/icons/arrow_down--black.svg");
+      background-image: url('~@/assets/icons/arrow_down--black.svg');
     }
 
     &.teal {
-      background-image: url("~@/assets/icons/arrow_down--teal.svg");
+      background-image: url('~@/assets/icons/arrow_down--teal.svg');
     }
   }
 
   .arrow-right {
-    margin-left: .25rem;
+    margin-left: 0.25rem;
     background-repeat: no-repeat;
     width: 1rem;
-    height: .65rem;
+    height: 0.65rem;
 
     &.black {
-      background-image: url("~@/assets/icons/arrow_right--black.svg");
+      background-image: url('~@/assets/icons/arrow_right--black.svg');
     }
   }
 
   &:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: $black;
+    color: $white;
 
     .arrow-down {
-      background-image: url("~@/assets/icons/arrow_down--white.svg");
+      background-image: url('~@/assets/icons/arrow_down--white.svg');
     }
 
     .arrow-right {
-      background-image: url("~@/assets/icons/arrow_right--white.svg");
+      background-image: url('~@/assets/icons/arrow_right--white.svg');
     }
   }
 }
@@ -88,27 +88,27 @@ a {
 .button-outline-primary,
 .button-outline-secondary {
   border-radius: 1.125rem;
-  background-color: #fff;
-  padding: .5rem .8rem .5rem .7rem;
+  background-color: $white;
+  padding: 0.5rem 0.8rem 0.5rem 0.7rem;
   line-height: normal;
-  font-family: "AkkuratBold", "Arial", sans-serif;
+  font-family: 'AkkuratBold', 'Arial', sans-serif;
 
   &__teal {
-    border: solid .0625rem #20c0c6;
-    color: #008287;
+    border: solid 0.0625rem $java;
+    color: $teal;
 
     &:hover {
-      background-color: #008287;
+      background-color: $teal;
     }
   }
 
   &__eminence {
-    border: solid .0625rem #5c2978;
-    color: #5c2978;
+    border: solid 0.0625rem $eminence;
+    color: $eminence;
 
     &:hover {
-      border: solid .0625rem #350a64;
-      background-color: #5c2978;
+      border: solid 0.0625rem $violent-violet;
+      background-color: $eminence;
     }
   }
 }
@@ -117,17 +117,17 @@ a {
   display: flex;
   flex-flow: row-reverse nowrap;
   line-height: normal;
-  color: #000;
-  font-family: "Akkurat", "Arial", sans-serif;
+  color: $black;
+  font-family: 'Akkurat', 'Arial', sans-serif;
 
   .arrow-left {
-    margin-right: .25rem;
+    margin-right: 0.25rem;
     background-repeat: no-repeat;
     width: 1rem;
-    height: .65rem;
+    height: 0.65rem;
 
     &.black {
-      background-image: url("~@/assets/icons/arrow_left--black.svg");
+      background-image: url('~@/assets/icons/arrow_left--black.svg');
     }
   }
 
@@ -135,6 +135,3 @@ a {
     text-decoration: underline;
   }
 }
-
-
-

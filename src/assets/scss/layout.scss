@@ -7,14 +7,14 @@ body {
 }
 
 *:focus {
-  outline: .125rem auto #f6b1bd;
+  outline: 0.125rem auto $illusion;
 }
 
 a {
   text-decoration: none;
 }
 
-a [href^="tel:"] {
+a [href^='tel:'] {
   white-space: nowrap;
 }
 
@@ -27,25 +27,24 @@ h1,
 h2,
 h3,
 h4,
-h5
-p {
+h5 > p {
   margin-bottom: 0;
   font-weight: unset;
 }
 
 h3 {
-  font-family: "AkkuratLight", "Arial", sans-serif;
+  font-family: 'AkkuratLight', 'Arial', sans-serif;
   font-size: 1.75rem;
   font-weight: 200;
 }
 
 h4 {
-  font-family: "AkkuratBold", "Arial", sans-serif;
+  font-family: 'AkkuratBold', 'Arial', sans-serif;
   font-size: 1.25rem;
 }
 
 h5 {
-  font-family: "AkkuratBold", "Arial", sans-serif;
+  font-family: 'AkkuratBold', 'Arial', sans-serif;
   font-size: 1.125rem;
 }
 
@@ -75,13 +74,13 @@ h5 {
 
 .main-content {
   &.performances {
-    padding-top: .05rem;
+    padding-top: 0.05rem;
   }
 }
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .fade-enter,

@@ -1,6 +1,6 @@
 .summary {
   margin: 2rem 0 4rem;
-  background-color: white;
+  background-color: $white;
 
   @media only screen and (min-width: 768px) {
     margin: 4rem 0;
@@ -61,21 +61,21 @@
   }
 
   &__list-item {
-    margin: 0 0 .75rem;
+    margin: 0 0 0.75rem;
     line-height: 1.43rem;
-    font-size: .875rem;
+    font-size: 0.875rem;
 
     &:last-child {
       margin: 0;
     }
 
     @media only screen and (min-width: 768px) {
-      margin: .25rem 0 .75rem;
+      margin: 0.25rem 0 0.75rem;
     }
 
     @media only screen and (min-width: 1200px) {
       &:first-child {
-        margin: .35rem 0 .9rem;
+        margin: 0.35rem 0 0.9rem;
       }
     }
 
@@ -89,18 +89,18 @@
       font-size: 1.5rem;
 
       &:first-child {
-        margin: .85rem 0 2rem;
+        margin: 0.85rem 0 2rem;
       }
     }
   }
 
   &__item {
     &--bold {
-      font-family: "AkkuratBold", "Arial", sans-serif;
+      font-family: 'AkkuratBold', 'Arial', sans-serif;
     }
 
     &--light {
-      font-family: "AkkuratLight", "Arial", sans-serif;
+      font-family: 'AkkuratLight', 'Arial', sans-serif;
     }
   }
 

@@ -1,6 +1,6 @@
 .highlights {
   margin: 4rem 0 3.5rem;
-  padding: 0 .9375rem;
+  padding: 0 0.9375rem;
 
   @media only screen and (min-width: 768px) {
     margin: 7rem 0 6rem;
@@ -40,7 +40,7 @@
   }
 
   &__description {
-    margin: .25rem 0 2rem;
+    margin: 0.25rem 0 2rem;
     line-height: 1.4;
 
     @media only screen and (min-width: 768px) {
@@ -82,32 +82,31 @@
   &__mixed {
     .highlights {
       &__description {
-        color: #444;
+        color: $tundora;
       }
     }
 
     @media only screen and (min-width: 768px) {
-      background-image: url("~@/assets/images/java_background.svg");
+      background-image: url('~@/assets/images/java_background.svg');
 
       .highlights {
         &__description {
-          color: #008287;
+          color: $teal;
         }
       }
     }
-
   }
 
   // SHOWS DETAIL HIGHLIGHTS STYLES
 
   &__shows {
     @media only screen and (min-width: 768px) {
-      background-image: url("~@/assets/images/radical-red_background.svg");
+      background-image: url('~@/assets/images/radical-red_background.svg');
     }
 
     .highlights {
       &__description {
-        color: #444;
+        color: $tundora;
       }
     }
   }
@@ -116,12 +115,12 @@
 
   &__workshops {
     @media only screen and (min-width: 768px) {
-      background-image: url("~@/assets/images/eminence_background.svg");
+      background-image: url('~@/assets/images/eminence_background.svg');
     }
 
     .highlights {
       &__description {
-        color: #5c2978;
+        color: $eminence;
       }
     }
   }

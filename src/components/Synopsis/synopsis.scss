@@ -104,7 +104,7 @@
 
       &__title,
       &__paragraph {
-        color: #fff;
+        color: $white;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
@@ -114,7 +114,7 @@
   &__home {
     .synopsis {
       &__content {
-        background-color: #fd2b5e;
+        background-color: $radical-red;
       }
     }
   }
@@ -122,7 +122,7 @@
   &__performances {
     .synopsis {
       &__content {
-        background-color: #e32906;
+        background-color: $scarlet;
       }
     }
   }
@@ -130,14 +130,13 @@
   &__filipersones {
     .synopsis {
       &__content {
-        background-color: #20c0c6;
+        background-color: $java;
       }
     }
   }
 
   &__reverse {
     .synopsis {
-
       &__content {
         & > .row {
           display: flex;
@@ -158,7 +157,7 @@
   &__contact {
     .synopsis {
       &__content {
-        background-color: #fbdd0b;
+        background-color: $lemon;
       }
 
       &__info-container {
@@ -174,12 +173,12 @@
       }
 
       &__title {
-        font-family: "AkkuratBold";
+        font-family: 'AkkuratBold';
       }
 
       &__title,
       &__paragraph {
-        color: #000;
+        color: $black;
       }
 
       &__image {
@@ -195,7 +194,7 @@
     }
 
     &__list-item {
-      margin-top: .5rem;
+      margin-top: 0.5rem;
 
       &:last-child {
         margin-left: 2rem;
