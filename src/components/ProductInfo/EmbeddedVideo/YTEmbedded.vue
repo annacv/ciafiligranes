@@ -39,9 +39,9 @@ export default {
       this.player = new YT.Player('player', {
         width: '640',
         height: '360',
-        videoId: await this.youtubeId,
+        videoId: this.youtubeId,
         playerVars: {
-          origin: 'http://localhost:3000'
+          origin: process.env.BASE_URL
         }
       })
     }
