@@ -60,8 +60,14 @@
         }
       }
 
+      &__adress {
+        color: $white;
+        margin: 0.5rem 0 0;
+      }
+
       @media only screen and (min-width: 768px) {
         &__adress {
+          margin: 0 0.65rem 0 0;
           &::before {
             margin-right: 0.65rem;
             content: '·';
